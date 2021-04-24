@@ -16,7 +16,8 @@ setup(
         ]
     },
     install_requires=[
-        "pylexibank>=3.0.0"
+        "pylexibank>=3.0.0",
+        "idspy"
     ],
     extras_require={
         'test': [
