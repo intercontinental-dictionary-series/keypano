@@ -1,0 +1,3 @@
+[submodule "raw/ids"]
+	path = raw/ids
+	url = https://github.com/intercontinental-dictionary-series/ids.git

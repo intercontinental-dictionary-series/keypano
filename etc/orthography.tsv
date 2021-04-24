@@ -1,0 +1,445 @@
+Grapheme	IPA	EXAMPLES	LANGUAGES	FREQUENCY	CODEPOINTS
+^	NULL				
+$	NULL				
+a	a	hermana de la madre, hermana del padre	176	100	U+0061
+-	<?>	awɨ-g, duku-g	258, 178	100	U+002d
+i	i	divorcio, arco iris	176	100	U+0069
+a$	a	nuera, hembra	176	100	U+0061 U+0024
+o	o	nosotros, nosotras	176	100	U+006f
+n	n	continente, descendientes	176	100	U+006e
+e	e	descendientes, nuera	176	100	U+0065
+t	t	nosotros, nosotras	176	100	U+0074
+i$	i	nuhi, ukukui	258, 178, 176	100	U+0069 U+0024
+r	r	nosotros, nosotras	176	100	U+0072
+k	k	ukukui, nugka	258	100	U+006b
+u	u	anguila de agua dulce, nuera	176	100	U+0075
+o$	o	hijo, ganado	176	100	U+006f U+0024
+m	m	comida, hambre	176	100	U+006d
+ɨ	ɨ	awɨ-g, tɨ'pɨtpɨtu waaku	258	100	U+0268
+e$	e	hambre, delante	176	100	U+0065 U+0024
+h	h	nuhi, šihaptahi	258, 176, 178	100	U+0068
+p	p	campo, tiempo	176	100	U+0070
+s	s	nosotros, nosotras	176	100	U+0073
+_	_	llevar sobre la cabeza, llevar bajo el brazo	176	100	U+005f
+y	y	rĩyẽrya, uyut	258, 260, 176	100	U+0079
+^h	h	hambre, huésped	176, 178, 258	100	U+005e U+0068
+w	w	suwɨ, awɨ-g	258	100	U+0077
+d	d	hermano de la madre, podrido	176	100	U+0064
+^k	k	ku'ičik, kuhap	258	100	U+005e U+006b
+^p	p	piel, paja	176	100	U+005e U+0070
+^m	m	macho, maɲana	176	100	U+005e U+006d
+^t	t	tirar, tener	176	100	U+005e U+0074
+č	č	ku'ičik, na'i ɨmɨna čiča-u	258	100	U+010d
+^e	e	enrollar, ebrio	176	100	U+005e U+0065
+^a	a	ave, acercarse	176	100	U+005e U+0061
+^n	n	nosotros, nós	178, 176, 258	100	U+005e U+006e
+l	l	plato, palma de la mano	176	100	U+006c
+ʔ	ʔ	hiʔi'sa, aʔka	271, 274, 273	100	U+0294
+u$	u	céu, hii kɨɨ'ku	258, 178, 176	100	U+0075 U+0024
+b	b	hambre, árbol	176	100	U+0062
+^s	s	suave, suegra	176	100	U+005e U+0073
+r$	r	vivir, pleamar	176	100	U+0072 U+0024
+^w	w	wanu, watura	258, 260	100	U+005e U+0077
+^r	r	resfriado, roncar	176, 178	100	U+005e U+0072
+š	š	ašaša, 'kaši-kmas	258, 264, 271, 272, 260	100	U+0161
+β	β	βaβã, βaβa	278, 277	100	U+03b2
+ɨ$	ɨ	suwɨ, dasɨ	264, 258	100	U+0268 U+0024
+^β	β	βana, βɨ'mana	277, 278	100	U+005e U+03b2
+ã	ã	irmão, hãmu-nãwa	178, 260	100	U+00e3
+^i	i	irmão, irmã	178, 258, 176	100	U+005e U+0069
+^b	b	bajo, burro	176, 178	100	U+005e U+0062
+x	x	mexi, próximo	264, 178, 176	100	U+0078
+^č	č	čiḳa, čõ	269, 271, 258, 264, 260	100	U+005e U+010d
+ɲ	ɲ	kawaɲu, hiɲuri	260, 176, 258	100	U+0272
+^y	y	yumi, yamai	258, 264, 260, 176	100	U+005e U+0079
+ĩ$	ĩ	-tĩ, aĩ	260, 277, 278, 271	100	U+0129 U+0024
+^d	d	dobrar, defecar	176, 178	100	U+005e U+0064
+g	g	coger, anguila de agua dulce	176	100	U+0067
+^c	c	comida, carne	176	100	U+005e U+0063
+c̷	c̷	munc̷u, c̷ac̷a-g	258, 264, 271	100	U+0063 U+0337
+c	c	sofocar, cucaracha	176	100	U+0063
+ṣ̌	ṣ̌	ʔoṣ̌ɨ, pãṣ̌o ṣ̌ičpi	278, 277	100	U+1e63 U+030c
+^o	o	oeste, obedecer	176, 178, 271, 272	100	U+005e U+006f
+kʷ	kʷ	lokʷakʷa, ai kʷaeihi	272, 273	100	U+006b U+02b7
+t$	t	puut, 'dakuɨt	258	100	U+0074 U+0024
+^š	š	šakʷa, šaa	271, 272, 258, 264, 273	100	U+005e U+0161
+s$	s	nosotros, nosotras	176, 178	100	U+0073 U+0024
+^u	u	uhat, uma	258, 178, 176, 269	100	U+005e U+0075
+ĩ	ĩ	nĩdi, rĩyẽrya	260	100	U+0129
+ã$	ã	irmã, nihyã	260, 178	100	U+00e3 U+0024
+'k	k	ag'kan, ya'ki	258, 271	100	U+0027 U+006b
+^c̷	c̷	c̷a'wan, c̷ac̷a-g	258, 271, 264, 272	100	U+005e U+0063 U+0337
+^ṣ̌	ṣ̌	ṣ̌ɨni, ṣ̌ipo	277, 278	100	U+005e U+1e63 U+030c
+ʔ$	ʔ	de'reʔ, õrõ'taʔ	271	100	U+0294 U+0024
+ũ	ũ	nõntu nõntũy, hnityu hũnutyu hũdityu	260	100	U+0169
+^l	l	lobo, levantar	176, 178	100	U+005e U+006c
+õ	õ	nõntu nõntũy, nõnõpu	260, 278, 271, 277, 178	100	U+00f5
+kw	kʷ	kwa kwa-kwe, kekwa-kwe	275	100	U+006b U+0077
+^x	x	xiwata, xamačˀi	269, 264, 178	100	U+005e U+0078
+y$	y	-hay, nãy	260, 176	100	U+0079 U+0024
+v	v	suave, dar vuelta	176, 178	100	U+0076
+n$	n	nu'han, c̷a'wan	176, 258, 178	100	U+006e U+0024
+^kʷ	kʷ	kʷa-ti, kʷipa	272, 273, 274	100	U+005e U+006b U+02b7
+'t	t	tu'tupit, õrõ'taʔ	271, 258	100	U+0027 U+0074
+^f	f	furúnculo, fósforo	178, 176	100	U+005e U+0066
+aa	aː	iya-hidaa-ya, maaposa	258, 274, 269, 273, 271, 275, 272	100	U+0061 U+0061
+z	z	fortaleza, trenzar	176, 178	100	U+007a
+'h	h	uči-'hi nuwɨ, kampu'ha	258, 271	100	U+0027 U+0068
+õ$	õ	watatõ, nõ	260, 278, 281, 277, 271	100	U+00f5 U+0024
+^ɓ	ɓ	ɓa-nahe, -ɓiso	274, 285	100	U+005e U+0253
+ɓ	ɓ	loɓaɓa, ɓiwea-ɓiwea-ki-nahe	274, 285	100	U+0253
+ɬ	ɬ	sama-ɗin-ɬeu, hasɬa-wanra	285	100	U+026c
+'r	r	de'reʔ, ka'reto	271, 277, 283, 279	100	U+0027 U+0072
+æ	æ	ræ'ræhæ, sækse-'dʸe	283, 271	100	U+00e6
+k$	k	'hak, ku'ičik	258, 271	100	U+006b U+0024
+ḳ	ḳ	uraḳi, xaḳukipa-ɲa	269	100	U+1e33
+^ɨ	ɨ	ɨpa, ɨ'saham	258, 282, 278, 279, 277, 281	100	U+005e U+0268
+^v	v	viga, verde	176, 178	100	U+005e U+0076
+ii	iː	kwii-kwii-kwe, diič	258, 275, 281, 274, 269, 278, 271, 279, 273, 282, 277, 272, 276, 264	100	U+0069 U+0069
+'y	y	kis'ye, mu'ix'ya	271, 258	100	U+0027 U+0079
+f	f	resfriado, defecar	178, 176, 271	100	U+0066
+ɨ̃	ɨ̃	kɨ̃ča, kɨ̃ṣ̌a	281, 282, 278, 277	100	U+0268 U+0303
+tʸ	tʲ	kœc̷ yi'ri tʸitʸih'ʔin, ka-bawi-tʸa-ti-ya	284, 264, 273, 271	100	U+0074 U+02b8
+rr	rr	agarrar, correr	176, 178	100	U+0072 U+0072
+ľ	<?>	po-kamľa-ľɨ, seroľɨ mhenokľɨ	264	100	U+013e
+œ	œ	'kœti, yœh	271	100	U+0153
+^ɗ	ɗ	ɗiči-ye, ɗaki	285, 274	100	U+005e U+0257
+lʸ	lʲ	kˀulʸu, ḳulʸa	269	100	U+006c U+02b8
+j	j	bajo, hijo	176, 178	100	U+006a
+m$	m	ɨ'saham, jovem	258, 178, 286, 271, 285, 278	100	U+006d U+0024
+æ$	æ	naræ, βæ	283, 271	99	U+00e6 U+0024
+^g	g	gancho, garra	178, 176, 271	97	U+005e U+0067
+'p	p	ha'pa, šu'paʔ	258, 277, 271, 283, 280	97	U+0027 U+0070
+'n	n	e-'na, xuʔ'no	277, 258, 271, 275, 283, 274, 280	96	U+0027 U+006e
+ũ$	ũ	-hũ, sarũ	260, 283, 277	96	U+0169 U+0024
+.	<?>	aβɨtii...-mɨ̃, čɨmɨrɨ...čɔ	283, 282, 278, 276, 284	90	U+002e
+'m	m	βɨ'mana, i'mɨiši	258, 271, 277, 275, 283, 274, 280	89	U+0027 U+006d
+kˀ	kˀ	wakˀa, kˀiyaʔenahkˀe	284, 269	88	U+006b U+02c0
+ɗ	ɗ	ɗiɗin-kʷa, eɗosikia	285, 274	85	U+0257
+ch	ch	macho, cochichar	176, 178	84	U+0063 U+0068
+'s	s	hiʔi'sa, ɨ'saham	271, 258, 277, 275, 274	83	U+0027 U+0073
+'dʸ	dʲ	sækse-'dʸe, četi-'dʸe	271	80	U+0027 U+0064 U+02b8
+nh	nh	linha, caminho	178, 258, 264, 285, 176	79	U+006e U+0068
+ď̶	<?>	ehoď̶oi, biď̶o	276	79	U+010f U+0336
+^ɲ	ɲ	ɲuɲu, ɲuḳiɲa	283, 277, 269, 271, 275, 176, 274	77	U+005e U+0272
+ll	ll	enrollar, cuchillo	176, 285	76	U+006c U+006c
+^ʔ	ʔ	-ʔaxa, ʔaru-ti	277, 274, 278, 275, 280	75	U+005e U+0294
+h$	h	yœh, 'c̷ih	271, 285, 258, 178	74	U+0068 U+0024
+ǰ	ǰ	hai-ǰa, wiǰi	283, 272, 278	72	U+01f0
+ɔ	ɔ	'bɔrɔča, čɔčɔkɔ	283	72	U+0254
+l$	l	piel, sal	176, 178, 285, 286	71	U+006c U+0024
+g$	g	duku-g, awɨ-g	258	67	U+0067 U+0024
+tˀ	tˀ	uh-kačapitˀi, istˀa-ɲa	284, 269	67	U+0074 U+02c0
+n̉	n̉	ɓen̉-ra, ɓuɓun̉-kʷa	285	65	U+006e U+0309
+'a	a	ma'anit, ku'ašat	258, 283, 277, 271, 280, 274, 275	63	U+0027 U+0061
+^čˀ	čˀ	čˀamaka, čˀuχ-ɲa	269, 284	63	U+005e U+010d U+02c0
+'č	'č	či'čika, hi'čœyiti	271, 258, 277, 283	62	U+0027 U+010d
+'b	b	hiyaʔdʸeye'banʔ, aɨnc̷ čiča-'ka 'bac̷at	271, 283, 258, 275	62	U+0027 U+0062
+ee	eː	ba-mee-kwe, eʔenee poa-nahe	274, 275, 176, 271, 281, 178, 273, 283, 277, 278	61	U+0065 U+0065
+lh	lh	palha, ovelha	178	61	U+006c U+0068
+ç	ç	peça, levar na cabeça	178	60	U+00e7
+'w	w	e-'wi, c̷a'wan	258, 271, 280, 275, 283, 274	60	U+0027 U+0077
+ó	ó	lóbulo, próximo	176, 178	58	U+00f3
+í	í	testículo, clavícula	176, 178	57	U+00ed
+á	á	rápido, sábado	176, 178, 271	55	U+00e1
+ɨ̃$	ɨ̃	nokɨ̃, rɨkɨ̃	281, 278, 282, 277, 283	54	U+0268 U+0303 U+0024
+^'h	h	'hak, 'himaituk	271, 258, 280, 283	53	U+005e U+0027 U+0068
+č$	č	diič, šiši'atč	271, 258, 278	52	U+010d U+0024
+š$	š	βakiš, taniš	258, 271, 278, 281, 277, 283, 282, 279	52	U+0161 U+0024
+čˀ	čˀ	ičˀočˀoʔtʸe, o-čˀoyo	284, 269	52	U+010d U+02c0
+ɔ$	ɔ	βɔrɔ, dɔ	283	52	U+0254 U+0024
+oo	oː	poone, e-noo-ke	282, 281, 279, 271, 273, 274, 277, 283, 275, 264, 278	51	U+006f U+006f
+ii$	iː	čii, nii	274, 282, 277, 275, 281, 279, 273, 258, 278, 271, 280	50	U+0069 U+0069 U+0024
+^'k	k	'kœti, 'kaši-kmas	271, 258, 280, 283, 277	50	U+005e U+0027 U+006b
+ɲ$	ɲ	'pheɲ, 'c̷oɲ	271, 283	50	U+0272 U+0024
+ee$	eː	e-hee, mee	274, 275, 277, 273, 283	50	U+0065 U+0065 U+0024
+^ḳ	ḳ	ḳuḳa, ḳulʸa	269	48	U+005e U+1e33
+ns	ns	conservar, descansar	176, 178, 260, 285, 271, 264, 269	46	U+006e U+0073
+uu	uː	čanuut, puut	258, 269, 277, 283, 271	46	U+0075 U+0075
+^'t	t	'taphe, 'tara	271, 283, 280, 258	46	U+005e U+0027 U+0074
+^'p	p	'perere, 'papa	271, 258, 283, 280, 274	46	U+005e U+0027 U+0070
+'ɲ	ɲ	e-'ɲa, i'ɲa-kwe	271, 275, 277, 283, 274	45	U+0027 U+0272
+^ď̶	<?>	ď̶ei, ď̶ipi	276	45	U+005e U+010f U+0336
+ɬ$	ɬ	ul-čaɬ, kaini-ɓeɬ	285	45	U+026c U+0024
+^z	z	zei, zamoho-ti	272, 176, 178	44	U+005e U+007a
+^kˀ	kˀ	kˀulʸu, kˀelala	269, 284	43	U+005e U+006b U+02c0
+ð	ð	boðeðe-, biši beðeðe	276	43	U+00f0
+^j	j	jovem, jantar	178, 176	42	U+005e U+006a
+'i	i	mu'ix'ya, ku'ičik	258, 277, 283, 271, 280	41	U+0027 U+0069
+'c̷	'c̷	ɨ'c̷ɨhut, ʔõ'c̷is	271, 258, 277	41	U+0027 U+0063 U+0337
+rs	rs	perseguir, acercarse	176, 178, 269, 271, 264, 285	40	U+0072 U+0073
+^'a	a	'ata, 'aha-k	258, 283, 271, 277, 280	40	U+005e U+0027 U+0061
+ṣ̌$	ṣ̌	ṣ̌omoṣ̌, kɨrɨṣ̌	281, 277, 282, 279, 278	40	U+1e63 U+030c U+0024
+ɨɨ	ɨː	mɨɨ-kĩ, pɨɨ pɨɨ akĩ	258, 282, 281, 283, 277, 280	38	U+0268 U+0268
+aa$	aː	haa, naa	274, 275, 279, 258, 277, 281, 273, 283, 272, 276, 282, 278, 280, 269	37	U+0061 U+0061 U+0024
+^'m	m	'mahmi, 'minag	271, 258, 280, 283, 274, 278, 277	37	U+005e U+0027 U+006d
+z$	z	cicatriz, cruz	176, 178	36	U+007a U+0024
+^ch	ch	cheirar, chupar	178, 176	36	U+005e U+0063 U+0068
+^q	q	quebrado, quebrar	178, 176	34	U+005e U+0071
+χ	χ	araχa, čˀuχ-ɲa	269	34	U+03c7
+dʸ	dʲ	hiyaʔdʸeye'banʔ, peadʸa peadʸa	271, 273	34	U+0064 U+02b8
+oo$	oː	βoo, roo	277, 279, 281, 282, 273, 274, 275, 278, 280	34	U+006f U+006f U+0024
+^ð	ð	ðawa-ne, ðabi-da	276	34	U+005e U+00f0
+'d	d	ku'daki, we'dakis	271, 283, 258, 276	33	U+0027 U+0064
+^'n	n	'naare, 'nayanc̷	271, 258, 283, 280	32	U+005e U+0027 U+006e
+é	é	débil, céu	178, 176	31	U+00e9
+q	q	mosquito, bosque	176, 178	31	U+0071
+^'w	w	'waři, 'wagkapa	280, 258, 271	31	U+005e U+0027 U+0077
+^kw	kʷ	kwa kwa-kwe, kwii-kwii-kwe	275, 264, 260, 286, 271	31	U+005e U+006b U+0077
+'β	β	da'βukue, kʷɨ'βi	277, 283	30	U+0027 U+03b2
+^'b	b	'buut-bau, 'boxwi	271, 283, 258, 272	28	U+005e U+0027 U+0062
+^ḳʰ	ḳʰ	ḳʰana, ḳʰulʸi-ɲa	269	28	U+005e U+1e33 U+02b0
+kʰ	kʰ	tʰakʰi, wakʰu-ɲa	269	28	U+006b U+02b0
+ss	ss	assassinar, ressonar	178	27	U+0073 U+0073
+ḳˀ	ḳˀ	manḳˀa, muruḳˀu	269	27	U+1e33 U+02c0
+'u	u	hapak-'ui, u'ug-bau	258, 283, 271, 277	26	U+0027 U+0075
+'ɨ	ɨ	nɨ'ɨn-ti, ka'ɨn-ti	277, 258, 283	26	U+0027 U+0268
+ẽ$	ẽ	tãrihẽ, taɲẽ	260, 283, 271	26	U+1ebd U+0024
+n̉$	n̉	al-wam-ɓen̉, lew-a-ɓen̉	285	26	U+006e U+0309 U+0024
+^'y	y	'yihyi, 'yaya	271, 258, 283, 274, 280	25	U+005e U+0027 U+0079
+'š	'š	ko'ši, ɲõ'šĩ	271, 277, 258, 275, 274	25	U+0027 U+0161
+'ʔ	ʔ	wui'ʔa, ɨ'ʔɨ	271, 279, 258, 280	25	U+0027 U+0294
+hw	hw	ponohwe, ɨhwapɨkˀɨ	284, 260, 286, 271, 264	24	U+0068 U+0077
+^ǰ	ǰ	-ǰɔkɔ, ǰuuku	283, 272, 278	24	U+005e U+01f0
+^'c̷	'c̷	'c̷oɲ, 'c̷ih	271, 258, 280	23	U+005e U+0027 U+0063 U+0337
+^'č	'č	'čiča-m, 'čuiɲ	271, 258, 280, 283, 277	23	U+005e U+0027 U+010d
+ú	ú	furúnculo, súbdito	178, 176	22	U+00fa
+ẽ	ẽ	romẽrẽha, rĩyẽrya	260, 271, 283	22	U+1ebd
+^pʰ	pʰ	pʰayata, pʰučˀu	269	22	U+005e U+0070 U+02b0
+^'i	i	'iwa, 'ikam	258, 271, 283, 280, 274	21	U+005e U+0027 U+0069
+^tʸ	tʲ	tʸohnaʔke, tʸirna	284, 273, 264, 271	21	U+005e U+0074 U+02b8
+ks	ks	sækse-'dʸe, hu'ɲuksi	271, 264, 269	19	U+006b U+0073
+^a$	a	a-, a	279, 272, 276, 278, 281, 178, 176, 282, 274, 283	18	U+005e U+0061 U+0024
+p$	p	kuhap, tuntuip	258, 283, 286	18	U+0070 U+0024
+^'d	d	'dakuɨt, 'daki	283, 258, 271	18	U+005e U+0027 U+0064
+^tʰ	tʰ	tʰakʰi, tʰaya	269	18	U+005e U+0074 U+02b0
+^tˀ	tˀ	tˀarwa, tˀixumuču-ɲa	269, 284	18	U+005e U+0074 U+02c0
+tʰ	tʰ	kʰistʰu-ɲa, kˀantʰi-ɲa	269	18	U+0074 U+02b0
+^õ	õ	õi-kĩ, õrõ'taʔ	282, 271, 283, 281	18	U+005e U+00f5
+^ɬ	ɬ	ɬakam̉-ɓa, ɬi-na	285	18	U+005e U+026c
+nn	nn	na-ye-wanne, ɗah-ka-wanne	285, 260, 178	17	U+006e U+006e
+^'s	s	'sapig, 'sosiki	271, 258, 283, 280	17	U+005e U+0027 U+0073
+^ḳˀ	ḳˀ	ḳˀuma, ḳˀara	269	17	U+005e U+1e33 U+02c0
+^'r	r	'ra-βiri, 'raɲuka	283, 271	17	U+005e U+0027 U+0072
+m̉	m̉	ɬakam̉-ɓa, um̉-ɓe	285	17	U+006d U+0309
+d$	d	huésped, red	176	16	U+0064 U+0024
+ph	pʰ	'taphe, nˑiphya	264, 271, 258	16	U+0070 U+0068
+pʰ	pʰ	sapʰi, čˀipʰuḳu	269	16	U+0070 U+02b0
+^ã	ã	ãβi, ãc̷õ	282, 271, 277	16	U+005e U+00e3
+ʔw	ʔw	o-woʔwo, wanuʔwe	284, 285	16	U+0294 U+0077
+^ll	ll	llorar, llevar sobre la cabeza	176	15	U+005e U+006c U+006c
+^hw	hw	hwa, hwatyã	260, 264, 286, 271	15	U+005e U+0068 U+0077
+^lʸ	lʲ	lʸika, lʸuχi	269	15	U+005e U+006c U+02b8
+ḳʰ	ḳʰ	manḳʰa, manḳʰata	269	15	U+1e33 U+02b0
+kk	kk	ačikka ačikka iki, sakka sakka iti	282, 269	15	U+006b U+006b
+ɔ̃	ɔ̃	iči'rɔ̃mihi 'tɔ̃rene, mi-'tɔ̃rene	283	15	U+0254 U+0303
+^'ɨ	ɨ	'ɨmat, 'ɨmɨat	258, 280	14	U+005e U+0027 U+0268
+^kʰ	kʰ	kʰuči, kʰistʰu-ɲa	269	14	U+005e U+006b U+02b0
+čʰ	čʰ	alʸčʰi, wičʰu xičʰu	269	14	U+010d U+02b0
+^á	á	ácido, árvore	178, 176	13	U+005e U+00e1
+ls	ls	balsa, bolso	178, 176, 269	13	U+006c U+0073
+^aa	aː	a-aba, a-ato	272, 258, 282, 271, 269	13	U+005e U+0061 U+0061
+pˀ	pˀ	lipˀiči, xaypˀu	269	13	U+0070 U+02c0
+^pˀ	pˀ	pˀiya, pˀakita	269	13	U+005e U+0070 U+02c0
+é$	é	pé, estar em pé	178, 176	12	U+00e9 U+0024
+th	tʰ	anɨntain ɨmɨthau, ɨgkɨtha inagk-amu	258, 264, 271	12	U+0074 U+0068
+^ĩ	ĩ	ĩnã-yo-, ĩa	282, 278, 277, 281	12	U+005e U+0129
+^'š	'š	'šobo, 'šini	271, 280, 258	11	U+005e U+0027 U+0161
+^čʰ	čʰ	čʰulʸunkʰiya, čʰuḳu-ɲa	269	11	U+005e U+010d U+02b0
+c̷$	c̷	aɨnc̷, 'nayanc̷	258, 271, 260, 278	10	U+0063 U+0337 U+0024
+mh	mh	duka inumha hɨgamk-amu, pa'čimh-amu	258, 264	10	U+006d U+0068
+^'β	β	'βarie, 'βarike	283	10	U+005e U+0027 U+03b2
+ê	ê	lêndea, pênis	178	9	U+00ea
+ɨɨ$	ɨː	tɨntɨɨ, rɨɨ	258, 281, 277, 279	9	U+0268 U+0268 U+0024
+'x	x	e-'xa, wo'xi-tk	271, 275	9	U+0027 U+0078
+'o	o	mo'o-ti, ro'on-ti	277, 271, 280	9	U+0027 U+006f
+æ̃	æ̃	kenæ̃ræ, næ̃hæ̃	283	9	U+00e6 U+0303
+ms	ms	amsta, kimsiiri	269, 258, 264	8	U+006d U+0073
+^kh	kʰ	khin, khatʔ'hẽ	271, 264	8	U+005e U+006b U+0068
+'f	f	pa'fera, fi'fit	271	8	U+0027 U+0066
+^fw	fw	fwa'ye, fwent'ki	271	8	U+005e U+0066 U+0077
+^ii	iː	-iine, iiɲe	283, 271, 281, 258	7	U+005e U+0069 U+0069
+ds	dz	'hemdsi, tãdsi	271, 260	7	U+0064 U+0073
+^ks	ks	ksɨ-rɨ, ksɨxe	264	7	U+005e U+006b U+0073
+^dʸ	dʲ	dʸa-ke, dʸakaɲ'yaʔ	273, 271	7	U+005e U+0064 U+02b8
+æ̃$	æ̃	nãræ̃, næ̃hæ̃	283	7	U+00e6 U+0303 U+0024
+ü	ü	ungüento, sarigüê	176, 178	6	U+00fc
+ô	ô	matrimônio, demônio	178	6	U+00f4
+^'u	u	'uhumak, 'uaβe	258, 283	6	U+005e U+0027 U+0075
+rw	rw	tˀarwa, alʸu tˀarwa	269	6	U+0072 U+0077
+œ$	œ	hœ'bœ, mœ	271	6	U+0153 U+0024
+^'f	f	'fin, 'fiča	271	6	U+005e U+0027 U+0066
+^ee	eː	eeno, eefe	274, 271	6	U+005e U+0065 U+0065
+ææ	æː	'bææha, pai'tææha	283, 271	6	U+00e6 U+00e6
+^'ɲ	ɲ	'ɲohno kain'yã, 'ɲatæ	271, 283	6	U+005e U+0027 U+0272
+'kʷ	kʷ	ra'kʷɨ-ti, ba'kʷa	277, 272	6	U+0027 U+006b U+02b7
+^ú	ú	último, úbere	178, 176	5	U+005e U+00fa
+ó$	ó	pó, nó	178	5	U+00f3 U+0024
+â	â	crânio, pântano	178	5	U+00e2
+ê$	ê	por quê, sarigüê	178	5	U+00ea U+0024
+ts	ts	kunatsa, yatsɨnɨ	275, 264, 258, 269	5	U+0074 U+0073
+čh	čh	kyačhapererɨmko, hočhita	264	5	U+010d U+0068
+x$	x	fen-'c̷ix, miix	271	5	U+0078 U+0024
+'a$	a	tu'a, ɗokʷe-i iɓi'a	277, 274, 271	5	U+0027 U+0061 U+0024
+^œ	œ	œɲ'ya, œ'hak	271	5	U+005e U+0153
+ʔs	ʔs	mædʸe tomʔsi, uh-maʔsuwa	284, 271	5	U+0294 U+0073
+'i$	i	o'i, na'i	277, 280, 271	5	U+0027 U+0069 U+0024
+'e	e	oe'exanee, sere'enãre	283, 274	5	U+0027 U+0065
+'ṣ̌	'ṣ̌	ma'ṣ̌aṣ̌, ʔa'ṣ̌ã-ti	277	5	U+0027 U+1e63 U+030c
+^ũ	ũ	ũči, ũčã	277, 283	5	U+005e U+0169
+^ɨ̃	ɨ̃	ɨ̃hɨ̃, ɨ̃kæ	282, 283, 281, 278	5	U+005e U+0268 U+0303
+ř	ř	'waři, 'wɨřo	280	5	U+0159
+^'ṣ̌	'ṣ̌	'ṣ̌owo, 'ṣ̌ɨna	280	5	U+005e U+0027 U+1e63 U+030c
+hs	hs	kuhsupuʔna, wahsuʔna	284	5	U+0068 U+0073
+ós	ós	fósforo, hóspede	178, 176	4	U+00f3 U+0073
+bs	bs	obscuro, absolver	178, 176	4	U+0062 U+0073
+ós$	ós	nós, vós	178	4	U+00f3 U+0073 U+0024
+á$	á	pá, gambá	178	4	U+00e1 U+0024
+'g	g	e'gresya, fer'gič	271, 258	4	U+0027 U+0067
+ɨ́	ɨ́	c̷ɨ́hɨg, c̷ɨ́gkɨn	258	4	U+0268 U+0301
+rh	rh	'khœrheʔ, špɨrha	264, 271	4	U+0072 U+0068
+kh	kʰ	pokhi, wa'nakheʔ	264, 271	4	U+006b U+0068
+^ph	pʰ	phewna, phuir'yit	271, 264	4	U+005e U+0070 U+0068
+xs	xs	tʰuxsa-tʰuxsa, pʰaxsi	269	4	U+0078 U+0073
+χs	χs	pʰaχsi, muχsaaču	269	4	U+03c7 U+0073
+ws	ws	xawsa-ɲa, kˀawsi	269	4	U+0077 U+0073
+^'ph	pʰ	'pheɲ	271	4	U+005e U+0027 U+0070 U+0068
+œ̃	œ̃	ham hœ̃t'kye, mœ̃'keʔ	271	4	U+0153 U+0303
+ʔh	ʔh	ɓoʔho, maʔho'dʸe	271, 274	4	U+0294 U+0068
+'ĩ$	ĩ	ča'ĩ, ko'ĩ	277, 271	4	U+0027 U+0129 U+0024
+'o$	o	na'o, ayi'o	271, 275, 277, 274	4	U+0027 U+006f U+0024
+^'ʔ	ʔ	'ʔani, 'ʔoṣ̌ɨ	280, 275	4	U+005e U+0027 U+0294
+^ii$	iː	ii	277	4	U+005e U+0069 U+0069 U+0024
+^i$	i	i-, -i	283, 279, 281, 278	4	U+005e U+0069 U+0024
+'ǰ	'ǰ	ǰu'ǰurue, sa'ǰahae	283	4	U+0027 U+01f0
+í$	í	jabalí, ají	176	3	U+00ed U+0024
+^o$	o	o, o-	283, 176	3	U+005e U+006f U+0024
+^ó	ó	órfão, óleo	178	3	U+005e U+00f3
+ês$	ês	vocês, mês	178	3	U+00ea U+0073 U+0024
+^ɨɨ	ɨː	ɨɨči-, ɨɨm	279, 258, 278	3	U+005e U+0268 U+0268
+^uu	uː	uusarua, uun-	283, 277, 258	3	U+005e U+0075 U+0075
+tt	tt	hõttã, nikyetta	260, 269	3	U+0074 U+0074
+nˑ	nˑ	yonˑiphyata, hinˑiphya	264	3	U+006e U+02d1
+ľh	<?>	hic̷oľhiwata, haľha	264	3	U+013e U+0068
+χw	χw	čˀaχwa, liχwi	269	3	U+03c7 U+0077
+^'x	x	'xii, 'xœɲœk	271	3	U+005e U+0027 U+0078
+^'o	o	'okw, 'oro	271	3	U+005e U+0027 U+006f
+'kh	kʰ	uɲ'kha, 'kai ũn'khan	271	3	U+0027 U+006b U+0068
+^'dʸ	dʲ	'dʸim'ha, 'dʸabe	271	3	U+005e U+0027 U+0064 U+02b8
+'ã$	ã	masku'ã, tɨsku'ã	277	3	U+0027 U+00e3 U+0024
+uu$	uː	βuu, ɲuu	277	3	U+0075 U+0075 U+0024
+^ɨ̃$	ɨ̃	ɨ̃, ɨ̃-	277, 282, 278	3	U+005e U+0268 U+0303 U+0024
+^ɨ$	ɨ	ɨ	283, 279	3	U+005e U+0268 U+0024
+ĩĩ	ĩː	tĩĩtɨ̃, rakitĩĩtu	283	3	U+0129 U+0129
+^ɔ	ɔ	ɔri, ɔræ	283	3	U+005e U+0254
+'æ	æ	čiɲi'æmæ, ræ'æ-ræhæ	283	3	U+0027 U+00e6
+m̉$	m̉	pam̉-pam̉, lum̉-lum̉	285	3	U+006d U+0309 U+0024
+ú$	ú	tú, bambú	176	2	U+00fa U+0024
+^é	é	égua, él	178, 176	2	U+005e U+00e9
+és$	és	ciempiés, después	176	2	U+00e9 U+0073 U+0024
+és	és	huésped	176	2	U+00e9 U+0073
+^D	<?>	Dios, Deus	178, 176	2	U+005e U+0044
+^í	í	ídolo	178, 176	2	U+005e U+00ed
+ns$	ns	casa de homens, alguns	178	2	U+006e U+0073 U+0024
+^e$	e	e, -e-	178, 283	2	U+005e U+0065 U+0024
+'ɨ$	ɨ	tɨ'ɨ, hii duwap-'ɨ	280, 258	2	U+0027 U+0268 U+0024
+gs	gs	agsɨa, agsɨa anagkɨ	258	2	U+0067 U+0073
+^ns	ns	nsũy	260	2	U+005e U+006e U+0073
+^d$	d	d	260	2	U+005e U+0064 U+0024
+nw	nw	nanwaka, nihyãnway	264, 260	2	U+006e U+0077
+^nˑ	nˑ	nˑiphya	264	2	U+005e U+006e U+02d1
+xh	xh	hexha, hexha-naxi	264	2	U+0078 U+0068
+^p$	p	p-	264, 283	2	U+005e U+0070 U+0024
+čw	čw	počwa-ľɨ, počwaksɨrɨ	264	2	U+010d U+0077
+^ps	ps	psoxi, psaľo	264	2	U+005e U+0070 U+0073
+^pw	pw	pwaľo, pwehi	264, 274	2	U+005e U+0070 U+0077
+^tw	tw	twa	264, 271	2	U+005e U+0074 U+0077
+œ̃$	œ̃	'tari-s mœ̃, yœh-mœ̃	271	2	U+0153 U+0303 U+0024
+'ñ	ɲ	we'ñei, tami'ñi	271	2	U+0027 U+00f1
+xw	xw	'boxwi	271	2	U+0078 U+0077
+^'fw	'fw	'fwihyi, 'fwebeš	271	2	U+005e U+0027 U+0066 U+0077
+pw	pw	šapwi'si, šapwitki	271	2	U+0070 U+0077
+'kw	kʷ	o-'kwana-ya, iš'kwera	271, 275	2	U+0027 U+006b U+0077
+^oo$	oː	oo	283, 273	2	U+005e U+006f U+006f U+0024
+^oo	oː	oo iki, oo-ya	275, 282	2	U+005e U+006f U+006f
+'ɨ̃$	ɨ̃	ni'ɨ̃, kʷɨ'ɨ̃-	277	2	U+0027 U+0268 U+0303 U+0024
+'õ	õ	no'õsi, no'õβai	277	2	U+0027 U+00f5
+^aa$	aː	aa-, aa	277, 279	2	U+005e U+0061 U+0061 U+0024
+'ĩ	ĩ	ma'ĩ-ti, o'ĩ-ti	277	2	U+0027 U+0129
+'ɨ̃	ɨ̃	pɨ'ɨ̃ka-ti, pa'ɨ̃-ti	277	2	U+0027 U+0268 U+0303
+'õ$	õ	βɨ'õ, kʷɨ'õ	277	2	U+0027 U+00f5 U+0024
+'ã	ã	ari-'ãkãhẽ, no'ã-ti	283, 277	2	U+0027 U+00e3
+^ř	ř	řɨ'kina, řeṣ̌'pana	280	2	U+005e U+0159
+ãã	ãː	'rããre, 'nããβã	283	2	U+00e3 U+00e3
+β$	β	-uaβ, ɲaβ-	283	2	U+03b2 U+0024
+ææ$	æː	tææ	283	2	U+00e6 U+00e6 U+0024
+ɔ̃$	ɔ̃	bɔ̃kɔ̃, 'rãβɔ̃kɔ̃	283	2	U+0254 U+0303 U+0024
+^u$	u	u	283	2	U+005e U+0075 U+0024
+mm	mm	hem-me, ɗim-mo-kʷa	285	2	U+006d U+006d
+ö	ö	yök, kök	286	2	U+00f6
+dh	dh	adhesivo	176	1	U+0064 U+0068
+j$	j	reloj	176	1	U+006a U+0024
+^y$	y	y	176	1	U+005e U+0079 U+0024
+ô$	ô	avô	178	1	U+00f4 U+0024
+^â	â	âncora	178	1	U+005e U+00e2
+ês	ês	três vezes	178	1	U+00ea U+0073
+^às	às	às vezes	178	1	U+005e U+00e0 U+0073
+'á	á	hɨga 'áišmagku 'ihun-tai	258	1	U+0027 U+00e1
+'u$	u	ya'u	258	1	U+0027 U+0075 U+0024
+'ú	ú	i'huntuha 'čiča-m 'úmihut	258	1	U+0027 U+00fa
+^mh	mh	mhanɨrɨto	264	1	U+005e U+006d U+0068
+^wh	wh	whene	264	1	U+005e U+0077 U+0068
+^sw	sw	swɨtɨ	264	1	U+005e U+0073 U+0077
+^nn	nn	nnɨ	264	1	U+005e U+006e U+006e
+^th	tʰ	thana	264	1	U+005e U+0074 U+0068
+^nh	nh	nhi-či	264	1	U+005e U+006e U+0068
+ľs	<?>	poproľsahi	264	1	U+013e U+0073
+tˀs	tsˀ	pʰatˀsu-ɲa	269	1	U+0074 U+02c0 U+0073
+ɲs	ɲs	uɲstaya-ɲa	269	1	U+0272 U+0073
+ḳʰs	ḳʰs	ḳawḳʰsa	269	1	U+1e33 U+02b0 U+0073
+ḳw	ḳw	yarḳwiku	269	1	U+1e33 U+0077
+'ẽ$	ẽ	yo'ẽ	271	1	U+0027 U+1ebd U+0024
+^'bw	'bw	'bweye	271	1	U+005e U+0027 U+0062 U+0077
+^'g	g	'ganso	271	1	U+005e U+0027 U+0067
+b$	b	'c̷ib	271	1	U+0062 U+0024
+'ph	pʰ	ã-t-'pheinsi	271	1	U+0027 U+0070 U+0068
+kw$	kʷ	'okw	271	1	U+006b U+0077 U+0024
+^'e	e	'ehe-ʔe'hei	271	1	U+005e U+0027 U+0065
+^'ĩ	ĩ	'ĩhc̷i	271	1	U+005e U+0027 U+0129
+mʸ	mʲ	pimʸenta	271	1	U+006d U+02b8
+fh	fh	kofhi'ti	271	1	U+0066 U+0068
+c̷h	c̷h	'tœc̷he	271	1	U+0063 U+0337 U+0068
+ɲw	ɲw	iɲwãʔ'čai	271	1	U+0272 U+0077
+fw	fw	'kefwa'baʔ	271	1	U+0066 U+0077
+^'kh	kʰ	'khœrheʔ	271	1	U+005e U+0027 U+006b U+0068
+'ỹ	ỹ	'tčei'ỹaʔ	271	1	U+0027 U+1ef9
+w̃	w̃	'iw̃a	271	1	U+0077 U+0303
+šs	šs	pašsi	271	1	U+0161 U+0073
+'ɓ	ɓ	sapa'ɓo	274	1	U+0027 U+0253
+ooo$	oːo	tooo	274	1	U+006f U+006f U+006f U+0024
+'e$	e	iyape'e-	274	1	U+0027 U+0065 U+0024
+^Es	<?>	Eseexa	274	1	U+005e U+0045 U+0073
+'ẽ	ẽ	kʷe'ẽkoro	277	1	U+0027 U+1ebd
+_̃	_̃	ʔo's ̃a-	277	1	U+005f U+0303
+č̣s	č̣s	kɨ̃ṣ̌a-pič̣sa	278	1	U+010d U+0323 U+0073
+^ĩ$	ĩ	ĩ-	281	1	U+005e U+0129 U+0024
+iii	iːi	siiiti	281	1	U+0069 U+0069 U+0069
+^õ$	õ	-õ	281	1	U+005e U+00f5 U+0024
+^n$	n	-n	281	1	U+005e U+006e U+0024
+^ɨɨ$	ɨː	ɨɨ	282	1	U+005e U+0268 U+0268 U+0024
+'_	'_	βĩškomĩc̷akĩ' yoaši-ki	282	1	U+0027 U+005f
+^r$	r	r-	283	1	U+005e U+0072 U+0024
+^t$	t	t-	283	1	U+005e U+0074 U+0024
+^m$	m	m-	283	1	U+005e U+006d U+0024
+^'ǰ	'ǰ	'ǰuǰu	283	1	U+005e U+0027 U+01f0
+ɨ̃ɨ̃	ɨ̃	a'tɨ̃ɨ̃tã aβa'rakame	283	1	U+0268 U+0303 U+0268 U+0303
+ɔɔ	ɔː	'rɔɔre	283	1	U+0254 U+0254
+'l	l	ča'leeko	283	1	U+0027 U+006c
+^ɔ$	ɔ	ɔ	283	1	U+005e U+0254 U+0024
+õõ$	õ	põõ	283	1	U+00f5 U+00f5 U+0024
+__	__	rɨ̃hẽ ... uaβ-a	283	1	U+005f U+005f
+'æ̃	æ̃	či'æ̃ræ̃hæ̃	283	1	U+0027 U+00e6 U+0303
+sw	sw	u-ruswa	284	1	U+0073 U+0077
+ɨˀ	ɨˀ	niyawɨˀna	284	1	U+0268 U+02c0
+ï	ï	kokˀïyuhna	284	1	U+00ef
+b̃	b̃	tb̃um	286	1	U+0062 U+0303
