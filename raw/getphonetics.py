@@ -36,16 +36,17 @@ def getPons(word, lang1='spanisch', lang2='deutsch'):
         return html2uni(ipa[0])
 
 wl = Wordlist('ids-data.tsv')
-parsed = [x.split("\t")[0] for x in open('spanish.tsv', 'r')]
+parsed = [x.split("\t")[0] for x in open('spanish.tsv', 'r') if x[1].strip()]
 print(parsed)
-out = open('spanish.tsv', 'a')
+
 for idx in wl:
     if wl[idx, 'doculect'] == 'Spanish':
         print(wl[idx, 'form'])
         if wl[idx, "form"] not in parsed:
+            out = open('spanish.tsv', 'a')
             ipa = getPons(wl[idx, 'form'].replace("ɲ", "ñ"))
             if ipa:
                 out.write(wl[idx, 'form']+'\t'+ipa+'\n')
             else:
                 out.write(wl[idx, 'form']+'\t\n')
-out.close()
+            out.close()
