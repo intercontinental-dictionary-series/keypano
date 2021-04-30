@@ -55,7 +55,7 @@ class Dataset(IDSDataset):
         ids_data = pycldf.Dataset.from_metadata(
                 self.raw_dir.joinpath('ids', 'cldf', 'cldf-metadata.json')
                 )
-        ids = set([row["IDS_ID"] for row in self.languages])
+        ids = {row["IDS_ID"]: row["ID"] for row in self.languages}
 
         for concept in ids_data.objects('ParameterTable'):
             args.writer.add_concept(
@@ -63,6 +63,7 @@ class Dataset(IDSDataset):
 
         for language in ids_data.objects("LanguageTable"):
             if language.id in ids:
+                language.data["ID"] = ids[language.id]
                 args.writer.add_language(
                         **{k: language.data[k] for k in [
                             "ID", "Name", "Glottocode", "ISO639P3code", "Latitude",
@@ -74,7 +75,7 @@ class Dataset(IDSDataset):
         for idx in pb(wl, desc="adding forms"):
             args.writer.add_form(
                     ID=wl[idx, "form_id"],
-                    Language_ID=wl[idx, "doculect_id"],
+                    Language_ID=ids[wl[idx, "doculect_id"]],
                     Parameter_ID=wl[idx, "concept_id"],
                     Form=wl[idx, "form"],
                     Value=wl[idx, "value"],
