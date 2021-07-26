@@ -1,4 +1,8 @@
 Grapheme	IPA	Frequency
+(	NULL	
+)	NULL	
+[	NULL	
+]	NULL	
 ^'m	m	5
 a	a	41
 i$	i	31
@@ -16,25 +20,25 @@ w	w	7
 p	p	6
 a$	a	31
 ^'w	w	15
-ř	ř	5
+ř	ɾ	5
 o	o	20
-ṣ̌	ṣ̌	9
-š	š	6
+ṣ̌	ʂ	9
+š	ʃ	6
 t	t	7
 m	m	6
 ^'n	n	3
-^'c̷	'c̷	1
+^'c̷	ts	1
 ^o	o	1
 'i$	i	2
 ^ʔ	ʔ	2
-^'č	'č	3
+^'č	tʃ	3
 ʔ	ʔ	5
 ^k	k	2
 'ʔ	ʔ	1
 ^'k	k	8
-^'y	y	1
+^'y	j	1
 k	k	13
-+	?+	1
++	+	1
 'p	p	4
 s	s	7
 'w	w	4
@@ -47,15 +51,15 @@ aa$	aː	1
 'n	n	1
 ^w	w	3
 'o	o	1
-^'š	'š	2
+^'š	ʃ	2
 ii$	iː	1
-^'ṣ̌	'ṣ̌	5
-č	č	4
+^'ṣ̌	ʂ	5
+č	tʃ	4
 oo$	oː	1
 ^'t	t	5
-^ř	ř	2
+^ř	ɾ	2
 'k	k	2
-'y	y	1
+'y	j	1
 ^m	m	2
 ^h	h	4
 't	t	2
@@ -64,10 +68,17 @@ oo$	oː	1
 ^t	t	2
 e	e	1
 ^'a	a	2
-c̷	c̷	1
+c̷	ts	1
 ^i	i	1
 ɨɨ	ɨː	1
 ^'s	s	1
-^r	r	1
+^r	ɾ	1
 'ɨ$	ɨ	1
--	<?>	1
+-	+	1
+^-	NULL	
+-$	NULL	
+--	+	
+_-	+	
+_	+	
+-_	+	
+?	?	
