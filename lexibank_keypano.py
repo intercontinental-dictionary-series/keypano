@@ -19,7 +19,9 @@ class Dataset(IDSDataset):
     dir = pathlib.Path(__file__).parent
     id = "keypano"
     language_class = CustomLanguage
-    form_spec = FormSpec(separators="~;,/", missing_data=["∅"], first_form_only=True)
+    form_spec = FormSpec(
+            replacements=[(" ", "_")], 
+            separators="~;,/", missing_data=["∅"], first_form_only=True)
 
     def cmd_download(self, args):
         ids_data = pycldf.Dataset.from_metadata(
@@ -77,7 +79,7 @@ class Dataset(IDSDataset):
                     ID=wl[idx, "form_id"],
                     Language_ID=ids[wl[idx, "doculect_id"]],
                     Parameter_ID=wl[idx, "concept_id"],
-                    Form=wl[idx, "form"],
+                    Form=wl[idx, "form"].replace(" ", "_"),
                     Value=wl[idx, "value"],
                     Loan=True if wl[idx, "borrowing"] else None
                     )
