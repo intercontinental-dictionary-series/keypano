@@ -1,9 +1,13 @@
 Grapheme	IPA	Frequency
+(	NULL	
+)	NULL	
+[	NULL	
+]	NULL	
 ^h	h	161
 o	o	144
 h	h	63
 i$	i	96
-^č	č	17
+^č	tʃ	17
 i	i	221
 x	x	68
 ^p	p	68
@@ -12,73 +16,81 @@ a	a	330
 p	p	112
 a$	a	226
 ^x	x	31
-^ks	ks	7
+^ks	k s	7
 t	t	149
 ɨ$	ɨ	120
 ^m	m	44
 k	k	132
-ľ	<?>	109
+ľ	l	109
 e$	e	44
-+	?+	2
-č	č	51
++	+	2
+č	tʃ	51
 n	n	111
-r	r	132
+r	ɾ	132
 e	e	118
-^c̷	c̷	17
+^c̷	ts	17
 ɨ	ɨ	76
-^š	š	21
+^š	ʃ	21
 ^w	w	13
 ^s	s	31
 w	w	55
--	<?>	141
+-	+	141
 m	m	66
-rh	rh	2
+rh	r h	2
 ph	pʰ	8
-y	y	45
-š	š	32
+y	j	45
+š	ʃ	32
 ^t	t	22
 o$	o	77
-nh	nh	2
-^r	r	1
-^y	y	21
-nˑ	nˑ	3
-čh	čh	5
-ts	ts	1
-^nˑ	nˑ	2
+nh	n h	2
+^r	ɾ	1
+^y	j	21
+nˑ	N	3
+čh	tʃ h	5
+ts	t s	1
+^nˑ	N	2
 ^n	n	18
-ľh	<?>	3
+ľh	l h	3
 ^tʸ	tʲ	3
 s	s	9
 tʸ	tʲ	15
-xh	xh	2
-^mh	mh	1
-^wh	wh	1
-hw	hw	1
+xh	x h	2
+^mh	m h	1
+^wh	w h	1
+hw	h w	1
 ^	NULL	4
 $	NULL	6
-^hw	hw	4
-c̷	c̷	17
-mh	mh	1
+^hw	h w	4
+c̷	ts	17
+mh	m h	1
 kh	kʰ	2
 th	tʰ	4
 ^kw	kʷ	3
-ns	ns	2
-^sw	sw	1
-^nn	nn	1
+ns	n s	2
+^sw	s w	1
+^nn	n n	1
 ^th	tʰ	1
 l	l	1
 ii	iː	1
-rs	rs	1
+rs	r s	1
 oo	oː	1
 u	u	1
-^nh	nh	1
-čw	čw	2
-ks	ks	1
-nw	nw	1
-ľs	<?>	1
-^ps	ps	2
-^pw	pw	1
+^nh	n h	1
+čw	tʃ w	2
+ks	k s	1
+nw	n w	1
+ľs	l s	1
+^ps	p s	2
+^pw	p w	1
 ^ph	pʰ	1
 ^kh	kʰ	1
-ms	ms	1
-^tw	tw	1
+ms	m s	1
+^tw	t w	1
+kx	kx	1
+^-	NULL	
+-$	NULL	
+--	+	
+_-	+	
+_	+	
+-_	+	
+?	?	
