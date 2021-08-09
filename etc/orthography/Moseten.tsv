@@ -1,4 +1,8 @@
 Grapheme	IPA	Frequency
+(	NULL	
+)	NULL	
+[	NULL	
+]	NULL	
 ^b	b	38
 æ	æ	45
 'dʸ	dʲ	80
@@ -6,9 +10,9 @@ e$	e	152
 ^'h	h	29
 a	a	591
 k$	k	34
-^y	y	49
+^y	j	49
 u	u	174
-č	č	76
+č	tʃ	76
 i	i	579
 'h	h	59
 ʔ$	ʔ	183
@@ -25,14 +29,14 @@ a$	a	135
 ^m	m	68
 'k	k	139
 æ$	æ	4
-^c̷	c̷	24
+^c̷	ts	24
 n$	n	37
 ^t	t	71
 h	h	135
 'ɲ	ɲ	31
 ɲ	ɲ	36
 n	n	99
-'č	'č	30
+'č	tʃ	30
 u$	u	17
 ^'d	d	4
 t	t	145
@@ -48,34 +52,34 @@ b	b	56
 ^'m	m	20
 x$	x	5
 ã	ã	11
-y	y	124
-^'c̷	'c̷	17
+y	j	124
+^'c̷	ts	17
 ^'i	i	7
 w	w	16
 ^õ	õ	4
 õ	õ	21
 't	t	84
 ^'p	p	17
-'y	y	102
+'y	j	102
 ^o	o	18
 p	p	35
 m	m	102
 ʔ	ʔ	82
-^š	š	31
+^š	ʃ	31
 m$	m	15
 ^s	s	31
 'n	n	24
-+	?+	72
++	+	72
 f	f	16
 ^e	e	17
--	<?>	124
+-	+	124
 ^a	a	34
 'w	w	16
-ds	dz	5
+ds	d s	5
 h$	h	35
-'c̷	'c̷	20
+'c̷	ts	20
 's	s	38
-^č	č	34
+^č	tʃ	34
 ^x	x	10
 x	x	20
 ii	iː	5
@@ -93,41 +97,41 @@ s$	s	67
 'x	x	7
 'p	p	19
 'ʔ	ʔ	20
-š	š	18
+š	ʃ	18
 ph	pʰ	7
-^'y	y	12
+^'y	j	12
 ^i	i	14
-č$	č	26
+č$	tʃ	26
 ^'x	x	3
 ii$	iː	1
 'ẽ$	ẽ	1
 œ$	œ	6
-^'bw	'bw	1
+^'bw	b w	1
 ^'w	w	4
 ^'b	b	15
-ns	ns	4
+ns	n s	4
 'b	b	50
-^'č	'č	12
+^'č	tʃ	12
 ^'g	g	1
 õ$	õ	4
-^tw	tw	1
-^fw	fw	8
+^tw	t w	1
+^fw	f w	8
 dʸ	dʲ	17
 aa	aː	12
 ^f	f	21
 'a$	a	1
 ^ii	iː	2
 b$	b	1
-^'š	'š	7
+^'š	ʃ	7
 oo	oː	6
 'o	o	2
 ^ã	ã	3
 'ph	pʰ	1
-š$	š	12
+š$	ʃ	12
 ^'f	f	6
 ^'o	o	3
-kw$	kʷ	1
-'š	'š	9
+kw$	k w	1
+'š	ʃ	9
 ^'s	s	10
 uu	uː	1
 ee	eː	4
@@ -147,51 +151,58 @@ r$	r	6
 ^'r	r	8
 'u	u	2
 ææ	æː	1
-c̷	c̷	17
-ks	ks	17
+c̷	ts	17
+ks	k s	17
 œ̃	œ̃	4
 ã$	ã	5
 ^'ĩ	ĩ	1
 mʸ	mʲ	1
 ẽ	ẽ	5
-fh	fh	1
+fh	f h	1
 ^dʸ	dʲ	3
-rs	rs	2
+rs	r s	2
 ^tʸ	tʲ	2
 'a	a	3
 'i	i	3
-hw	hw	2
+hw	h w	2
 ^ph	pʰ	3
-ʔs	ʔs	2
+ʔs	ʔ s	2
 ^r	r	5
 tʸ	tʲ	4
-á	á	1
+á	a	1
 ^aa	aː	1
 ĩ	ĩ	10
 ẽ$	ẽ	2
-c̷h	c̷h	1
+c̷h	ts h	1
 ĩ$	ĩ	1
-th	tʰ	2
-ɲw	ɲw	1
-ʔh	ʔh	3
-rh	rh	2
+th	t h	2
+ɲw	ɲ w	1
+ʔh	ʔ h	3
+rh	r h	2
 v	v	2
-xw	xw	2
+xw	x w	2
 'ĩ$	ĩ	1
 ^'ɲ	ɲ	5
-fw	fw	1
+fw	f w	1
 kh	kʰ	2
 ^'kh	kʰ	1
-'ỹ	ỹ	1
-c̷$	c̷	2
-^'fw	'fw	2
+'ỹ	j̃	1
+c̷$	ts	2
+^'fw	f w	2
 w̃	w̃	1
-šs	šs	1
-pw	pw	2
-'kw	kʷ	1
-^hw	hw	1
+šs	ʃ s	1
+pw	p w	2
+'kw	k w	1
+^hw	h w	1
 c	c	2
 'o$	o	1
-^kw	kʷ	1
+^kw	k w	1
 ^g	g	2
 'i$	i	1
+^-	NULL	
+-$	NULL	
+--	+	
+_-	+	
+_	+	
+-_	+	
+?	?	
