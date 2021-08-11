@@ -17,7 +17,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/intercontinental-dictionary-series/keypano",
-            "dc:created": "43af0b8"
+            "dc:created": "cb2afab"
         },
         {
             "rdf:type": "prov:Entity",
@@ -51,7 +51,7 @@
         },
         {
             "dc:title": "python",
-            "dc:description": "3.9.4"
+            "dc:description": "3.9.6"
         },
         {
             "dc:title": "python-packages",
@@ -66,7 +66,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:extent": 23232,
+            "dc:extent": 26772,
             "tableSchema": {
                 "columns": [
                     {
@@ -177,7 +177,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 22,
+            "dc:extent": 24,
             "tableSchema": {
                 "columns": [
                     {
