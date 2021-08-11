@@ -1,56 +1,63 @@
 appdirs==1.4.4
 bs4==0.0.1
-certifi==2020.12.5
+Cartopy==0.19.0.post1
+certifi==2021.5.30
+cffi==1.14.5
 chardet==4.0.0
--e git+https://github.com/cldf/cldfbench/@90fbdc32d47d5e311260ed7d945ec6762b63899d#egg=cldfbench
+cldfbench==1.7.1
 cldfcatalog==1.3.0
--e git+https://lingulist:3dfbc36f43cfcfce988ca7796099c9c4f39374f5@github.com/cldf/cldfviz@a4dd53a7e494d3854bbd439fab24f51784e4f2ba#egg=cldfviz
--e git+https://github.com/LinguList/clldutils.git@5f5da01075059f1893275a58476c7e52695e99a7#egg=clldutils
-colorlog==4.8.0
+cldfviz==0.3.0
+clldutils==3.9.0
+colorama==0.4.4
+colorlog==4.6.2
 -e git+https://github.com/cldf/csvw.git@45584ad63ff3002a9b3a8073607c1847c5cbac58#egg=csvw
 cycler==0.10.0
-decorator==4.4.2
+decorator==5.0.9
 gitdb==4.0.5
-greenlet==1.0.0
 idna==2.10
 idspy==0.2.0
 iniconfig==1.1.1
 isodate==0.6.0
+jdcal==1.4.1
 kiwisolver==1.3.1
 -e git+https://github.com/lingpy/lingpy.git@89d63ea243b45ccbaf03fe06ca56a8b232f1df85#egg=lingpy
-lxml==4.6.3
-Markdown==3.3.4
-matplotlib==3.4.2
+lxml==4.6.2
+Markdown==3.3.3
+matplotlib==3.3.3
 networkx==2.5
 newick==1.0.0
-numpy==1.20.1
-openpyxl==3.0.7
+numpy==1.19.4
+openpyxl==3.0.6
+packaging==20.9
 pluggy==0.13.1
 purl==1.5
 py==1.10.0
-pybtex==0.24.0
+pybtex==0.23.0
 -e git+https://github.com/cldf/pycldf.git@dd39c9e620da00c5c7ea390dce93bc37f196b8ae#egg=pycldf
-pyclts==3.0.2
+pyclts==3.1.1
 pyconcepticon==2.7.0
 pycountry==20.7.3
 pyglottolog==3.3.0
--e git+https://github.com/lexibank/pylexibank.git@be806a5da54566d98622bbae43183000e4c8aca2#egg=pylexibank
+-e git+https://github.com/lexibank/pylexibank.git@c3656c28ce7a85e2fd2716da7e7772d7c8c9b588#egg=pylexibank
 pyparsing==2.4.7
-pytest==6.2.2
-regex==2021.3.17
+pytest==6.2.4
+regex==2020.11.13
 requests==2.25.1
 rfc3986==1.4.0
-segments==2.2.0
-six==1.15.0
-smmap==3.0.5
+scipy==1.6.0
+segments==2.1.3
+Shapely==1.7.1
+six==1.16.0
+smmap==3.0.4
 soupsieve==2.2.1
-SQLAlchemy==1.4.2
-tabulate==0.8.9
+SQLAlchemy==1.3.22
+tabulate==0.8.7
 termcolor==1.1.0
-tqdm==4.59.0
+texttable==1.6.3
+tqdm==4.55.0
 uritemplate==3.0.1
-urllib3==1.26.4
+urllib3==1.26.5
 wcwidth==0.2.5
 xlrd==2.0.1
 yattag==1.14.0
-zenodoclient==0.3.0
+zenodoclient==0.4.1

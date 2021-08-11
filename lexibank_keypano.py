@@ -65,6 +65,14 @@ class Dataset(IDSDataset):
 
         for language in ids_data.objects("LanguageTable"):
             if language.id in ids:
+                if language.name == "Spanish":
+                    for lid in ["SpanishEU", "SpanishLA"]:
+                        language.data["ID"] = lid
+                        args.writer.add_language(
+                                **{k: language.data[k] for k in [
+                                    "ID", "Name", "Glottocode", "ISO639P3code", "Latitude",
+                                    "Longitude"
+                                    ]})
                 language.data["ID"] = ids[language.id]
                 args.writer.add_language(
                         **{k: language.data[k] for k in [
@@ -75,6 +83,18 @@ class Dataset(IDSDataset):
         
         wl = Wordlist(self.raw_dir.joinpath("ids-data.tsv").as_posix())
         for idx in pb(wl, desc="adding forms"):
+            if ids[wl[idx, "doculect_id"]] == "Spanish":
+                for lid in ["SpanishEU", "SpanishLA"]:
+                    args.writer.add_form(
+                            ID=wl[idx, "form_id"],
+                            Language_ID=lid,
+                            Parameter_ID=wl[idx, "concept_id"],
+                            Form=wl[idx, "form"].replace(" ", "_"),
+                            Value=wl[idx, "value"],
+                            Loan=True if wl[idx, "borrowing"] else None
+                            )
+
+
             args.writer.add_form(
                     ID=wl[idx, "form_id"],
                     Language_ID=ids[wl[idx, "doculect_id"]],

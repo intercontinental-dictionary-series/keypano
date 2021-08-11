@@ -1,4 +1,7 @@
 Grapheme	IPA	Frequency
+^...-	NULL
+^...	NULL
+...$	NULL
 (	NULL	
 )	NULL	
 [	NULL	
@@ -6,6 +9,7 @@ Grapheme	IPA	Frequency
 ^š	ʃ	63
 a	a	849
 β	β	146
+^-βi...-βĩ	β i + β ĩ
 a$	a	225
 ^m	m	94
 i$	i	198
@@ -68,7 +72,7 @@ oo$	oː	1
 ɨ̃	ɨ̃	25
 ^'m	m	1
 d	d	6
-č̣s	tʂ s	1
+č̣s	ʈʂ s	1
 e	e	9
 b	b	1
 ǰ	dʒ	3
