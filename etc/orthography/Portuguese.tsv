@@ -1,1684 +1,1593 @@
 Grapheme	IPA	Note
-^mundo$	m ũ d u	Brazilian Portuguese pronunciation
-^terreno$	t e ʁ e n u
-^solo$	s ɔ l u
-^chão$	ʃ ɐ̃ũ
-^pó$	p ɔ
-^lama$	l ɐ m ɐ
-^lodo$	l ɔ d u
-^areia$	a ɾ ei ɐ
-^montanha$	m õ t ɐ ɲ ɐ
-^morro$	m ɔ ʁ u
-^penhasco$	p e ɲ a ʃ k u
-^precipício$	p ɾ e s i p i s j u
-^campo$	k ɐ̃ p u
-^planície$	p l ɐ n i s i i
-^savannah$	s a v ɐ̃ n a
-^vale$	v a l i
-^ilha$	i ʎ ɐ
-^terra_firme$	t ɛ ʁ ɐ + f i ʁ m i
-^margem$	m a ʁ ʒ ẽĩ
-^costa$	k ɔ ʃ t ɐ
-^praia$	p ɾ ai ɐ
-^caverna$	k a v ɛ ʁ n ɐ
-^gruta$	ɡ ɾ u t ɐ
-^água$	a ɡ w ɐ
-^mar$	m a ʁ
-^calma$	k au m ɐ
-^calmaria$	k au m a ɾ i ɐ
-^tempestuoso$	t ẽ p e ʃ t u ɔ z u
-^espuma$	i ʃ p u m ɐ
-^oceano$	o s i ɐ n u
-^lago$	l a ɡ u
-^baía$	b a i ɐ
-^laguna$	l a ɡ u n ɐ
-^recife$	ʁ e s i f i
-^cabo$	k a b u
-^promontório$	p ɾ o m õ t ɔ ɾ j u
-^onda$	õ d ɐ
-^maré$	m a ɾ ɛ
-^maré_baixa$	m a ɾ ɛ + b ai ʃ ɐ
-^maré_vazia$	m a ɾ ɛ + v a z i ɐ
-^maré_alta$	m a ɾ ɛ + au t ɐ
-^preamar$	p ɾ i ɐ m a ʁ
-^praiamar$	p ɾ ai ɐ m a ʁ
-^rio$	ʁ j ɔ
-^riacho$	ʁ i a ʃ u
-^córrego$	k ɔ ʁ e ɡ u
-^remoinho$	ʁ e m oi ɲ u
-^redemoinho$	ʁ e d e m oi ɲ u
-^nascente$	n a ʃ s ẽ tʃ i
-^poço$	p ɔ s u
-^pântano$	p ɐ̃ t ɐ n u
-^pantanal$	p ɐ̃ t ɐ n au
-^cachoeira$	k a ʃ o ei ɾ ɐ
-^cascata$	k a ʃ k a t ɐ
-^bosque$	b ɔ s k i
-^floresta$	f l o ɾ ɛ ʃ t ɐ
-^árvore$	a ʁ v u ɾ i
-^madeira$	m a d ei ɾ ɐ
-^pedra$	p ɛ d ɾ ɐ
-^calhau$	k a ʎ au
-^rocha$	ʁ ɔ ʃ ɐ
-^terremoto$	t e ʁ e m ɔ t u
-^céu$	s ɛu
-^sol$	s ɔu
-^lua$	l u a
-^estrela$	i ʃ t ɾ ɛ l ɐ
-^relâmpago$	ʁ e l ɐ̃ p a ɡ u
-^trovão$	t ɾ o v ɐ̃ũ
-^raio$	ʁ ai u
-^tempestade$	t ẽ p e ʃ t a dʒ i
-^arco-íris$	a ʁ k o i ɾ i ʃ
-^luz$	l u ʃ
-^escuridão$	i ʃ k u ɾ i d ɐ̃ũ
-^sombra$	s õ b ɾ ɐ
-^orvalho$	o ʁ v a ʎ u
-^ar$	a ʁ
-^vento$	v ẽ t u
-^nuvem$	n u v ẽĩ
-^nevoeiro$	n e v o ei ɾ u
-^névoa$	n ɛ v u ɐ
-^chuva$	ʃ u v ɐ
-^neve$	n ɛ v i
-^gelo$	ʒ ɛ l u
-^tempo$	t ẽ p u
-^fogo$	f ɔ ɡ u
-^chama$	ʃ ɐ m ɐ
-^fumaça$	f u m a s ɐ
-^cinzas$	s ĩ z a ʃ
-^brasas$	b ɾ a z a ʃ
-^queimar$	k ei m a ʁ
-^incendiar$	ĩ s ẽ dʒ i a ʁ
-^queimar$	k ei m a ʁ
-^arder$	a ʁ d e ʁ
-^acender$	a s ẽ d e ʁ
-^atear$	a tʃ i a ʁ
-^extinguir$	i ʃ tʃ ĩ ɡ i ʁ
-^fósforo$	f ɔ ʃ f u ɾ u
-^lenha$	l e ɲ ɐ
-^carvão$	k a ʁ v ɐ̃ũ
-^mover$	m o v e ʁ
-^virar$	v i ɾ a ʁ
-^voltar$	v ɔu t a ʁ
-^dar_a_volta$	d a ʁ + a + v ɔu t ɐ
-^envolver$	ẽ v ɔu v e ʁ
-^enrolar$	ẽ ʁ o l a ʁ
-^rolar$	ʁ o l a ʁ
-^deixar_cair$	d ei ʃ a ʁ + k a i ʁ
-^torcer$	t o ʁ s e ʁ
-^subir$	s u b i ʁ
-^levantar$	l e v ɐ̃ t a ʁ
-^içar$	i s a ʁ
-^cair$	k a i ʁ
-^gotejar$	ɡ o t e ʒ a ʁ
-^escorrer$	i ʃ k o ʁ e ʁ
-^atirar$	a tʃ i ɾ a ʁ
-^arremessar$	a ʁ e m e s a ʁ
-^lançar$	l ɐ̃ s a ʁ
-^apanhar$	a p ɐ ɲ a ʁ
-^agarrar$	a ɡ a ʁ a ʁ
-^agitar$	a ʒ i t a ʁ
-^fluir$	f l ui ʁ
-^afundar$	a f ũ d a ʁ
-^flutuar$	f l u t u a ʁ
-^nadar$	n a d a ʁ
-^mergulhar$	m e ʁ ɡ u ʎ a ʁ
-^chapinhar$	ʃ a p i ɲ a ʁ
-^navegar$	n a v e ɡ a ʁ
-^voar$	v o a ʁ
-^soprar$	s o p ɾ a ʁ
-^rastejar$	ʁ a ʃ t e ʒ a ʁ
-^arrastar-se$	a ʁ a ʃ t a ʁ s i
-^ajoelhar$	a ʒ o e ʎ a ʁ
-^agachar-se$	a ɡ a ʃ a ʁ s i
-^escorregar$	i ʃ k o ʁ e ɡ a ʁ
-^resvalar$	ʁ e ʒ v a l a ʁ
-^saltar$	s au t a ʁ
-^dar_um_pontapé$	d a ʁ + ũ + p õ t a p ɛ
-^chutar$	ʃ u t a ʁ
-^dançar$	d ɐ̃ s a ʁ
-^andar$	ɐ̃ d a ʁ
-^caminhar$	k ɐ m i ɲ a ʁ
-^coxear$	k o ʃ i a ʁ
-^correr$	k o ʁ e ʁ
-^ir$	i ʁ
-^subir$	s u b i ʁ
-^trepar$	t ɾ e p a ʁ
-^descer$	d e ʃ s e ʁ
-^baixar$	b ai ʃ a ʁ
-^sair$	s a i ʁ
-^vir$	v i ʁ
-^voltar$	v ɔu t a ʁ
-^regressar$	ʁ e ɡ ɾ e s a ʁ
-^partir$	p a ʁ tʃ i ʁ
-^ir-se_embora$	i ʁ s i + ẽ b ɔ ɾ ɐ
-^desaparecer$	d e z a p a ɾ e s e ʁ
-^escapar$	i ʃ k a p a ʁ
-^fugir$	f u ʒ i ʁ
-^seguir$	s e ɡ i ʁ
-^perseguir$	p e ʁ s e ɡ i ʁ
-^chegar$	ʃ e ɡ a ʁ
-^aproximar$	a p ɾ o s i m a ʁ
-^entrar$	ẽ t ɾ a ʁ
-^levar$	l e v a ʁ
-^levar_na_mão$	l e v a ʁ + n a + m ɐ̃ũ
-^levar_no_ombro$	l e v a ʁ + n u + õ b ɾ u
-^levar_na_cabeça$	l e v a ʁ + n a + k a b ɛ s ɐ
-^levar_debaixo_do_braço$	l e v a ʁ + d e b ai ʃ u + d u + b ɾ a s u
-^trazer$	t ɾ a z e ʁ
-^enviar$	ẽ v i a ʁ
-^mandar$	m ɐ̃ d a ʁ
-^conduzir$	k õ d u z i ʁ
-^guiar$	ɡ j a ʁ
-^dirigir$	dʒ i ɾ i ʒ i ʁ
-^montar$	m õ t a ʁ
-^empurrar$	ẽ p u ʁ a ʁ
-^estrada$	i ʃ t ɾ a d ɐ
-^caminho$	k ɐ m i ɲ u
-^caminho$	k ɐ m i ɲ u
-^vereda$	v e ɾ ɛ d ɐ
-^ponte$	p õ tʃ i
-^carruagem$	k a ʁ u a ʒ ẽĩ
-^carroça$	k a ʁ ɔ s ɐ
-^roda$	ʁ ɔ d ɐ
-^eixo$	ei ʃ u
-^jugo$	ʒ u ɡ u
-^canga$	k ɐ̃ ɡ ɐ
-^navio$	n a v j u
-^bote$	b ɔ tʃ i
-^barco$	b a ʁ k u
-^canoa$	k ɐ n o ɐ
-^jangada$	ʒ ɐ̃ ɡ a d ɐ
-^balsa$	b au s ɐ
-^remo$	ʁ ɛ m u
-^remo$	ʁ ɛ m u
-^remar$	ʁ e m a ʁ
-^leme$	l ɛ m i
-^mastro$	m a ʃ t ɾ u
-^vela$	v ɛ l ɐ
-^âncora$	ɐ̃ k u ɾ ɐ
-^pôrto$	p o ʁ t u
-^desembarcar$	d e z ẽ b a ʁ k a ʁ
-^ter$	t e ʁ
-^possuir$	p o s ui ʁ
-^tomar$	t o m a ʁ
-^agarrar$	a ɡ a ʁ a ʁ
-^segurar$	s e ɡ u ɾ a ʁ
-^agarrar$	a ɡ a ʁ a ʁ
-^obter$	o b t e ʁ
-^conseguir$	k õ s e ɡ i ʁ
-^guardar$	ɡ w a ʁ d a ʁ
-^conservar$	k õ s e ʁ v a ʁ
-^coisa$	k oi z ɐ
-^dar$	d a ʁ
-^restituir$	ʁ e ʃ tʃ i t ui ʁ
-^devolver$	d e v ɔu v e ʁ
-^cuidar_de$	k ui d a ʁ + dʒ i
-^preservar$	p ɾ e z e ʁ v a ʁ
-^salvar$	s au v a ʁ
-^destruir$	d e ʃ t ɾ ui ʁ
-^danificar$	d ɐ n i f i k a ʁ
-^ferir$	f e ɾ i ʁ
-^estragar$	i ʃ t ɾ a ɡ a ʁ
-^buscar$	b u ʃ k a ʁ
-^procurar$	p ɾ o k u ɾ a ʁ
-^achar$	a ʃ a ʁ
-^encontrar$	ẽ k õ t ɾ a ʁ
-^perder$	p e ʁ d e ʁ
-^largar$	l a ʁ ɡ a ʁ
-^soltar$	s ɔu t a ʁ
-^dinheiro$	dʒ i ɲ ei ɾ u
-^moeda$	m o ɛ d ɐ
-^rico$	ʁ i k u
-^pobre$	p ɔ b ɾ i
-^mendigo$	m ẽ dʒ i ɡ u
-^avarento$	a v a ɾ ẽ t u
-^emprestar$	ẽ p ɾ e ʃ t a ʁ
-^pedir_emprestado$	p e dʒ i ʁ + ẽ p ɾ e ʃ t a d u
-^dever$	d e v e ʁ
-^dívida$	dʒ i v i d ɐ
-^pagar$	p a ɡ a ʁ
-^conta$	k õ t ɐ
-^imposto$	ĩ p o ʃ t u
-^taxa$	t a ʃ ɐ
-^alugar$	a l u ɡ a ʁ
-^salário$	s a l a ɾ j u
-^ganhar$	ɡ ɐ ɲ a ʁ
-^comprar$	k õ p ɾ a ʁ
-^vender$	v ẽ d e ʁ
-^trocar$	t ɾ o k a ʁ
-^negociante$	n e ɡ o s i ɐ̃ tʃ i
-^mercado$	m e ʁ k a d u
-^loja$	l ɔ ʒ ɐ
-^preço$	p ɾ ɛ s u
-^caro$	k a ɾ u
-^barato$	b a ɾ a t u
-^distribuir$	dʒ i ʃ t ɾ i b ui ʁ
-^compartilhar$	k õ p a ʁ tʃ i ʎ a ʁ
-^pesar$	p e z a ʁ
-^depois$	d e p oi ʃ
-^atrás$	a t ɾ a ʃ
-^espaço$	i ʃ p a s u
-^lugar$	l u ɡ a ʁ
-^pôr$	p o ʁ
-^sentar-se$	s ẽ t a ʁ s i
-^deitar-se$	d ei t a ʁ s i
-^estar_em_pé$	i ʃ t a ʁ + ẽĩ + p ɛ
-^ficar_em_pé$	f i k a ʁ + ẽĩ + p ɛ
-^ficar$	f i k a ʁ
-^restos$	ʁ ɛ ʃ t u ʃ
-^ao_lado_de$	a u + l a d u + dʒ i
-^colecionar$	k o l e s j o n a ʁ
-^reunir$	ʁ eu n i ʁ
-^captar$	k a p t a ʁ
-^empilhar$	ẽ p i ʎ a ʁ
-^juntar$	ʒ ũ t a ʁ
-^unir$	u n i ʁ
-^separar$	s e p a ɾ a ʁ
-^dividir$	dʒ i v i dʒ i ʁ
-^abrir$	a b ɾ i ʁ
-^aberto$	a b ɛ ʁ t u
-^fechar$	f e ʃ a ʁ
-^cobrir$	k o b ɾ i ʁ
-^esconder$	i ʃ k õ d e ʁ
-^debaixo$	d e b ai ʃ u
-^abaixo$	a b ai ʃ u
-^alto$	au t u
-^elevado$	i l e v a d u
-^baixo$	b ai ʃ u
-^cume$	k u m i
-^topo$	t ɔ p u
-^fundo$	f ũ d u
-^extremidade$	i ʃ t ɾ e m i d a dʒ i
-^fim$	f ĩ
-^ponta$	p õ t ɐ
-^afiado$	a f i a d u
-^agudo$	a ɡ u d u
-^beira$	b ei ɾ ɐ
-^borda$	b ɔ ʁ d ɐ
-^lado$	l a d u
-^meio$	m ei u
-^centro$	s ẽ t ɾ u
-^antes$	ɐ̃ t e ʃ
-^perante$	p e ɾ ɐ̃ tʃ i
-^frente$	f ɾ ẽ tʃ i
-^direita$	dʒ i ɾ ei t ɐ
-^esquerda$	i s k ɛ ʁ d ɐ
-^perto$	p ɛ ʁ t u
-^próximo$	p ɾ ɔ s i m u
-^longe$	l õ ʒ i
-^leste$	l ɛ ʃ tʃ i
-^este$	ɛ ʃ tʃ i
-^oeste$	o e ʃ tʃ i
-^norte$	n ɔ ʁ tʃ i
-^sul$	s uu
-^dentro$	d ẽ t ɾ u
-^crescer$	k ɾ e ʃ s e ʁ
-^medir$	m e dʒ i ʁ
-^palmo$	p au m u
-^braça$	b ɾ a s ɐ
-^grande$	ɡ ɾ ɐ̃ dʒ i
-^pequeno$	p e k e n u
-^comprido$	k õ p ɾ i d u
-^alto$	au t u
-^curto$	k u ʁ t u
-^fora$	f ɔ ɾ ɐ
-^largo$	l a ʁ ɡ u
-^estreito$	i ʃ t ɾ ei t u
-^grosso$	ɡ ɾ ɔ s u
-^fino$	f i n u
-^delgado$	d ɛu ɡ a d u
-^fundo$	f ũ d u
-^raso$	ʁ a z u
-^baixo$	b ai ʃ u
-^debaixo$	d e b ai ʃ u
-^plano$	p l ɐ n u
-^chato$	ʃ a t u
-^direito$	dʒ i ɾ ei t u
-^reto$	ʁ ɛ t u
-^torcido$	t o ʁ s i d u
-^torto$	t ɔ ʁ t u
-^gancho$	ɡ ɐ̃ ʃ u
-^esquina$	i s k i n ɐ
-^canto$	k ɐ̃ t u
-^cruz$	k ɾ u ʃ
-^quadrado$	k w a d ɾ a d u
-^em_cima$	ẽĩ + s i m ɐ
-^sôbre$	s o b ɾ i
-^redondo$	ʁ e d õ d u
-^círculo$	s i ʁ k u l u
-^roda$	ʁ ɔ d ɐ
-^esfera$	i ʃ f e ɾ ɐ
-^bola$	b o l ɐ
-^linha$	l i ɲ ɐ
-^buraco$	b u ɾ a k u
-^parecido$	p a ɾ e s i d u
-^mudar$	m u d a ʁ
-^zero$	z ɛ ɾ u
-^nada$	n a d ɐ
-^um$	ũ
-^uma$	u m ɐ
-^dez$	d ɛ ʃ
-^onze$	õ z i
-^doze$	d o z i
-^quinze$	k ĩ z i
-^vinte$	v ĩ tʃ i
-^cento$	s ẽ t u
-^cem$	s ẽĩ
-^mil$	m iu
-^contar$	k õ t a ʁ
-^cada$	k a d ɐ
-^tudo$	t u d u
-^muito$	m ũ j t u
-^muitos$	m ũ j t u ʃ
-^mais$	m ai ʃ
-^pouco$	p o k u
-^poucos$	p o k u ʃ
-^bastante$	b a ʃ t ɐ̃ tʃ i
-^suficiente$	s u f i s i ẽ tʃ i
-^alguns$	au ɡ ũ ʃ
-^multidão$	m uu tʃ i d ɐ̃ũ
-^dois$	d oi ʃ
-^duas$	d u a ʃ
-^cheio$	ʃ ei u
-^vazio$	v a z j u
-^parte$	p a ʁ tʃ i
-^pedaço$	p e d a s u
-^peça$	p ɛ s ɐ
-^metade$	m e t a dʒ i
-^três$	t ɾ e ʃ
-^só$	s ɔ
-^somente$	s o m ẽ tʃ i
-^primeiro$	p ɾ i m ei ɾ u
-^último$	uu tʃ i m u
-^segundo$	s e ɡ ũ d u
-^par$	p a ʁ
-^duas_vezes$	d u a ʃ + v ɛ z e ʃ
-^quatro$	k w a t ɾ u
-^terceiro$	t e ʁ s ei ɾ u
-^três_vezes$	t ɾ e ʃ + v ɛ z e ʃ
-^cinco$	s ĩ k u
-^seis$	s ei ʃ
-^sete$	s ɛ tʃ i
-^oito$	oi t u
-^nove$	n ɔ v i
-^tempo$	t ẽ p u
-^idade$	i d a dʒ i
-^novo$	n ɔ v u
-^jovem$	ʒ ɔ v ẽĩ
-^novo$	n ɔ v u
-^velho$	v ɛ ʎ u
-^cedo$	s ɛ d u
-^tarde$	t a ʁ dʒ i
-^agora$	a ɡ ɔ ɾ ɐ
-^de_imediato$	dʒ i + i m e dʒ i a t u
-^rápido$	ʁ a p i d u
-^ligeiro$	l i ʒ ei ɾ u
-^vagaroso$	v a ɡ a ɾ ɔ z u
-^devagar$	d e v a ɡ a ʁ
-^apressar$	a p ɾ e s a ʁ
-^demorar$	d e m o ɾ a ʁ
-^atrasar$	a t ɾ a z a ʁ
-^começar$	k o m e s a ʁ
-^durar$	d u ɾ a ʁ
-^suportar$	s u p o ʁ t a ʁ
-^fim$	f ĩ
-^completar$	k õ p l e t a ʁ
-^acabar$	a k a b a ʁ
-^parar$	p a ɾ a ʁ
-^cessar$	s e s a ʁ
-^pronto$	p ɾ õ t u
-^sempre$	s ẽ p ɾ i
-^amiúde$	ɐ m i u dʒ i
-^às_vezes$	a ʃ + v ɛ z e ʃ
-^em_breve$	ẽĩ + b ɾ ɛ v i
-^por_muito_tempo$	p u ʁ + m ũ j t u + t ẽ p u
-^nunca$	n ũ k ɐ
-^jamais$	ʒ ɐ m ai ʃ
-^outra_vez$	o t ɾ ɐ + v e ʃ
-^de_novo$	dʒ i + n ɔ v u
-^dia$	dʒ i ɐ
-^noite$	n oi tʃ i
-^alvorada$	au v o ɾ a d ɐ
-^amanhecer$	ɐ m ɐ ɲ e s e ʁ
-^manhã$	m ɐ ɲ ɐ̃
-^meio_dia$	m ei u + dʒ i ɐ
-^tarde$	t a ʁ dʒ i
-^noite$	n oi tʃ i
-^tardinha$	t a ʁ dʒ i ɲ ɐ
-^hoje$	ɔ ʒ i
-^amanhã$	ɐ m ɐ ɲ ɐ̃
-^depois_de_amanhã$	d e p oi ʒ + dʒ i + ɐ m ɐ ɲ ɐ̃
-^ontem$	õ t ẽĩ
-^anteontem$	ɐ̃ tʃ i õ t ẽĩ
-^hora$	ɔ ɾ ɐ
-^relógio$	ʁ e l ɔ ʒ j u
-^semana$	s e m ɐ n ɐ
-^domingo$	d o m ĩ ɡ u
-^segunda-feira$	s e ɡ ũ d a f ei ɾ ɐ
-^terça-feira$	t e ʁ s a f ei ɾ ɐ
-^quarta-feira$	k w a ʁ t a f ei ɾ ɐ
-^quinta-feira$	k ĩ t a f ei ɾ ɐ
-^sexta-feira$	s e ʃ t a f ei ɾ ɐ
-^sábado$	s a b a d u
-^mês$	m e ʃ
-^ano$	ɐ n u
-^inverno$	ĩ v ɛ ʁ n u
-^primavera$	p ɾ i m a v e ɾ ɐ
-^verão$	v e ɾ ɐ̃ũ
-^outono$	o t ɔ n u
-^estação$	i ʃ t a s ɐ̃ũ
-^cheirar$	ʃ ei ɾ a ʁ
-^fungar$	f ũ ɡ a ʁ
-^farejar$	f a ɾ e ʒ a ʁ
-^cheirar$	ʃ ei ɾ a ʁ
-^cheiroso$	ʃ ei ɾ ɔ z u
-^fragante$	f ɾ a ɡ ɐ̃ tʃ i
-^fedorento$	f e d o ɾ ẽ t u
-^mal_cheiroso$	m au + ʃ ei ɾ ɔ z u
-^sabor$	s a b ɔ ʁ
-^gosto$	ɡ ɔ ʃ t u
-^doce$	d ɔ s i
-^salgado$	s au ɡ a d u
-^amargo$	ɐ m a ʁ ɡ u
-^ácido$	a s i d u
-^azedo$	a z ɛ d u
-^salobre$	s a l ɔ b ɾ i
-^ouvir$	o v i ʁ
-^escutar$	i ʃ k u t a ʁ
-^ruído$	ʁ u i d u
-^barulho$	b a ɾ u ʎ u
-^ruidoso$	ʁ ui d ɔ z u
-^barulhento$	b a ɾ u ʎ ẽ t u
-^quieto$	k i ɛ t u
-^ver$	v e ʁ
-^olhar_para$	o ʎ a ʁ + p a ɾ ɐ
-^fitar$	f i t a ʁ
-^mostrar$	m o ʃ t ɾ a ʁ
-^brilhar$	b ɾ i ʎ a ʁ
-^claro$	k l a ɾ u
-^brilhante$	b ɾ i ʎ ɐ̃ tʃ i
-^cor$	k ɔ ʁ
-^claro$	k l a ɾ u
-^escuro$	i ʃ k u ɾ u
-^branco$	b ɾ ɐ̃ k u
-^preto$	p ɾ ɛ t u
-^negro$	n ɛ ɡ ɾ u
-^vermelho$	v e ʁ m e ʎ u
-^azul$	a z uu
-^verde$	v ɛ ʁ dʒ i
-^amarelo$	ɐ m a ɾ ɛ l u
-^tocar$	t o k a ʁ
-^beliscar$	b e l i ʃ k a ʁ
-^sentir$	s ẽ tʃ i ʁ
-^duro$	d u ɾ u
-^macio$	m a s j u
-^mole$	m ɔ l i
-^áspero$	a ʃ p e ɾ u
-^liso$	l i z u
-^macio$	m a s j u
-^agudo$	a ɡ u d u
-^afiado$	a f i a d u
-^embotado$	ẽ b o t a d u
-^rombudo$	ʁ õ b u d u
-^pesado$	p e z a d u
-^leve$	l ɛ v i
-^molhado$	m o ʎ a d u
-^úmido$	u m i d u
-^seco$	s e k u
-^quente$	k ẽ tʃ i
-^quente$	k ẽ tʃ i
-^cálido$	k a l i d u
-^frio$	f ɾ j ɔ
-^limpo$	l ĩ p u
-^sujo$	s u ʒ u
-^enrugado$	ẽ ʁ u ɡ a d u
-^alma$	au m ɐ
-^espírito$	i ʃ p i ɾ i t u
-^surpreso$	s u ʁ p ɾ ɛ z u
-^espantado$	i ʃ p ɐ̃ t a d u
-^boa_sorte$	b o ɐ + s ɔ ʁ tʃ i
-^infortúnio$	ĩ f o ʁ t u n j u
-^má_sorte$	m a + s ɔ ʁ tʃ i
-^azar$	a z a ʁ
-^feliz$	f e l i ʃ
-^contente$	k õ t ẽ tʃ i
-^alegre$	a l ɛ ɡ ɾ i
-^rir$	ʁ i ʁ
-^sorrir$	s o ʁ i ʁ
-^jogar$	ʒ o ɡ a ʁ
-^brincar$	b ɾ ĩ k a ʁ
-^amar$	ɐ m a ʁ
-^beijar$	b ei ʒ a ʁ
-^abraçar$	a b ɾ a s a ʁ
-^dor$	d o ʁ
-^tristeza$	t ɾ i ʃ t ɛ z ɐ
-^dor$	d o ʁ
-^ansiedade$	ɐ̃ s i e d a dʒ i
-^preocupação$	p ɾ i o k u p a s ɐ̃ũ
-^ter_pena$	t e ʁ + p ɛ n ɐ
-^pena$	p ɛ n ɐ
-^compaixão$	k õ p ai ʃ ɐ̃ũ
-^chorar$	ʃ o ɾ a ʁ
-^lágrima$	l a ɡ ɾ i m ɐ
-^gemer$	ʒ e m e ʁ
-^odiar$	o dʒ i a ʁ
-^raiva$	ʁ ai v ɐ
-^ira$	i ɾ ɐ
-^inveja$	ĩ v e ʒ ɐ
-^ciúme$	s i u m i
-^vergonha$	v e ʁ ɡ ɔ ɲ ɐ
-^orgulhoso$	o ʁ ɡ u ʎ ɔ z u
-^ousar$	o z a ʁ
-^corajoso$	k o ɾ a ʒ ɔ z u
-^bravo$	b ɾ a v u
-^medo$	m e d u
-^susto$	s u ʃ t u
-^perigo$	p e ɾ i ɡ u
-^desejo$	d e z e ʒ u
-^escolher$	i ʃ k o ʎ e ʁ
-^esperança$	i ʃ p e ɾ ɐ̃ s ɐ
-^leal$	l i au
-^verdadeiro$	v e ʁ d a d ei ɾ u
-^mentir$	m ẽ tʃ i ʁ
-^engano$	ẽ ɡ ɐ n u
-^perdoar$	p e ʁ d o a ʁ
-^bom$	b õ
-^mau$	m au
-^correto$	k o ʁ ɛ t u
-^errado$	i ʁ a d u
-^falta$	f au t ɐ
-^culpa$	k uu p ɐ
-^erro$	ɛ ʁ u
-^culpa$	k uu p ɐ
-^elogiar$	i l o ʒ i a ʁ
-^bonito$	b o n i t u
-^belo$	b ɛ l u
-^feio$	f ei u
-^cobiçoso$	k o b i s ɔ z u
-^ávido$	a v i d u
-^esperto$	i ʃ p ɛ ʁ t u
-^hábil$	a b iu
-^mente$	m ẽ tʃ i
-^pensar$	p ẽ s a ʁ
-^achar$	a ʃ a ʁ
-^acreditar$	a k ɾ e dʒ i t a ʁ
-^crer$	k ɾ e ʁ
-^compreender$	k õ p ɾ e ẽ d e ʁ
-^saber$	s a b e ʁ
-^adivinhar$	a dʒ i v i ɲ a ʁ
-^conjeturar$	k õ ʒ e t u ɾ a ʁ
-^imitar$	i m i t a ʁ
-^parecer$	p a ɾ e s e ʁ
-^idéia$	i d ɛi ɐ
-^sábio$	s a b j u
-^tolo$	t ɔ l u
-^louco$	l o k u
-^maluco$	m a l u k u
-^aprender$	a p ɾ ẽ d e ʁ
-^estudar$	i ʃ t u d a ʁ
-^ensinar$	ẽ s i n a ʁ
-^aluno$	a l u n u
-^professor$	p ɾ o f e s ɔ ʁ
-^escola$	i ʃ k ɔ l ɐ
-^lembrar-se$	l ẽ b ɾ a ʁ s i
-^esquecer-se$	i s k e s ɛ ʁ s i
-^claro$	k l a ɾ u
-^evidente$	i v i d ẽ tʃ i
-^obscuro$	o b ʃ k u ɾ u
-^segredo$	s e ɡ ɾ ɛ d u
-^seguro$	s e ɡ u ɾ u
-^certo$	s ɛ ʁ t u
-^explicar$	i ʃ p l i k a ʁ
-^intenção$	ĩ t ẽ s ɐ̃ũ
-^causa$	k au z ɐ
-^duvidar$	d u v i d a ʁ
-^suspeitar$	s u ʃ p ei t a ʁ
-^trair$	t ɾ a i ʁ
-^precisar$	p ɾ e s i z a ʁ
-^necessidade$	n e s e s i d a dʒ i
-^fácil$	f a s iu
-^difícil$	dʒ i f i s iu
-^tentar$	t ẽ t a ʁ
-^provar$	p ɾ o v a ʁ
-^maneira$	m ɐ n ei ɾ ɐ
-^e$	i
-^porque$	p u ʁ k i
-^se$	s i
-^ou$	ou
-^sim$	s ĩ
-^afirmativo$	a f i ʁ m a tʃ i v u
-^não$	n ɐ̃ũ
-^negativo$	n e ɡ a tʃ i v u
-^como$	k ɔ m u
-^quantos$	k w ɐ̃ t u ʃ
-^quanto$	k w ɐ̃ t u
-^que$	k i
-^quando$	k w ɐ̃ d u
-^onde$	õ dʒ i
-^qual$	k w au
-^quem$	k ẽĩ
-^por_quê$	p u ʁ + k e
-^voz$	v ɔ ʃ
-^cantar$	k ɐ̃ t a ʁ
-^gritar$	ɡ ɾ i t a ʁ
-^cochichar$	k o ʃ i ʃ a ʁ
-^murmurar$	m u ʁ m u ɾ a ʁ
-^assobiar$	a s o b i a ʁ
-^guinchar$	ɡ ĩ ʃ a ʁ
-^uivar$	ui v a ʁ
-^falar$	f a l a ʁ
-^gaguejar$	ɡ a ɡ e ʒ a ʁ
-^dizer$	dʒ i z e ʁ
-^contar$	k õ t a ʁ
-^relatar$	ʁ e l a t a ʁ
-^discursar$	dʒ i ʃ k u ʁ s a ʁ
-^ficar_em_silêncio$	f i k a ʁ + ẽĩ + s i l ẽ s j u
-^língua$	l ĩ ɡ w ɐ
-^palavra$	p a l a v ɾ ɐ
-^nome$	n ɔ m i
-^perguntar$	p e ʁ ɡ ũ t a ʁ
-^responder$	ʁ e ʃ p õ d e ʁ
-^admitir$	a dʒ i m i tʃ i ʁ
-^confessar$	k õ f e s a ʁ
-^negar$	n e ɡ a ʁ
-^pedir$	p e dʒ i ʁ
-^prometer$	p ɾ o m e t e ʁ
-^recusar$	ʁ e k u z a ʁ
-^proibir$	p ɾ oi b i ʁ
-^repreender$	ʁ e p ɾ e ẽ d e ʁ
-^chamar$	ʃ ɐ m a ʁ
-^nomear$	n o m i a ʁ
-^chamar-se$	ʃ ɐ m a ʁ s i
-^anunciar$	ɐ n ũ s i a ʁ
-^ameaçar$	ɐ m i a s a ʁ
-^jactar-se$	ʒ a k t a ʁ s i
-^gabar-se$	ɡ a b a ʁ s i
-^escrever$	i ʃ k ɾ e v e ʁ
-^ler$	l e ʁ
-^papel$	p a p ɛu
-^caneta$	k ɐ n ɛ t ɐ
-^livro$	l i v ɾ u
-^poeta$	p o ɛ t ɐ
-^flauta$	f l au t ɐ
-^tambor$	t ɐ̃ b ɔ ʁ
-^corneta$	k o ʁ n ɛ t ɐ
-^trombeta$	t ɾ õ b ɛ t ɐ
-^guizo$	ɡ i z u
-^matraca$	m a t ɾ a k ɐ
-^país$	p a i ʃ
-^pátria$	p a t ɾ i ɐ
-^cidade$	s i d a dʒ i
-^aldeia$	au d ei ɐ
-^fronteira$	f ɾ õ t ei ɾ ɐ
-^povo$	p ɔ v u
-^tribo$	t ɾ i b u
-^clã$	k l ɐ̃
-^chefe$	ʃ ɛ f i
-^cacique$	k a s i k i
-^bastão$	b a ʃ t ɐ̃ũ
-^bengala$	b ẽ ɡ a l ɐ
-^governar$	ɡ o v e ʁ n a ʁ
-^rei$	ʁ ei
-^governante$	ɡ o v e ʁ n ɐ̃ tʃ i
-^rainha$	ʁ ai ɲ ɐ
-^nobre$	n ɔ b ɾ i
-^cidadão$	s i d a d ɐ̃ũ
-^súdito$	s u dʒ i t u
-^senhor$	s e ɲ ɔ ʁ
-^patrão$	p a t ɾ ɐ̃ũ
-^dono$	d ɔ n u
-^escravo$	i ʃ k ɾ a v u
-^criado$	k ɾ i a d u
-^servo$	s ɛ ʁ v u
-^homem_livre$	ɔ m ẽĩ + l i v ɾ i
-^mandar$	m ɐ̃ d a ʁ
-^dar_ordem$	d a ʁ + ɔ ʁ d ẽĩ
-^obedecer$	o b e d e s e ʁ
-^deixar$	d ei ʃ a ʁ
-^permitir$	p e ʁ m i tʃ i ʁ
-^amigo$	ɐ m i ɡ u
-^companheiro$	k õ p ɐ ɲ ei ɾ u
-^inimigo$	i n i m i ɡ u
-^vizinho$	v i z i ɲ u
-^estranho$	i ʃ t ɾ ɐ ɲ u
-^forasteiro$	f o ɾ a ʃ t ei ɾ u
-^convidado$	k õ v i d a d u
-^hóspede$	ɔ ʃ p e dʒ i
-^hospedeiro$	o ʃ p e d ei ɾ u
-^anfitrião$	ɐ̃ f i t ɾ i ɐ̃ũ
-^ajudar$	a ʒ u d a ʁ
-^impedir$	ĩ p e dʒ i ʁ
-^estorvar$	i ʃ t o ʁ v a ʁ
-^costume$	k o ʃ t u m i
-^hábito$	a b i t u
-^disputa$	dʒ i ʃ p u t ɐ
-^luta$	l u t ɐ
-^conspiração$	k õ ʃ p i ɾ a s ɐ̃ũ
-^encontrar$	ẽ k õ t ɾ a ʁ
-^prostituta$	p ɾ o ʃ tʃ i t u t ɐ
-^pessoa$	p e s o ɐ
-^ser_humano$	s e ʁ + u m ɐ n u
-^homem$	ɔ m ẽĩ
-^mulher$	m u ʎ e ʁ
-^macho$	m a ʃ u
-^fêmea$	f e m i ɐ
-^menino$	m e n i n u
-^garoto$	ɡ a ɾ ɔ t u
-^jovem$	ʒ ɔ v ẽĩ
-^rapaz$	ʁ a p a ʃ
-^menina$	m e n i n ɐ
-^garota$	ɡ a ɾ ɔ t ɐ
-^jovem$	ʒ ɔ v ẽĩ
-^moça$	m ɔ s ɐ
-^criança$	k ɾ i ɐ̃ s ɐ
-^menino$	m e n i n u
-^bebê$	b e b e
-^nenê$	n e n e
-^marido$	m a ɾ i d u
-^esposa$	i ʃ p ɔ z ɐ
-^mulher$	m u ʎ e ʁ
-^casar$	k a z a ʁ
-^matrimônio$	m a t ɾ i m o n j u
-^casamento$	k a z ɐ m ẽ t u
-^divórcio$	dʒ i v ɔ ʁ s j u
-^pai$	p ai
-^mãe$	m ɐ̃ĩ
-^pais$	p ai ʃ
-^casado$	k a z a d u
-^casada$	k a z a d ɐ
-^filho$	f i ʎ u
-^filha$	f i ʎ ɐ
-^filhos$	f i ʎ u ʃ
-^prole$	p ɾ ɔ l i
-^irmão$	i ʁ m ɐ̃ũ
-^irmão_mais_velho$	i ʁ m ɐ̃ũ + m ai ʃ + v ɛ ʎ u
-^irmão_mais_novo$	i ʁ m ɐ̃ũ + m ai ʒ + n ɔ v u
-^irmã$	i ʁ m ɐ̃
-^irmã_mais_velha$	i ʁ m ɐ̃ + m ai ʃ + v ɛ ʎ ɐ
-^irmã_mais_nova$	i ʁ m ɐ̃ + m ai ʒ + n ɔ v ɐ
-^irmão$	i ʁ m ɐ̃ũ
-^irmã$	i ʁ m ɐ̃
-^gêmeos$	ʒ e m i u ʃ
-^avô$	a v o
-^velho$	v ɛ ʎ u
-^avó$	a v ɔ
-^velha$	v ɛ ʎ ɐ
-^neto$	n ɛ t u
-^neta$	n ɛ t ɐ
-^tio$	t j ɔ
-^irmão$	i ʁ m ɐ̃ũ
-^irmão$	i ʁ m ɐ̃ũ
-^tia$	tʃ i ɐ
-^irmã$	i ʁ m ɐ̃
-^irmã$	i ʁ m ɐ̃
-^sobrinho$	s o b ɾ i ɲ u
-^sobrinha$	s o b ɾ i ɲ ɐ
-^primo$	p ɾ i m u
-^prima$	p ɾ i m ɐ
-^antepassados$	ɐ̃ t e p a s a d u ʃ
-^ancestrais$	ɐ̃ s e ʃ t ɾ ai ʃ
-^descendentes$	d e ʃ s ẽ d ẽ t e ʃ
-^sogro$	s ɔ ɡ ɾ u
-^sogro$	s ɔ ɡ ɾ u
-^sogra$	s ɔ ɡ ɾ ɐ
-^sogra$	s ɔ ɡ ɾ ɐ
-^genro$	ʒ ẽ ʁ u
-^genro$	ʒ ẽ ʁ u
-^nora$	n ɔ ɾ ɐ
-^nora$	n ɔ ɾ ɐ
-^padrasto$	p a d ɾ a ʃ t u
-^madrasta$	m a d ɾ a ʃ t ɐ
-^enteado$	ẽ tʃ i a d u
-^enteada$	ẽ tʃ i a d ɐ
-^órfão$	ɔ ʁ f ɐ̃ũ
-^órfã$	ɔ ʁ f ɐ̃
-^viúva$	v i u v ɐ
-^viúvo$	v i u v u
-^parentes$	p a ɾ ẽ t e ʃ
-^família$	f ɐ m i l i ɐ
-^eu$	eu
-^tu$	t u
-^você$	v o s e
-^ele$	e l i
-^ela$	ɛ l ɐ
-^ele$	e l i
-^nós$	n ɔ ʃ
-^nós$	n ɔ ʃ
-^nós$	n ɔ ʃ
-^vocês$	v o s e ʃ
-^vós$	v ɔ ʃ
-^eles$	ɛ l e ʃ
-^elas$	ɛ l a ʃ
-^lutar$	l u t a ʁ
-^guerra$	ɡ ɛ ʁ ɐ
-^batalha$	b a t a ʎ ɐ
-^paz$	p a ʃ
-^exército$	i z ɛ ʁ s i t u
-^soldado$	s ɔu d a d u
-^armas$	a ʁ m a ʃ
-^porrete$	p o ʁ ɛ tʃ i
-^cacete$	k a s ɛ tʃ i
-^machado$	m a ʃ a d u
-^acha$	a ʃ ɐ
-^funda$	f ũ d ɐ
-^estilingue$	i ʃ tʃ i l ĩ ɡ i
-^arco$	a ʁ k u
-^flecha$	f l e ʃ ɐ
-^lança$	l ɐ̃ s ɐ
-^espada$	i ʃ p a d ɐ
-^arma$	a ʁ m ɐ
-^pistola$	p i ʃ t ɔ l ɐ
-^canhão$	k ɐ ɲ ɐ̃ũ
-^armadura$	a ʁ m a d u ɾ ɐ
-^elmo$	ɛu m u
-^capacete$	k a p a s ɛ tʃ i
-^escudo$	i ʃ k u d u
-^fortaleza$	f o ʁ t a l ɛ z ɐ
-^torre$	t ɔ ʁ i
-^vitória$	v i t ɔ ɾ i ɐ
-^derrota$	d e ʁ ɔ t ɐ
-^atacar$	a t a k a ʁ
-^defender$	d e f ẽ d e ʁ
-^retirar-se$	ʁ e tʃ i ɾ a ʁ s i
-^capitular$	k a p i t u l a ʁ
-^render-se$	ʁ ẽ d ɛ ʁ s i
-^cativo$	k a tʃ i v u
-^prisioneiro$	p ɾ i z j o n ei ɾ u
-^guarda$	ɡ w a ʁ d ɐ
-^sentinela$	s ẽ tʃ i n ɛ l ɐ
-^pilhagem$	p i ʎ a ʒ ẽĩ
-^emboscada$	ẽ b o ʃ k a d ɐ
-^pescador$	p e ʃ k a d o ʁ
-^anzol$	ɐ̃ z ɔu
-^linha_de_pesca$	l i ɲ ɐ + dʒ i + p ɛ ʃ k ɐ
-^corda$	k ɔ ʁ d ɐ
-^rede$	ʁ ɛ dʒ i
-^nassa$	n a s ɐ
-^armadilha_de_peixa$	a ʁ m a dʒ i ʎ ɐ + dʒ i + p ei ʃ ɐ
-^isca$	i ʃ k ɐ
-^caçar$	k a s a ʁ
-^disparar$	dʒ i ʃ p a ɾ a ʁ
-^fuzilar$	f u z i l a ʁ
-^falhar$	f a ʎ a ʁ
-^errar$	i ʁ a ʁ
-^não_acertar$	n ɐ̃ũ + a s e ʁ t a ʁ
-^cilada$	s i l a d ɐ
-^armadilha$	a ʁ m a dʒ i ʎ ɐ
-^armar_uma_cilada$	a ʁ m a ʁ + u m ɐ + s i l a d ɐ
-^pegar_em_armadilha$	p e ɡ a ʁ + ẽĩ + a ʁ m a dʒ i ʎ ɐ
-^lei$	l ei
-^tribunal$	t ɾ i b u n au
-^julgar$	ʒ uu ɡ a ʁ
-^julgamento$	ʒ uu ɡ ɐ m ẽ t u
-^juiz$	ʒ u i ʃ
-^queixoso$	k ei ʃ ɔ z u
-^réu$	ʁ ɛu
-^acusado$	a k u z a d u
-^testemunha$	t e ʃ t e m u ɲ ɐ
-^jurar$	ʒ u ɾ a ʁ
-^juramento$	ʒ u ɾ ɐ m ẽ t u
-^acusar$	a k u z a ʁ
-^condenar$	k õ d e n a ʁ
-^sentenciar$	s ẽ t ẽ s i a ʁ
-^condenar$	k õ d e n a ʁ
-^absolver$	a b s ɔu v e ʁ
-^culpado$	k uu p a d u
-^inocente$	i n o s ẽ tʃ i
-^punição$	p u n i s ɐ̃ũ
-^castigo$	k a ʃ tʃ i ɡ u
-^multa$	m uu t ɐ
-^prisão$	p ɾ i z ɐ̃ũ
-^assassinar$	a s a s i n a ʁ
-^adultério$	a d uu t ɛ ɾ j u
-^violação$	v j o l a s ɐ̃ũ
-^estupro$	i ʃ t u p ɾ u
-^incêndio_culposo$	ĩ s ẽ d j u + k uu p ɔ z u
-^perjúrio$	p e ʁ ʒ u ɾ j u
-^roubar$	ʁ o b a ʁ
-^ladrão$	l a d ɾ ɐ̃ũ
-^religião$	ʁ e l i ʒ i ɐ̃ũ
 ^Deus$	d eu ʃ
-^templo$	t ẽ p l u
-^igreja$	i ɡ ɾ e ʒ ɐ
-^altar$	au t a ʁ
-^sacrifício$	s a k ɾ i f i s j u
-^oferenda$	o f e ɾ ẽ d ɐ
-^adorar$	a d o ɾ a ʁ
-^orar$	o ɾ a ʁ
-^rezar$	ʁ e z a ʁ
-^sacerdote$	s a s e ʁ d ɔ tʃ i
-^santo$	s ɐ̃ t u
-^sagrado$	s a ɡ ɾ a d u
-^pregar$	p ɾ e ɡ a ʁ
-^abençoar$	a b ẽ s o a ʁ
-^amaldiçoar$	ɐ m au dʒ i s o a ʁ
-^jejuar$	ʒ e ʒ u a ʁ
-^céu$	s ɛu
-^inferno$	ĩ f ɛ ʁ n u
-^demônio$	d e m o n j u
-^ídolo$	i d u l u
-^magia$	m a ʒ i ɐ
-^feitiçaria$	f ei tʃ i s a ɾ i ɐ
-^feiticeiro$	f ei tʃ i s ei ɾ u
-^bruxo$	b ɾ u ʃ u
-^bruxa$	b ɾ u ʃ ɐ
-^fada$	f a d ɐ
-^fantasma$	f ɐ̃ t a ʒ m ɐ
-^agouro$	a ɡ o ɾ u
-^presságio$	p ɾ e s a ʒ j u
-^animal$	ɐ n i m au
-^bicho$	b i ʃ u
-^masculino$	m a ʃ k u l i n u
-^feminino$	f e m i n i n u
-^gado$	ɡ a d u
-^pasto$	p a ʃ t u
-^pastagem$	p a ʃ t a ʒ ẽĩ
-^pastor$	p a ʃ t o ʁ
-^cocheira$	k o ʃ ei ɾ ɐ
-^estábulo$	i ʃ t a b u l u
-^gado$	ɡ a d u
-^touro$	t o ɾ u
-^boi$	b oi
-^vaca$	v a k ɐ
-^bezerro$	b e z ɛ ʁ u
-^ovelha$	o v e ʎ ɐ
-^carneiro$	k a ʁ n ei ɾ u
-^ovelha$	o v e ʎ ɐ
-^cordeiro$	k o ʁ d ei ɾ u
-^barrão$	b a ʁ ɐ̃ũ
-^varrão$	v a ʁ ɐ̃ũ
-^porca$	p ɔ ʁ k ɐ
-^porco$	p ɔ ʁ k u
-^cabra$	k a b ɾ ɐ
-^bode$	b ɔ dʒ i
-^cabrito$	k a b ɾ i t u
-^cavalo$	k a v a l u
-^garanhão$	ɡ a ɾ ɐ ɲ ɐ̃ũ
-^égua$	ɛ ɡ w ɐ
-^potro$	p ɔ t ɾ u
-^asno$	a ʒ n u
-^burro$	b u ʁ u
-^mulo$	m u l u
-^mula$	m u l ɐ
-^ave$	a v i
-^galo$	ɡ a l u
-^galinha$	ɡ a l i ɲ ɐ
-^frango$	f ɾ ɐ̃ ɡ u
-^ganso$	ɡ ɐ̃ s u
-^pato$	p a t u
-^ninho$	n i ɲ u
-^pássaro$	p a s a ɾ u
-^ave$	a v i
-^gaivota$	ɡ ai v ɔ t ɐ
-^garça$	ɡ a ʁ s ɐ
-^águia$	a ɡ j ɐ
-^falcão$	f au k ɐ̃ũ
-^urubu$	u ɾ u b u
-^abutre$	a b u t ɾ i
-^morcego$	m o ʁ s ɛ ɡ u
-^papagaio$	p a p a ɡ ai u
-^corvo$	k ɔ ʁ v u
-^pomba$	p õ b ɐ
-^mocho$	m ɔ ʃ u
-^coruja$	k o ɾ u ʒ ɐ
-^cão$	k ɐ̃ũ
-^cachorro$	k a ʃ ɔ ʁ u
-^coelho$	k o e ʎ u
-^gato$	ɡ a t u
-^sarigüê$	s a ɾ i ɡ e
-^gambá$	ɡ ɐ̃ b a
-^rato$	ʁ a t u
-^camundongo$	k ɐ m ũ d õ ɡ u
-^ratinho$	ʁ a tʃ i ɲ u
-^peixe$	p ei ʃ i
-^barbatana$	b a ʁ b a t ɐ n ɐ
-^escama$	i ʃ k ɐ m ɐ
-^guelra$	ɡ ɛu ʁ ɐ
-^brânquia$	b ɾ ɐ̃ k i ɐ
-^concha$	k õ ʃ ɐ
-^tubarão$	t u b a ɾ ɐ̃ũ
-^delfim$	d ɛu f ĩ
-^golfinho$	ɡ ɔu f i ɲ u
-^baleia$	b a l ei ɐ
-^raia$	ʁ ai ɐ
-^arraia$	a ʁ ai ɐ
-^enguia$	ẽ ɡ i ɐ
-^lobo$	l ɔ b u
-^leão$	l j ɐ̃ũ
-^urso$	u ʁ s u
-^raposa$	ʁ a p ɔ z ɐ
-^veado$	v i a d u
-^macaco$	m a k a k u
-^elefante$	i l e f ɐ̃ tʃ i
-^camelo$	k ɐ m ɛ l u
-^inseto$	ĩ s ɛ t u
-^piolho$	p j ɔ ʎ u
-^lêndea$	l ẽ dʒ i ɐ
-^pulga$	p uu ɡ ɐ
-^centopeia$	s ẽ t o p ei ɐ
-^escorpião$	i ʃ k o ʁ p i ɐ̃ũ
-^barata$	b a ɾ a t ɐ
-^formiga$	f o ʁ m i ɡ ɐ
-^aranha$	a ɾ ɐ ɲ ɐ
-^teia_de_aranha$	t ei ɐ + dʒ i + a ɾ ɐ ɲ ɐ
-^abelha$	a b e ʎ ɐ
-^cera$	s ɛ ɾ ɐ
-^colmeia$	k ɔu m ei ɐ
-^vespa$	v ɛ ʃ p ɐ
-^mosca$	m ɔ ʃ k ɐ
-^mosquito$	m o s k i t u
-^mosquito$	m o s k i t u
-^verme$	v ɛ ʁ m i
-^lombriga$	l õ b ɾ i ɡ ɐ
-^cobra$	k ɔ b ɾ ɐ
-^pirilampo$	p i ɾ i l ɐ̃ p u
-^vaga-lume$	v a ɡ a l u m i
-^borboleta$	b o ʁ b o l ɛ t ɐ
-^gafanhoto$	ɡ a f ɐ ɲ ɔ t u
-^caracol$	k a ɾ a k ɔu
-^rã$	ʁ ɐ̃
-^lagarto$	l a ɡ a ʁ t u
-^jacaré$	ʒ a k a ɾ ɛ
-^tartaruga$	t a ʁ t a ɾ u ɡ ɐ
-^corpo$	k ɔ ʁ p u
-^pele$	p ɛ l i
-^couro$	k o ɾ u
-^carne$	k a ʁ n i
-^cabelo$	k a b ɛ l u
-^barba$	b a ʁ b ɐ
-^cabelo$	k a b ɛ l u
-^pêlo$	p e l u
-^pêlo_púbico$	p e l u + p u b i k u
-^caspa$	k a ʃ p ɐ
-^sangue$	s ɐ̃ ɡ i
-^veia$	v ei ɐ
-^artéria$	a ʁ t ɛ ɾ i ɐ
-^osso$	ɔ s u
-^costela$	k o ʃ t ɛ l ɐ
-^chifre$	ʃ i f ɾ i
-^corno$	k ɔ ʁ n u
-^cauda$	k au d ɐ
-^rabo$	ʁ a b u
-^costas$	k ɔ ʃ t a ʃ
-^espinha_dorsal$	i ʃ p i ɲ ɐ + d o ʁ s au
-^cabeça$	k a b ɛ s ɐ
-^fonte$	f õ tʃ i
-^têmpora$	t ẽ p u ɾ ɐ
-^crânio$	k ɾ ɐ n j u
-^caveira$	k a v ei ɾ ɐ
-^cérebro$	s ɛ ɾ e b ɾ u
-^miolos$	m j ɔ l u ʃ
-^rosto$	ʁ ɔ ʃ t u
-^testa$	t ɛ ʃ t ɐ
-^fronte$	f ɾ õ tʃ i
-^maxila$	m a k s i l ɐ
-^bochecha$	b o ʃ e ʃ ɐ
-^queixo$	k ei ʃ u
-^olho$	ɔ ʎ u
-^sobrancelha$	s o b ɾ ɐ̃ s e ʎ ɐ
-^pálpebra$	p au p e b ɾ ɐ
-^pestana$	p e ʃ t ɐ n ɐ
-^cílio$	s i l j u
-^pestanejar$	p e ʃ t ɐ n e ʒ a ʁ
-^orelha$	o ɾ e ʎ ɐ
-^lóbulo$	l ɔ b u l u
-^cerume$	s e ɾ u m i
-^cera$	s ɛ ɾ ɐ
-^nariz$	n a ɾ i ʃ
-^narina$	n a ɾ i n ɐ
-^muco$	m u k u
-^boca$	b ɔ k ɐ
-^bico$	b i k u
-^lábio$	l a b j u
-^língua$	l ĩ ɡ w ɐ
-^dente$	d ẽ tʃ i
-^gengiva$	ʒ ẽ ʒ i v ɐ
-^molar$	m o l a ʁ
-^pescoço$	p e ʃ k ɔ s u
-^nuca$	n u k ɐ
-^garganta$	ɡ a ʁ ɡ ɐ̃ t ɐ
-^ombro$	õ b ɾ u
-^omoplata$	o m o p l a t ɐ
-^clavícula$	k l a v i k u l ɐ
-^braço$	b ɾ a s u
-^axila$	a k s i l ɐ
-^sovaco$	s o v a k u
-^cotovelo$	k o t o v ɛ l u
-^pulso$	p uu s u
-^mão$	m ɐ̃ũ
-^palma_de_mão$	p au m ɐ + dʒ i + m ɐ̃ũ
-^dedo$	d ɛ d u
-^polegar$	p o l e ɡ a ʁ
-^unha$	u ɲ ɐ
-^garra$	ɡ a ʁ ɐ
-^perna$	p ɛ ʁ n ɐ
-^coxa$	k ɔ ʃ ɐ
-^barriga_da_perna$	b a ʁ i ɡ ɐ + d ɐ + p ɛ ʁ n ɐ
-^joelho$	ʒ o e ʎ u
-^pé$	p ɛ
-^tornozelo$	t o ʁ n o z ɛ l u
-^calcanhar$	k au k ɐ ɲ a ʁ
-^pegada$	p e ɡ a d ɐ
-^dedo_do_pé$	d ɛ d u + d u + p ɛ
-^asa$	a z ɐ
-^pena$	p ɛ n ɐ
-^peito$	p ei t u
-^seio$	s ei u
-^mama$	m ɐ m ɐ
-^mamilo$	m ɐ m i l u
-^teta$	t ɛ t ɐ
-^úbere$	u b e ɾ i
-^umbigo$	ũ b i ɡ u
-^coração$	k o ɾ a s ɐ̃ũ
-^pulmão$	p uu m ɐ̃ũ
-^fígado$	f i ɡ a d u
-^rim$	ʁ ĩ
-^baço$	b a s u
-^estômago$	i ʃ t o m a ɡ u
-^barriga$	b a ʁ i ɡ ɐ
-^intestinos$	ĩ t e ʃ tʃ i n u ʃ
-^tripas$	t ɾ i p a ʃ
-^cintura$	s ĩ t u ɾ ɐ
-^quadril$	k w a d ɾ iu
-^anca$	ɐ̃ k ɐ
-^cadeira$	k a d ei ɾ ɐ
-^nádegas$	n a d e ɡ a ʃ
-^útero$	u t e ɾ u
-^ventre$	v ẽ t ɾ i
-^testículo$	t e ʃ tʃ i k u l u
-^pênis$	p e n i ʃ
-^respirar$	ʁ e ʃ p i ɾ a ʁ
-^respiração$	ʁ e ʃ p i ɾ a s ɐ̃ũ
-^bocejar$	b o s e ʒ a ʁ
-^soluço$	s o l u s u
-^tossir$	t o s i ʁ
-^espirrar$	i ʃ p i ʁ a ʁ
-^suar$	s u a ʁ
-^transpirar$	t ɾ ɐ̃ ʃ p i ɾ a ʁ
-^cuspir$	k u ʃ p i ʁ
-^vomitar$	v o m i t a ʁ
-^morder$	m o ʁ d e ʁ
-^lamber$	l ɐ̃ b e ʁ
-^babar$	b a b a ʁ
-^dormir$	d o ʁ m i ʁ
-^roncar$	ʁ õ k a ʁ
-^ressonar$	ʁ e s o n a ʁ
-^sonhar$	s o ɲ a ʁ
-^acordar$	a k o ʁ d a ʁ
-^peido$	p ei d u
-^urinar$	u ɾ i n a ʁ
-^defecar$	d e f e k a ʁ
-^ter_relações_sexuais$	t e ʁ + ʁ e l a s õĩ ʃ + s e k s u ai ʃ
-^tiritar$	tʃ i ɾ i t a ʁ
-^tremer$	t ɾ e m e ʁ
-^tomar_banho$	t o m a ʁ + b ɐ ɲ u
-^gerar$	ʒ e ɾ a ʁ
-^emprenhar$	ẽ p ɾ e ɲ a ʁ
-^nascer$	n a ʃ s e ʁ
-^grávida$	ɡ ɾ a v i d ɐ
-^prenhe$	p ɾ e ɲ i
-^conceber$	k õ s e b e ʁ
-^viver$	v i v e ʁ
-^vivo$	v i v u
 ^a$	a
-^vida$	v i d ɐ
-^morrer$	m o ʁ e ʁ
-^morto$	m ɔ ʁ t u
-^afogado$	a f o ɡ a d u
-^matar$	m a t a ʁ
-^cadáver$	k a d a v e ʁ
-^enterrar$	ẽ t e ʁ a ʁ
-^túmulo$	t u m u l u
-^sepultura$	s e p uu t u ɾ ɐ
-^forte$	f ɔ ʁ tʃ i
-^poderoso$	p o d e ɾ ɔ z u
-^débil$	d ɛ b iu
-^fraco$	f ɾ a k u
-^bem$	b ẽĩ
-^saúde$	s a u dʒ i
-^são$	s ɐ̃ũ
-^doente$	d o ẽ tʃ i
-^doença$	d o ẽ s ɐ
-^febre$	f ɛ b ɾ i
-^papo$	p a p u
-^papeira$	p a p ei ɾ ɐ
-^resfriado$	ʁ e ʃ f ɾ i a d u
-^gripe$	ɡ ɾ i p i
-^ferida$	f e ɾ i d ɐ
-^chaga$	ʃ a ɡ ɐ
-^ferimento$	f e ɾ i m ẽ t u
-^inchação$	ĩ ʃ a s ɐ̃ũ
-^comichão$	k o m i ʃ ɐ̃ũ
-^coceira$	k o s ei ɾ ɐ
-^empola$	ẽ p ɔ l ɐ
-^bolha$	b ɔ ʎ ɐ
-^furúnculo$	f u ɾ ũ k u l u
-^pus$	p u ʃ
-^cicatriz$	s i k a t ɾ i ʃ
-^sarar$	s a ɾ a ʁ
-^curar$	k u ɾ a ʁ
-^médico$	m ɛ dʒ i k u
-^medicamento$	m e dʒ i k ɐ m ẽ t u
-^remédio$	ʁ e m ɛ d j u
-^veneno$	v e n ɛ n u
-^cansado$	k ɐ̃ s a d u
-^estafado$	i ʃ t a f a d u
-^descansar$	d e ʃ k ɐ̃ s a ʁ
-^preguiçoso$	p ɾ e ɡ j s ɔ z u
-^calvo$	k au v u
-^coxo$	k ɔ ʃ u
-^surdo$	s u ʁ d u
-^mudo$	m u d u
-^cego$	s ɛ ɡ u
-^embriagado$	ẽ b ɾ i a ɡ a d u
-^despido$	d e ʃ p i d u
-^nu$	n u
-^comer$	k o m e ʁ
-^alimento$	a l i m ẽ t u
-^cozinhado$	k o z i ɲ a d u
-^cozido$	k o z i d u
-^cru$	k ɾ u
-^maduro$	m a d u ɾ u
-^verde$	v ɛ ʁ dʒ i
-^imaturo$	i m a t u ɾ u
-^podre$	p ɔ d ɾ i
-^beber$	b e b e ʁ
-^tomar$	t o m a ʁ
-^estar_com_fome$	i ʃ t a ʁ + k õ + f ɔ m i
-^fome$	f ɔ m i
-^sede$	s ɛ dʒ i
-^chupar$	ʃ u p a ʁ
-^sugar$	s u ɡ a ʁ
-^mastigar$	m a ʃ tʃ i ɡ a ʁ
-^mascar$	m a ʃ k a ʁ
-^tragar$	t ɾ a ɡ a ʁ
-^engolir$	ẽ ɡ o l i ʁ
-^sufocar$	s u f o k a ʁ
-^cozinhar$	k o z i ɲ a ʁ
-^ferver$	f e ʁ v e ʁ
-^assar$	a s a ʁ
-^fritar$	f ɾ i t a ʁ
-^frigir$	f ɾ i ʒ i ʁ
-^cozer_no_forno$	k o z e ʁ + n u + f ɔ ʁ n u
-^forno$	f ɔ ʁ n u
-^panela$	p ɐ n ɛ l ɐ
-^chaleira$	ʃ a l ei ɾ ɐ
-^panela$	p ɐ n ɛ l ɐ
-^prato$	p ɾ a t u
-^prato$	p ɾ a t u
-^bacia$	b a s i ɐ
-^tigela$	tʃ i ʒ ɛ l ɐ
-^cântaro$	k ɐ̃ t a ɾ u
-^xícara$	ʃ i k a ɾ ɐ
-^chávena$	ʃ a v e n ɐ
-^copo$	k ɔ p u
-^pires$	p i ɾ e ʃ
-^colher$	k o ʎ e ʁ
-^faca$	f a k ɐ
-^garfo$	ɡ a ʁ f u
-^pinça$	p ĩ s ɐ
-^refeição$	ʁ e f ei s ɐ̃ũ
-^café_da_manhã$	k a f ɛ + d ɐ + m ɐ ɲ ɐ̃
-^pequeno-almoço$	p e k e n o au m ɔ s u
-^almoço$	au m ɔ s u
-^jantar$	ʒ ɐ̃ t a ʁ
-^jantar$	ʒ ɐ̃ t a ʁ
-^ceia$	s ei ɐ
-^descascar$	d e ʃ k a ʃ k a ʁ
-^peneira$	p e n ei ɾ ɐ
-^coador$	k o a d o ʁ
-^coar$	k o a ʁ
-^raspar$	ʁ a ʃ p a ʁ
-^misturar$	m i ʃ t u ɾ a ʁ
-^mexer$	m e ʃ e ʁ
-^pão$	p ɐ̃ũ
-^massa$	m a s ɐ
-^amassar$	ɐ m a s a ʁ
-^farinha$	f a ɾ i ɲ ɐ
-^esmagar$	i ʒ m a ɡ a ʁ
-^moer$	m o e ʁ
-^moinho$	m oi ɲ u
-^morteiro$	m o ʁ t ei ɾ u
-^mão_de_pilão$	m ɐ̃ũ + dʒ i + p i l ɐ̃ũ
-^almofariz$	au m o f a ɾ i ʃ
-^carne$	k a ʁ n i
-^linguiça$	l ĩ ɡ i s ɐ
-^chouriço$	ʃ o ɾ i s u
-^sopa$	s o p ɐ
-^caldo$	k au d u
-^legumes$	l e ɡ u m e ʃ
-^verduras$	v e ʁ d u ɾ a ʃ
-^feijão$	f ei ʒ ɐ̃ũ
-^batata$	b a t a t ɐ
-^fruta$	f ɾ u t ɐ
-^ramo$	ʁ ɐ m u
-^cacho$	k a ʃ u
-^figo$	f i ɡ u
-^uva$	u v ɐ
-^noz$	n ɔ ʃ
-^azeitona$	a z ei t o n ɐ
-^azeite$	a z ei tʃ i
-^óleo$	ɔ l i u
-^gordura$	ɡ o ʁ d u ɾ ɐ
-^sal$	s au
-^pimenta$	p i m ẽ t ɐ
-^malagueta$	m a l a ɡ ɛ t ɐ
-^mel$	m ɛu
-^açúcar$	a s u k a ʁ
-^leite$	l ei tʃ i
-^ordenhar$	o ʁ d e ɲ a ʁ
-^queijo$	k ei ʒ u
-^manteiga$	m ɐ̃ t ei ɡ ɐ
-^bebida$	b e b i d ɐ
-^mulso$	m uu s u
-^hidromel$	i d ɾ o m ɛu
-^vinho$	v i ɲ u
-^cerveja$	s e ʁ v e ʒ ɐ
-^bebida_fermentada$	b e b i d ɐ + f e ʁ m ẽ t a d ɐ
-^ovo$	ɔ v u
-^gema$	ʒ ɛ m ɐ
-^vestir$	v e ʃ tʃ i ʁ
-^roupa$	ʁ o p ɐ
-^alfaiate$	au f ai a tʃ i
-^tecido$	t e s i d u
-^pano$	p ɐ n u
-^lã$	l ɐ̃
-^linho$	l i ɲ u
-^algodão$	au ɡ o d ɐ̃ũ
-^seda$	s ɛ d ɐ
-^feltro$	f ɛu t ɾ u
-^pele$	p ɛ l i
-^couro$	k o ɾ u
-^fiar$	f i a ʁ
-^fuso$	f u z u
-^tecer$	t e s e ʁ
-^tear$	tʃ i a ʁ
-^costurar$	k o ʃ t u ɾ a ʁ
-^agulha$	a ɡ u ʎ ɐ
-^sovela$	s o v ɛ l ɐ
-^linha$	l i ɲ ɐ
-^fio$	f j ɔ
-^corante$	k o ɾ ɐ̃ tʃ i
-^tingir$	tʃ ĩ ʒ i ʁ
-^capa$	k a p ɐ
-^manto$	m ɐ̃ t u
-^poncho$	p õ ʃ u
-^capa$	k a p ɐ
-^vestido$	v e ʃ tʃ i d u
-^casaco$	k a z a k u
-^camisa$	k ɐ m i z ɐ
-^colarinho$	k o l a ɾ i ɲ u
-^saia$	s ai ɐ
-^saia_de_palha$	s ai ɐ + dʒ i + p a ʎ ɐ
-^capin$	k a p ĩ
-^calças$	k au s a ʃ
-^meia$	m ei ɐ
-^peúga$	p e u ɡ ɐ
-^sapato$	s a p a t u
-^bota$	b ɔ t ɐ
-^sapateiro$	s a p a t ei ɾ u
-^chapéu$	ʃ a p ɛu
-^gorro$	ɡ ɔ ʁ u
-^boina$	b oi n ɐ
-^cinto$	s ĩ t u
-^luva$	l u v ɐ
-^véu$	v ɛu
-^bolso$	b ɔu s u
-^botão$	b o t ɐ̃ũ
-^alfinete$	au f i n ɛ tʃ i
-^adorno$	a d ɔ ʁ n u
-^enfeite$	ẽ f ei tʃ i
-^jóia$	ʒ ɔi ɐ
-^anel$	ɐ n ɛu
-^bracelete$	b ɾ a s e l ɛ tʃ i
-^pulseira$	p uu s ei ɾ ɐ
-^colar$	k o l a ʁ
-^contas$	k õ t a ʃ
-^miçanga$	m i s ɐ̃ ɡ ɐ
-^brinco$	b ɾ ĩ k u
-^fita_para_cabeça$	f i t ɐ + p a ɾ ɐ + k a b ɛ s ɐ
-^tatuagem$	t a t u a ʒ ẽĩ
-^lenço$	l ẽ s u
-^trapo$	t ɾ a p u
-^toalha$	t o a ʎ ɐ
-^pente$	p ẽ tʃ i
-^escova$	i ʃ k ɔ v ɐ
-^trança$	t ɾ ɐ̃ s ɐ
-^navalha_de_barba$	n a v a ʎ ɐ + dʒ i + b a ʁ b ɐ
-^ungüento$	ũ ɡ ẽ t u
-^sabão$	s a b ɐ̃ũ
-^espelho$	i ʃ p e ʎ u
-^morar$	m o ɾ a ʁ
-^residir$	ʁ e z i dʒ i ʁ
-^casa$	k a z ɐ
-^cabana$	k a b ɐ n ɐ
-^casa_de_jardim$	k a z ɐ + dʒ i + ʒ a ʁ dʒ ĩ
-^tenda$	t ẽ d ɐ
-^barraca$	b a ʁ a k ɐ
-^quintal$	k ĩ t au
-^pátio$	p a t j u
-^casa_de_homens$	k a z ɐ + dʒ i + ɔ m ẽ ʃ
-^cozinha$	k o z i ɲ ɐ
-^casa_de_reunião$	k a z ɐ + dʒ i + ʁ eu n i ɐ̃ũ
-^quarto$	k w a ʁ t u
-^peça$	p ɛ s ɐ
-^porta$	p ɔ ʁ t ɐ
-^portão$	p o ʁ t ɐ̃ũ
-^umbral$	ũ b ɾ au
-^ombreira_da_porta$	õ b ɾ ei ɾ ɐ + d ɐ + p ɔ ʁ t ɐ
-^fechadura$	f e ʃ a d u ɾ ɐ
-^cadeado$	k a dʒ i a d u
-^trinco$	t ɾ ĩ k u
-^chave$	ʃ a v i
-^janela$	ʒ ɐ n ɛ l ɐ
-^chão$	ʃ ɐ̃ũ
-^soalho$	s o a ʎ u
-^parede$	p a ɾ ɛ dʒ i
-^lareira$	l a ɾ ei ɾ ɐ
-^fogão$	f o ɡ ɐ̃ũ
-^chaminé$	ʃ ɐ m i n ɛ
-^escada$	i ʃ k a d ɐ
-^cama$	k ɐ m ɐ
-^almofada$	au m o f a d ɐ
-^travesseiro$	t ɾ a v e s ei ɾ u
-^cobertor$	k o b e ʁ t o ʁ
-^cadeira$	k a d ei ɾ ɐ
-^mesa$	m ɛ z ɐ
-^candeeiro$	k ɐ̃ d e ei ɾ u
-^tocha$	t ɔ ʃ ɐ
-^vela$	v ɛ l ɐ
-^prateleira$	p ɾ a t e l ei ɾ ɐ
-^gamela$	ɡ ɐ m ɛ l ɐ
-^telhado$	t e ʎ a d u
-^teto$	t ɛ t u
-^palha$	p a ʎ ɐ
-^colmo$	k ɔu m u
-^sapé$	s a p ɛ
-^espinhaço$	i ʃ p i ɲ a s u
-^ombreira$	õ b ɾ ei ɾ ɐ
-^viga$	v i ɡ ɐ
-^barrote$	b a ʁ ɔ tʃ i
-^viga$	v i ɡ ɐ
-^trave$	t ɾ a v i
-^poste$	p ɔ ʃ tʃ i
-^vara$	v a ɾ ɐ
-^tábua$	t a b u ɐ
-^arco$	a ʁ k u
-^pedreiro$	p e d ɾ ei ɾ u
-^tijolo$	tʃ i ʒ ɔ l u
-^argamassa$	a ʁ ɡ ɐ m a s ɐ
-^adobe$	a d ɔ b i
-^lavrador$	l a v ɾ a d o ʁ
-^fazendeiro$	f a z ẽ d ei ɾ u
-^campo$	k ɐ̃ p u
-^jardim$	ʒ a ʁ dʒ ĩ
-^horta$	ɔ ʁ t ɐ
-^cultivar$	k uu tʃ i v a ʁ
-^cerca$	s ɛ ʁ k ɐ
-^fosso$	f ɔ s u
-^canal$	k ɐ n au
-^vala$	v a l ɐ
-^arar$	a ɾ a ʁ
-^sulco$	s uu k u
-^cavar$	k a v a ʁ
-^escavar$	i ʃ k a v a ʁ
-^pá$	p a
-^pá$	p a
-^enxada$	ẽ ʃ a d ɐ
-^forcado$	f o ʁ k a d u
-^forquilha$	f o ʁ k i ʎ ɐ
-^ancinho$	ɐ̃ s i ɲ u
-^semear$	s e m i a ʁ
-^semente$	s e m ẽ tʃ i
-^ceifar$	s ei f a ʁ
-^segar$	s e ɡ a ʁ
-^foice$	f oi s i
-^gadanha$	ɡ a d ɐ ɲ ɐ
-^debulhar$	d e b u ʎ a ʁ
-^eira$	ei ɾ ɐ
-^colheita$	k o ʎ ei t ɐ
-^grão$	ɡ ɾ ɐ̃ũ
-^trigo$	t ɾ i ɡ u
-^cevada$	s e v a d ɐ
-^centeio$	s ẽ t ei u
-^aveia$	a v ei ɐ
-^milho$	m i ʎ u
-^arroz$	a ʁ ɔ ʃ
-^erva$	ɛ ʁ v ɐ
-^grama$	ɡ ɾ ɐ m ɐ
-^relva$	ʁ ɛu v ɐ
-^palha$	p a ʎ ɐ
-^feno$	f ɛ n u
-^planta$	p l ɐ̃ t ɐ
-^plantar$	p l ɐ̃ t a ʁ
-^semear$	s e m i a ʁ
-^raiz$	ʁ ai ʃ
-^ramo$	ʁ ɐ m u
-^galho$	ɡ a ʎ u
-^folha$	f ɔ ʎ ɐ
-^flor$	f l ɔ ʁ
-^árvore$	a ʁ v u ɾ i
-^carvalho$	k a ʁ v a ʎ u
-^faia$	f ai ɐ
-^bétula$	b ɛ t u l ɐ
-^pinheiro$	p i ɲ ei ɾ u
+^abaixo$	a b ai ʃ u
+^abanar$	a b ɐ n a ʁ
+^abater$	a b a t e ʁ
+^abelha$	a b e ʎ ɐ
+^abençoar$	a b ẽ s o a ʁ
+^aberto$	a b ɛ ʁ t u
 ^abeto$	a b ɛ t u
-^bolota$	b o l ɔ t ɐ
-^vinha$	v i ɲ ɐ
-^tabaco$	t a b a k u
-^fumar$	f u m a ʁ
-^cachimbo$	k a ʃ ĩ b u
-^toco$	t ɔ k u
-^tronco$	t ɾ õ k u
-^rama_bifurcada$	ʁ ɐ m ɐ + b i f u ʁ k a d ɐ
-^casca$	k a ʃ k ɐ
-^seiva$	s ei v ɐ
-^palmeira$	p au m ei ɾ ɐ
-^coco$	k ɔ k u
-^fruta_cítrica$	f ɾ u t ɐ + s i t ɾ i k ɐ
+^abraçar$	a b ɾ a s a ʁ
+^abrir$	a b ɾ i ʁ
+^absolver$	a b s ɔu v e ʁ
+^abutre$	a b u t ɾ i
+^abóbora$	a b ɔ b u ɾ ɐ
+^acabar$	a k a b a ʁ
+^acender$	a s ẽ d e ʁ
+^acha$	a ʃ ɐ
+^achar$	a ʃ a ʁ
+^acordar$	a k o ʁ d a ʁ
+^acreditar$	a k ɾ e dʒ i t a ʁ
+^acusado$	a k u z a d u
+^acusar$	a k u z a ʁ
+^adivinhar$	a dʒ i v i ɲ a ʁ
+^admitir$	a dʒ i m i tʃ i ʁ
+^adobe$	a d ɔ b i
+^adorar$	a d o ɾ a ʁ
+^adorno$	a d ɔ ʁ n u
+^adultério$	a d uː t ɛ ɾ j u
+^afiado$	a f i a d u
+^afirmativo$	a f i ʁ m a tʃ i v u
+^afogado$	a f o g a d u
+^afundar$	a f ũ d a ʁ
+^agachar-se$	a g a ʃ a ʁ s i
+^agarrar$	a g a ʁ a ʁ
+^agitar$	a ʒ i t a ʁ
+^agora$	a g ɔ ɾ ɐ
+^agouro$	a g o ɾ u
+^agudo$	a g u d u
+^agulha$	a g u ʎ ɐ
+^ajoelhar$	a ʒ o e ʎ a ʁ
+^ajudar$	a ʒ u d a ʁ
+^aldeia$	au d ei ɐ
+^alegre$	a l ɛ g ɾ i
+^alfaiate$	au f ai a tʃ i
+^alfinete$	au f i n ɛ tʃ i
+^algodão$	au g o d ɐ̃ũ
+^alguns$	au g ũ ʃ
+^alimento$	a l i m ẽ t u
+^alma$	au m ɐ
+^almofada$	au m o f a d ɐ
+^almofariz$	au m o f a ɾ i ʃ
+^almoço$	au m ɔ s u
+^altar$	au t a ʁ
+^alto$	au t u
+^alugar$	a l u g a ʁ
+^aluno$	a l u n u
+^alvorada$	au v o ɾ a d ɐ
+^amaldiçoar$	ɐ m au dʒ i s o a ʁ
+^amanhecer$	ɐ m ɐ ɲ e s e ʁ
+^amanhã$	ɐ m ɐ ɲ ɐ̃
+^amar$	ɐ m a ʁ
+^amarelo$	ɐ m a ɾ ɛ l u
+^amargo$	ɐ m a ʁ g u
+^amarrar$	ɐ m a ʁ a ʁ
+^amassar$	ɐ m a s a ʁ
+^ameaçar$	ɐ m i a s a ʁ
+^amigo$	ɐ m i g u
+^amiúde$	ɐ m i u dʒ i
+^amoldar$	ɐ m ɔu d a ʁ
+^anca$	ɐ̃ k ɐ
+^ancestrais$	ɐ̃ s e ʃ t ɾ ai ʃ
+^ancinho$	ɐ̃ s i ɲ u
+^andar$	ɐ̃ d a ʁ
+^anel$	ɐ n ɛu
+^anfitrião$	ɐ̃ f i t ɾ i ɐ̃ũ
+^animal$	ɐ n i m au
+^ano$	ɐ n u
+^ansiedade$	ɐ̃ s i e d a dʒ i
+^anteontem$	ɐ̃ tʃ i õ t ẽĩ
+^antepassados$	ɐ̃ t e p a s a d u ʃ
+^antes$	ɐ̃ t e ʃ
+^anunciar$	ɐ n ũ s i a ʁ
+^anzol$	ɐ̃ z ɔu
+^ao_lado_de$	a u + l a d u + dʒ i
+^apanhar$	a p ɐ ɲ a ʁ
+^apertar$	a p e ʁ t a ʁ
+^aprender$	a p ɾ ẽ d e ʁ
+^apressar$	a p ɾ e s a ʁ
+^aproximar$	a p ɾ o s i m a ʁ
+^apunhalar$	a p u ɲ a l a ʁ
+^ar$	a ʁ
+^aranha$	a ɾ ɐ ɲ ɐ
+^arar$	a ɾ a ʁ
+^arco$	a ʁ k u
+^arco-íris$	a ʁ k o i ɾ i ʃ
+^arder$	a ʁ d e ʁ
+^areia$	a ɾ ei ɐ
+^argamassa$	a ʁ g ɐ m a s ɐ
+^argila$	a ʁ ʒ i l ɐ
+^arma$	a ʁ m ɐ
+^armadilha$	a ʁ m a dʒ i ʎ ɐ
+^armadilha_de_peixa$	a ʁ m a dʒ i ʎ ɐ + dʒ i + p ei ʃ ɐ
+^armadura$	a ʁ m a d u ɾ ɐ
+^armar_uma_cilada$	a ʁ m a ʁ + u m ɐ + s i l a d ɐ
+^armas$	a ʁ m a ʃ
+^arraia$	a ʁ ai ɐ
+^arrastar-se$	a ʁ a ʃ t a ʁ s i
+^arremessar$	a ʁ e m e s a ʁ
+^arroz$	a ʁ ɔ ʃ
+^artéria$	a ʁ t ɛ ɾ i ɐ
+^asa$	a z ɐ
+^asno$	a ʒ n u
+^assar$	a s a ʁ
+^assassinar$	a s a s i n a ʁ
+^assobiar$	a s o b i a ʁ
+^atacar$	a t a k a ʁ
+^atar$	a t a ʁ
+^atear$	a tʃ i a ʁ
+^atirar$	a tʃ i ɾ a ʁ
+^atrasar$	a t ɾ a z a ʁ
+^atrás$	a t ɾ a ʃ
+^avarento$	a v a ɾ ẽ t u
+^ave$	a v i
+^aveia$	a v ei ɐ
+^avó$	a v ɔ
+^avô$	a v o
+^axila$	a k s i l ɐ
+^azar$	a z a ʁ
+^azedo$	a z ɛ d u
+^azeite$	a z ei tʃ i
+^azeitona$	a z ei t o n ɐ
+^azul$	a z uː
+^açúcar$	a s u k a ʁ
+^babar$	b a b a ʁ
+^bacia$	b a s i ɐ
+^baixar$	b ai ʃ a ʁ
+^baixo$	b ai ʃ u
+^baleia$	b a l ei ɐ
+^balsa$	b au s ɐ
+^bambu$	b ɐ̃ b u
 ^bananeira$	b ɐ n ɐ n ei ɾ ɐ
 ^baniana$	b ɐ n i ɐ n ɐ
-^batata_doce$	b a t a t ɐ + d ɔ s i
-^inhame$	i ɲ ɐ m i
-^cará$	k a ɾ a
-^mandioca$	m ɐ̃ d j ɔ k ɐ
-^cabaça$	k a b a s ɐ
-^abóbora$	a b ɔ b u ɾ ɐ
-^bambu$	b ɐ̃ b u
-^cana_de_açúcar$	k ɐ n ɐ + dʒ i + a s u k a ʁ
-^raízes_venenosas$	ʁ a i z e ʃ + v e n e n ɔ z a ʃ
-^urtiga$	u ʁ tʃ i ɡ ɐ
-^cogumelo$	k o ɡ u m ɛ l u
-^fazer$	f a z e ʁ
-^trabalhar$	t ɾ a b a ʎ a ʁ
-^dobrar$	d o b ɾ a ʁ
-^curvar$	k u ʁ v a ʁ
-^dobrar$	d o b ɾ a ʁ
-^amarrar$	ɐ m a ʁ a ʁ
-^atar$	a t a ʁ
-^desatar$	d e z a t a ʁ
-^cadeia$	k a d ei ɐ
-^corda$	k ɔ ʁ d ɐ
-^cordel$	k o ʁ d ɛu
-^nó$	n ɔ
-^bater$	b a t e ʁ
-^golpear$	ɡ ɔu p i a ʁ
-^bater_com_o_punho$	b a t e ʁ + k õ + u + p u ɲ u
-^cortar$	k o ʁ t a ʁ
-^derrubar$	d e ʁ u b a ʁ
-^abater$	a b a t e ʁ
-^cortar$	k o ʁ t a ʁ
-^apunhalar$	a p u ɲ a l a ʁ
-^faca$	f a k ɐ
-^tesoura$	t e z o ɾ ɐ
-^machado$	m a ʃ a d u
-^enxó$	ẽ ʃ ɔ
-^romper$	ʁ õ p e ʁ
-^quebrar$	k e b ɾ a ʁ
-^partido$	p a ʁ tʃ i d u
-^quebrado$	k e b ɾ a d u
-^fender$	f ẽ d e ʁ
-^partir$	p a ʁ tʃ i ʁ
-^romper$	ʁ õ p e ʁ
-^rasgar$	ʁ a ʒ ɡ a ʁ
-^esfolar$	i ʃ f o l a ʁ
-^esfregar$	i ʃ f ɾ e ɡ a ʁ
-^esticar$	i ʃ tʃ i k a ʁ
-^puxar$	p u ʃ a ʁ
-^estender$	i ʃ t ẽ d e ʁ
-^espalhar$	i ʃ p a ʎ a ʁ
-^pendurar$	p ẽ d u ɾ a ʁ
-^comprimir$	k õ p ɾ i m i ʁ
-^apertar$	a p e ʁ t a ʁ
-^espremer$	i ʃ p ɾ e m e ʁ
-^comprimir$	k õ p ɾ i m i ʁ
-^verter$	v e ʁ t e ʁ
-^despejar$	d e ʃ p e ʒ a ʁ
-^lavar$	l a v a ʁ
-^varrer$	v a ʁ e ʁ
-^vassoura$	v a s o ɾ ɐ
-^ferramenta$	f e ʁ ɐ m ẽ t ɐ
-^carpinteiro$	k a ʁ p ĩ t ei ɾ u
-^construir$	k õ ʃ t ɾ ui ʁ
-^perfurar$	p e ʁ f u ɾ a ʁ
-^esburacar$	i ʒ b u ɾ a k a ʁ
-^cavar$	k a v a ʁ
-^serra$	s ɛ ʁ ɐ
-^martelo$	m a ʁ t ɛ l u
-^prego$	p ɾ ɛ ɡ u
-^cola$	k ɔ l ɐ
-^ferreiro$	f e ʁ ei ɾ u
-^forja$	f ɔ ʁ ʒ ɐ
-^bigorna$	b i ɡ ɔ ʁ n ɐ
-^fundir$	f ũ dʒ i ʁ
-^ouro$	o ɾ u
-^prata$	p ɾ a t ɐ
-^cobre$	k ɔ b ɾ i
-^bronze$	b ɾ õ z i
-^ferro$	f ɛ ʁ u
-^chumbo$	ʃ ũ b u
-^estanho$	i ʃ t ɐ ɲ u
-^oleiro$	o l ei ɾ u
-^moldar$	m ɔu d a ʁ
-^amoldar$	ɐ m ɔu d a ʁ
+^barata$	b a ɾ a t ɐ
+^barato$	b a ɾ a t u
+^barba$	b a ʁ b ɐ
+^barbatana$	b a ʁ b a t ɐ n ɐ
+^barco$	b a ʁ k u
+^barraca$	b a ʁ a k ɐ
+^barriga$	b a ʁ i g ɐ
+^barriga_da_perna$	b a ʁ i g ɐ + d ɐ + p ɛ ʁ n ɐ
 ^barro$	b a ʁ u
-^argila$	a ʁ ʒ i l ɐ
-^vidro$	v i d ɾ u
-^tecer$	t e s e ʁ
-^cesto$	s ɛ ʃ t u
-^cesta$	s ɛ ʃ t ɐ
-^tapete$	t a p ɛ tʃ i
-^tapete$	t a p ɛ tʃ i
+^barrote$	b a ʁ ɔ tʃ i
+^barrão$	b a ʁ ɐ̃ũ
+^barulhento$	b a ɾ u ʎ ẽ t u
+^barulho$	b a ɾ u ʎ u
+^bastante$	b a ʃ t ɐ̃ tʃ i
+^bastão$	b a ʃ t ɐ̃ũ
+^batalha$	b a t a ʎ ɐ
+^batata$	b a t a t ɐ
+^batata_doce$	b a t a t ɐ + d ɔ s i
+^bater$	b a t e ʁ
+^bater_com_o_punho$	b a t e ʁ + k õ + u + p u ɲ u
+^baço$	b a s u
+^baía$	b a i ɐ
+^beber$	b e b e ʁ
+^bebida$	b e b i d ɐ
+^bebida_fermentada$	b e b i d ɐ + f e ʁ m ẽ t a d ɐ
+^bebê$	b e b e
+^beijar$	b ei ʒ a ʁ
+^beira$	b ei ɾ ɐ
+^beliscar$	b e l i ʃ k a ʁ
+^belo$	b ɛ l u
+^bem$	b ẽĩ
+^bengala$	b ẽ g a l ɐ
+^bezerro$	b e z ɛ ʁ u
+^bicho$	b i ʃ u
+^bico$	b i k u
+^bigorna$	b i g ɔ ʁ n ɐ
+^boa_sorte$	b o ɐ + s ɔ ʁ tʃ i
+^boca$	b ɔ k ɐ
+^bocejar$	b o s e ʒ a ʁ
+^bochecha$	b o ʃ e ʃ ɐ
+^bode$	b ɔ dʒ i
+^boi$	b oi
+^boina$	b oi n ɐ
+^bola$	b o l ɐ
+^bolha$	b ɔ ʎ ɐ
+^bolota$	b o l ɔ t ɐ
+^bolso$	b ɔu s u
+^bom$	b õ
+^bonito$	b o n i t u
+^borboleta$	b o ʁ b o l ɛ t ɐ
+^borda$	b ɔ ʁ d ɐ
+^bosque$	b ɔ s k i
+^bota$	b ɔ t ɐ
+^bote$	b ɔ tʃ i
+^botão$	b o t ɐ̃ũ
+^bracelete$	b ɾ a s e l ɛ tʃ i
+^branco$	b ɾ ɐ̃ k u
+^brasas$	b ɾ a z a ʃ
+^bravo$	b ɾ a v u
+^braça$	b ɾ a s ɐ
+^braço$	b ɾ a s u
+^brilhante$	b ɾ i ʎ ɐ̃ tʃ i
+^brilhar$	b ɾ i ʎ a ʁ
+^brincar$	b ɾ ĩ k a ʁ
+^brinco$	b ɾ ĩ k u
+^bronze$	b ɾ õ z i
+^bruxa$	b ɾ u ʃ ɐ
+^bruxo$	b ɾ u ʃ u
+^brânquia$	b ɾ ɐ̃ k i ɐ
+^buraco$	b u ɾ a k u
+^burro$	b u ʁ u
+^buscar$	b u ʃ k a ʁ
+^bétula$	b ɛ t u l ɐ
+^cabana$	k a b ɐ n ɐ
+^cabaça$	k a b a s ɐ
+^cabelo$	k a b ɛ l u
+^cabeça$	k a b ɛ s ɐ
+^cabo$	k a b u
+^cabra$	k a b ɾ ɐ
+^cabrito$	k a b ɾ i t u
+^cacete$	k a s ɛ tʃ i
+^cachimbo$	k a ʃ ĩ b u
+^cacho$	k a ʃ u
+^cachoeira$	k a ʃ o ei ɾ ɐ
+^cachorro$	k a ʃ ɔ ʁ u
+^cacique$	k a s i k i
+^cada$	k a d ɐ
+^cadeado$	k a dʒ i a d u
+^cadeia$	k a d ei ɐ
+^cadeira$	k a d ei ɾ ɐ
+^cadáver$	k a d a v e ʁ
+^café_da_manhã$	k a f ɛ + d ɐ + m ɐ ɲ ɐ̃
+^cair$	k a i ʁ
+^calcanhar$	k au k ɐ ɲ a ʁ
+^caldo$	k au d u
+^calhau$	k a ʎ au
+^calma$	k au m ɐ
+^calmaria$	k au m a ɾ i ɐ
+^calvo$	k au v u
+^calças$	k au s a ʃ
+^cama$	k ɐ m ɐ
+^camelo$	k ɐ m ɛ l u
+^caminhar$	k ɐ m i ɲ a ʁ
+^caminho$	k ɐ m i ɲ u
+^camisa$	k ɐ m i z ɐ
+^campo$	k ɐ̃ p u
+^camundongo$	k ɐ m ũ d õ g u
+^cana_de_açúcar$	k ɐ n ɐ + dʒ i + a s u k a ʁ
+^canal$	k ɐ n au
+^candeeiro$	k ɐ̃ d e ei ɾ u
+^caneta$	k ɐ n ɛ t ɐ
+^canga$	k ɐ̃ g ɐ
+^canhão$	k ɐ ɲ ɐ̃ũ
+^canoa$	k ɐ n o ɐ
+^cansado$	k ɐ̃ s a d u
+^cantar$	k ɐ̃ t a ʁ
+^canto$	k ɐ̃ t u
+^capa$	k a p ɐ
+^capacete$	k a p a s ɛ tʃ i
+^capin$	k a p ĩ
+^capitular$	k a p i t u l a ʁ
+^captar$	k a p t a ʁ
+^caracol$	k a ɾ a k ɔu
+^carne$	k a ʁ n i
+^carneiro$	k a ʁ n ei ɾ u
+^caro$	k a ɾ u
 ^carpete$	k a ʁ p ɛ tʃ i
+^carpinteiro$	k a ʁ p ĩ t ei ɾ u
+^carroça$	k a ʁ ɔ s ɐ
+^carruagem$	k a ʁ u a ʒ ẽĩ
+^carvalho$	k a ʁ v a ʎ u
+^carvão$	k a ʁ v ɐ̃ũ
+^cará$	k a ɾ a
+^casa$	k a z ɐ
+^casa_de_homens$	k a z ɐ + dʒ i + ɔ m ẽ ʃ
+^casa_de_jardim$	k a z ɐ + dʒ i + ʒ a ʁ dʒ ĩ
+^casa_de_reunião$	k a z ɐ + dʒ i + ʁ eu n i ɐ̃ũ
+^casaco$	k a z a k u
+^casada$	k a z a d ɐ
+^casado$	k a z a d u
+^casamento$	k a z ɐ m ẽ t u
+^casar$	k a z a ʁ
+^casca$	k a ʃ k ɐ
+^cascata$	k a ʃ k a t ɐ
+^caspa$	k a ʃ p ɐ
+^castigo$	k a ʃ tʃ i g u
+^cativo$	k a tʃ i v u
+^cauda$	k au d ɐ
+^causa$	k au z ɐ
+^cavalo$	k a v a l u
+^cavar$	k a v a ʁ
+^caveira$	k a v ei ɾ ɐ
+^caverna$	k a v ɛ ʁ n ɐ
+^caçar$	k a s a ʁ
+^cedo$	s ɛ d u
+^cego$	s ɛ g u
+^ceia$	s ei ɐ
+^ceifar$	s ei f a ʁ
+^cem$	s ẽĩ
+^centeio$	s ẽ t ei u
+^cento$	s ẽ t u
+^centopeia$	s ẽ t o p ei ɐ
+^centro$	s ẽ t ɾ u
+^cera$	s ɛ ɾ ɐ
+^cerca$	s ɛ ʁ k ɐ
+^certo$	s ɛ ʁ t u
+^cerume$	s e ɾ u m i
+^cerveja$	s e ʁ v e ʒ ɐ
+^cessar$	s e s a ʁ
+^cesta$	s ɛ ʃ t ɐ
+^cesto$	s ɛ ʃ t u
+^cevada$	s e v a d ɐ
+^chaga$	ʃ a g ɐ
+^chaleira$	ʃ a l ei ɾ ɐ
+^chama$	ʃ ɐ m ɐ
+^chamar$	ʃ ɐ m a ʁ
+^chamar-se$	ʃ ɐ m a ʁ s i
+^chaminé$	ʃ ɐ m i n ɛ
+^chapinhar$	ʃ a p i ɲ a ʁ
+^chapéu$	ʃ a p ɛu
+^chato$	ʃ a t u
+^chave$	ʃ a v i
+^chefe$	ʃ ɛ f i
+^chegar$	ʃ e g a ʁ
+^cheio$	ʃ ei u
+^cheirar$	ʃ ei ɾ a ʁ
+^cheiroso$	ʃ ei ɾ ɔ z u
+^chifre$	ʃ i f ɾ i
+^chorar$	ʃ o ɾ a ʁ
+^chouriço$	ʃ o ɾ i s u
+^chumbo$	ʃ ũ b u
+^chupar$	ʃ u p a ʁ
+^chutar$	ʃ u t a ʁ
+^chuva$	ʃ u v ɐ
+^chávena$	ʃ a v e n ɐ
+^chão$	ʃ ɐ̃ũ
+^cicatriz$	s i k a t ɾ i ʃ
+^cidade$	s i d a dʒ i
+^cidadão$	s i d a d ɐ̃ũ
+^cilada$	s i l a d ɐ
+^cinco$	s ĩ k u
+^cinto$	s ĩ t u
+^cintura$	s ĩ t u ɾ ɐ
+^cinzas$	s ĩ z a ʃ
+^cinzel$	s ĩ z ɛu
+^ciúme$	s i u m i
+^claro$	k l a ɾ u
+^clavícula$	k l a v i k u l ɐ
+^clã$	k l ɐ̃
+^coador$	k o a d o ʁ
+^coar$	k o a ʁ
+^cobertor$	k o b e ʁ t o ʁ
+^cobiçoso$	k o b i s ɔ z u
+^cobra$	k ɔ b ɾ ɐ
+^cobre$	k ɔ b ɾ i
+^cobrir$	k o b ɾ i ʁ
+^coceira$	k o s ei ɾ ɐ
+^cocheira$	k o ʃ ei ɾ ɐ
+^cochichar$	k o ʃ i ʃ a ʁ
+^coco$	k ɔ k u
+^coelho$	k o e ʎ u
+^cogumelo$	k o g u m ɛ l u
+^coisa$	k oi z ɐ
+^cola$	k ɔ l ɐ
+^colar$	k o l a ʁ
+^colarinho$	k o l a ɾ i ɲ u
+^colecionar$	k o l e s j o n a ʁ
+^colheita$	k o ʎ ei t ɐ
+^colher$	k o ʎ e ʁ
+^colmeia$	k ɔu m ei ɐ
+^colmo$	k ɔu m u
+^comer$	k o m e ʁ
+^começar$	k o m e s a ʁ
+^comichão$	k o m i ʃ ɐ̃ũ
+^como$	k ɔ m u
+^compaixão$	k õ p ai ʃ ɐ̃ũ
+^companheiro$	k õ p ɐ ɲ ei ɾ u
+^compartilhar$	k õ p a ʁ tʃ i ʎ a ʁ
+^completar$	k õ p l e t a ʁ
+^comprar$	k õ p ɾ a ʁ
+^compreender$	k õ p ɾ e ẽ d e ʁ
+^comprido$	k õ p ɾ i d u
+^comprimir$	k õ p ɾ i m i ʁ
+^conceber$	k õ s e b e ʁ
+^concha$	k õ ʃ ɐ
+^condenar$	k õ d e n a ʁ
+^conduzir$	k õ d u z i ʁ
+^confessar$	k õ f e s a ʁ
+^conjeturar$	k õ ʒ e t u ɾ a ʁ
+^conseguir$	k õ s e g i ʁ
+^conservar$	k õ s e ʁ v a ʁ
+^conspiração$	k õ ʃ p i ɾ a s ɐ̃ũ
+^construir$	k õ ʃ t ɾ ui ʁ
+^conta$	k õ t ɐ
+^contar$	k õ t a ʁ
+^contas$	k õ t a ʃ
+^contente$	k õ t ẽ tʃ i
+^convidado$	k õ v i d a d u
+^copo$	k ɔ p u
+^cor$	k ɔ ʁ
+^corajoso$	k o ɾ a ʒ ɔ z u
+^corante$	k o ɾ ɐ̃ tʃ i
+^coração$	k o ɾ a s ɐ̃ũ
+^corda$	k ɔ ʁ d ɐ
+^cordeiro$	k o ʁ d ei ɾ u
+^cordel$	k o ʁ d ɛu
+^corneta$	k o ʁ n ɛ t ɐ
+^corno$	k ɔ ʁ n u
+^corpo$	k ɔ ʁ p u
+^correr$	k o ʁ e ʁ
+^correto$	k o ʁ ɛ t u
+^cortar$	k o ʁ t a ʁ
+^coruja$	k o ɾ u ʒ ɐ
+^corvo$	k ɔ ʁ v u
+^costa$	k ɔ ʃ t ɐ
+^costas$	k ɔ ʃ t a ʃ
+^costela$	k o ʃ t ɛ l ɐ
+^costume$	k o ʃ t u m i
+^costurar$	k o ʃ t u ɾ a ʁ
+^cotovelo$	k o t o v ɛ l u
+^couro$	k o ɾ u
+^coxa$	k ɔ ʃ ɐ
+^coxear$	k o ʃ i a ʁ
+^coxo$	k ɔ ʃ u
+^cozer_no_forno$	k o z e ʁ + n u + f ɔ ʁ n u
+^cozido$	k o z i d u
+^cozinha$	k o z i ɲ ɐ
+^cozinhado$	k o z i ɲ a d u
+^cozinhar$	k o z i ɲ a ʁ
+^crer$	k ɾ e ʁ
+^crescer$	k ɾ e ʃ s e ʁ
+^criado$	k ɾ i a d u
+^criança$	k ɾ i ɐ̃ s ɐ
+^cru$	k ɾ u
+^cruz$	k ɾ u ʃ
+^crânio$	k ɾ ɐ n j u
+^cuidar_de$	k ui d a ʁ + dʒ i
+^culpa$	k uː p ɐ
+^culpado$	k uː p a d u
+^cultivar$	k uː tʃ i v a ʁ
+^cume$	k u m i
+^curar$	k u ɾ a ʁ
+^curto$	k u ʁ t u
+^curvar$	k u ʁ v a ʁ
+^cuspir$	k u ʃ p i ʁ
+^cálido$	k a l i d u
+^cântaro$	k ɐ̃ t a ɾ u
+^cão$	k ɐ̃ũ
+^cérebro$	s ɛ ɾ e b ɾ u
+^céu$	s ɛu
+^cílio$	s i l j u
+^círculo$	s i ʁ k u l u
+^córrego$	k ɔ ʁ e g u
+^danificar$	d ɐ n i f i k a ʁ
+^dançar$	d ɐ̃ s a ʁ
+^dar$	d a ʁ
+^dar_a_volta$	d a ʁ + a + v ɔu t ɐ
+^dar_ordem$	d a ʁ + ɔ ʁ d ẽĩ
+^dar_um_pontapé$	d a ʁ + ũ + p õ t a p ɛ
+^de_imediato$	dʒ i + i m e dʒ i a t u
+^de_novo$	dʒ i + n ɔ v u
+^debaixo$	d e b ai ʃ u
+^debulhar$	d e b u ʎ a ʁ
+^dedo$	d ɛ d u
+^dedo_do_pé$	d ɛ d u + d u + p ɛ
+^defecar$	d e f e k a ʁ
+^defender$	d e f ẽ d e ʁ
+^deitar-se$	d ei t a ʁ s i
+^deixar$	d ei ʃ a ʁ
+^deixar_cair$	d ei ʃ a ʁ + k a i ʁ
+^delfim$	d ɛu f ĩ
+^delgado$	d ɛu g a d u
+^demorar$	d e m o ɾ a ʁ
+^demônio$	d e m o n j u
+^dente$	d ẽ tʃ i
+^dentro$	d ẽ t ɾ u
+^depois$	d e p oi ʃ
+^depois_de_amanhã$	d e p oi ʒ + dʒ i + ɐ m ɐ ɲ ɐ̃
+^derrota$	d e ʁ ɔ t ɐ
+^derrubar$	d e ʁ u b a ʁ
+^desaparecer$	d e z a p a ɾ e s e ʁ
+^desatar$	d e z a t a ʁ
+^descansar$	d e ʃ k ɐ̃ s a ʁ
+^descascar$	d e ʃ k a ʃ k a ʁ
+^descendentes$	d e ʃ s ẽ d ẽ t e ʃ
+^descer$	d e ʃ s e ʁ
+^desejo$	d e z e ʒ u
+^desembarcar$	d e z ẽ b a ʁ k a ʁ
+^despejar$	d e ʃ p e ʒ a ʁ
+^despido$	d e ʃ p i d u
+^destruir$	d e ʃ t ɾ ui ʁ
+^devagar$	d e v a g a ʁ
+^dever$	d e v e ʁ
+^devolver$	d e v ɔu v e ʁ
+^dez$	d ɛ ʃ
+^dia$	dʒ i ɐ
+^difícil$	dʒ i f i s iu
+^dinheiro$	dʒ i ɲ ei ɾ u
+^direita$	dʒ i ɾ ei t ɐ
+^direito$	dʒ i ɾ ei t u
+^dirigir$	dʒ i ɾ i ʒ i ʁ
+^discursar$	dʒ i ʃ k u ʁ s a ʁ
+^disparar$	dʒ i ʃ p a ɾ a ʁ
+^disputa$	dʒ i ʃ p u t ɐ
+^distribuir$	dʒ i ʃ t ɾ i b ui ʁ
+^dividir$	dʒ i v i dʒ i ʁ
+^divórcio$	dʒ i v ɔ ʁ s j u
+^dizer$	dʒ i z e ʁ
+^dobrar$	d o b ɾ a ʁ
+^doce$	d ɔ s i
+^doente$	d o ẽ tʃ i
+^doença$	d o ẽ s ɐ
+^dois$	d oi ʃ
+^domingo$	d o m ĩ g u
+^dono$	d ɔ n u
+^dor$	d o ʁ
+^dormir$	d o ʁ m i ʁ
+^doze$	d o z i
+^duas$	d u a ʃ
+^duas_vezes$	d u a ʃ + v ɛ z e ʃ
+^durar$	d u ɾ a ʁ
+^duro$	d u ɾ u
+^duvidar$	d u v i d a ʁ
+^débil$	d ɛ b iu
+^dívida$	dʒ i v i d ɐ
+^e$	i
+^eira$	ei ɾ ɐ
+^eixo$	ei ʃ u
+^ela$	ɛ l ɐ
+^elas$	ɛ l a ʃ
+^ele$	e l i
+^elefante$	i l e f ɐ̃ tʃ i
+^eles$	ɛ l e ʃ
+^elevado$	i l e v a d u
+^elmo$	ɛu m u
+^elogiar$	i l o ʒ i a ʁ
+^em_breve$	ẽĩ + b ɾ ɛ v i
+^em_cima$	ẽĩ + s i m ɐ
+^emboscada$	ẽ b o ʃ k a d ɐ
+^embotado$	ẽ b o t a d u
+^embriagado$	ẽ b ɾ i a g a d u
+^empilhar$	ẽ p i ʎ a ʁ
+^empola$	ẽ p ɔ l ɐ
+^emprenhar$	ẽ p ɾ e ɲ a ʁ
+^emprestar$	ẽ p ɾ e ʃ t a ʁ
+^empurrar$	ẽ p u ʁ a ʁ
+^encontrar$	ẽ k õ t ɾ a ʁ
+^enfeite$	ẽ f ei tʃ i
+^engano$	ẽ g ɐ n u
+^engolir$	ẽ g o l i ʁ
+^enguia$	ẽ g i ɐ
+^enrolar$	ẽ ʁ o l a ʁ
+^enrugado$	ẽ ʁ u g a d u
+^ensinar$	ẽ s i n a ʁ
+^enteada$	ẽ tʃ i a d ɐ
+^enteado$	ẽ tʃ i a d u
+^enterrar$	ẽ t e ʁ a ʁ
+^entrar$	ẽ t ɾ a ʁ
+^enviar$	ẽ v i a ʁ
+^envolver$	ẽ v ɔu v e ʁ
+^enxada$	ẽ ʃ a d ɐ
+^enxó$	ẽ ʃ ɔ
+^errado$	i ʁ a d u
+^errar$	i ʁ a ʁ
+^erro$	ɛ ʁ u
+^erva$	ɛ ʁ v ɐ
+^esburacar$	i ʒ b u ɾ a k a ʁ
+^escada$	i ʃ k a d ɐ
+^escama$	i ʃ k ɐ m ɐ
+^escapar$	i ʃ k a p a ʁ
+^escavar$	i ʃ k a v a ʁ
+^escola$	i ʃ k ɔ l ɐ
+^escolher$	i ʃ k o ʎ e ʁ
+^esconder$	i ʃ k õ d e ʁ
+^escorpião$	i ʃ k o ʁ p i ɐ̃ũ
+^escorregar$	i ʃ k o ʁ e g a ʁ
+^escorrer$	i ʃ k o ʁ e ʁ
+^escova$	i ʃ k ɔ v ɐ
+^escravo$	i ʃ k ɾ a v u
+^escrever$	i ʃ k ɾ e v e ʁ
+^escudo$	i ʃ k u d u
+^esculpir$	i ʃ k uː p i ʁ
+^escultor$	i ʃ k uː t o ʁ
+^escuridão$	i ʃ k u ɾ i d ɐ̃ũ
+^escuro$	i ʃ k u ɾ u
+^escutar$	i ʃ k u t a ʁ
+^esfera$	i ʃ f e ɾ ɐ
+^esfolar$	i ʃ f o l a ʁ
+^esfregar$	i ʃ f ɾ e g a ʁ
+^esmagar$	i ʒ m a g a ʁ
+^espada$	i ʃ p a d ɐ
+^espalhar$	i ʃ p a ʎ a ʁ
+^espantado$	i ʃ p ɐ̃ t a d u
+^espaço$	i ʃ p a s u
+^espelho$	i ʃ p e ʎ u
+^esperança$	i ʃ p e ɾ ɐ̃ s ɐ
+^esperto$	i ʃ p ɛ ʁ t u
+^espinha_dorsal$	i ʃ p i ɲ ɐ + d o ʁ s au
+^espinhaço$	i ʃ p i ɲ a s u
+^espirrar$	i ʃ p i ʁ a ʁ
+^esposa$	i ʃ p ɔ z ɐ
+^espremer$	i ʃ p ɾ e m e ʁ
+^espuma$	i ʃ p u m ɐ
+^espírito$	i ʃ p i ɾ i t u
+^esquecer-se$	i s k e s ɛ ʁ s i
+^esquerda$	i s k ɛ ʁ d ɐ
+^esquina$	i s k i n ɐ
+^estafado$	i ʃ t a f a d u
+^estanho$	i ʃ t ɐ ɲ u
+^estar_com_fome$	i ʃ t a ʁ + k õ + f ɔ m i
+^estar_em_pé$	i ʃ t a ʁ + ẽĩ + p ɛ
+^estação$	i ʃ t a s ɐ̃ũ
+^este$	ɛ ʃ tʃ i
+^estender$	i ʃ t ẽ d e ʁ
+^esticar$	i ʃ tʃ i k a ʁ
+^estilingue$	i ʃ tʃ i l ĩ g i
+^estorvar$	i ʃ t o ʁ v a ʁ
+^estrada$	i ʃ t ɾ a d ɐ
+^estragar$	i ʃ t ɾ a g a ʁ
+^estranho$	i ʃ t ɾ ɐ ɲ u
+^estreito$	i ʃ t ɾ ei t u
+^estrela$	i ʃ t ɾ ɛ l ɐ
+^estudar$	i ʃ t u d a ʁ
+^estupro$	i ʃ t u p ɾ u
+^estábulo$	i ʃ t a b u l u
+^estátua$	i ʃ t a t u ɐ
+^estômago$	i ʃ t o m a g u
+^eu$	eu
+^evidente$	i v i d ẽ tʃ i
+^explicar$	i ʃ p l i k a ʁ
+^extinguir$	i ʃ tʃ ĩ g i ʁ
+^extremidade$	i ʃ t ɾ e m i d a dʒ i
+^exército$	i z ɛ ʁ s i t u
+^faca$	f a k ɐ
+^fada$	f a d ɐ
+^faia$	f ai ɐ
+^falar$	f a l a ʁ
+^falcão$	f au k ɐ̃ũ
+^falhar$	f a ʎ a ʁ
+^falta$	f au t ɐ
+^família$	f ɐ m i l i ɐ
+^fantasma$	f ɐ̃ t a ʒ m ɐ
+^farejar$	f a ɾ e ʒ a ʁ
+^farinha$	f a ɾ i ɲ ɐ
+^fazendeiro$	f a z ẽ d ei ɾ u
+^fazer$	f a z e ʁ
+^febre$	f ɛ b ɾ i
+^fechadura$	f e ʃ a d u ɾ ɐ
+^fechar$	f e ʃ a ʁ
+^fedorento$	f e d o ɾ ẽ t u
+^feijão$	f ei ʒ ɐ̃ũ
+^feio$	f ei u
+^feiticeiro$	f ei tʃ i s ei ɾ u
+^feitiçaria$	f ei tʃ i s a ɾ i ɐ
+^feliz$	f e l i ʃ
+^feltro$	f ɛu t ɾ u
+^feminino$	f e m i n i n u
+^fender$	f ẽ d e ʁ
+^feno$	f ɛ n u
+^ferida$	f e ɾ i d ɐ
+^ferimento$	f e ɾ i m ẽ t u
+^ferir$	f e ɾ i ʁ
+^ferramenta$	f e ʁ ɐ m ẽ t ɐ
+^ferreiro$	f e ʁ ei ɾ u
+^ferro$	f ɛ ʁ u
+^ferver$	f e ʁ v e ʁ
+^fiar$	f i a ʁ
+^ficar$	f i k a ʁ
+^ficar_em_pé$	f i k a ʁ + ẽĩ + p ɛ
+^ficar_em_silêncio$	f i k a ʁ + ẽĩ + s i l ẽ s j u
+^figo$	f i g u
+^filha$	f i ʎ ɐ
+^filho$	f i ʎ u
+^filhos$	f i ʎ u ʃ
+^fim$	f ĩ
+^fino$	f i n u
+^fio$	f j ɔ
+^fita_para_cabeça$	f i t ɐ + p a ɾ ɐ + k a b ɛ s ɐ
+^fitar$	f i t a ʁ
+^flauta$	f l au t ɐ
+^flecha$	f l e ʃ ɐ
+^flor$	f l ɔ ʁ
+^floresta$	f l o ɾ ɛ ʃ t ɐ
+^fluir$	f l ui ʁ
+^flutuar$	f l u t u a ʁ
+^fogo$	f ɔ g u
+^fogão$	f o g ɐ̃ũ
+^foice$	f oi s i
+^folha$	f ɔ ʎ ɐ
+^fome$	f ɔ m i
+^fonte$	f õ tʃ i
+^fora$	f ɔ ɾ ɐ
+^forasteiro$	f o ɾ a ʃ t ei ɾ u
+^forcado$	f o ʁ k a d u
+^forja$	f ɔ ʁ ʒ ɐ
+^formiga$	f o ʁ m i g ɐ
+^forno$	f ɔ ʁ n u
+^forquilha$	f o ʁ k i ʎ ɐ
+^fortaleza$	f o ʁ t a l ɛ z ɐ
+^forte$	f ɔ ʁ tʃ i
+^fosso$	f ɔ s u
+^fraco$	f ɾ a k u
+^fragante$	f ɾ a g ɐ̃ tʃ i
+^frango$	f ɾ ɐ̃ g u
+^frente$	f ɾ ẽ tʃ i
+^frigir$	f ɾ i ʒ i ʁ
+^frio$	f ɾ j ɔ
+^fritar$	f ɾ i t a ʁ
+^fronte$	f ɾ õ tʃ i
+^fronteira$	f ɾ õ t ei ɾ ɐ
+^fruta$	f ɾ u t ɐ
+^fruta_cítrica$	f ɾ u t ɐ + s i t ɾ i k ɐ
+^fugir$	f u ʒ i ʁ
+^fumar$	f u m a ʁ
+^fumaça$	f u m a s ɐ
+^funda$	f ũ d ɐ
+^fundir$	f ũ dʒ i ʁ
+^fundo$	f ũ d u
+^fungar$	f ũ g a ʁ
+^furúnculo$	f u ɾ ũ k u l u
+^fuso$	f u z u
+^fuzilar$	f u z i l a ʁ
+^fácil$	f a s iu
+^fêmea$	f e m i ɐ
+^fígado$	f i g a d u
+^fósforo$	f ɔ ʃ f u ɾ u
+^gabar-se$	g a b a ʁ s i
+^gadanha$	g a d ɐ ɲ ɐ
+^gado$	g a d u
+^gafanhoto$	g a f ɐ ɲ ɔ t u
+^gaguejar$	g a g e ʒ a ʁ
+^gaivota$	g ai v ɔ t ɐ
+^galho$	g a ʎ u
+^galinha$	g a l i ɲ ɐ
+^galo$	g a l u
+^gambá$	g ɐ̃ b a
+^gamela$	g ɐ m ɛ l ɐ
+^gancho$	g ɐ̃ ʃ u
+^ganhar$	g ɐ ɲ a ʁ
+^ganso$	g ɐ̃ s u
+^garanhão$	g a ɾ ɐ ɲ ɐ̃ũ
+^garfo$	g a ʁ f u
+^garganta$	g a ʁ g ɐ̃ t ɐ
+^garota$	g a ɾ ɔ t ɐ
+^garoto$	g a ɾ ɔ t u
+^garra$	g a ʁ ɐ
+^garça$	g a ʁ s ɐ
+^gato$	g a t u
+^gelo$	ʒ ɛ l u
+^gema$	ʒ ɛ m ɐ
+^gemer$	ʒ e m e ʁ
+^gengiva$	ʒ ẽ ʒ i v ɐ
+^genro$	ʒ ẽ ʁ u
+^gerar$	ʒ e ɾ a ʁ
+^golfinho$	g ɔu f i ɲ u
+^golpear$	g ɔu p i a ʁ
+^gordura$	g o ʁ d u ɾ ɐ
+^gorro$	g ɔ ʁ u
+^gosto$	g ɔ ʃ t u
+^gotejar$	g o t e ʒ a ʁ
+^governante$	g o v e ʁ n ɐ̃ tʃ i
+^governar$	g o v e ʁ n a ʁ
+^grama$	g ɾ ɐ m ɐ
+^grande$	g ɾ ɐ̃ dʒ i
+^gripe$	g ɾ i p i
+^gritar$	g ɾ i t a ʁ
+^grosso$	g ɾ ɔ s u
+^gruta$	g ɾ u t ɐ
+^grávida$	g ɾ a v i d ɐ
+^grão$	g ɾ ɐ̃ũ
+^guarda$	g w a ʁ d ɐ
+^guardar$	g w a ʁ d a ʁ
+^guelra$	g ɛu ʁ ɐ
+^guerra$	g ɛ ʁ ɐ
+^guiar$	g j a ʁ
+^guinchar$	g ĩ ʃ a ʁ
+^guizo$	g i z u
+^gêmeos$	ʒ e m i u ʃ
+^hidromel$	i d ɾ o m ɛu
+^hoje$	ɔ ʒ i
+^homem$	ɔ m ẽĩ
+^homem_livre$	ɔ m ẽĩ + l i v ɾ i
+^hora$	ɔ ɾ ɐ
+^horta$	ɔ ʁ t ɐ
+^hospedeiro$	o ʃ p e d ei ɾ u
+^hábil$	a b iu
+^hábito$	a b i t u
+^hóspede$	ɔ ʃ p e dʒ i
+^idade$	i d a dʒ i
+^idéia$	i d ɛi ɐ
+^igreja$	i g ɾ e ʒ ɐ
+^ilha$	i ʎ ɐ
+^imaturo$	i m a t u ɾ u
+^imitar$	i m i t a ʁ
+^impedir$	ĩ p e dʒ i ʁ
+^imposto$	ĩ p o ʃ t u
+^incendiar$	ĩ s ẽ dʒ i a ʁ
+^inchação$	ĩ ʃ a s ɐ̃ũ
+^incêndio_culposo$	ĩ s ẽ d j u + k uː p ɔ z u
+^inferno$	ĩ f ɛ ʁ n u
+^infortúnio$	ĩ f o ʁ t u n j u
+^inhame$	i ɲ ɐ m i
+^inimigo$	i n i m i g u
+^inocente$	i n o s ẽ tʃ i
+^inseto$	ĩ s ɛ t u
+^intenção$	ĩ t ẽ s ɐ̃ũ
+^intestinos$	ĩ t e ʃ tʃ i n u ʃ
+^inveja$	ĩ v e ʒ ɐ
+^inverno$	ĩ v ɛ ʁ n u
+^ir$	i ʁ
+^ir-se_embora$	i ʁ s i + ẽ b ɔ ɾ ɐ
+^ira$	i ɾ ɐ
+^irmã$	i ʁ m ɐ̃
+^irmã_mais_nova$	i ʁ m ɐ̃ + m ai ʒ + n ɔ v ɐ
+^irmã_mais_velha$	i ʁ m ɐ̃ + m ai ʃ + v ɛ ʎ ɐ
+^irmão$	i ʁ m ɐ̃ũ
+^irmão_mais_novo$	i ʁ m ɐ̃ũ + m ai ʒ + n ɔ v u
+^irmão_mais_velho$	i ʁ m ɐ̃ũ + m ai ʃ + v ɛ ʎ u
+^isca$	i ʃ k ɐ
+^içar$	i s a ʁ
+^jacaré$	ʒ a k a ɾ ɛ
+^jactar-se$	ʒ a k t a ʁ s i
+^jamais$	ʒ ɐ m ai ʃ
+^janela$	ʒ ɐ n ɛ l ɐ
+^jangada$	ʒ ɐ̃ g a d ɐ
+^jantar$	ʒ ɐ̃ t a ʁ
+^jardim$	ʒ a ʁ dʒ ĩ
+^jejuar$	ʒ e ʒ u a ʁ
+^joelho$	ʒ o e ʎ u
+^jogar$	ʒ o g a ʁ
+^jovem$	ʒ ɔ v ẽĩ
+^jugo$	ʒ u g u
+^juiz$	ʒ u i ʃ
+^julgamento$	ʒ uː g ɐ m ẽ t u
+^julgar$	ʒ uː g a ʁ
+^juntar$	ʒ ũ t a ʁ
+^juramento$	ʒ u ɾ ɐ m ẽ t u
+^jurar$	ʒ u ɾ a ʁ
+^jóia$	ʒ ɔi ɐ
+^lado$	l a d u
+^ladrão$	l a d ɾ ɐ̃ũ
+^lagarto$	l a g a ʁ t u
+^lago$	l a g u
+^laguna$	l a g u n ɐ
+^lama$	l ɐ m ɐ
+^lamber$	l ɐ̃ b e ʁ
+^lança$	l ɐ̃ s ɐ
+^lançar$	l ɐ̃ s a ʁ
+^lareira$	l a ɾ ei ɾ ɐ
+^largar$	l a ʁ g a ʁ
+^largo$	l a ʁ g u
+^lavar$	l a v a ʁ
+^lavrador$	l a v ɾ a d o ʁ
+^leal$	l i au
+^legumes$	l e g u m e ʃ
+^lei$	l ei
+^leite$	l ei tʃ i
+^lembrar-se$	l ẽ b ɾ a ʁ s i
+^leme$	l ɛ m i
+^lenha$	l e ɲ ɐ
+^lenço$	l ẽ s u
+^ler$	l e ʁ
+^leste$	l ɛ ʃ tʃ i
+^levantar$	l e v ɐ̃ t a ʁ
+^levar$	l e v a ʁ
+^levar_debaixo_do_braço$	l e v a ʁ + d e b ai ʃ u + d u + b ɾ a s u
+^levar_na_cabeça$	l e v a ʁ + n a + k a b ɛ s ɐ
+^levar_na_mão$	l e v a ʁ + n a + m ɐ̃ũ
+^levar_no_ombro$	l e v a ʁ + n u + õ b ɾ u
+^leve$	l ɛ v i
+^leão$	l j ɐ̃ũ
+^ligeiro$	l i ʒ ei ɾ u
+^limpo$	l ĩ p u
+^linguiça$	l ĩ g i s ɐ
+^linha$	l i ɲ ɐ
+^linha_de_pesca$	l i ɲ ɐ + dʒ i + p ɛ ʃ k ɐ
+^linho$	l i ɲ u
+^liso$	l i z u
+^livro$	l i v ɾ u
+^lobo$	l ɔ b u
+^lodo$	l ɔ d u
+^loja$	l ɔ ʒ ɐ
+^lombriga$	l õ b ɾ i g ɐ
+^longe$	l õ ʒ i
+^louco$	l o k u
+^lua$	l u a
+^lugar$	l u g a ʁ
+^luta$	l u t ɐ
+^lutar$	l u t a ʁ
+^luva$	l u v ɐ
+^luz$	l u ʃ
+^lábio$	l a b j u
+^lágrima$	l a g ɾ i m ɐ
+^lã$	l ɐ̃
+^lêndea$	l ẽ dʒ i ɐ
+^língua$	l ĩ g w ɐ
+^lóbulo$	l ɔ b u l u
+^macaco$	m a k a k u
+^machado$	m a ʃ a d u
+^macho$	m a ʃ u
+^macio$	m a s j u
+^madeira$	m a d ei ɾ ɐ
+^madrasta$	m a d ɾ a ʃ t ɐ
+^maduro$	m a d u ɾ u
+^magia$	m a ʒ i ɐ
+^mais$	m ai ʃ
+^mal_cheiroso$	m au + ʃ ei ɾ ɔ z u
+^malagueta$	m a l a g ɛ t ɐ
+^maluco$	m a l u k u
+^mama$	m ɐ m ɐ
+^mamilo$	m ɐ m i l u
+^mandar$	m ɐ̃ d a ʁ
+^mandioca$	m ɐ̃ d j ɔ k ɐ
+^maneira$	m ɐ n ei ɾ ɐ
+^manhã$	m ɐ ɲ ɐ̃
+^manteiga$	m ɐ̃ t ei g ɐ
+^manto$	m ɐ̃ t u
+^mar$	m a ʁ
+^margem$	m a ʁ ʒ ẽĩ
+^marido$	m a ɾ i d u
+^martelo$	m a ʁ t ɛ l u
+^maré$	m a ɾ ɛ
+^maré_alta$	m a ɾ ɛ + au t ɐ
+^maré_baixa$	m a ɾ ɛ + b ai ʃ ɐ
+^maré_vazia$	m a ɾ ɛ + v a z i ɐ
+^mascar$	m a ʃ k a ʁ
+^masculino$	m a ʃ k u l i n u
+^massa$	m a s ɐ
+^mastigar$	m a ʃ tʃ i g a ʁ
+^mastro$	m a ʃ t ɾ u
+^matar$	m a t a ʁ
+^matraca$	m a t ɾ a k ɐ
+^matrimônio$	m a t ɾ i m o n j u
+^mau$	m au
+^maxila$	m a k s i l ɐ
+^medicamento$	m e dʒ i k ɐ m ẽ t u
+^medir$	m e dʒ i ʁ
+^medo$	m e d u
+^meia$	m ei ɐ
+^meio$	m ei u
+^meio_dia$	m ei u + dʒ i ɐ
+^mel$	m ɛu
+^mendigo$	m ẽ dʒ i g u
+^menina$	m e n i n ɐ
+^menino$	m e n i n u
+^mente$	m ẽ tʃ i
+^mentir$	m ẽ tʃ i ʁ
+^mercado$	m e ʁ k a d u
+^mergulhar$	m e ʁ g u ʎ a ʁ
+^mesa$	m ɛ z ɐ
+^metade$	m e t a dʒ i
+^mexer$	m e ʃ e ʁ
+^mil$	m iu
+^milho$	m i ʎ u
+^miolos$	m j ɔ l u ʃ
+^misturar$	m i ʃ t u ɾ a ʁ
+^miçanga$	m i s ɐ̃ g ɐ
+^mocho$	m ɔ ʃ u
+^moeda$	m o ɛ d ɐ
+^moer$	m o e ʁ
+^moinho$	m oi ɲ u
+^molar$	m o l a ʁ
+^moldar$	m ɔu d a ʁ
+^mole$	m ɔ l i
+^molhado$	m o ʎ a d u
+^montanha$	m õ t ɐ ɲ ɐ
+^montar$	m õ t a ʁ
+^morar$	m o ɾ a ʁ
+^morcego$	m o ʁ s ɛ g u
+^morder$	m o ʁ d e ʁ
+^morrer$	m o ʁ e ʁ
+^morro$	m ɔ ʁ u
+^morteiro$	m o ʁ t ei ɾ u
+^morto$	m ɔ ʁ t u
+^mosca$	m ɔ ʃ k ɐ
+^mosquito$	m o s k i t u
+^mostrar$	m o ʃ t ɾ a ʁ
+^mover$	m o v e ʁ
+^moça$	m ɔ s ɐ
+^muco$	m u k u
+^mudar$	m u d a ʁ
+^mudo$	m u d u
+^muito$	m ũ j t u
+^muitos$	m ũ j t u ʃ
+^mula$	m u l ɐ
+^mulher$	m u ʎ e ʁ
+^mulo$	m u l u
+^mulso$	m uː s u
+^multa$	m uː t ɐ
+^multidão$	m uː tʃ i d ɐ̃ũ
+^mundo$	m ũ d u	Brazilian Portuguese pronunciation
+^murmurar$	m u ʁ m u ɾ a ʁ
+^má_sorte$	m a + s ɔ ʁ tʃ i
+^mãe$	m ɐ̃ĩ
+^mão$	m ɐ̃ũ
+^mão_de_pilão$	m ɐ̃ũ + dʒ i + p i l ɐ̃ũ
+^médico$	m ɛ dʒ i k u
+^mês$	m e ʃ
+^nada$	n a d ɐ
+^nadar$	n a d a ʁ
+^narina$	n a ɾ i n ɐ
+^nariz$	n a ɾ i ʃ
+^nascente$	n a ʃ s ẽ tʃ i
+^nascer$	n a ʃ s e ʁ
+^nassa$	n a s ɐ
+^navalha_de_barba$	n a v a ʎ ɐ + dʒ i + b a ʁ b ɐ
+^navegar$	n a v e g a ʁ
+^navio$	n a v j u
+^necessidade$	n e s e s i d a dʒ i
+^negar$	n e g a ʁ
+^negativo$	n e g a tʃ i v u
+^negociante$	n e g o s i ɐ̃ tʃ i
+^negro$	n ɛ g ɾ u
+^nenê$	n e n e
+^neta$	n ɛ t ɐ
+^neto$	n ɛ t u
+^neve$	n ɛ v i
+^nevoeiro$	n e v o ei ɾ u
+^ninho$	n i ɲ u
+^nobre$	n ɔ b ɾ i
+^noite$	n oi tʃ i
+^nome$	n ɔ m i
+^nomear$	n o m i a ʁ
+^nora$	n ɔ ɾ ɐ
+^norte$	n ɔ ʁ tʃ i
+^nove$	n ɔ v i
+^novo$	n ɔ v u
+^noz$	n ɔ ʃ
+^nu$	n u
+^nuca$	n u k ɐ
+^nunca$	n ũ k ɐ
+^nuvem$	n u v ẽĩ
+^nádegas$	n a d e g a ʃ
+^não$	n ɐ̃ũ
+^não_acertar$	n ɐ̃ũ + a s e ʁ t a ʁ
+^névoa$	n ɛ v u ɐ
+^nó$	n ɔ
+^nós$	n ɔ ʃ
+^obedecer$	o b e d e s e ʁ
+^obscuro$	o b ʃ k u ɾ u
+^obter$	o b t e ʁ
+^oceano$	o s i ɐ n u
+^odiar$	o dʒ i a ʁ
+^oeste$	o e ʃ tʃ i
+^oferenda$	o f e ɾ ẽ d ɐ
+^oito$	oi t u
+^oleiro$	o l ei ɾ u
+^olhar_para$	o ʎ a ʁ + p a ɾ ɐ
+^olho$	ɔ ʎ u
+^ombreira$	õ b ɾ ei ɾ ɐ
+^ombreira_da_porta$	õ b ɾ ei ɾ ɐ + d ɐ + p ɔ ʁ t ɐ
+^ombro$	õ b ɾ u
+^omoplata$	o m o p l a t ɐ
+^onda$	õ d ɐ
+^onde$	õ dʒ i
+^ontem$	õ t ẽĩ
+^onze$	õ z i
+^orar$	o ɾ a ʁ
+^ordenhar$	o ʁ d e ɲ a ʁ
+^orelha$	o ɾ e ʎ ɐ
+^orgulhoso$	o ʁ g u ʎ ɔ z u
+^orvalho$	o ʁ v a ʎ u
+^osso$	ɔ s u
+^ou$	ou
+^ouro$	o ɾ u
+^ousar$	o z a ʁ
+^outono$	o t ɔ n u
+^outra_vez$	o t ɾ ɐ + v e ʃ
+^ouvir$	o v i ʁ
+^ovelha$	o v e ʎ ɐ
+^ovo$	ɔ v u
+^padrasto$	p a d ɾ a ʃ t u
+^pagar$	p a g a ʁ
+^pai$	p ai
+^pais$	p ai ʃ
+^palavra$	p a l a v ɾ ɐ
+^palha$	p a ʎ ɐ
+^palma_de_mão$	p au m ɐ + dʒ i + m ɐ̃ũ
+^palmeira$	p au m ei ɾ ɐ
+^palmo$	p au m u
+^panela$	p ɐ n ɛ l ɐ
+^pano$	p ɐ n u
+^pantanal$	p ɐ̃ t ɐ n au
+^papagaio$	p a p a g ai u
+^papeira$	p a p ei ɾ ɐ
+^papel$	p a p ɛu
+^papo$	p a p u
+^par$	p a ʁ
+^parar$	p a ɾ a ʁ
+^parecer$	p a ɾ e s e ʁ
+^parecido$	p a ɾ e s i d u
+^parede$	p a ɾ ɛ dʒ i
+^parentes$	p a ɾ ẽ t e ʃ
+^parte$	p a ʁ tʃ i
+^partido$	p a ʁ tʃ i d u
+^partir$	p a ʁ tʃ i ʁ
+^pastagem$	p a ʃ t a ʒ ẽĩ
+^pasto$	p a ʃ t u
+^pastor$	p a ʃ t o ʁ
+^pato$	p a t u
+^patrão$	p a t ɾ ɐ̃ũ
+^paz$	p a ʃ
+^país$	p a i ʃ
+^pedaço$	p e d a s u
+^pedir$	p e dʒ i ʁ
+^pedir_emprestado$	p e dʒ i ʁ + ẽ p ɾ e ʃ t a d u
+^pedra$	p ɛ d ɾ ɐ
+^pedreiro$	p e d ɾ ei ɾ u
+^pegada$	p e g a d ɐ
+^pegar_em_armadilha$	p e g a ʁ + ẽĩ + a ʁ m a dʒ i ʎ ɐ
+^peido$	p ei d u
+^peito$	p ei t u
+^peixe$	p ei ʃ i
+^pele$	p ɛ l i
+^pena$	p ɛ n ɐ
+^pendurar$	p ẽ d u ɾ a ʁ
+^peneira$	p e n ei ɾ ɐ
+^penhasco$	p e ɲ a ʃ k u
+^pensar$	p ẽ s a ʁ
+^pente$	p ẽ tʃ i
+^pequeno$	p e k e n u
+^pequeno-almoço$	p e k e n o au m ɔ s u
+^perante$	p e ɾ ɐ̃ tʃ i
+^perder$	p e ʁ d e ʁ
+^perdoar$	p e ʁ d o a ʁ
+^perfurar$	p e ʁ f u ɾ a ʁ
+^perguntar$	p e ʁ g ũ t a ʁ
+^perigo$	p e ɾ i g u
+^perjúrio$	p e ʁ ʒ u ɾ j u
+^permitir$	p e ʁ m i tʃ i ʁ
+^perna$	p ɛ ʁ n ɐ
+^perseguir$	p e ʁ s e g i ʁ
+^perto$	p ɛ ʁ t u
+^pesado$	p e z a d u
+^pesar$	p e z a ʁ
+^pescador$	p e ʃ k a d o ʁ
+^pescoço$	p e ʃ k ɔ s u
+^pessoa$	p e s o ɐ
+^pestana$	p e ʃ t ɐ n ɐ
+^pestanejar$	p e ʃ t ɐ n e ʒ a ʁ
+^peça$	p ɛ s ɐ
+^peúga$	p e u g ɐ
+^pilhagem$	p i ʎ a ʒ ẽĩ
+^pimenta$	p i m ẽ t ɐ
+^pinheiro$	p i ɲ ei ɾ u
+^pintar$	p ĩ t a ʁ
+^pinça$	p ĩ s ɐ
+^piolho$	p j ɔ ʎ u
+^pires$	p i ɾ e ʃ
+^pirilampo$	p i ɾ i l ɐ̃ p u
+^pistola$	p i ʃ t ɔ l ɐ
+^plano$	p l ɐ n u
+^planta$	p l ɐ̃ t ɐ
+^plantar$	p l ɐ̃ t a ʁ
+^planície$	p l ɐ n i s i i
+^pobre$	p ɔ b ɾ i
+^poderoso$	p o d e ɾ ɔ z u
+^podre$	p ɔ d ɾ i
+^poeta$	p o ɛ t ɐ
+^polegar$	p o l e g a ʁ
+^pomba$	p õ b ɐ
+^poncho$	p õ ʃ u
+^ponta$	p õ t ɐ
+^ponte$	p õ tʃ i
+^por_muito_tempo$	p u ʁ + m ũ j t u + t ẽ p u
+^por_quê$	p u ʁ + k e
+^porca$	p ɔ ʁ k ɐ
+^porco$	p ɔ ʁ k u
+^porque$	p u ʁ k i
+^porrete$	p o ʁ ɛ tʃ i
+^porta$	p ɔ ʁ t ɐ
+^portão$	p o ʁ t ɐ̃ũ
+^possuir$	p o s ui ʁ
+^poste$	p ɔ ʃ tʃ i
+^potro$	p ɔ t ɾ u
+^pouco$	p o k u
+^poucos$	p o k u ʃ
+^povo$	p ɔ v u
+^poço$	p ɔ s u
+^praia$	p ɾ ai ɐ
+^praiamar$	p ɾ ai ɐ m a ʁ
+^prata$	p ɾ a t ɐ
+^prateleira$	p ɾ a t e l ei ɾ ɐ
+^prato$	p ɾ a t u
+^preamar$	p ɾ i ɐ m a ʁ
+^precipício$	p ɾ e s i p i s j u
+^precisar$	p ɾ e s i z a ʁ
+^pregar$	p ɾ e g a ʁ
+^prego$	p ɾ ɛ g u
+^preguiçoso$	p ɾ e g j s ɔ z u
+^prenhe$	p ɾ e ɲ i
+^preocupação$	p ɾ i o k u p a s ɐ̃ũ
+^preservar$	p ɾ e z e ʁ v a ʁ
+^presságio$	p ɾ e s a ʒ j u
+^preto$	p ɾ ɛ t u
+^preço$	p ɾ ɛ s u
+^prima$	p ɾ i m ɐ
+^primavera$	p ɾ i m a v e ɾ ɐ
+^primeiro$	p ɾ i m ei ɾ u
+^primo$	p ɾ i m u
+^prisioneiro$	p ɾ i z j o n ei ɾ u
+^prisão$	p ɾ i z ɐ̃ũ
+^procurar$	p ɾ o k u ɾ a ʁ
+^professor$	p ɾ o f e s ɔ ʁ
+^proibir$	p ɾ oi b i ʁ
+^prole$	p ɾ ɔ l i
+^prometer$	p ɾ o m e t e ʁ
+^promontório$	p ɾ o m õ t ɔ ɾ j u
+^pronto$	p ɾ õ t u
+^prostituta$	p ɾ o ʃ tʃ i t u t ɐ
+^provar$	p ɾ o v a ʁ
+^próximo$	p ɾ ɔ s i m u
+^pulga$	p uː g ɐ
+^pulmão$	p uː m ɐ̃ũ
+^pulseira$	p uː s ei ɾ ɐ
+^pulso$	p uː s u
+^punição$	p u n i s ɐ̃ũ
+^pus$	p u ʃ
+^puxar$	p u ʃ a ʁ
+^pá$	p a
+^pálpebra$	p au p e b ɾ ɐ
+^pássaro$	p a s a ɾ u
+^pátio$	p a t j u
+^pátria$	p a t ɾ i ɐ
+^pântano$	p ɐ̃ t ɐ n u
+^pão$	p ɐ̃ũ
+^pé$	p ɛ
+^pêlo$	p e l u
+^pêlo_púbico$	p e l u + p u b i k u
+^pênis$	p e n i ʃ
+^pó$	p ɔ
+^pôr$	p o ʁ
+^pôrto$	p o ʁ t u
+^quadrado$	k w a d ɾ a d u
+^quadril$	k w a d ɾ iu
+^qual$	k w au
+^quando$	k w ɐ̃ d u
+^quanto$	k w ɐ̃ t u
+^quantos$	k w ɐ̃ t u ʃ
+^quarta-feira$	k w a ʁ t a f ei ɾ ɐ
+^quarto$	k w a ʁ t u
+^quatro$	k w a t ɾ u
+^que$	k i
+^quebrado$	k e b ɾ a d u
+^quebrar$	k e b ɾ a ʁ
+^queijo$	k ei ʒ u
+^queimar$	k ei m a ʁ
+^queixo$	k ei ʃ u
+^queixoso$	k ei ʃ ɔ z u
+^quem$	k ẽĩ
+^quente$	k ẽ tʃ i
+^quieto$	k i ɛ t u
+^quinta-feira$	k ĩ t a f ei ɾ ɐ
+^quintal$	k ĩ t au
+^quinze$	k ĩ z i
+^rabo$	ʁ a b u
+^raia$	ʁ ai ɐ
+^rainha$	ʁ ai ɲ ɐ
+^raio$	ʁ ai u
+^raiva$	ʁ ai v ɐ
+^raiz$	ʁ ai ʃ
+^rama_bifurcada$	ʁ ɐ m ɐ + b i f u ʁ k a d ɐ
+^ramo$	ʁ ɐ m u
+^rapaz$	ʁ a p a ʃ
+^raposa$	ʁ a p ɔ z ɐ
+^rasgar$	ʁ a ʒ g a ʁ
+^raso$	ʁ a z u
+^raspar$	ʁ a ʃ p a ʁ
+^rastejar$	ʁ a ʃ t e ʒ a ʁ
+^ratinho$	ʁ a tʃ i ɲ u
+^rato$	ʁ a t u
+^raízes_venenosas$	ʁ a i z e ʃ + v e n e n ɔ z a ʃ
+^recife$	ʁ e s i f i
+^recusar$	ʁ e k u z a ʁ
+^rede$	ʁ ɛ dʒ i
+^redemoinho$	ʁ e d e m oi ɲ u
+^redondo$	ʁ e d õ d u
+^refeição$	ʁ e f ei s ɐ̃ũ
+^regressar$	ʁ e g ɾ e s a ʁ
+^rei$	ʁ ei
+^relatar$	ʁ e l a t a ʁ
+^religião$	ʁ e l i ʒ i ɐ̃ũ
+^relva$	ʁ ɛu v ɐ
+^relâmpago$	ʁ e l ɐ̃ p a g u
+^relógio$	ʁ e l ɔ ʒ j u
+^remar$	ʁ e m a ʁ
+^remo$	ʁ ɛ m u
+^remoinho$	ʁ e m oi ɲ u
+^remédio$	ʁ e m ɛ d j u
+^render-se$	ʁ ẽ d ɛ ʁ s i
+^repreender$	ʁ e p ɾ e ẽ d e ʁ
+^resfriado$	ʁ e ʃ f ɾ i a d u
+^residir$	ʁ e z i dʒ i ʁ
+^respirar$	ʁ e ʃ p i ɾ a ʁ
+^respiração$	ʁ e ʃ p i ɾ a s ɐ̃ũ
+^responder$	ʁ e ʃ p õ d e ʁ
+^ressonar$	ʁ e s o n a ʁ
+^restituir$	ʁ e ʃ tʃ i t ui ʁ
+^restos$	ʁ ɛ ʃ t u ʃ
+^resvalar$	ʁ e ʒ v a l a ʁ
+^retirar-se$	ʁ e tʃ i ɾ a ʁ s i
+^reto$	ʁ ɛ t u
+^reunir$	ʁ eu n i ʁ
+^rezar$	ʁ e z a ʁ
+^riacho$	ʁ i a ʃ u
+^rico$	ʁ i k u
+^rim$	ʁ ĩ
+^rio$	ʁ j ɔ
+^rir$	ʁ i ʁ
+^rocha$	ʁ ɔ ʃ ɐ
+^roda$	ʁ ɔ d ɐ
+^rolar$	ʁ o l a ʁ
+^rombudo$	ʁ õ b u d u
+^romper$	ʁ õ p e ʁ
+^roncar$	ʁ õ k a ʁ
+^rosto$	ʁ ɔ ʃ t u
+^roubar$	ʁ o b a ʁ
+^roupa$	ʁ o p ɐ
+^ruidoso$	ʁ ui d ɔ z u
+^ruído$	ʁ u i d u
+^rápido$	ʁ a p i d u
+^rã$	ʁ ɐ̃
+^réu$	ʁ ɛu
+^saber$	s a b e ʁ
+^sabor$	s a b ɔ ʁ
+^sabão$	s a b ɐ̃ũ
+^sacerdote$	s a s e ʁ d ɔ tʃ i
 ^saco$	s a k u
+^sacrifício$	s a k ɾ i f i s j u
+^sagrado$	s a g ɾ a d u
+^saia$	s ai ɐ
+^saia_de_palha$	s ai ɐ + dʒ i + p a ʎ ɐ
+^sair$	s a i ʁ
+^sal$	s au
+^salgado$	s au g a d u
+^salobre$	s a l ɔ b ɾ i
+^saltar$	s au t a ʁ
+^salvar$	s au v a ʁ
+^salário$	s a l a ɾ j u
+^sangue$	s ɐ̃ g i
+^santo$	s ɐ̃ t u
+^sapateiro$	s a p a t ei ɾ u
+^sapato$	s a p a t u
+^sapé$	s a p ɛ
+^sarar$	s a ɾ a ʁ
+^sarigüê$	s a ɾ i g e
+^savannah$	s a v ɐ̃ n a
+^saúde$	s a u dʒ i
+^se$	s i
+^seco$	s e k u
+^seda$	s ɛ d ɐ
+^sede$	s ɛ dʒ i
+^segar$	s e g a ʁ
+^segredo$	s e g ɾ ɛ d u
+^seguir$	s e g i ʁ
+^segunda-feira$	s e g ũ d a f ei ɾ ɐ
+^segundo$	s e g ũ d u
+^segurar$	s e g u ɾ a ʁ
+^seguro$	s e g u ɾ u
+^seio$	s ei u
+^seis$	s ei ʃ
+^seiva$	s ei v ɐ
+^semana$	s e m ɐ n ɐ
+^semear$	s e m i a ʁ
+^semente$	s e m ẽ tʃ i
+^sempre$	s ẽ p ɾ i
+^senhor$	s e ɲ ɔ ʁ
+^sentar-se$	s ẽ t a ʁ s i
+^sentenciar$	s ẽ t ẽ s i a ʁ
+^sentinela$	s ẽ tʃ i n ɛ l ɐ
+^sentir$	s ẽ tʃ i ʁ
+^separar$	s e p a ɾ a ʁ
+^sepultura$	s e p uː t u ɾ ɐ
+^ser_humano$	s e ʁ + u m ɐ n u
+^serra$	s ɛ ʁ ɐ
+^servo$	s ɛ ʁ v u
+^sete$	s ɛ tʃ i
+^sexta-feira$	s e ʃ t a f ei ɾ ɐ
+^sim$	s ĩ
+^soalho$	s o a ʎ u
+^sobrancelha$	s o b ɾ ɐ̃ s e ʎ ɐ
+^sobrinha$	s o b ɾ i ɲ ɐ
+^sobrinho$	s o b ɾ i ɲ u
+^sogra$	s ɔ g ɾ ɐ
+^sogro$	s ɔ g ɾ u
+^sol$	s ɔu
+^soldado$	s ɔu d a d u
+^solo$	s ɔ l u
+^soltar$	s ɔu t a ʁ
+^soluço$	s o l u s u
+^sombra$	s õ b ɾ ɐ
+^somente$	s o m ẽ tʃ i
+^sonhar$	s o ɲ a ʁ
+^sopa$	s o p ɐ
+^soprar$	s o p ɾ a ʁ
+^sorrir$	s o ʁ i ʁ
+^sovaco$	s o v a k u
+^sovela$	s o v ɛ l ɐ
+^suar$	s u a ʁ
+^subir$	s u b i ʁ
+^suficiente$	s u f i s i ẽ tʃ i
+^sufocar$	s u f o k a ʁ
+^sugar$	s u g a ʁ
+^sujo$	s u ʒ u
+^sul$	s uː
+^sulco$	s uː k u
+^suportar$	s u p o ʁ t a ʁ
+^surdo$	s u ʁ d u
+^surpreso$	s u ʁ p ɾ ɛ z u
+^suspeitar$	s u ʃ p ei t a ʁ
+^susto$	s u ʃ t u
+^sábado$	s a b a d u
+^sábio$	s a b j u
+^são$	s ɐ̃ũ
+^só$	s ɔ
+^sôbre$	s o b ɾ i
+^súdito$	s u dʒ i t u
+^tabaco$	t a b a k u
+^tambor$	t ɐ̃ b ɔ ʁ
+^tapete$	t a p ɛ tʃ i
+^tarde$	t a ʁ dʒ i
+^tardinha$	t a ʁ dʒ i ɲ ɐ
+^tartaruga$	t a ʁ t a ɾ u g ɐ
+^tatuagem$	t a t u a ʒ ẽĩ
+^taxa$	t a ʃ ɐ
+^tear$	tʃ i a ʁ
+^tecer$	t e s e ʁ
+^tecido$	t e s i d u
+^teia_de_aranha$	t ei ɐ + dʒ i + a ɾ ɐ ɲ ɐ
+^telhado$	t e ʎ a d u
+^tempestade$	t ẽ p e ʃ t a dʒ i
+^tempestuoso$	t ẽ p e ʃ t u ɔ z u
+^templo$	t ẽ p l u
+^tempo$	t ẽ p u
+^tenda$	t ẽ d ɐ
+^tentar$	t ẽ t a ʁ
+^ter$	t e ʁ
+^ter_pena$	t e ʁ + p ɛ n ɐ
+^ter_relações_sexuais$	t e ʁ + ʁ e l a s õĩ ʃ + s e k s u ai ʃ
+^terceiro$	t e ʁ s ei ɾ u
+^terra_firme$	t ɛ ʁ ɐ + f i ʁ m i
+^terremoto$	t e ʁ e m ɔ t u
+^terreno$	t e ʁ e n u
+^terça-feira$	t e ʁ s a f ei ɾ ɐ
+^tesoura$	t e z o ɾ ɐ
+^testa$	t ɛ ʃ t ɐ
+^testemunha$	t e ʃ t e m u ɲ ɐ
+^testículo$	t e ʃ tʃ i k u l u
+^teta$	t ɛ t ɐ
+^teto$	t ɛ t u
+^tia$	tʃ i ɐ
+^tigela$	tʃ i ʒ ɛ l ɐ
+^tijolo$	tʃ i ʒ ɔ l u
+^tingir$	tʃ ĩ ʒ i ʁ
+^tinta$	tʃ ĩ t ɐ
+^tio$	t j ɔ
+^tiritar$	tʃ i ɾ i t a ʁ
+^toalha$	t o a ʎ ɐ
+^tocar$	t o k a ʁ
+^tocha$	t ɔ ʃ ɐ
+^toco$	t ɔ k u
+^tolo$	t ɔ l u
+^tomar$	t o m a ʁ
+^tomar_banho$	t o m a ʁ + b ɐ ɲ u
+^topo$	t ɔ p u
+^torcer$	t o ʁ s e ʁ
+^torcido$	t o ʁ s i d u
+^tornozelo$	t o ʁ n o z ɛ l u
+^torre$	t ɔ ʁ i
+^torto$	t ɔ ʁ t u
+^tossir$	t o s i ʁ
+^touro$	t o ɾ u
+^trabalhar$	t ɾ a b a ʎ a ʁ
+^tragar$	t ɾ a g a ʁ
+^trair$	t ɾ a i ʁ
+^transpirar$	t ɾ ɐ̃ ʃ p i ɾ a ʁ
+^trança$	t ɾ ɐ̃ s ɐ
+^trapo$	t ɾ a p u
+^trave$	t ɾ a v i
+^travesseiro$	t ɾ a v e s ei ɾ u
+^trazer$	t ɾ a z e ʁ
+^tremer$	t ɾ e m e ʁ
+^trepar$	t ɾ e p a ʁ
+^tribo$	t ɾ i b u
+^tribunal$	t ɾ i b u n au
+^trigo$	t ɾ i g u
+^trinco$	t ɾ ĩ k u
+^tripas$	t ɾ i p a ʃ
+^tristeza$	t ɾ i ʃ t ɛ z ɐ
+^trocar$	t ɾ o k a ʁ
+^trombeta$	t ɾ õ b ɛ t ɐ
+^tronco$	t ɾ õ k u
+^trovão$	t ɾ o v ɐ̃ũ
+^três$	t ɾ e ʃ
+^três_vezes$	t ɾ e ʃ + v ɛ z e ʃ
+^tu$	t u
+^tubarão$	t u b a ɾ ɐ̃ũ
+^tudo$	t u d u
+^tábua$	t a b u ɐ
+^têmpora$	t ẽ p u ɾ ɐ
+^túmulo$	t u m u l u
+^uivar$	ui v a ʁ
+^um$	ũ
+^uma$	u m ɐ
+^umbigo$	ũ b i g u
+^umbral$	ũ b ɾ au
+^ungüento$	ũ g ẽ t u
+^unha$	u ɲ ɐ
+^unir$	u n i ʁ
+^urinar$	u ɾ i n a ʁ
+^urso$	u ʁ s u
+^urtiga$	u ʁ tʃ i g ɐ
+^urubu$	u ɾ u b u
+^uva$	u v ɐ
+^vaca$	v a k ɐ
+^vaga-lume$	v a g a l u m i
+^vagaroso$	v a g a ɾ ɔ z u
+^vala$	v a l ɐ
+^vale$	v a l i
+^vara$	v a ɾ ɐ
+^varrer$	v a ʁ e ʁ
+^varrão$	v a ʁ ɐ̃ũ
+^vassoura$	v a s o ɾ ɐ
+^vazio$	v a z j u
+^veado$	v i a d u
+^veia$	v ei ɐ
+^vela$	v ɛ l ɐ
+^velha$	v ɛ ʎ ɐ
+^velho$	v ɛ ʎ u
+^vender$	v ẽ d e ʁ
+^veneno$	v e n ɛ n u
 ^ventilador$	v ẽ tʃ i l a d o ʁ
 ^ventilar$	v ẽ tʃ i l a ʁ
-^abanar$	a b ɐ n a ʁ
-^esculpir$	i ʃ k uu p i ʁ
-^escultor$	i ʃ k uu t o ʁ
-^estátua$	i ʃ t a t u ɐ
-^cinzel$	s ĩ z ɛu
-^tinta$	tʃ ĩ t ɐ
-^pintar$	p ĩ t a ʁ
+^vento$	v ẽ t u
+^ventre$	v ẽ t ɾ i
+^ver$	v e ʁ
+^verdadeiro$	v e ʁ d a d ei ɾ u
+^verde$	v ɛ ʁ dʒ i
+^verduras$	v e ʁ d u ɾ a ʃ
+^vereda$	v e ɾ ɛ d ɐ
+^vergonha$	v e ʁ g ɔ ɲ ɐ
+^verme$	v ɛ ʁ m i
+^vermelho$	v e ʁ m e ʎ u
+^verter$	v e ʁ t e ʁ
+^verão$	v e ɾ ɐ̃ũ
+^vespa$	v ɛ ʃ p ɐ
+^vestido$	v e ʃ tʃ i d u
+^vestir$	v e ʃ tʃ i ʁ
+^vida$	v i d ɐ
+^vidro$	v i d ɾ u
+^viga$	v i g ɐ
+^vinha$	v i ɲ ɐ
+^vinho$	v i ɲ u
+^vinte$	v ĩ tʃ i
+^violação$	v j o l a s ɐ̃ũ
+^vir$	v i ʁ
+^virar$	v i ɾ a ʁ
+^vitória$	v i t ɔ ɾ i ɐ
+^viver$	v i v e ʁ
+^vivo$	v i v u
+^vizinho$	v i z i ɲ u
+^viúva$	v i u v ɐ
+^viúvo$	v i u v u
+^voar$	v o a ʁ
+^você$	v o s e
+^vocês$	v o s e ʃ
+^voltar$	v ɔu t a ʁ
+^vomitar$	v o m i t a ʁ
+^voz$	v ɔ ʃ
+^véu$	v ɛu
+^vós$	v ɔ ʃ
+^xícara$	ʃ i k a ɾ ɐ
+^zero$	z ɛ ɾ u
+^às_vezes$	a ʃ + v ɛ z e ʃ
+^ácido$	a s i d u
+^água$	a g w ɐ
+^águia$	a g j ɐ
+^árvore$	a ʁ v u ɾ i
+^áspero$	a ʃ p e ɾ u
+^ávido$	a v i d u
+^âncora$	ɐ̃ k u ɾ ɐ
+^égua$	ɛ g w ɐ
+^ídolo$	i d u l u
+^óleo$	ɔ l i u
+^órfã$	ɔ ʁ f ɐ̃
+^órfão$	ɔ ʁ f ɐ̃ũ
+^úbere$	u b e ɾ i
+^último$	uː tʃ i m u
+^úmido$	u m i d u
+^útero$	u t e ɾ u
