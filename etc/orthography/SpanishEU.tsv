@@ -1,5 +1,5 @@
 Grapheme	IPA	Note
-^mundo$	m u n d o	Latin American Spanish pronunciation
+^mundo$	m u n d o	European Spanish pronunciation
 ^tierra$	t j ɛ r a
 ^suelo$	s w e l o
 ^polvo$	p o l β o
@@ -7,13 +7,13 @@ Grapheme	IPA	Note
 ^arena$	a ɾ e n a
 ^montaɲa$	m o n t a ɲ a
 ^loma$	l o m a
-^cerro$	s ɛ r o
+^cerro$	θ ɛ r o
 ^acantilado$	a k a n t i l a ð o
 ^barranca$	b a r a n k a
 ^pampa$	p a m p a
-^llanura$	ɟ ʝ a n u ɾ a
+^llanura$	ʎ a n u ɾ a
 ^campo$	k a m p o
-^valle$	b a ʝ e
+^valle$	b a ʎ e
 ^isla$	i s l a
 ^continente$	k o n t i n e n t e
 ^tierra_firme$	t j ɛ r a + f i ɾ m e
@@ -28,12 +28,12 @@ Grapheme	IPA	Note
 ^agitado$	a x i t a ð o
 ^borrascoso$	b o r a s k o s o
 ^espuma$	ɛ s p u m a
-^océano$	o s e a n o
+^océano$	o θ e a n o
 ^lago$	l a ɣ o
 ^golfo$	ɡ o l f o
 ^bahía$	b a i a
 ^laguna$	l a ɣ u n a
-^arrecife$	a r e s i f e
+^arrecife$	a r e θ i f e
 ^promontorio$	p ɾ o m o n t o ɾ j o
 ^punta$	p u n t a
 ^ola$	o l a
@@ -45,7 +45,7 @@ Grapheme	IPA	Note
 ^arroyo$	a r o ʝ o
 ^remolino$	r e m o l i n o
 ^manantial$	m a n a n t j a l
-^pozo$	p o s o
+^pozo$	p o θ o
 ^pantano$	p a n t a n o
 ^cascada$	k a s k a ð a
 ^salto$	s a l t o
@@ -57,43 +57,43 @@ Grapheme	IPA	Note
 ^roca$	r o k a
 ^terremoto$	t ɛ r e m o t o
 ^temblor$	t e m b l o ɾ
-^cielo$	s j e l o
+^cielo$	θ j e l o
 ^sol$	s o l
 ^luna$	l u n a
-^estrella$	ɛ s t ɾ e ʝ a
+^estrella$	ɛ s t ɾ e ʎ a
 ^relámpago$	r e l a m p a ɣ o
 ^trueno$	t ɾ w e n o
 ^rayo$	r a ʝ o
 ^tempestad$	t e m p ɛ s t a ð
 ^tormenta$	t o ɾ m e n t a
 ^arco_iris$	a ɾ k o + i ɾ i s
-^luz$	l u s
+^luz$	l u θ
 ^oscuridad$	o s k u ɾ i ð a ð
 ^tinieblas$	t i n j e β l a s
 ^sombra$	s o m b ɾ a
-^rocío$	r o s i o
+^rocío$	r o θ i o
 ^aire$	a i ɾ e
 ^viento$	b j e n t o
 ^nube$	n u β e
 ^neblina$	n e β l i n a
 ^niebla$	n j e β l a
-^lluvia$	ɟ ʝ u β j a
+^lluvia$	ʎ u β j a
 ^nieve$	n j e β e
 ^hielo$	ɟ ʝ e l o
 ^tiempo$	t j e m p o
 ^fuego$	f w e ɣ o
-^llama$	ɟ ʝ a m a
+^llama$	ʎ a m a
 ^humo$	u m o
-^cenizas$	s e n i s a s
+^cenizas$	θ e n i θ a s
 ^brasas$	b ɾ a s a s
 ^quemar$	k e m a ɾ
 ^quemarse$	k e m a ɾ s e
 ^arder$	a ɾ ð ɛ ɾ
-^encender$	e n s e n d ɛ ɾ
+^encender$	e n θ e n d ɛ ɾ
 ^apagar$	a p a ɣ a ɾ
-^extinguir$	ɛ k s t i n ɡ i ɾ
+^extinguir$	ɛ s t i n ɡ i ɾ
 ^fósforo$	f o s f o ɾ o
-^cerilla$	s ɛ ɾ i ʝ a
+^cerilla$	θ ɛ ɾ i ʎ a
 ^leɲa$	l e ɲ a
 ^carbón$	k a ɾ β o n
 ^mover$	m o β ɛ ɾ
@@ -101,13 +101,13 @@ Grapheme	IPA	Note
 ^dar_vuelta$	d a ɾ + β w ɛ l t a
 ^dar_vuelta$	d a ɾ + β w ɛ l t a
 ^voltear$	b o l t e a ɾ
-^enrollar$	e n r o ʝ a ɾ
+^enrollar$	e n r o ʎ a ɾ
 ^envolver$	e m b o l β ɛ ɾ
 ^rodar$	r o ð a ɾ
-^arrollar$	a r o ʝ a ɾ
-^enrollar$	e n r o ʝ a ɾ
+^arrollar$	a r o ʎ a ɾ
+^enrollar$	e n r o ʎ a ɾ
 ^dejar_caer$	d e x a ɾ + k a ɛ ɾ
-^torcer$	t o ɾ s ɛ ɾ
+^torcer$	t o ɾ θ ɛ ɾ
 ^ascender$	a s e n d ɛ ɾ
 ^subir$	s u β i ɾ
 ^levantar$	l e β a n t a ɾ
@@ -123,15 +123,15 @@ Grapheme	IPA	Note
 ^hundir$	u n d i ɾ
 ^flotar$	f l o t a ɾ
 ^nadar$	n a ð a ɾ
-^zambullirse$	s a m b u ʝ i ɾ s e
+^zambullirse$	θ a m b u ʎ i ɾ s e
 ^salpicar$	s a l p i k a ɾ
 ^navegar$	n a β e ɣ a ɾ
 ^volar$	b o l a ɾ
 ^soplar$	s o p l a ɾ
 ^gatear$	ɡ a t e a ɾ
-^arrodillarse$	a r o ð i ʝ a ɾ s e
+^arrodillarse$	a r o ð i ʎ a ɾ s e
 ^agacharse$	a ɣ a tʃ a ɾ s e
-^ponerse_en_cuclillas$	p o n ɛ ɾ s ɛ + e n + k u k l i ʝ a s
+^ponerse_en_cuclillas$	p o n ɛ ɾ s ɛ + e n + k u k l i ʎ a s
 ^resbalar$	r ɛ s β a l a ɾ
 ^saltar$	s a l t a ɾ
 ^brincar$	b ɾ i n k a ɾ
@@ -153,28 +153,28 @@ Grapheme	IPA	Note
 ^irse$	i ɾ s e
 ^marcharse$	m a ɾ tʃ a ɾ s e
 ^partir$	p a ɾ t i ɾ
-^desaparecer$	d e s a p a ɾ e s ɛ ɾ
+^desaparecer$	d e s a p a ɾ e θ ɛ ɾ
 ^huir$	w i ɾ
 ^seguir$	s e ɣ i ɾ
 ^perseguir$	p ɛ ɾ s e ɣ i ɾ
-^llegar$	ɟ ʝ e ɣ a ɾ
-^alcanzar$	a l k a n s a ɾ
-^acercarse$	a s ɛ ɾ k a ɾ s e
+^llegar$	ʎ e ɣ a ɾ
+^alcanzar$	a l k a n θ a ɾ
+^acercarse$	a θ ɛ ɾ k a ɾ s e
 ^aproximarse$	a p ɾ o k s i m a ɾ s e
 ^entrar$	e n t ɾ a ɾ
-^llevar$	ɟ ʝ e β a ɾ
+^llevar$	ʎ e β a ɾ
 ^cargar$	k a ɾ ɣ a ɾ
-^llevar_en_la_mano$	ɟ ʝ e β a ɾ + e n + l a + m a n o
-^llevar_a_la_espalda$	ɟ ʝ e β a ɾ + a + l a + ɛ s p a l d a
+^llevar_en_la_mano$	ʎ e β a ɾ + e n + l a + m a n o
+^llevar_a_la_espalda$	ʎ e β a ɾ + a + l a + ɛ s p a l d a
 ^en_el_hombro$	ɛ n + ɛ l + o m b ɾ o
-^llevar_sobre_la_cabeza$	ɟ ʝ e β a ɾ + s o β ɾ e + l a + k a β e s a
-^llevar_bajo_el_brazo$	ɟ ʝ e β a ɾ + β a x o + ɛ l + β ɾ a s o
+^llevar_sobre_la_cabeza$	ʎ e β a ɾ + s o β ɾ e + l a + k a β e θ a
+^llevar_bajo_el_brazo$	ʎ e β a ɾ + β a x o + ɛ l + β ɾ a θ o
 ^traer$	t ɾ a ɛ ɾ
 ^enviar$	e m b j a ɾ
 ^mandar$	m a n d a ɾ
 ^guiar$	ɡ j a ɾ
-^conducir$	k o n d u s i ɾ
-^conducir$	k o n d u s i ɾ
+^conducir$	k o n d u θ i ɾ
+^conducir$	k o n d u θ i ɾ
 ^montar$	m o n t a ɾ
 ^empujar$	e m p u x a ɾ
 ^carretera$	k a r ɛ t ɛ ɾ a
@@ -229,7 +229,7 @@ Grapheme	IPA	Note
 ^herir$	ɛ ɾ i ɾ
 ^buscar$	b u s k a ɾ
 ^encontrar$	e n k o n t ɾ a ɾ
-^hallar$	a ʝ a ɾ
+^hallar$	a ʎ a ɾ
 ^perder$	p ɛ ɾ ð ɛ ɾ
 ^soltar$	s o l t a ɾ
 ^largar$	l a ɾ ɣ a ɾ
@@ -239,7 +239,7 @@ Grapheme	IPA	Note
 ^pobre$	p o β ɾ e
 ^mendigo$	m e n d i ɣ o
 ^avaro$	a β a ɾ o
-^mezquino$	m ɛ s k i n o
+^mezquino$	m ɛ θ k i n o
 ^prestar$	p ɾ ɛ s t a ɾ
 ^pedir_prestado$	p e ð i ɾ + p ɾ ɛ s t a ð o
 ^deber$	d e β ɛ ɾ
@@ -257,11 +257,11 @@ Grapheme	IPA	Note
 ^comprar$	k o m p ɾ a ɾ
 ^vender$	b e n d ɛ ɾ
 ^trocar$	t ɾ o k a ɾ
-^comerciante$	k o m ɛ ɾ s j a n t e
+^comerciante$	k o m ɛ ɾ θ j a n t e
 ^mercado$	m ɛ ɾ k a ð o
 ^tienda$	t j e n d a
-^almacén$	a l m a s e n
-^precio$	p ɾ e s j o
+^almacén$	a l m a θ e n
+^precio$	p ɾ e θ j o
 ^caro$	k a ɾ o
 ^barato$	b a ɾ a t o
 ^repartir$	r e p a ɾ t i ɾ
@@ -278,7 +278,7 @@ Grapheme	IPA	Note
 ^echarse$	e tʃ a ɾ s e
 ^poner_de_pie$	p o n ɛ ɾ + ð e + p j e
 ^quedar$	k e ð a ɾ
-^permanecer$	p ɛ ɾ m a n e s ɛ ɾ
+^permanecer$	p ɛ ɾ m a n e θ ɛ ɾ
 ^sobras$	s o β ɾ a s
 ^al_lado_de$	a l + l a ð o + ð e
 ^recoger$	r e k o x ɛ ɾ
@@ -291,7 +291,7 @@ Grapheme	IPA	Note
 ^apartar$	a p a ɾ t a ɾ
 ^dividir$	d i β i ð i ɾ
 ^abrir$	a β ɾ i ɾ
-^cerrar$	s ɛ r a ɾ
+^cerrar$	θ ɛ r a ɾ
 ^cubrir$	k u β ɾ i ɾ
 ^esconder$	ɛ s k o n d ɛ ɾ
 ^abajo$	a β a x o
@@ -300,25 +300,25 @@ Grapheme	IPA	Note
 ^alto$	a l t o
 ^elevado$	e l e β a ð o
 ^bajo$	b a x o
-^cima$	s i m a
+^cima$	θ i m a
 ^fondo$	f o n d o
 ^final$	f i n a l
-^extremo$	ɛ k s t ɾ e m o
+^extremo$	ɛ s t ɾ e m o
 ^puntiagudo$	p u n t j a ɣ u ð o
 ^borde$	b o ɾ ð e
-^orilla$	o ɾ i ʝ a
+^orilla$	o ɾ i ʎ a
 ^margen$	m a ɾ x e n
 ^lado$	l a ð o
 ^costado$	k o s t a ð o
 ^medio$	m e ð j o
-^centro$	s e n t ɾ o
+^centro$	θ e n t ɾ o
 ^delante$	d e l a n t e
 ^antes_de$	a n t e s + ð e
 ^delantero$	d e l a n t ɛ ɾ o
 ^delante$	d e l a n t e
 ^derecha$	d ɛ ɾ e tʃ a
-^izquierda$	i s k j ɛ ɾ ð a
-^cerca$	s ɛ ɾ k a
+^izquierda$	i θ k j ɛ ɾ ð a
+^cerca$	θ ɛ ɾ k a
 ^próximo$	p ɾ o k s i m o
 ^lejos$	l e x o s
 ^este$	ɛ s t e
@@ -329,9 +329,9 @@ Grapheme	IPA	Note
 ^sur$	s u ɾ
 ^adentro$	a ð e n t ɾ o
 ^dentro$	d e n t ɾ o
-^crecer$	k ɾ e s ɛ ɾ
+^crecer$	k ɾ e θ ɛ ɾ
 ^medir$	m e ð i ɾ
-^braza$	b ɾ a s a
+^braza$	b ɾ a θ a
 ^grande$	ɡ ɾ a n d e
 ^chico$	tʃ i k o
 ^pequeɲo$	p e k e ɲ o
@@ -340,7 +340,7 @@ Grapheme	IPA	Note
 ^corto$	k o ɾ t o
 ^afuera$	a f w ɛ ɾ a
 ^fuera$	f w ɛ ɾ a
-^exterior$	ɛ k s t ɛ ɾ j o ɾ
+^exterior$	ɛ s t ɛ ɾ j o ɾ
 ^ancho$	a n tʃ o
 ^amplio$	a m p l j o
 ^angosto$	a n ɡ o s t o
@@ -355,35 +355,35 @@ Grapheme	IPA	Note
 ^plano$	p l a n o
 ^derecho$	d ɛ ɾ e tʃ o
 ^recto$	r e k t o
-^torcido$	t o ɾ s i ð o
+^torcido$	t o ɾ θ i ð o
 ^gancho$	ɡ a n tʃ o
 ^esquina$	ɛ s k i n a
 ^rincón$	r i n k o n
-^cruz$	k ɾ u s
+^cruz$	k ɾ u θ
 ^cuadrado$	k w a ð ɾ a ð o
 ^arriba$	a r i β a
-^encima$	e n s i m a
+^encima$	e n θ i m a
 ^redondo$	r e ð o n d o
-^círculo$	s i ɾ k u l o
+^círculo$	θ i ɾ k u l o
 ^pelota$	p e l o t a
 ^esfera$	ɛ s f ɛ ɾ a
 ^globo$	ɡ l o β o
 ^línea$	l i n e a
 ^agujero$	a ɣ u x ɛ ɾ o
 ^semejante$	s e m e x a n t e
-^parecido$	p a ɾ e s i ð o
+^parecido$	p a ɾ e θ i ð o
 ^cambiar$	k a m b j a ɾ
 ^mudar$	m u ð a ɾ
-^cero$	s ɛ ɾ o
+^cero$	θ ɛ ɾ o
 ^nada$	n a ð a
 ^uno$	u n o
-^diez$	d j e s
-^once$	o n s e
-^doce$	d o s e
-^quince$	k i n s e
+^diez$	d j ɛ θ
+^once$	o n θ e
+^doce$	d o θ e
+^quince$	k i n θ e
 ^veinte$	b e i n t e
-^ciento$	s j e n t o
-^cien$	s j e n
+^ciento$	θ j e n t o
+^cien$	θ j e n
 ^mil$	m i l
 ^contar$	k o n t a ɾ
 ^cada$	k a ð a
@@ -392,15 +392,15 @@ Grapheme	IPA	Note
 ^más$	m a s
 ^poco$	p o k o
 ^bastante$	b a s t a n t e
-^suficiente$	s u f i s j e n t e
+^suficiente$	s u f i θ j e n t e
 ^un_poco$	u m + p o k o
 ^algo$	a l ɣ o
 ^alguno$	a l ɣ u n o
 ^multitud$	m u l t i t u ð
 ^dos$	d o s
-^lleno$	ɟ ʝ e n o
-^vacío$	b a s i o
-^pedazo$	p e ð a s o
+^lleno$	ʎ e n o
+^vacío$	b a θ i o
+^pedazo$	p e ð a θ o
 ^parte$	p a ɾ t e
 ^mitad$	m i t a ð
 ^tres$	t ɾ e s
@@ -410,11 +410,11 @@ Grapheme	IPA	Note
 ^último$	u l t i m o
 ^segundo$	s e ɣ u n d o
 ^par$	p a ɾ
-^dos_veces$	d o s + β e s e s
+^dos_veces$	d o s + β e θ e s
 ^cuatro$	k w a t ɾ o
-^tercero$	t ɛ ɾ s ɛ ɾ o
-^tres_veces$	t ɾ e s + β e s e s
-^cinco$	s i n k o
+^tercero$	t ɛ ɾ θ ɛ ɾ o
+^tres_veces$	t ɾ e s + β e θ e s
+^cinco$	θ i n k o
 ^seis$	s e i s
 ^siete$	s j ɛ t e
 ^ocho$	o tʃ o
@@ -431,40 +431,40 @@ Grapheme	IPA	Note
 ^en_seguida$	e n + s e ɣ i ð a
 ^inmediatamente$	i m m e ð j a t a m e n t e
 ^rápido$	r a p i ð o
-^despacio$	d ɛ s p a s j o
+^despacio$	d ɛ s p a θ j o
 ^lentamente$	l e n t a m e n t e
 ^apurarse$	a p u ɾ a ɾ s e
 ^darse_prisa$	d a ɾ s e + p ɾ i s a
 ^demorar$	d e m o ɾ a ɾ
 ^retrasar$	r ɛ t ɾ a s a ɾ
 ^tardar$	t a ɾ ð a ɾ
-^empezar$	e m p e s a ɾ
-^comenzar$	k o m e n s a ɾ
-^inicio$	i n i s j o
+^empezar$	e m p e θ a ɾ
+^comenzar$	k o m e n θ a ɾ
+^inicio$	i n i θ j o
 ^durar$	d u ɾ a ɾ
 ^fin$	f i n
 ^acabar$	a k a β a ɾ
 ^terminar$	t ɛ ɾ m i n a ɾ
-^finalizar$	f i n a l i s a ɾ
+^finalizar$	f i n a l i θ a ɾ
 ^terminar$	t ɛ ɾ m i n a ɾ
 ^detenerse$	d ɛ t e n ɛ ɾ s e
-^cesar$	s e s a ɾ
+^cesar$	θ e s a ɾ
 ^listo$	l i s t o
 ^preparado$	p ɾ e p a ɾ a ð o
 ^siempre$	s j e m p ɾ e
 ^a_menudo$	a + m e n u ð o
 ^frecuentemente$	f ɾ e k w e n t e m e n t e
-^a_veces$	a + β e s e s
+^a_veces$	a + β e θ e s
 ^pronto$	p ɾ o n t o
 ^por_mucho_tiempo$	p o ɾ + m u tʃ o + t j e m p o
 ^nunca$	n u n k a
 ^jamás$	x a m a s
-^otra_vez$	o t ɾ a + β e s
+^otra_vez$	o t ɾ a + β ɛ θ
 ^de_nuevo$	d e + n w e β o
 ^día$	d i a
 ^noche$	n o tʃ e
 ^madrugada$	m a ð ɾ u ɣ a ð a
-^amanecer$	a m a n e s ɛ ɾ
+^amanecer$	a m a n e θ ɛ ɾ
 ^maɲana$	m a ɲ a n a
 ^mediodía$	m e ð j o ð i a
 ^tarde$	t a ɾ ð e
@@ -491,7 +491,7 @@ Grapheme	IPA	Note
 ^primavera$	p ɾ i m a β ɛ ɾ a
 ^verano$	b ɛ ɾ a n o
 ^otoɲo$	o t o ɲ o
-^estación$	ɛ s t a s j o n
+^estación$	ɛ s t a θ j o n
 ^oler$	o l ɛ ɾ
 ^olfatear$	o l f a t e a ɾ
 ^husmear$	u s m e a ɾ
@@ -502,10 +502,10 @@ Grapheme	IPA	Note
 ^hediondo$	e ð j o n d o
 ^gustar$	ɡ u s t a ɾ
 ^saborear$	s a β o ɾ e a ɾ
-^dulce$	d u l s e
+^dulce$	d u l θ e
 ^salado$	s a l a ð o
 ^amargo$	a m a ɾ ɣ o
-^ácido$	a s i ð o
+^ácido$	a θ i ð o
 ^agrio$	a ɣ ɾ j o
 ^salobre$	s a l o β ɾ e
 ^oír$	o i ɾ
@@ -514,15 +514,15 @@ Grapheme	IPA	Note
 ^ruido$	r w i ð o
 ^alta$	a l t a
 ^ruidoso$	r w i ð o s o
-^silencio$	s i l e n s j o
+^silencio$	s i l e n θ j o
 ^tranquilo$	t ɾ a n k i l o
 ^ver$	b ɛ ɾ
 ^mirar$	m i ɾ a ɾ
 ^contemplar$	k o n t e m p l a ɾ
 ^mostrar$	m o s t ɾ a ɾ
 ^seɲalar$	s e ɲ a l a ɾ
-^brillar$	b ɾ i ʝ a ɾ
-^brillante$	b ɾ i ʝ a n t e
+^brillar$	b ɾ i ʎ a ɾ
+^brillante$	b ɾ i ʎ a n t e
 ^resplandor$	r ɛ s p l a n d o ɾ
 ^color$	k o l o ɾ
 ^claro$	k l a ɾ o
@@ -530,11 +530,11 @@ Grapheme	IPA	Note
 ^blanco$	b l a n k o
 ^negro$	n e ɣ ɾ o
 ^rojo$	r o x o
-^azul$	a s u l
+^azul$	a θ u l
 ^verde$	b ɛ ɾ ð e
-^amarillo$	a m a ɾ i ʝ o
+^amarillo$	a m a ɾ i ʎ o
 ^tocar$	t o k a ɾ
-^pellizcar$	p e ʝ i s k a ɾ
+^pellizcar$	p e ʎ i θ k a ɾ
 ^sentir$	s e n t i ɾ
 ^duro$	d u ɾ o
 ^suave$	s w a β e
@@ -542,7 +542,7 @@ Grapheme	IPA	Note
 ^suave$	s w a β e
 ^liso$	l i s o
 ^afilado$	a f i l a ð o
-^aguzado$	a ɣ u s a ð o
+^aguzado$	a ɣ u θ a ð o
 ^filoso$	f i l o s o
 ^romo$	r o m o
 ^embotado$	e m b o t a ð o
@@ -557,7 +557,7 @@ Grapheme	IPA	Note
 ^cálido$	k a l i ð o
 ^frío$	f ɾ i o
 ^limpio$	l i m p j o
-^sucio$	s u s j o
+^sucio$	s u θ j o
 ^arrugado$	a r u ɣ a ð o
 ^alma$	a l m a
 ^sorprendido$	s o ɾ p ɾ e n d i ð o
@@ -566,26 +566,26 @@ Grapheme	IPA	Note
 ^mala_suerte$	m a l a + s w ɛ ɾ t e
 ^alegre$	a l e ɣ ɾ e
 ^contento$	k o n t e n t o
-^feliz$	f e l i s
+^feliz$	f e l i θ
 ^reír$	r e i ɾ
 ^sonreír$	s o n r e i ɾ
 ^jugar$	x u ɣ a ɾ
 ^querer$	k ɛ ɾ ɛ ɾ
 ^amar$	a m a ɾ
 ^besar$	b e s a ɾ
-^abrazar$	a β ɾ a s a ɾ
+^abrazar$	a β ɾ a θ a ɾ
 ^dolor$	d o l o ɾ
-^tristeza$	t ɾ i s t e s a
+^tristeza$	t ɾ i s t e θ a
 ^dolor$	d o l o ɾ
 ^pena$	p e n a
 ^ansiedad$	a n s j e ð a ð
 ^angustia$	a n ɡ u s t j a
-^preocupación$	p ɾ e o k u p a s j o n
+^preocupación$	p ɾ e o k u p a θ j o n
 ^lamentar$	l a m e n t a ɾ
 ^sentir$	s e n t i ɾ
 ^compasión$	k o m p a s j o n
 ^lástima$	l a s t i m a
-^llorar$	ɟ ʝ o ɾ a ɾ
+^llorar$	ʎ o ɾ a ɾ
 ^lágrima$	l a ɣ ɾ i m a
 ^gemir$	x e m i ɾ
 ^odiar$	o ð j a ɾ
@@ -593,9 +593,9 @@ Grapheme	IPA	Note
 ^ira$	i ɾ a
 ^rabia$	r a β j a
 ^envidia$	e m b i ð j a
-^celos$	s e l o s
-^vergüenza$	b ɛ ɾ ɣ w e n s a
-^orgulloso$	o ɾ ɣ u ʝ o s o
+^celos$	θ e l o s
+^vergüenza$	b ɛ ɾ ɣ w e n θ a
+^orgulloso$	o ɾ ɣ u ʎ o s o
 ^osar$	o s a ɾ
 ^atreverse$	a t ɾ e β ɛ ɾ s e
 ^valiente$	b a l j e n t e
@@ -606,7 +606,7 @@ Grapheme	IPA	Note
 ^desear$	d e s e a ɾ
 ^escoger$	ɛ s k o x ɛ ɾ
 ^elegir$	e l e x i ɾ
-^esperanza$	ɛ s p ɛ ɾ a n s a
+^esperanza$	ɛ s p ɛ ɾ a n θ a
 ^fiel$	f j ɛ l
 ^verdadero$	b ɛ ɾ ð a ð ɛ ɾ o
 ^mentir$	m e n t i ɾ
@@ -618,20 +618,20 @@ Grapheme	IPA	Note
 ^incorrecto$	i n k o r e k t o
 ^falso$	f a l s o
 ^culpa$	k u l p a
-^equivocación$	e k i β o k a s j o n
+^equivocación$	e k i β o k a θ j o n
 ^error$	ɛ r o ɾ
 ^culpa$	k u l p a
-^censura$	s e n s u ɾ a
+^censura$	θ e n s u ɾ a
 ^exaltar$	ɛ k s a l t a ɾ
 ^alabar$	a l a β a ɾ
 ^hermoso$	ɛ ɾ m o s o
 ^bonito$	b o n i t o
 ^lindo$	l i n d o
 ^feo$	f e o
-^codicioso$	k o ð i s j o s o
-^voraz$	b o ɾ a s
+^codicioso$	k o ð i θ j o s o
+^voraz$	b o ɾ a θ
 ^hábil$	a β i l
-^capaz$	k a p a s
+^capaz$	k a p a θ
 ^mente$	m e n t e
 ^pensamiento$	p e n s a m j e n t o
 ^pensar$	p e n s a ɾ
@@ -641,15 +641,15 @@ Grapheme	IPA	Note
 ^entender$	e n t e n d ɛ ɾ
 ^comprender$	k o m p ɾ e n d ɛ ɾ
 ^saber$	s a β ɛ ɾ
-^conocer$	k o n o s ɛ ɾ
+^conocer$	k o n o θ ɛ ɾ
 ^adivinar$	a ð i β i n a ɾ
-^acertar$	a s ɛ ɾ t a ɾ
+^acertar$	a θ ɛ ɾ t a ɾ
 ^imitar$	i m i t a ɾ
-^parecer$	p a ɾ e s ɛ ɾ
+^parecer$	p a ɾ e θ ɛ ɾ
 ^idea$	i ð e a
-^concepto$	k o n s e p t o
+^concepto$	k o n θ e p t o
 ^sabio$	s a β j o
-^necio$	n e s j o
+^necio$	n e θ j o
 ^estúpido$	ɛ s t u p i ð o
 ^tonto$	t o n t o
 ^loco$	l o k o
@@ -670,17 +670,17 @@ Grapheme	IPA	Note
 ^obscuro$	o β s k u ɾ o
 ^secreto$	s e k ɾ ɛ t o
 ^seguro$	s e ɣ u ɾ o
-^cierto$	s j ɛ ɾ t o
-^explicar$	ɛ k s p l i k a ɾ
+^cierto$	θ j ɛ ɾ t o
+^explicar$	ɛ s p l i k a ɾ
 ^propósito$	p ɾ o p o s i t o
-^intención$	i n t e n s j o n
+^intención$	i n t e n θ j o n
 ^causar$	k a u s a ɾ
 ^dudar$	d u ð a ɾ
 ^sospechar$	s o s p e tʃ a ɾ
-^traicionar$	t ɾ a i s j o n a ɾ
-^necesidad$	n e s e s i ð a ð
-^fácil$	f a s i l
-^difícil$	d i f i s i l
+^traicionar$	t ɾ a i θ j o n a ɾ
+^necesidad$	n e θ e s i ð a ð
+^fácil$	f a θ i l
+^difícil$	d i f i θ i l
 ^tratar$	t ɾ a t a ɾ
 ^probar$	p ɾ o β a ɾ
 ^modo$	m o ð o
@@ -702,7 +702,7 @@ Grapheme	IPA	Note
 ^cuál$	k w a l
 ^quién$	k j e n
 ^por_qué$	p o ɾ + k e
-^voz$	b o s
+^voz$	b o θ
 ^cantar$	k a n t a ɾ
 ^gritar$	ɡ ɾ i t a ɾ
 ^cuchichear$	k u tʃ i tʃ e a ɾ
@@ -710,16 +710,16 @@ Grapheme	IPA	Note
 ^hablar_entre_dientes$	a β l a ɾ + e n t ɾ e + ð j e n t e s
 ^silbar$	s i l β a ɾ
 ^chiflar$	tʃ i f l a ɾ
-^chillar$	tʃ i ʝ a ɾ
-^aullar$	a u ʝ a ɾ
+^chillar$	tʃ i ʎ a ɾ
+^aullar$	a u ʎ a ɾ
 ^hablar$	a β l a ɾ
 ^tartamudear$	t a ɾ t a m u ð e a ɾ
-^balbucear$	b a l β u s e a ɾ
-^decir$	d e s i ɾ
+^balbucear$	b a l β u θ e a ɾ
+^decir$	d e θ i ɾ
 ^narrar$	n a r a ɾ
 ^contar$	k o n t a ɾ
-^pronunciar_un_discurso$	p ɾ o n u n s j a ɾ + u n + d i s k u ɾ s o
-^callarse$	k a ʝ a ɾ s e
+^pronunciar_un_discurso$	p ɾ o n u n θ j a ɾ + u n + d i s k u ɾ s o
+^callarse$	k a ʎ a ɾ s e
 ^lengua$	l e n ɡ w a
 ^idioma$	i ð j o m a
 ^palabra$	p a l a β ɾ a
@@ -729,18 +729,18 @@ Grapheme	IPA	Note
 ^responder$	r ɛ s p o n d ɛ ɾ
 ^admitir$	a ð m i t i ɾ
 ^confesar$	k o m f e s a ɾ
-^reconocer$	r e k o n o s ɛ ɾ
+^reconocer$	r e k o n o θ ɛ ɾ
 ^negar$	n e ɣ a ɾ
 ^pedir$	p e ð i ɾ
 ^prometer$	p ɾ o m ɛ t ɛ ɾ
 ^rehusar$	r e u s a ɾ
 ^prohibir$	p ɾ o i β i ɾ
 ^reprender$	r e p ɾ e n d ɛ ɾ
-^llamar$	ɟ ʝ a m a ɾ
-^llamarse$	ɟ ʝ a m a ɾ s e
-^anunciar$	a n u n s j a ɾ
+^llamar$	ʎ a m a ɾ
+^llamarse$	ʎ a m a ɾ s e
+^anunciar$	a n u n θ j a ɾ
 ^avisar$	a β i s a ɾ
-^amenazar$	a m e n a s a ɾ
+^amenazar$	a m e n a θ a ɾ
 ^jactarse$	x a k t a ɾ s e
 ^escribir$	ɛ s k ɾ i β i ɾ
 ^leer$	l e ɛ ɾ
@@ -758,7 +758,7 @@ Grapheme	IPA	Note
 ^cascabel$	k a s k a β ɛ l
 ^país$	p a i s
 ^patria$	p a t ɾ j a
-^ciudad$	s j u ð a ð
+^ciudad$	θ j u ð a ð
 ^pueblo$	p w e β l o
 ^límite$	l i m i t e
 ^frontera$	f ɾ o n t ɛ ɾ a
@@ -767,7 +767,7 @@ Grapheme	IPA	Note
 ^tribu$	t ɾ i β u
 ^clan$	k l a n
 ^jefe$	x e f e
-^cacique$	k a s i k e
+^cacique$	k a θ i k e
 ^bastón$	b a s t o n
 ^bordón$	b o ɾ ð o n
 ^gobernar$	ɡ o β ɛ ɾ n a ɾ
@@ -775,7 +775,7 @@ Grapheme	IPA	Note
 ^gobernante$	ɡ o β ɛ ɾ n a n t e
 ^reina$	r e i n a
 ^noble$	n o β l e
-^ciudadano$	s j u ð a ð a n o
+^ciudadano$	θ j u ð a ð a n o
 ^súbdito$	s u β ð i t o
 ^amo$	a m o
 ^dueɲo$	d w e ɲ o
@@ -786,14 +786,14 @@ Grapheme	IPA	Note
 ^hombre_libre$	o m b ɾ e + l i β ɾ e
 ^mandar$	m a n d a ɾ
 ^ordenar$	o ɾ ð e n a ɾ
-^obedecer$	o β e ð e s ɛ ɾ
+^obedecer$	o β e ð e θ ɛ ɾ
 ^permitir$	p ɛ ɾ m i t i ɾ
 ^dejar$	d e x a ɾ
 ^amigo$	a m i ɣ o
 ^compaɲero$	k o m p a ɲ ɛ ɾ o
 ^enemigo$	e n e m i ɣ o
-^vecino$	b e s i n o
-^extranjero$	ɛ k s t ɾ a n x ɛ ɾ o
+^vecino$	b e θ i n o
+^extranjero$	ɛ s t ɾ a n x ɛ ɾ o
 ^forastero$	f o ɾ a s t ɛ ɾ o
 ^huésped$	w ɛ s p ɛ ð
 ^invitado$	i m b i t a ð o
@@ -807,7 +807,7 @@ Grapheme	IPA	Note
 ^lucha$	l u tʃ a
 ^pleito$	p l e i t o
 ^disputa$	d i s p u t a
-^conspiración$	k o n s p i ɾ a s j o n
+^conspiración$	k o n s p i ɾ a θ j o n
 ^encontrar$	e n k o n t ɾ a ɾ
 ^prostituta$	p ɾ o s t i t u t a
 ^persona$	p ɛ ɾ s o n a
@@ -830,7 +830,7 @@ Grapheme	IPA	Note
 ^casarse$	k a s a ɾ s e
 ^casamiento$	k a s a m j e n t o
 ^boda$	b o ð a
-^divorcio$	d i β o ɾ s j o
+^divorcio$	d i β o ɾ θ j o
 ^padre$	p a ð ɾ e
 ^madre$	m a ð ɾ e
 ^padres$	p a ð ɾ e s
@@ -849,12 +849,12 @@ Grapheme	IPA	Note
 ^hermano$	ɛ ɾ m a n o
 ^hermana$	ɛ ɾ m a n a
 ^gemelos$	x e m e l o s
-^mellizo$	m e ʝ i s o
+^mellizo$	m e ʎ i θ o
 ^abuelo$	a β w e l o
-^anciano$	a n s j a n o
+^anciano$	a n θ j a n o
 ^hombre_viejo$	o m b ɾ e + β j e x o
 ^abuela$	a β w e l a
-^anciana$	a n s j a n a
+^anciana$	a n θ j a n a
 ^mujer_vieja$	m u x ɛ ɾ + β j e x a
 ^nieto$	n j ɛ t o
 ^nieta$	n j ɛ t a
@@ -895,8 +895,8 @@ Grapheme	IPA	Note
 ^tú$	t u
 ^usted$	u s t ɛ ð
 ^él$	ɛ l
-^ella$	e ʝ a
-^ello$	e ʝ o
+^ella$	e ʎ a
+^ello$	e ʎ o
 ^nosotros$	n o s o t ɾ o s
 ^nosotras$	n o s o t ɾ a s
 ^nosotros$	n o s o t ɾ o s
@@ -904,13 +904,13 @@ Grapheme	IPA	Note
 ^nosotros$	n o s o t ɾ o s
 ^nosotras$	n o s o t ɾ a s
 ^ustedes$	u s t e ð e s
-^ellos$	e ʝ o s
-^ellas$	e ʝ a s
+^ellos$	e ʎ o s
+^ellas$	e ʎ a s
 ^pelear$	p e l e a ɾ
 ^guerra$	ɡ ɛ r a
-^batalla$	b a t a ʝ a
-^paz$	p a s
-^ejército$	e x ɛ ɾ s i t o
+^batalla$	b a t a ʎ a
+^paz$	p a θ
+^ejército$	e x ɛ ɾ θ i t o
 ^tropas$	t ɾ o p a s
 ^soldado$	s o l d a ð o
 ^armas$	a ɾ m a s
@@ -920,15 +920,15 @@ Grapheme	IPA	Note
 ^honda$	o n d a
 ^arco$	a ɾ k o
 ^flecha$	f l e tʃ a
-^lanza$	l a n s a
+^lanza$	l a n θ a
 ^espada$	ɛ s p a ð a
 ^escopeta$	ɛ s k o p ɛ t a
 ^caɲón$	k a ɲ o n
 ^armadura$	a ɾ m a ð u ɾ a
 ^yelmo$	ɟ ʝ ɛ l m o
 ^escudo$	ɛ s k u ð o
-^fortaleza$	f o ɾ t a l e s a
-^castillo$	k a s t i ʝ o
+^fortaleza$	f o ɾ t a l e θ a
+^castillo$	k a s t i ʎ o
 ^torre$	t o r e
 ^victoria$	b i k t o ɾ j a
 ^derrota$	d ɛ r o t a
@@ -941,52 +941,52 @@ Grapheme	IPA	Note
 ^preso$	p ɾ e s o
 ^prisionero$	p ɾ i s j o n ɛ ɾ o
 ^guardia$	ɡ w a ɾ ð j a
-^centinela$	s e n t i n e l a
+^centinela$	θ e n t i n e l a
 ^botín$	b o t i n
-^acechar$	a s e tʃ a ɾ
+^acechar$	a θ e tʃ a ɾ
 ^emboscar$	e m b o s k a ɾ
 ^pescador$	p ɛ s k a ð o ɾ
-^anzuelo$	a n s w e l o
+^anzuelo$	a n θ w e l o
 ^cuerda_de_pescar$	k w ɛ ɾ ð a + ð e + p ɛ s k a ɾ
 ^red$	r ɛ ð
 ^atarraya$	a t a r a ʝ a
 ^nasa$	n a s a
-^cebo$	s e β o
+^cebo$	θ e β o
 ^carnada$	k a ɾ n a ð a
-^cazar$	k a s a ɾ
+^cazar$	k a θ a ɾ
 ^tirar$	t i ɾ a ɾ
 ^disparar$	d i s p a ɾ a ɾ
 ^errar$	ɛ r a ɾ
-^fallar$	f a ʝ a ɾ
+^fallar$	f a ʎ a ɾ
 ^trampa$	t ɾ a m p a
 ^atrapar$	a t ɾ a p a ɾ
 ^ley$	l e i
 ^tribunal$	t ɾ i β u n a l
-^juzgar$	x u s ɣ a ɾ
-^juicio$	x w i s j o
-^juez$	x w e s
+^juzgar$	x u ð ɣ a ɾ
+^juicio$	x w i θ j o
+^juez$	x w ɛ θ
 ^demandante$	d e m a n d a n t e
 ^acusado$	a k u s a ð o
 ^testigo$	t ɛ s t i ɣ o
 ^jurar$	x u ɾ a ɾ
 ^juramento$	x u ɾ a m e n t o
 ^acusar$	a k u s a ɾ
-^denunciar$	d e n u n s j a ɾ
+^denunciar$	d e n u n θ j a ɾ
 ^condenar$	k o n d e n a ɾ
 ^inculpar$	i n k u l p a ɾ
 ^condenar$	k o n d e n a ɾ
 ^absolver$	a β s o l β ɛ ɾ
-^exculpar$	ɛ k s k u l p a ɾ
+^exculpar$	ɛ s k u l p a ɾ
 ^culpable$	k u l p a β l e
-^inocente$	i n o s e n t e
+^inocente$	i n o θ e n t e
 ^castigo$	k a s t i ɣ o
 ^multa$	m u l t a
-^cárcel$	k a ɾ s ɛ l
+^cárcel$	k a ɾ θ ɛ l
 ^asesinar$	a s e s i n a ɾ
 ^matar$	m a t a ɾ
 ^adulterio$	a ð u l t ɛ ɾ j o
-^violación$	b j o l a s j o n
-^incendio_premeditado$	i n s e n d j o + p ɾ e m e ð i t a ð o
+^violación$	b j o l a θ j o n
+^incendio_premeditado$	i n θ e n d j o + p ɾ e m e ð i t a ð o
 ^perjurio$	p ɛ ɾ x u ɾ j o
 ^robar$	r o β a ɾ
 ^ladrón$	l a ð ɾ o n
@@ -996,30 +996,30 @@ Grapheme	IPA	Note
 ^iglesia$	i ɣ l e s j a
 ^altar$	a l t a ɾ
 ^ofrenda$	o f ɾ e n d a
-^sacrificio$	s a k ɾ i f i s j o
+^sacrificio$	s a k ɾ i f i θ j o
 ^adorar$	a ð o ɾ a ɾ
 ^culto$	k u l t o
 ^orar$	o ɾ a ɾ
-^rezar$	r e s a ɾ
+^rezar$	r e θ a ɾ
 ^cura$	k u ɾ a
 ^presbítero$	p ɾ ɛ s β i t ɛ ɾ o
-^sacerdote$	s a s ɛ ɾ ð o t e
+^sacerdote$	s a θ ɛ ɾ ð o t e
 ^sagrado$	s a ɣ ɾ a ð o
 ^santo$	s a n t o
 ^predicar$	p ɾ e ð i k a ɾ
-^bendecir$	b e n d e s i ɾ
-^maldecir$	m a l d e s i ɾ
+^bendecir$	b e n d e θ i ɾ
+^maldecir$	m a l d e θ i ɾ
 ^ayunar$	a ʝ u n a ɾ
-^cielo$	s j e l o
+^cielo$	θ j e l o
 ^paraíso$	p a ɾ a i s o
 ^infierno$	i m f j ɛ ɾ n o
 ^demonio$	d e m o n j o
 ^ídolo$	i ð o l o
 ^brujería$	b ɾ u x ɛ ɾ i a
-^hechicería$	e tʃ i s ɛ ɾ i a
+^hechicería$	e tʃ i θ ɛ ɾ i a
 ^brujo$	b ɾ u x o
 ^bruja$	b ɾ u x a
-^hechicero$	e tʃ i s ɛ ɾ o
+^hechicero$	e tʃ i θ ɛ ɾ o
 ^hada$	a ð a
 ^duende$	d w e n d e
 ^fantasma$	f a n t a s m a
@@ -1040,7 +1040,7 @@ Grapheme	IPA	Note
 ^toro$	t o ɾ o
 ^buey$	b w e i
 ^vaca$	b a k a
-^becerro$	b e s ɛ r o
+^becerro$	b e θ ɛ r o
 ^ternero$	t ɛ ɾ n ɛ ɾ o
 ^oveja$	o β e x a
 ^carnero$	k a ɾ n ɛ ɾ o
@@ -1051,28 +1051,28 @@ Grapheme	IPA	Note
 ^jabalí$	x a β a l i
 ^puerca$	p w ɛ ɾ k a
 ^cochina$	k o tʃ i n a
-^cerda$	s ɛ ɾ ð a
-^cerdo$	s ɛ ɾ ð o
+^cerda$	θ ɛ ɾ ð a
+^cerdo$	θ ɛ ɾ ð o
 ^puerco$	p w ɛ ɾ k o
 ^chancho$	tʃ a n tʃ o
 ^cabra$	k a β ɾ a
 ^chivo$	tʃ i β o
 ^macho_cabrío$	m a tʃ o + k a β ɾ i o
 ^cabrito$	k a β ɾ i t o
-^caballo$	k a β a ʝ o
-^caballo_padre$	k a β a ʝ o + p a ð ɾ e
+^caballo$	k a β a ʎ o
+^caballo_padre$	k a β a ʎ o + p a ð ɾ e
 ^semental$	s e m e n t a l
 ^yegua$	ɟ ʝ e ɣ w a
 ^potro$	p o t ɾ o
-^potrillo$	p o t ɾ i ʝ o
+^potrillo$	p o t ɾ i ʎ o
 ^asno$	a s n o
 ^burro$	b u r o
 ^mulo$	m u l o
 ^mula$	m u l a
 ^ave$	a β e
-^gallo$	ɡ a ʝ o
-^gallina$	ɡ a ʝ i n a
-^pollo$	p o ʝ o
+^gallo$	ɡ a ʎ o
+^gallina$	ɡ a ʎ i n a
+^pollo$	p o ʎ o
 ^ganso$	ɡ a n s o
 ^pato$	p a t o
 ^ánade$	a n a ð e
@@ -1080,51 +1080,51 @@ Grapheme	IPA	Note
 ^pájaro$	p a x a ɾ o
 ^ave$	a β e
 ^gaviota$	ɡ a β j o t a
-^garza$	ɡ a ɾ s a
+^garza$	ɡ a ɾ θ a
 ^águila$	a ɣ i l a
 ^gavilán$	ɡ a β i l a n
 ^halcón$	a l k o n
 ^buitre$	b w i t ɾ e
-^murciélago$	m u ɾ s j e l a ɣ o
+^murciélago$	m u ɾ θ j e l a ɣ o
 ^loro$	l o ɾ o
 ^papagayo$	p a p a ɣ a ʝ o
 ^cuervo$	k w ɛ ɾ β o
 ^paloma$	p a l o m a
-^lechuza$	l e tʃ u s a
+^lechuza$	l e tʃ u θ a
 ^buho$	b u o
 ^perro$	p ɛ r o
 ^conejo$	k o n e x o
 ^gato$	ɡ a t o
-^zarigüeya$	s a ɾ i ɣ w e ʝ a
+^zarigüeya$	θ a ɾ i ɣ w e ʝ a
 ^ratón$	r a t o n
 ^rata$	r a t a
-^pez$	p e s
+^pez$	p ɛ θ
 ^pescado$	p ɛ s k a ð o
 ^aleta$	a l ɛ t a
 ^escama$	ɛ s k a m a
-^agalla$	a ɣ a ʝ a
+^agalla$	a ɣ a ʎ a
 ^valva$	b a l β a
 ^tiburón$	t i β u ɾ o n
 ^delfín$	d ɛ l f i n
-^ballena$	b a ʝ e n a
+^ballena$	b a ʎ e n a
 ^raya$	r a ʝ a
 ^pastinaca$	p a s t i n a k a
-^anguila_de_agua_dulce$	a n ɡ i l a + ð e + a ɣ w a + ð u l s e
+^anguila_de_agua_dulce$	a n ɡ i l a + ð e + a ɣ w a + ð u l θ e
 ^lobo$	l o β o
 ^león$	l e o n
 ^oso$	o s o
-^zorro$	s o r o
+^zorro$	θ o r o
 ^venado$	b e n a ð o
-^ciervo$	s j ɛ ɾ β o
+^ciervo$	θ j ɛ ɾ β o
 ^a$	a
 ^mono$	m o n o
 ^elefante$	e l e f a n t e
-^camello$	k a m e ʝ o
+^camello$	k a m e ʎ o
 ^insecto$	i n s e k t o
 ^piojo$	p j o x o
 ^liendre$	l j e n d ɾ e
 ^pulga$	p u l ɣ a
-^ciempiés$	s j e m p j e s
+^ciempiés$	θ j e m p j e s
 ^alacrán$	a l a k ɾ a n
 ^escorpión$	ɛ s k o ɾ p j o n
 ^cucaracha$	k u k a ɾ a tʃ a
@@ -1132,17 +1132,17 @@ Grapheme	IPA	Note
 ^araɲa$	a ɾ a ɲ a
 ^telaraɲa$	t e l a ɾ a ɲ a
 ^abeja$	a β e x a
-^cera_de_abeja$	s ɛ ɾ a + ð e + a β e x a
+^cera_de_abeja$	θ ɛ ɾ a + ð e + a β e x a
 ^colmena$	k o l m e n a
 ^avispa$	a β i s p a
 ^mosca$	m o s k a
 ^jején$	x e x e n
 ^mosquito$	m o s k i t o
-^lombriz$	l o m b ɾ i s
+^lombriz$	l o m b ɾ i θ
 ^gusano$	ɡ u s a n o
 ^culebra$	k u l e β ɾ a
 ^serpiente$	s ɛ ɾ p j e n t e
-^luciérnaga$	l u s j ɛ ɾ n a ɣ a
+^luciérnaga$	l u θ j ɛ ɾ n a ɣ a
 ^mariposa$	m a ɾ i p o s a
 ^saltamontes$	s a l t a m o n t e s
 ^caracol$	k a ɾ a k o l
@@ -1154,64 +1154,64 @@ Grapheme	IPA	Note
 ^cuerpo$	k w ɛ ɾ p o
 ^piel$	p j ɛ l
 ^cutis$	k u t i s
-^pellejo$	p e ʝ e x o
+^pellejo$	p e ʎ e x o
 ^carne$	k a ɾ n e
-^cabello$	k a β e ʝ o
+^cabello$	k a β e ʎ o
 ^pelo$	p e l o
 ^barba$	b a ɾ β a
-^vello$	b e ʝ o
+^vello$	b e ʎ o
 ^pelo_púbico$	p e l o + p u β i k o
 ^caspa$	k a s p a
 ^sangre$	s a n ɡ ɾ e
 ^vena$	b e n a
 ^arteria$	a ɾ t ɛ ɾ j a
 ^hueso$	w e s o
-^costilla$	k o s t i ʝ a
+^costilla$	k o s t i ʎ a
 ^cuerno$	k w ɛ ɾ n o
 ^cola$	k o l a
 ^espalda$	ɛ s p a l d a
-^espinazo$	ɛ s p i n a s o
+^espinazo$	ɛ s p i n a θ o
 ^espina_dorsal$	ɛ s p i n a + ð o ɾ s a l
-^cabeza$	k a β e s a
+^cabeza$	k a β e θ a
 ^sien$	s j e n
 ^cráneo$	k ɾ a n e o
 ^calavera$	k a l a β ɛ ɾ a
-^cerebro$	s ɛ ɾ e β ɾ o
+^cerebro$	θ ɛ ɾ e β ɾ o
 ^sesos$	s e s o s
 ^cara$	k a ɾ a
 ^frente$	f ɾ e n t e
 ^mandíbula$	m a n d i β u l a
-^mejilla$	m e x i ʝ a
+^mejilla$	m e x i ʎ a
 ^mentón$	m e n t o n
-^barbilla$	b a ɾ β i ʝ a
+^barbilla$	b a ɾ β i ʎ a
 ^ojo$	o x o
-^ceja$	s e x a
+^ceja$	θ e x a
 ^párpado$	p a ɾ p a ð o
 ^pestaɲa$	p ɛ s t a ɲ a
 ^parpadear$	p a ɾ p a ð e a ɾ
 ^pestaɲear$	p ɛ s t a ɲ e a ɾ
 ^oreja$	o ɾ e x a
 ^lóbulo$	l o β u l o
-^cerumen$	s ɛ ɾ u m e n
-^nariz$	n a ɾ i s
-^ventana_de_la_nariz$	b e n t a n a + ð e + l a + n a ɾ i s
+^cerumen$	θ ɛ ɾ u m e n
+^nariz$	n a ɾ i θ
+^ventana_de_la_nariz$	b e n t a n a + ð e + l a + n a ɾ i θ
 ^moco$	m o k o
 ^boca$	b o k a
 ^pico$	p i k o
 ^labio$	l a β j o
 ^lengua$	l e n ɡ w a
 ^diente$	d j e n t e
-^encías$	e n s i a s
+^encías$	e n θ i a s
 ^molar$	m o l a ɾ
 ^muela$	m w e l a
-^cuello$	k w e ʝ o
+^cuello$	k w e ʎ o
 ^nuca$	n u k a
 ^garganta$	ɡ a ɾ ɣ a n t a
 ^hombro$	o m b ɾ o
 ^escápula$	ɛ s k a p u l a
 ^omóplato$	o m o p l a t o
 ^clavícula$	k l a β i k u l a
-^brazo$	b ɾ a s o
+^brazo$	b ɾ a θ o
 ^sobaco$	s o β a k o
 ^axila$	a k s i l a
 ^codo$	k o ð o
@@ -1225,41 +1225,41 @@ Grapheme	IPA	Note
 ^pierna$	p j ɛ ɾ n a
 ^pata$	p a t a
 ^muslo$	m u s l o
-^pantorrilla$	p a n t o r i ʝ a
-^rodilla$	r o ð i ʝ a
+^pantorrilla$	p a n t o r i ʎ a
+^rodilla$	r o ð i ʎ a
 ^pie$	p j e
-^tobillo$	t o β i ʝ o
+^tobillo$	t o β i ʎ o
 ^talón$	t a l o n
-^huella$	w e ʝ a
+^huella$	w e ʎ a
 ^dedo_del_pie$	d e ð o + ð ɛ l + p j e
 ^ala$	a l a
 ^pluma$	p l u m a
 ^pecho$	p e tʃ o
 ^seno$	s e n o
-^pezón$	p e s o n
+^pezón$	p e θ o n
 ^teta$	t ɛ t a
 ^ubre$	u β ɾ e
 ^ombligo$	o m b l i ɣ o
-^corazón$	k o ɾ a s o n
+^corazón$	k o ɾ a θ o n
 ^pulmón$	p u l m o n
 ^hígado$	i ɣ a ð o
 ^riɲón$	r i ɲ o n
-^bazo$	b a s o
+^bazo$	b a θ o
 ^estómago$	ɛ s t o m a ɣ o
 ^barriga$	b a r i ɣ a
 ^intestinos$	i n t ɛ s t i n o s
 ^tripas$	t ɾ i p a s
-^cintura$	s i n t u ɾ a
+^cintura$	θ i n t u ɾ a
 ^cadera$	k a ð ɛ ɾ a
 ^nalgas$	n a l ɣ a s
 ^trasero$	t ɾ a s ɛ ɾ o
-^matriz$	m a t ɾ i s
+^matriz$	m a t ɾ i θ
 ^vientre$	b j e n t ɾ e
 ^testículo$	t ɛ s t i k u l o
 ^pene$	p e n e
 ^respirar$	r ɛ s p i ɾ a ɾ
 ^aliento$	a l j e n t o
-^bostezar$	b o s t e s a ɾ
+^bostezar$	b o s t e θ a ɾ
 ^tener_hipo$	t e n ɛ ɾ + i p o
 ^toser$	t o s ɛ ɾ
 ^estornudar$	ɛ s t o ɾ n u ð a ɾ
@@ -1280,16 +1280,16 @@ Grapheme	IPA	Note
 ^orinar$	o ɾ i n a ɾ
 ^mear$	m e a ɾ
 ^defecar$	d e f e k a ɾ
-^excremento$	ɛ k s k ɾ e m e n t o
-^tener_relaciones_sexuales$	t e n ɛ ɾ + r e l a s j o n e s + s ɛ k s w a l e s
+^excremento$	ɛ s k ɾ e m e n t o
+^tener_relaciones_sexuales$	t e n ɛ ɾ + r e l a θ j o n e s + s ɛ k s w a l e s
 ^temblar$	t e m b l a ɾ
 ^baɲar$	b a ɲ a ɾ
 ^engendrar$	e n x e n d ɾ a ɾ
 ^procrear$	p ɾ o k ɾ e a ɾ
-^nacer$	n a s ɛ ɾ
-^embarazada$	e m b a ɾ a s a ð a
+^nacer$	n a θ ɛ ɾ
+^embarazada$	e m b a ɾ a θ a ð a
 ^preɲada$	p ɾ e ɲ a ð a
-^concebir$	k o n s e β i ɾ
+^concebir$	k o n θ e β i ɾ
 ^vivir$	b i β i ɾ
 ^vivo$	b i β o
 ^vida$	b i ð a
@@ -1310,47 +1310,47 @@ Grapheme	IPA	Note
 ^enfermo$	e m f ɛ ɾ m o
 ^enfermedad$	e m f ɛ ɾ m e ð a ð
 ^fiebre$	f j e β ɾ e
-^bocio$	b o s j o
+^bocio$	b o θ j o
 ^coto$	k o t o
 ^catarro$	k a t a r o
 ^resfriado$	r ɛ s f ɾ j a ð o
 ^herida$	ɛ ɾ i ð a
-^llaga$	ɟ ʝ a ɣ a
+^llaga$	ʎ a ɣ a
 ^cardenal$	k a ɾ ð e n a l
-^magulladura$	m a ɣ u ʝ a ð u ɾ a
+^magulladura$	m a ɣ u ʎ a ð u ɾ a
 ^contusión$	k o n t u s j o n
-^hinchazón$	i n tʃ a s o n
-^comezón$	k o m e s o n
-^ampolla$	a m p o ʝ a
+^hinchazón$	i n tʃ a θ o n
+^comezón$	k o m e θ o n
+^ampolla$	a m p o ʎ a
 ^furúnculo$	f u ɾ u n k u l o
 ^forúnculo$	f o ɾ u n k u l o
 ^pus$	p u s
-^cicatriz$	s i k a t ɾ i s
+^cicatriz$	θ i k a t ɾ i θ
 ^sanar$	s a n a ɾ
 ^curar$	k u ɾ a ɾ
 ^doctor$	d o k t o ɾ
 ^médico$	m e ð i k o
-^medicina$	m e ð i s i n a
+^medicina$	m e ð i θ i n a
 ^remedio$	r e m e ð j o
 ^veneno$	b e n e n o
 ^cansado$	k a n s a ð o
 ^descansar$	d ɛ s k a n s a ɾ
-^perezoso$	p ɛ ɾ e s o s o
+^perezoso$	p ɛ ɾ e θ o s o
 ^flojo$	f l o x o
 ^calvo$	k a l β o
 ^pelado$	p e l a ð o
 ^lisiado$	l i s j a ð o
 ^sordo$	s o ɾ ð o
 ^mudo$	m u ð o
-^ciego$	s j e ɣ o
+^ciego$	θ j e ɣ o
 ^ebrio$	e β ɾ j o
 ^embriagado$	e m b ɾ j a ɣ a ð o
 ^desnudo$	d ɛ s n u ð o
 ^comer$	k o m ɛ ɾ
 ^comida$	k o m i ð a
 ^alimento$	a l i m e n t o
-^cocido$	k o s i ð o
-^cocinado$	k o s i n a ð o
+^cocido$	k o θ i ð o
+^cocinado$	k o θ i n a ð o
 ^crudo$	k ɾ u ð o
 ^maduro$	m a ð u ɾ o
 ^inmaduro$	i m m a ð u ɾ o
@@ -1366,42 +1366,42 @@ Grapheme	IPA	Note
 ^mascar$	m a s k a ɾ
 ^tragar$	t ɾ a ɣ a ɾ
 ^sofocar$	s o f o k a ɾ
-^cocinar$	k o s i n a ɾ
+^cocinar$	k o θ i n a ɾ
 ^hervir$	ɛ ɾ β i ɾ
 ^asar$	a s a ɾ
 ^freír$	f ɾ e i ɾ
 ^hornear$	o ɾ n e a ɾ
 ^horno$	o ɾ n o
-^olla$	o ʝ a
+^olla$	o ʎ a
 ^caldera$	k a l d ɛ ɾ a
-^cacerola$	k a s ɛ ɾ o l a
-^cazuela$	k a s w e l a
+^cacerola$	k a θ ɛ ɾ o l a
+^cazuela$	k a θ w e l a
 ^plato$	p l a t o
 ^fuente$	f w e n t e
 ^plato$	p l a t o
-^tazón$	t a s o n
+^tazón$	t a θ o n
 ^cántaro$	k a n t a ɾ o
 ^jarro$	x a r o
-^taza$	t a s a
+^taza$	t a θ a
 ^copa$	k o p a
-^platillo$	p l a t i ʝ o
+^platillo$	p l a t i ʎ o
 ^cuchara$	k u tʃ a ɾ a
-^cuchillo$	k u tʃ i ʝ o
+^cuchillo$	k u tʃ i ʎ o
 ^tenedor$	t e n e ð o ɾ
-^tenazas$	t e n a s a s
+^tenazas$	t e n a θ a s
 ^comida$	k o m i ð a
 ^desayuno$	d e s a ʝ u n o
-^almuerzo$	a l m w ɛ ɾ s o
+^almuerzo$	a l m w ɛ ɾ θ o
 ^comida$	k o m i ð a
-^cena$	s e n a
+^cena$	θ e n a
 ^pelar$	p e l a ɾ
 ^cribar$	k ɾ i β a ɾ
 ^colar$	k o l a ɾ
-^cerner$	s ɛ ɾ n ɛ ɾ
+^cerner$	θ ɛ ɾ n ɛ ɾ
 ^raspar$	r a s p a ɾ
-^rallar$	r a ʝ a ɾ
-^mezclar$	m ɛ s k l a ɾ
-^mixturar$	m i k s t u ɾ a ɾ
+^rallar$	r a ʎ a ɾ
+^mezclar$	m ɛ θ k l a ɾ
+^mixturar$	m i s t u ɾ a ɾ
 ^pan$	p a n
 ^masa$	m a s a
 ^amasar$	a m a s a ɾ
@@ -1419,28 +1419,28 @@ Grapheme	IPA	Note
 ^poroto$	p o ɾ o t o
 ^papa$	p a p a
 ^fruta$	f ɾ u t a
-^racimo$	r a s i m o
+^racimo$	r a θ i m o
 ^higo$	i ɣ o
 ^uva$	u β a
-^nuez$	n w e s
-^aceituna$	a s e i t u n a
+^nuez$	n w ɛ θ
+^aceituna$	a θ e i t u n a
 ^oliva$	o l i β a
-^aceite$	a s e i t e
+^aceite$	a θ e i t e
 ^grasa$	ɡ ɾ a s a
 ^sal$	s a l
 ^pimienta$	p i m j e n t a
 ^ají$	a x i
 ^miel$	m j ɛ l
-^azúcar$	a s u k a ɾ
+^azúcar$	a θ u k a ɾ
 ^leche$	l e tʃ e
 ^ordeɲar$	o ɾ ð e ɲ a ɾ
 ^queso$	k e s o
-^mantequilla$	m a n t e k i ʝ a
+^mantequilla$	m a n t e k i ʎ a
 ^manteca$	m a n t e k a
 ^bebida$	b e β i ð a
 ^aguamiel$	a ɣ w a m j ɛ l
 ^vino$	b i n o
-^cerveza$	s ɛ ɾ β e s a
+^cerveza$	θ ɛ ɾ β e θ a
 ^bebida_fermentada$	b e β i ð a + f ɛ ɾ m e n t a ð a
 ^huevo$	w e β o
 ^yema$	ɟ ʝ e m a
@@ -1462,7 +1462,7 @@ Grapheme	IPA	Note
 ^telar$	t e l a ɾ
 ^coser$	k o s ɛ ɾ
 ^aguja$	a ɣ u x a
-^punzón$	p u n s o n
+^punzón$	p u n θ o n
 ^hilo$	i l o
 ^teɲir$	t e ɲ i ɾ
 ^capa$	k a p a
@@ -1473,47 +1473,47 @@ Grapheme	IPA	Note
 ^abrigo$	a β ɾ i ɣ o
 ^saco$	s a k o
 ^camisa$	k a m i s a
-^cuello$	k w e ʝ o
+^cuello$	k w e ʎ o
 ^falda$	f a l d a
 ^falda_de_hierbas$	f a l d a + ð e + ʝ ɛ ɾ β a s
 ^pantalones$	p a n t a l o n e s
-^calzones$	k a l s o n e s
+^calzones$	k a l θ o n e s
 ^media$	m e ð j a
-^calcetín$	k a l s ɛ t i n
-^zapato$	s a p a t o
+^calcetín$	k a l θ ɛ t i n
+^zapato$	θ a p a t o
 ^bota$	b o t a
-^zapatero$	s a p a t ɛ ɾ o
+^zapatero$	θ a p a t ɛ ɾ o
 ^sombrero$	s o m b ɾ ɛ ɾ o
 ^gorro$	ɡ o r o
-^cinturón$	s i n t u ɾ o n
+^cinturón$	θ i n t u ɾ o n
 ^faja$	f a x a
 ^guante$	ɡ w a n t e
 ^velo$	b e l o
-^bolsillo$	b o l s i ʝ o
+^bolsillo$	b o l s i ʎ o
 ^botón$	b o t o n
 ^alfiler$	a l f i l ɛ ɾ
 ^adorno$	a ð o ɾ n o
 ^ornato$	o ɾ n a t o
 ^joya$	x o ʝ a
-^anillo$	a n i ʝ o
+^anillo$	a n i ʎ o
 ^sortija$	s o ɾ t i x a
-^brazalete$	b ɾ a s a l ɛ t e
+^brazalete$	b ɾ a θ a l ɛ t e
 ^pulsera$	p u l s ɛ ɾ a
-^collar$	k o ʝ a ɾ
+^collar$	k o ʎ a ɾ
 ^chaquira$	tʃ a k i ɾ a
 ^abalorio$	a β a l o ɾ j o
 ^arete$	a ɾ ɛ t e
 ^aro$	a ɾ o
 ^pendiente$	p e n d j e n t e
-^cinta$	s i n t a
+^cinta$	θ i n t a
 ^tocado$	t o k a ð o
 ^tatuaje$	t a t w a x e
 ^paɲuelo$	p a ɲ w e l o
 ^trapo$	t ɾ a p o
-^toalla$	t o a ʝ a
+^toalla$	t o a ʎ a
 ^peine$	p e i n e
-^cepillo$	s e p i ʝ o
-^trenzar$	t ɾ e n s a ɾ
+^cepillo$	θ e p i ʎ o
+^trenzar$	t ɾ e n θ a ɾ
 ^navaja_de_afeitar$	n a β a x a + ð e + a f e i t a ɾ
 ^ungüento$	u n ɡ w e n t o
 ^jabón$	x a β o n
@@ -1523,24 +1523,24 @@ Grapheme	IPA	Note
 ^morar$	m o ɾ a ɾ
 ^casa$	k a s a
 ^cabaɲa$	k a β a ɲ a
-^choza$	tʃ o s a
+^choza$	tʃ o θ a
 ^casa_de_huerta$	k a s a + ð e + w ɛ ɾ t a
 ^granja$	ɡ ɾ a n x a
 ^toldo$	t o l d o
 ^cancha$	k a n tʃ a
 ^patio$	p a t j o
 ^casa_de_hombres$	k a s a + ð e + o m b ɾ e s
-^cocina$	k o s i n a
+^cocina$	k o θ i n a
 ^casa_de_reunión$	k a s a + ð e + r e u n j o n
 ^cuarto$	k w a ɾ t o
-^pieza$	p j e s a
+^pieza$	p j e θ a
 ^puerta$	p w ɛ ɾ t a
 ^jamba_de_puerta$	x a m b a + ð e + p w ɛ ɾ t a
 ^larguero$	l a ɾ ɣ ɛ ɾ o
-^cerradura$	s ɛ r a ð u ɾ a
+^cerradura$	θ ɛ r a ð u ɾ a
 ^candado$	k a n d a ð o
-^cerrojo$	s ɛ r o x o
-^llave$	ɟ ʝ a β e
+^cerrojo$	θ ɛ r o x o
+^llave$	ʎ a β e
 ^ventana$	b e n t a n a
 ^suelo$	s w e l o
 ^pared$	p a ɾ ɛ ð
@@ -1551,9 +1551,9 @@ Grapheme	IPA	Note
 ^escalera$	ɛ s k a l ɛ ɾ a
 ^cama$	k a m a
 ^almohada$	a l m o a ð a
-^frazada$	f ɾ a s a ð a
+^frazada$	f ɾ a θ a ð a
 ^cobija$	k o β i x a
-^silla$	s i ʝ a
+^silla$	s i ʎ a
 ^mesa$	m e s a
 ^lámpara$	l a m p a ɾ a
 ^antorcha$	a n t o ɾ tʃ a
@@ -1571,7 +1571,7 @@ Grapheme	IPA	Note
 ^arco$	a ɾ k o
 ^albaɲil$	a l β a ɲ i l
 ^masón$	m a s o n
-^ladrillo$	l a ð ɾ i ʝ o
+^ladrillo$	l a ð ɾ i ʎ o
 ^argamasa$	a ɾ ɣ a m a s a
 ^adobe$	a ð o β e
 ^labrador$	l a β ɾ a ð o ɾ
@@ -1583,41 +1583,41 @@ Grapheme	IPA	Note
 ^huerto$	w ɛ ɾ t o
 ^cultivar$	k u l t i β a ɾ
 ^labrar$	l a β ɾ a ɾ
-^cerca$	s ɛ ɾ k a
-^cerco$	s ɛ ɾ k o
-^zanja$	s a n x a
+^cerca$	θ ɛ ɾ k a
+^cerco$	θ ɛ ɾ k o
+^zanja$	θ a n x a
 ^canal$	k a n a l
 ^arar$	a ɾ a ɾ
 ^surco$	s u ɾ k o
-^excavar$	ɛ k s k a β a ɾ
+^excavar$	ɛ s k a β a ɾ
 ^cavar$	k a β a ɾ
 ^laya$	l a ʝ a
 ^pala$	p a l a
-^azadón$	a s a ð o n
-^azada$	a s a ð a
+^azadón$	a θ a ð o n
+^azada$	a θ a ð a
 ^horqueta$	o ɾ k ɛ t a
 ^rastro$	r a s t ɾ o
-^rastrillo$	r a s t ɾ i ʝ o
+^rastrillo$	r a s t ɾ i ʎ o
 ^sembrar$	s e m b ɾ a ɾ
 ^desparramar$	d ɛ s p a r a m a ɾ
-^semilla$	s e m i ʝ a
+^semilla$	s e m i ʎ a
 ^segar$	s e ɣ a ɾ
 ^cosechar$	k o s e tʃ a ɾ
-^hoz$	o s
+^hoz$	o θ
 ^guadaɲa$	ɡ w a ð a ɲ a
-^trillar$	t ɾ i ʝ a ɾ
+^trillar$	t ɾ i ʎ a ɾ
 ^desgranar$	d ɛ s ɣ ɾ a n a ɾ
 ^era$	ɛ ɾ a
-^lugar_para_trillar$	l u ɣ a ɾ + p a ɾ a + t ɾ i ʝ a ɾ
+^lugar_para_trillar$	l u ɣ a ɾ + p a ɾ a + t ɾ i ʎ a ɾ
 ^cosecha$	k o s e tʃ a
 ^siega$	s j e ɣ a
 ^grano$	ɡ ɾ a n o
 ^trigo$	t ɾ i ɣ o
-^cebada$	s e β a ð a
-^centeno$	s e n t e n o
+^cebada$	θ e β a ð a
+^centeno$	θ e n t e n o
 ^avena$	a β e n a
-^maíz$	m a i s
-^arroz$	a r o s
+^maíz$	m a i θ
+^arroz$	a r o θ
 ^hierba$	ɟ ʝ ɛ ɾ β a
 ^pasto$	p a s t o
 ^heno$	e n o
@@ -1625,7 +1625,7 @@ Grapheme	IPA	Note
 ^planta$	p l a n t a
 ^plantar$	p l a n t a ɾ
 ^sembrar$	s e m b ɾ a ɾ
-^raíz$	r a i s
+^raíz$	r a i θ
 ^rama$	r a m a
 ^hoja$	o x a
 ^flor$	f l o ɾ
@@ -1635,7 +1635,7 @@ Grapheme	IPA	Note
 ^abedul$	a β e ð u l
 ^pino$	p i n o
 ^abeto$	a β ɛ t o
-^bellota$	b e ʝ o t a
+^bellota$	b e ʎ o t a
 ^enredadera$	e n r e ð a ð ɛ ɾ a
 ^bejuco$	b e x u k o
 ^liana$	l j a n a
@@ -1643,14 +1643,14 @@ Grapheme	IPA	Note
 ^fumar$	f u m a ɾ
 ^pipa$	p i p a
 ^tocón$	t o k o n
-^cepa$	s e p a
+^cepa$	θ e p a
 ^tronco$	t ɾ o n k o
 ^rama_bifurcada$	r a m a + β i f u ɾ k a ð a
-^corteza$	k o ɾ t e s a
+^corteza$	k o ɾ t e θ a
 ^savia$	s a β j a
 ^palmera$	p a l m ɛ ɾ a
 ^coco$	k o k o
-^cítrico$	s i t ɾ i k o
+^cítrico$	θ i t ɾ i k o
 ^plátano$	p l a t a n o
 ^banano$	b a n a n o
 ^baniano$	b a n j a n o
@@ -1659,17 +1659,17 @@ Grapheme	IPA	Note
 ^ɲame$	ɲ a m e
 ^mandioca$	m a n d j o k a
 ^yuca$	ɟ ʝ u k a
-^calabaza$	k a l a β a s a
-^zapallo$	s a p a ʝ o
-^calabaza$	k a l a β a s a
-^calabazo$	k a l a β a s o
+^calabaza$	k a l a β a θ a
+^zapallo$	θ a p a ʎ o
+^calabaza$	k a l a β a θ a
+^calabazo$	k a l a β a θ o
 ^bambú$	b a m b u
-^caɲa_de_azúcar$	k a ɲ a + ð e + a s u k a ɾ
+^caɲa_de_azúcar$	k a ɲ a + ð e + a θ u k a ɾ
 ^barbasco$	b a ɾ β a s k o
 ^ortiga$	o ɾ t i ɣ a
 ^hongo$	o n ɡ o
 ^seta$	s ɛ t a
-^hacer$	a s ɛ ɾ
+^hacer$	a θ ɛ ɾ
 ^trabajar$	t ɾ a β a x a ɾ
 ^encorvar$	e n k o ɾ β a ɾ
 ^doblar$	d o β l a ɾ
@@ -1689,17 +1689,17 @@ Grapheme	IPA	Note
 ^tajar$	t a x a ɾ
 ^picar$	p i k a ɾ
 ^apuɲalar$	a p u ɲ a l a ɾ
-^cuchillo$	k u tʃ i ʝ o
+^cuchillo$	k u tʃ i ʎ o
 ^tijeras$	t i x ɛ ɾ a s
 ^hacha$	a tʃ a
-^azuela$	a s w e l a
+^azuela$	a θ w e l a
 ^quebrar$	k e β ɾ a ɾ
 ^quebrado$	k e β ɾ a ð o
 ^hender$	e n d ɛ ɾ
 ^partir$	p a ɾ t i ɾ
 ^romper$	r o m p ɛ ɾ
 ^rasgar$	r a s ɣ a ɾ
-^desollar$	d e s o ʝ a ɾ
+^desollar$	d e s o ʎ a ɾ
 ^frotar$	f ɾ o t a ɾ
 ^enjugar$	e n x u ɣ a ɾ
 ^alargar$	a l a ɾ ɣ a ɾ
@@ -1707,14 +1707,14 @@ Grapheme	IPA	Note
 ^tender$	t e n d ɛ ɾ
 ^tirar$	t i ɾ a ɾ
 ^jalar$	x a l a ɾ
-^extender$	ɛ k s t e n d ɛ ɾ
-^esparcir$	ɛ s p a ɾ s i ɾ
+^extender$	ɛ s t e n d ɛ ɾ
+^esparcir$	ɛ s p a ɾ θ i ɾ
 ^colgar$	k o l ɣ a ɾ
 ^apretar$	a p ɾ ɛ t a ɾ
 ^oprimir$	o p ɾ i m i ɾ
 ^estrujar$	ɛ s t ɾ u x a ɾ
-^exprimir$	ɛ k s p ɾ i m i ɾ
-^vaciar$	b a s j a ɾ
+^exprimir$	ɛ s p ɾ i m i ɾ
+^vaciar$	b a θ j a ɾ
 ^verter$	b ɛ ɾ t ɛ ɾ
 ^derramar$	d ɛ r a m a ɾ
 ^lavar$	l a β a ɾ
@@ -1728,7 +1728,7 @@ Grapheme	IPA	Note
 ^ahuecar$	a w e k a ɾ
 ^serrucho$	s ɛ r u tʃ o
 ^sierra$	s j ɛ r a
-^martillo$	m a ɾ t i ʝ o
+^martillo$	m a ɾ t i ʎ o
 ^clavo$	k l a β o
 ^cola$	k o l a
 ^adhesivo$	a ð e s i β o
@@ -1739,7 +1739,7 @@ Grapheme	IPA	Note
 ^oro$	o ɾ o
 ^plata$	p l a t a
 ^cobre$	k o β ɾ e
-^bronce$	b ɾ o n s e
+^bronce$	b ɾ o n θ e
 ^hierro$	ɟ ʝ ɛ r o
 ^plomo$	p l o m o
 ^estaɲo$	ɛ s t a ɲ o
@@ -1747,17 +1747,17 @@ Grapheme	IPA	Note
 ^moldear$	m o l d e a ɾ
 ^formar$	f o ɾ m a ɾ
 ^barro$	b a r o
-^arcilla$	a ɾ s i ʝ a
+^arcilla$	a ɾ θ i ʎ a
 ^vidrio$	b i ð ɾ j o
 ^tejer$	t e x ɛ ɾ
-^trenzar$	t ɾ e n s a ɾ
-^cesto$	s ɛ s t o
+^trenzar$	t ɾ e n θ a ɾ
+^cesto$	θ ɛ s t o
 ^canasto$	k a n a s t o
 ^canasta$	k a n a s t a
 ^estera$	ɛ s t ɛ ɾ a
 ^tapete$	t a p ɛ t e
 ^alfombra$	a l f o m b ɾ a
-^bolsa_de_malla$	b o l s a + ð e + m a ʝ a
+^bolsa_de_malla$	b o l s a + ð e + m a ʎ a
 ^abanico$	a β a n i k o
 ^abanicar$	a β a n i k a ɾ
 ^aventar$	a β e n t a ɾ
@@ -1766,6 +1766,6 @@ Grapheme	IPA	Note
 ^escultor$	ɛ s k u l t o ɾ
 ^estatua$	ɛ s t a t w a
 ^escoplo$	ɛ s k o p l o
-^cincel$	s i n s ɛ l
+^cincel$	θ i n θ ɛ l
 ^pintura$	p i n t u ɾ a
 ^pintar$	p i n t a ɾ
