@@ -1,0 +1,1771 @@
+Grapheme	IPA	Note
+^mundo$	m u n d o	European Spanish pronunciation
+^tierra$	t j ɛ r a
+^suelo$	s w e l o
+^polvo$	p o l β o
+^lodo$	l o ð o
+^arena$	a ɾ e n a
+^montaɲa$	m o n t a ɲ a
+^loma$	l o m a
+^cerro$	θ ɛ r o
+^acantilado$	a k a n t i l a ð o
+^barranca$	b a r a n k a
+^pampa$	p a m p a
+^llanura$	ʎ a n u ɾ a
+^campo$	k a m p o
+^valle$	b a ʎ e
+^isla$	i s l a
+^continente$	k o n t i n e n t e
+^tierra_firme$	t j ɛ r a + f i ɾ m e
+^ribera$	r i β ɛ ɾ a
+^playa$	p l a ʝ a
+^costa$	k o s t a
+^cueva$	k w e β a
+^gruta$	ɡ ɾ u t a
+^agua$	a ɣ w a
+^mar$	m a ɾ
+^calma$	k a l m a
+^agitado$	a x i t a ð o
+^borrascoso$	b o r a s k o s o
+^espuma$	ɛ s p u m a
+^océano$	o θ e a n o
+^lago$	l a ɣ o
+^golfo$	ɡ o l f o
+^bahía$	b a i a
+^laguna$	l a ɣ u n a
+^arrecife$	a r e θ i f e
+^promontorio$	p ɾ o m o n t o ɾ j o
+^punta$	p u n t a
+^ola$	o l a
+^marea$	m a ɾ e a
+^bajamar$	b a x a m a ɾ
+^pleamar$	p l e a m a ɾ
+^río$	r i o
+^corriente$	k o r j e n t e
+^arroyo$	a r o ʝ o
+^remolino$	r e m o l i n o
+^manantial$	m a n a n t j a l
+^pozo$	p o θ o
+^pantano$	p a n t a n o
+^cascada$	k a s k a ð a
+^salto$	s a l t o
+^bosque$	b o s k e
+^selva$	s ɛ l β a
+^árbol$	a ɾ β o l
+^madera$	m a ð ɛ ɾ a
+^piedra$	p j e ð ɾ a
+^roca$	r o k a
+^terremoto$	t ɛ r e m o t o
+^temblor$	t e m b l o ɾ
+^cielo$	θ j e l o
+^sol$	s o l
+^luna$	l u n a
+^estrella$	ɛ s t ɾ e ʎ a
+^relámpago$	r e l a m p a ɣ o
+^trueno$	t ɾ w e n o
+^rayo$	r a ʝ o
+^tempestad$	t e m p ɛ s t a ð
+^tormenta$	t o ɾ m e n t a
+^arco_iris$	a ɾ k o + i ɾ i s
+^luz$	l u θ
+^oscuridad$	o s k u ɾ i ð a ð
+^tinieblas$	t i n j e β l a s
+^sombra$	s o m b ɾ a
+^rocío$	r o θ i o
+^aire$	a i ɾ e
+^viento$	b j e n t o
+^nube$	n u β e
+^neblina$	n e β l i n a
+^niebla$	n j e β l a
+^lluvia$	ʎ u β j a
+^nieve$	n j e β e
+^hielo$	ɟ ʝ e l o
+^tiempo$	t j e m p o
+^fuego$	f w e ɣ o
+^llama$	ʎ a m a
+^humo$	u m o
+^cenizas$	θ e n i θ a s
+^brasas$	b ɾ a s a s
+^quemar$	k e m a ɾ
+^quemarse$	k e m a ɾ s e
+^arder$	a ɾ ð ɛ ɾ
+^encender$	e n θ e n d ɛ ɾ
+^apagar$	a p a ɣ a ɾ
+^extinguir$	ɛ s t i n ɡ i ɾ
+^fósforo$	f o s f o ɾ o
+^cerilla$	θ ɛ ɾ i ʎ a
+^leɲa$	l e ɲ a
+^carbón$	k a ɾ β o n
+^mover$	m o β ɛ ɾ
+^volcar$	b o l k a ɾ
+^dar_vuelta$	d a ɾ + β w ɛ l t a
+^dar_vuelta$	d a ɾ + β w ɛ l t a
+^voltear$	b o l t e a ɾ
+^enrollar$	e n r o ʎ a ɾ
+^envolver$	e m b o l β ɛ ɾ
+^rodar$	r o ð a ɾ
+^arrollar$	a r o ʎ a ɾ
+^enrollar$	e n r o ʎ a ɾ
+^dejar_caer$	d e x a ɾ + k a ɛ ɾ
+^torcer$	t o ɾ θ ɛ ɾ
+^ascender$	a s e n d ɛ ɾ
+^subir$	s u β i ɾ
+^levantar$	l e β a n t a ɾ
+^caer$	k a ɛ ɾ
+^gotear$	ɡ o t e a ɾ
+^escurrir$	ɛ s k u r i ɾ
+^echar$	e tʃ a ɾ
+^tirar$	t i ɾ a ɾ
+^coger$	k o x ɛ ɾ
+^sacudir$	s a k u ð i ɾ
+^fluir$	f l w i ɾ
+^correr$	k o r ɛ ɾ
+^hundir$	u n d i ɾ
+^flotar$	f l o t a ɾ
+^nadar$	n a ð a ɾ
+^zambullirse$	θ a m b u ʎ i ɾ s e
+^salpicar$	s a l p i k a ɾ
+^navegar$	n a β e ɣ a ɾ
+^volar$	b o l a ɾ
+^soplar$	s o p l a ɾ
+^gatear$	ɡ a t e a ɾ
+^arrodillarse$	a r o ð i ʎ a ɾ s e
+^agacharse$	a ɣ a tʃ a ɾ s e
+^ponerse_en_cuclillas$	p o n ɛ ɾ s ɛ + e n + k u k l i ʎ a s
+^resbalar$	r ɛ s β a l a ɾ
+^saltar$	s a l t a ɾ
+^brincar$	b ɾ i n k a ɾ
+^patear$	p a t e a ɾ
+^bailar$	b a i l a ɾ
+^caminar$	k a m i n a ɾ
+^andar$	a n d a ɾ
+^lisiar$	l i s j a ɾ
+^correr$	k o r ɛ ɾ
+^ir$	i ɾ
+^subir$	s u β i ɾ
+^trepar$	t ɾ e p a ɾ
+^bajar$	b a x a ɾ
+^descender$	d e s e n d ɛ ɾ
+^salir$	s a l i ɾ
+^venir$	b e n i ɾ
+^volver$	b o l β ɛ ɾ
+^regresar$	r e ɣ ɾ e s a ɾ
+^irse$	i ɾ s e
+^marcharse$	m a ɾ tʃ a ɾ s e
+^partir$	p a ɾ t i ɾ
+^desaparecer$	d e s a p a ɾ e θ ɛ ɾ
+^huir$	w i ɾ
+^seguir$	s e ɣ i ɾ
+^perseguir$	p ɛ ɾ s e ɣ i ɾ
+^llegar$	ʎ e ɣ a ɾ
+^alcanzar$	a l k a n θ a ɾ
+^acercarse$	a θ ɛ ɾ k a ɾ s e
+^aproximarse$	a p ɾ o k s i m a ɾ s e
+^entrar$	e n t ɾ a ɾ
+^llevar$	ʎ e β a ɾ
+^cargar$	k a ɾ ɣ a ɾ
+^llevar_en_la_mano$	ʎ e β a ɾ + e n + l a + m a n o
+^llevar_a_la_espalda$	ʎ e β a ɾ + a + l a + ɛ s p a l d a
+^en_el_hombro$	ɛ n + ɛ l + o m b ɾ o
+^llevar_sobre_la_cabeza$	ʎ e β a ɾ + s o β ɾ e + l a + k a β e θ a
+^llevar_bajo_el_brazo$	ʎ e β a ɾ + β a x o + ɛ l + β ɾ a θ o
+^traer$	t ɾ a ɛ ɾ
+^enviar$	e m b j a ɾ
+^mandar$	m a n d a ɾ
+^guiar$	ɡ j a ɾ
+^conducir$	k o n d u θ i ɾ
+^conducir$	k o n d u θ i ɾ
+^montar$	m o n t a ɾ
+^empujar$	e m p u x a ɾ
+^carretera$	k a r ɛ t ɛ ɾ a
+^camino$	k a m i n o
+^senda$	s e n d a
+^puente$	p w e n t e
+^carro$	k a r o
+^carretón$	k a r ɛ t o n
+^rueda$	r w e ð a
+^eje$	e x e
+^yugo$	ɟ ʝ u ɣ o
+^buque$	b u k e
+^barco$	b a ɾ k o
+^bote$	b o t e
+^canoa$	k a n o a
+^batanga$	b a t a n ɡ a
+^balsa$	b a l s a
+^remo$	r e m o
+^remo_corto$	r e m o + k o ɾ t o
+^remar$	r e m a ɾ
+^timón$	t i m o n
+^mástil$	m a s t i l
+^vela$	b e l a
+^ancla$	a n k l a
+^puerto$	p w ɛ ɾ t o
+^desembarcar$	d e s e m b a ɾ k a ɾ
+^tener$	t e n ɛ ɾ
+^poseer$	p o s e ɛ ɾ
+^tener$	t e n ɛ ɾ
+^tomar$	t o m a ɾ
+^coger$	k o x ɛ ɾ
+^agarrar$	a ɣ a r a ɾ
+^empuɲar$	e m p u ɲ a ɾ
+^coger$	k o x ɛ ɾ
+^asir$	a s i ɾ
+^tener$	t e n ɛ ɾ
+^apoyar$	a p o ʝ a ɾ
+^obtener$	o β t e n ɛ ɾ
+^conseguir$	k o n s e ɣ i ɾ
+^conservar$	k o n s ɛ ɾ β a ɾ
+^retener$	r ɛ t e n ɛ ɾ
+^guardar$	ɡ w a ɾ ð a ɾ
+^cosa$	k o s a
+^dar$	d a ɾ
+^devolver$	d e β o l β ɛ ɾ
+^conservar$	k o n s ɛ ɾ β a ɾ
+^proteger$	p ɾ o t e x ɛ ɾ
+^salvar$	s a l β a ɾ
+^rescatar$	r ɛ s k a t a ɾ
+^destruir$	d ɛ s t ɾ w i ɾ
+^daɲar$	d a ɲ a ɾ
+^herir$	ɛ ɾ i ɾ
+^buscar$	b u s k a ɾ
+^encontrar$	e n k o n t ɾ a ɾ
+^hallar$	a ʎ a ɾ
+^perder$	p ɛ ɾ ð ɛ ɾ
+^soltar$	s o l t a ɾ
+^largar$	l a ɾ ɣ a ɾ
+^dinero$	d i n ɛ ɾ o
+^moneda$	m o n e ð a
+^rico$	r i k o
+^pobre$	p o β ɾ e
+^mendigo$	m e n d i ɣ o
+^avaro$	a β a ɾ o
+^mezquino$	m ɛ θ k i n o
+^prestar$	p ɾ ɛ s t a ɾ
+^pedir_prestado$	p e ð i ɾ + p ɾ ɛ s t a ð o
+^deber$	d e β ɛ ɾ
+^deuda$	d e u ð a
+^pagar$	p a ɣ a ɾ
+^calcul$	k a l k u l
+^cuenta$	k w e n t a
+^impuesto$	i m p w ɛ s t o
+^tributo$	t ɾ i β u t o
+^alquilar$	a l k i l a ɾ
+^emplear$	e m p l e a ɾ
+^salario$	s a l a ɾ j o
+^sueldo$	s w ɛ l d o
+^ganar$	ɡ a n a ɾ
+^comprar$	k o m p ɾ a ɾ
+^vender$	b e n d ɛ ɾ
+^trocar$	t ɾ o k a ɾ
+^comerciante$	k o m ɛ ɾ θ j a n t e
+^mercado$	m ɛ ɾ k a ð o
+^tienda$	t j e n d a
+^almacén$	a l m a θ e n
+^precio$	p ɾ e θ j o
+^caro$	k a ɾ o
+^barato$	b a ɾ a t o
+^repartir$	r e p a ɾ t i ɾ
+^distribuir$	d i s t ɾ i β w i ɾ
+^pesar$	p e s a ɾ
+^después$	d ɛ s p w e s
+^atrás$	a t ɾ a s
+^detrás$	d ɛ t ɾ a s
+^lugar$	l u ɣ a ɾ
+^sitio$	s i t j o
+^poner$	p o n ɛ ɾ
+^sentar$	s e n t a ɾ
+^acostarse$	a k o s t a ɾ s e
+^echarse$	e tʃ a ɾ s e
+^poner_de_pie$	p o n ɛ ɾ + ð e + p j e
+^quedar$	k e ð a ɾ
+^permanecer$	p ɛ ɾ m a n e θ ɛ ɾ
+^sobras$	s o β ɾ a s
+^al_lado_de$	a l + l a ð o + ð e
+^recoger$	r e k o x ɛ ɾ
+^reunir$	r e u n i ɾ
+^recoger$	r e k o x ɛ ɾ
+^amontonar$	a m o n t o n a ɾ
+^juntar$	x u n t a ɾ
+^unir$	u n i ɾ
+^separar$	s e p a ɾ a ɾ
+^apartar$	a p a ɾ t a ɾ
+^dividir$	d i β i ð i ɾ
+^abrir$	a β ɾ i ɾ
+^cerrar$	θ ɛ r a ɾ
+^cubrir$	k u β ɾ i ɾ
+^esconder$	ɛ s k o n d ɛ ɾ
+^abajo$	a β a x o
+^bajo$	b a x o
+^debajo$	d e β a x o
+^alto$	a l t o
+^elevado$	e l e β a ð o
+^bajo$	b a x o
+^cima$	θ i m a
+^fondo$	f o n d o
+^final$	f i n a l
+^extremo$	ɛ s t ɾ e m o
+^puntiagudo$	p u n t j a ɣ u ð o
+^borde$	b o ɾ ð e
+^orilla$	o ɾ i ʎ a
+^margen$	m a ɾ x e n
+^lado$	l a ð o
+^costado$	k o s t a ð o
+^medio$	m e ð j o
+^centro$	θ e n t ɾ o
+^delante$	d e l a n t e
+^antes_de$	a n t e s + ð e
+^delantero$	d e l a n t ɛ ɾ o
+^delante$	d e l a n t e
+^derecha$	d ɛ ɾ e tʃ a
+^izquierda$	i θ k j ɛ ɾ ð a
+^cerca$	θ ɛ ɾ k a
+^próximo$	p ɾ o k s i m o
+^lejos$	l e x o s
+^este$	ɛ s t e
+^levante$	l e β a n t e
+^oeste$	o ɛ s t e
+^poniente$	p o n j e n t e
+^norte$	n o ɾ t e
+^sur$	s u ɾ
+^adentro$	a ð e n t ɾ o
+^dentro$	d e n t ɾ o
+^crecer$	k ɾ e θ ɛ ɾ
+^medir$	m e ð i ɾ
+^braza$	b ɾ a θ a
+^grande$	ɡ ɾ a n d e
+^chico$	tʃ i k o
+^pequeɲo$	p e k e ɲ o
+^largo$	l a ɾ ɣ o
+^alto$	a l t o
+^corto$	k o ɾ t o
+^afuera$	a f w ɛ ɾ a
+^fuera$	f w ɛ ɾ a
+^exterior$	ɛ s t ɛ ɾ j o ɾ
+^ancho$	a n tʃ o
+^amplio$	a m p l j o
+^angosto$	a n ɡ o s t o
+^estrecho$	ɛ s t ɾ e tʃ o
+^grueso$	ɡ ɾ w e s o
+^delgado$	d ɛ l ɣ a ð o
+^profundo$	p ɾ o f u n d o
+^hondo$	o n d o
+^bajo$	b a x o
+^poco_profundo$	p o k o + p ɾ o f u n d o
+^debajo$	d e β a x o
+^plano$	p l a n o
+^derecho$	d ɛ ɾ e tʃ o
+^recto$	r e k t o
+^torcido$	t o ɾ θ i ð o
+^gancho$	ɡ a n tʃ o
+^esquina$	ɛ s k i n a
+^rincón$	r i n k o n
+^cruz$	k ɾ u θ
+^cuadrado$	k w a ð ɾ a ð o
+^arriba$	a r i β a
+^encima$	e n θ i m a
+^redondo$	r e ð o n d o
+^círculo$	θ i ɾ k u l o
+^pelota$	p e l o t a
+^esfera$	ɛ s f ɛ ɾ a
+^globo$	ɡ l o β o
+^línea$	l i n e a
+^agujero$	a ɣ u x ɛ ɾ o
+^semejante$	s e m e x a n t e
+^parecido$	p a ɾ e θ i ð o
+^cambiar$	k a m b j a ɾ
+^mudar$	m u ð a ɾ
+^cero$	θ ɛ ɾ o
+^nada$	n a ð a
+^uno$	u n o
+^diez$	d j ɛ θ
+^once$	o n θ e
+^doce$	d o θ e
+^quince$	k i n θ e
+^veinte$	b e i n t e
+^ciento$	θ j e n t o
+^cien$	θ j e n
+^mil$	m i l
+^contar$	k o n t a ɾ
+^cada$	k a ð a
+^todo$	t o ð o
+^mucho$	m u tʃ o
+^más$	m a s
+^poco$	p o k o
+^bastante$	b a s t a n t e
+^suficiente$	s u f i θ j e n t e
+^un_poco$	u m + p o k o
+^algo$	a l ɣ o
+^alguno$	a l ɣ u n o
+^multitud$	m u l t i t u ð
+^dos$	d o s
+^lleno$	ʎ e n o
+^vacío$	b a θ i o
+^pedazo$	p e ð a θ o
+^parte$	p a ɾ t e
+^mitad$	m i t a ð
+^tres$	t ɾ e s
+^solo$	s o l o
+^solamente$	s o l a m e n t e
+^primero$	p ɾ i m ɛ ɾ o
+^último$	u l t i m o
+^segundo$	s e ɣ u n d o
+^par$	p a ɾ
+^dos_veces$	d o s + β e θ e s
+^cuatro$	k w a t ɾ o
+^tercero$	t ɛ ɾ θ ɛ ɾ o
+^tres_veces$	t ɾ e s + β e θ e s
+^cinco$	θ i n k o
+^seis$	s e i s
+^siete$	s j ɛ t e
+^ocho$	o tʃ o
+^nueve$	n w e β e
+^tiempo$	t j e m p o
+^edad$	e ð a ð
+^nuevo$	n w e β o
+^tierno$	t j ɛ ɾ n o
+^joven$	x o β e n
+^viejo$	b j e x o
+^temprano$	t e m p ɾ a n o
+^tarde$	t a ɾ ð e
+^ahora$	a o ɾ a
+^en_seguida$	e n + s e ɣ i ð a
+^inmediatamente$	i m m e ð j a t a m e n t e
+^rápido$	r a p i ð o
+^despacio$	d ɛ s p a θ j o
+^lentamente$	l e n t a m e n t e
+^apurarse$	a p u ɾ a ɾ s e
+^darse_prisa$	d a ɾ s e + p ɾ i s a
+^demorar$	d e m o ɾ a ɾ
+^retrasar$	r ɛ t ɾ a s a ɾ
+^tardar$	t a ɾ ð a ɾ
+^empezar$	e m p e θ a ɾ
+^comenzar$	k o m e n θ a ɾ
+^inicio$	i n i θ j o
+^durar$	d u ɾ a ɾ
+^fin$	f i n
+^acabar$	a k a β a ɾ
+^terminar$	t ɛ ɾ m i n a ɾ
+^finalizar$	f i n a l i θ a ɾ
+^terminar$	t ɛ ɾ m i n a ɾ
+^detenerse$	d ɛ t e n ɛ ɾ s e
+^cesar$	θ e s a ɾ
+^listo$	l i s t o
+^preparado$	p ɾ e p a ɾ a ð o
+^siempre$	s j e m p ɾ e
+^a_menudo$	a + m e n u ð o
+^frecuentemente$	f ɾ e k w e n t e m e n t e
+^a_veces$	a + β e θ e s
+^pronto$	p ɾ o n t o
+^por_mucho_tiempo$	p o ɾ + m u tʃ o + t j e m p o
+^nunca$	n u n k a
+^jamás$	x a m a s
+^otra_vez$	o t ɾ a + β ɛ θ
+^de_nuevo$	d e + n w e β o
+^día$	d i a
+^noche$	n o tʃ e
+^madrugada$	m a ð ɾ u ɣ a ð a
+^amanecer$	a m a n e θ ɛ ɾ
+^maɲana$	m a ɲ a n a
+^mediodía$	m e ð j o ð i a
+^tarde$	t a ɾ ð e
+^vísperas$	b i s p ɛ ɾ a s
+^noche$	n o tʃ e
+^hoy$	o i
+^maɲana$	m a ɲ a n a
+^pasado_maɲana$	p a s a ð o + m a ɲ a n a
+^ayer$	a ʝ ɛ ɾ
+^anteayer$	a n t e a ʝ ɛ ɾ
+^hora$	o ɾ a
+^reloj$	r e l o x
+^semana$	s e m a n a
+^domingo$	d o m i n ɡ o
+^lunes$	l u n e s
+^martes$	m a ɾ t e s
+^miércoles$	m j ɛ ɾ k o l e s
+^jueves$	x w e β e s
+^viernes$	b j ɛ ɾ n e s
+^sábado$	s a β a ð o
+^mes$	m e s
+^aɲo$	a ɲ o
+^invierno$	i m b j ɛ ɾ n o
+^primavera$	p ɾ i m a β ɛ ɾ a
+^verano$	b ɛ ɾ a n o
+^otoɲo$	o t o ɲ o
+^estación$	ɛ s t a θ j o n
+^oler$	o l ɛ ɾ
+^olfatear$	o l f a t e a ɾ
+^husmear$	u s m e a ɾ
+^oler$	o l ɛ ɾ
+^olfatear$	o l f a t e a ɾ
+^fragante$	f ɾ a ɣ a n t e
+^bien_oliente$	b j ɛ n + o l j e n t e
+^hediondo$	e ð j o n d o
+^gustar$	ɡ u s t a ɾ
+^saborear$	s a β o ɾ e a ɾ
+^dulce$	d u l θ e
+^salado$	s a l a ð o
+^amargo$	a m a ɾ ɣ o
+^ácido$	a θ i ð o
+^agrio$	a ɣ ɾ j o
+^salobre$	s a l o β ɾ e
+^oír$	o i ɾ
+^escuchar$	ɛ s k u tʃ a ɾ
+^sonido$	s o n i ð o
+^ruido$	r w i ð o
+^alta$	a l t a
+^ruidoso$	r w i ð o s o
+^silencio$	s i l e n θ j o
+^tranquilo$	t ɾ a n k i l o
+^ver$	b ɛ ɾ
+^mirar$	m i ɾ a ɾ
+^contemplar$	k o n t e m p l a ɾ
+^mostrar$	m o s t ɾ a ɾ
+^seɲalar$	s e ɲ a l a ɾ
+^brillar$	b ɾ i ʎ a ɾ
+^brillante$	b ɾ i ʎ a n t e
+^resplandor$	r ɛ s p l a n d o ɾ
+^color$	k o l o ɾ
+^claro$	k l a ɾ o
+^oscuro$	o s k u ɾ o
+^blanco$	b l a n k o
+^negro$	n e ɣ ɾ o
+^rojo$	r o x o
+^azul$	a θ u l
+^verde$	b ɛ ɾ ð e
+^amarillo$	a m a ɾ i ʎ o
+^tocar$	t o k a ɾ
+^pellizcar$	p e ʎ i θ k a ɾ
+^sentir$	s e n t i ɾ
+^duro$	d u ɾ o
+^suave$	s w a β e
+^áspero$	a s p ɛ ɾ o
+^suave$	s w a β e
+^liso$	l i s o
+^afilado$	a f i l a ð o
+^aguzado$	a ɣ u θ a ð o
+^filoso$	f i l o s o
+^romo$	r o m o
+^embotado$	e m b o t a ð o
+^pesado$	p e s a ð o
+^liviano$	l i β j a n o
+^ligero$	l i x ɛ ɾ o
+^mojado$	m o x a ð o
+^húmedo$	u m e ð o
+^seco$	s e k o
+^caliente$	k a l j e n t e
+^tibio$	t i β j o
+^cálido$	k a l i ð o
+^frío$	f ɾ i o
+^limpio$	l i m p j o
+^sucio$	s u θ j o
+^arrugado$	a r u ɣ a ð o
+^alma$	a l m a
+^sorprendido$	s o ɾ p ɾ e n d i ð o
+^estupefacto$	ɛ s t u p e f a k t o
+^buena_suerte$	b w e n a + s w ɛ ɾ t e
+^mala_suerte$	m a l a + s w ɛ ɾ t e
+^alegre$	a l e ɣ ɾ e
+^contento$	k o n t e n t o
+^feliz$	f e l i θ
+^reír$	r e i ɾ
+^sonreír$	s o n r e i ɾ
+^jugar$	x u ɣ a ɾ
+^querer$	k ɛ ɾ ɛ ɾ
+^amar$	a m a ɾ
+^besar$	b e s a ɾ
+^abrazar$	a β ɾ a θ a ɾ
+^dolor$	d o l o ɾ
+^tristeza$	t ɾ i s t e θ a
+^dolor$	d o l o ɾ
+^pena$	p e n a
+^ansiedad$	a n s j e ð a ð
+^angustia$	a n ɡ u s t j a
+^preocupación$	p ɾ e o k u p a θ j o n
+^lamentar$	l a m e n t a ɾ
+^sentir$	s e n t i ɾ
+^compasión$	k o m p a s j o n
+^lástima$	l a s t i m a
+^llorar$	ʎ o ɾ a ɾ
+^lágrima$	l a ɣ ɾ i m a
+^gemir$	x e m i ɾ
+^odiar$	o ð j a ɾ
+^enojo$	e n o x o
+^ira$	i ɾ a
+^rabia$	r a β j a
+^envidia$	e m b i ð j a
+^celos$	θ e l o s
+^vergüenza$	b ɛ ɾ ɣ w e n θ a
+^orgulloso$	o ɾ ɣ u ʎ o s o
+^osar$	o s a ɾ
+^atreverse$	a t ɾ e β ɛ ɾ s e
+^valiente$	b a l j e n t e
+^miedo$	m j e ð o
+^susto$	s u s t o
+^peligro$	p e l i ɣ ɾ o
+^anhelar$	a n e l a ɾ
+^desear$	d e s e a ɾ
+^escoger$	ɛ s k o x ɛ ɾ
+^elegir$	e l e x i ɾ
+^esperanza$	ɛ s p ɛ ɾ a n θ a
+^fiel$	f j ɛ l
+^verdadero$	b ɛ ɾ ð a ð ɛ ɾ o
+^mentir$	m e n t i ɾ
+^engaɲo$	e n ɡ a ɲ o
+^perdonar$	p ɛ ɾ ð o n a ɾ
+^bueno$	b w e n o
+^malo$	m a l o
+^correcto$	k o r e k t o
+^incorrecto$	i n k o r e k t o
+^falso$	f a l s o
+^culpa$	k u l p a
+^equivocación$	e k i β o k a θ j o n
+^error$	ɛ r o ɾ
+^culpa$	k u l p a
+^censura$	θ e n s u ɾ a
+^exaltar$	ɛ k s a l t a ɾ
+^alabar$	a l a β a ɾ
+^hermoso$	ɛ ɾ m o s o
+^bonito$	b o n i t o
+^lindo$	l i n d o
+^feo$	f e o
+^codicioso$	k o ð i θ j o s o
+^voraz$	b o ɾ a θ
+^hábil$	a β i l
+^capaz$	k a p a θ
+^mente$	m e n t e
+^pensamiento$	p e n s a m j e n t o
+^pensar$	p e n s a ɾ
+^creer$	k ɾ e ɛ ɾ
+^suponer$	s u p o n ɛ ɾ
+^creer$	k ɾ e ɛ ɾ
+^entender$	e n t e n d ɛ ɾ
+^comprender$	k o m p ɾ e n d ɛ ɾ
+^saber$	s a β ɛ ɾ
+^conocer$	k o n o θ ɛ ɾ
+^adivinar$	a ð i β i n a ɾ
+^acertar$	a θ ɛ ɾ t a ɾ
+^imitar$	i m i t a ɾ
+^parecer$	p a ɾ e θ ɛ ɾ
+^idea$	i ð e a
+^concepto$	k o n θ e p t o
+^sabio$	s a β j o
+^necio$	n e θ j o
+^estúpido$	ɛ s t u p i ð o
+^tonto$	t o n t o
+^loco$	l o k o
+^insano$	i n s a n o
+^aprender$	a p ɾ e n d ɛ ɾ
+^estudiar$	ɛ s t u ð j a ɾ
+^enseɲar$	e n s e ɲ a ɾ
+^alumno$	a l u m n o
+^profesor$	p ɾ o f e s o ɾ
+^maestro$	m a ɛ s t ɾ o
+^escuela$	ɛ s k w e l a
+^colegio$	k o l e x j o
+^recordar$	r e k o ɾ ð a ɾ
+^acordarse$	a k o ɾ ð a ɾ s e
+^olvidar$	o l β i ð a ɾ
+^claro$	k l a ɾ o
+^evidente$	e β i ð e n t e
+^obscuro$	o β s k u ɾ o
+^secreto$	s e k ɾ ɛ t o
+^seguro$	s e ɣ u ɾ o
+^cierto$	θ j ɛ ɾ t o
+^explicar$	ɛ s p l i k a ɾ
+^propósito$	p ɾ o p o s i t o
+^intención$	i n t e n θ j o n
+^causar$	k a u s a ɾ
+^dudar$	d u ð a ɾ
+^sospechar$	s o s p e tʃ a ɾ
+^traicionar$	t ɾ a i θ j o n a ɾ
+^necesidad$	n e θ e s i ð a ð
+^fácil$	f a θ i l
+^difícil$	d i f i θ i l
+^tratar$	t ɾ a t a ɾ
+^probar$	p ɾ o β a ɾ
+^modo$	m o ð o
+^manera$	m a n ɛ ɾ a
+^y$	i
+^porque$	p o ɾ k e
+^si$	s i
+^o$	o
+^sí$	s i
+^afirmativo$	a f i ɾ m a t i β o
+^no$	n o
+^negativo$	n e ɣ a t i β o
+^cómo$	k o m o
+^cuántos$	k w a n t o s
+^cuánto$	k w a n t o
+^qué$	k e
+^cuándo$	k w a n d o
+^dónde$	d o n d e
+^cuál$	k w a l
+^quién$	k j e n
+^por_qué$	p o ɾ + k e
+^voz$	b o θ
+^cantar$	k a n t a ɾ
+^gritar$	ɡ ɾ i t a ɾ
+^cuchichear$	k u tʃ i tʃ e a ɾ
+^barbotar$	b a ɾ β o t a ɾ
+^hablar_entre_dientes$	a β l a ɾ + e n t ɾ e + ð j e n t e s
+^silbar$	s i l β a ɾ
+^chiflar$	tʃ i f l a ɾ
+^chillar$	tʃ i ʎ a ɾ
+^aullar$	a u ʎ a ɾ
+^hablar$	a β l a ɾ
+^tartamudear$	t a ɾ t a m u ð e a ɾ
+^balbucear$	b a l β u θ e a ɾ
+^decir$	d e θ i ɾ
+^narrar$	n a r a ɾ
+^contar$	k o n t a ɾ
+^pronunciar_un_discurso$	p ɾ o n u n θ j a ɾ + u n + d i s k u ɾ s o
+^callarse$	k a ʎ a ɾ s e
+^lengua$	l e n ɡ w a
+^idioma$	i ð j o m a
+^palabra$	p a l a β ɾ a
+^nombre$	n o m b ɾ e
+^preguntar$	p ɾ e ɣ u n t a ɾ
+^contestar$	k o n t ɛ s t a ɾ
+^responder$	r ɛ s p o n d ɛ ɾ
+^admitir$	a ð m i t i ɾ
+^confesar$	k o m f e s a ɾ
+^reconocer$	r e k o n o θ ɛ ɾ
+^negar$	n e ɣ a ɾ
+^pedir$	p e ð i ɾ
+^prometer$	p ɾ o m ɛ t ɛ ɾ
+^rehusar$	r e u s a ɾ
+^prohibir$	p ɾ o i β i ɾ
+^reprender$	r e p ɾ e n d ɛ ɾ
+^llamar$	ʎ a m a ɾ
+^llamarse$	ʎ a m a ɾ s e
+^anunciar$	a n u n θ j a ɾ
+^avisar$	a β i s a ɾ
+^amenazar$	a m e n a θ a ɾ
+^jactarse$	x a k t a ɾ s e
+^escribir$	ɛ s k ɾ i β i ɾ
+^leer$	l e ɛ ɾ
+^papel$	p a p ɛ l
+^pluma$	p l u m a
+^libro$	l i β ɾ o
+^poeta$	p o ɛ t a
+^flauta$	f l a u t a
+^bombo$	b o m b o
+^tambor$	t a m b o ɾ
+^trompeta$	t ɾ o m p ɛ t a
+^trompa$	t ɾ o m p a
+^corneta$	k o ɾ n ɛ t a
+^matraca$	m a t ɾ a k a
+^cascabel$	k a s k a β ɛ l
+^país$	p a i s
+^patria$	p a t ɾ j a
+^ciudad$	θ j u ð a ð
+^pueblo$	p w e β l o
+^límite$	l i m i t e
+^frontera$	f ɾ o n t ɛ ɾ a
+^pueblo$	p w e β l o
+^gente$	x e n t e
+^tribu$	t ɾ i β u
+^clan$	k l a n
+^jefe$	x e f e
+^cacique$	k a θ i k e
+^bastón$	b a s t o n
+^bordón$	b o ɾ ð o n
+^gobernar$	ɡ o β ɛ ɾ n a ɾ
+^rey$	r e i
+^gobernante$	ɡ o β ɛ ɾ n a n t e
+^reina$	r e i n a
+^noble$	n o β l e
+^ciudadano$	θ j u ð a ð a n o
+^súbdito$	s u β ð i t o
+^amo$	a m o
+^dueɲo$	d w e ɲ o
+^patrón$	p a t ɾ o n
+^esclavo$	ɛ s k l a β o
+^sirviente$	s i ɾ β j e n t e
+^criado$	k ɾ j a ð o
+^hombre_libre$	o m b ɾ e + l i β ɾ e
+^mandar$	m a n d a ɾ
+^ordenar$	o ɾ ð e n a ɾ
+^obedecer$	o β e ð e θ ɛ ɾ
+^permitir$	p ɛ ɾ m i t i ɾ
+^dejar$	d e x a ɾ
+^amigo$	a m i ɣ o
+^compaɲero$	k o m p a ɲ ɛ ɾ o
+^enemigo$	e n e m i ɣ o
+^vecino$	b e θ i n o
+^extranjero$	ɛ s t ɾ a n x ɛ ɾ o
+^forastero$	f o ɾ a s t ɛ ɾ o
+^huésped$	w ɛ s p ɛ ð
+^invitado$	i m b i t a ð o
+^huésped$	w ɛ s p ɛ ð
+^hospedero$	o s p e ð ɛ ɾ o
+^ayudar$	a ʝ u ð a ɾ
+^impedir$	i m p e ð i ɾ
+^estorbar$	ɛ s t o ɾ β a ɾ
+^costumbre$	k o s t u m b ɾ e
+^hábito$	a β i t o
+^lucha$	l u tʃ a
+^pleito$	p l e i t o
+^disputa$	d i s p u t a
+^conspiración$	k o n s p i ɾ a θ j o n
+^encontrar$	e n k o n t ɾ a ɾ
+^prostituta$	p ɾ o s t i t u t a
+^persona$	p ɛ ɾ s o n a
+^hombre$	o m b ɾ e
+^mujer$	m u x ɛ ɾ
+^varón$	b a ɾ o n
+^macho$	m a tʃ o
+^hembra$	e m b ɾ a
+^muchacho$	m u tʃ a tʃ o
+^el_joven$	ɛ l + x o β e n
+^muchacha$	m u tʃ a tʃ a
+^la_joven$	l a + x o β e n
+^niɲo$	n i ɲ o
+^niɲo$	n i ɲ o
+^bebé$	b e β e
+^nene$	n e n e
+^marido$	m a ɾ i ð o
+^esposo$	ɛ s p o s o
+^esposa$	ɛ s p o s a
+^casarse$	k a s a ɾ s e
+^casamiento$	k a s a m j e n t o
+^boda$	b o ð a
+^divorcio$	d i β o ɾ θ j o
+^padre$	p a ð ɾ e
+^madre$	m a ð ɾ e
+^padres$	p a ð ɾ e s
+^hombre_casado$	o m b ɾ e + k a s a ð o
+^mujer_casada$	m u x ɛ ɾ + k a s a ð a
+^hijo$	i x o
+^hija$	i x a
+^hijo$	i x o
+^hija$	i x a
+^hermano$	ɛ ɾ m a n o
+^hermano_mayor$	ɛ ɾ m a n o + m a ʝ o ɾ
+^hermano_menor$	ɛ ɾ m a n o + m e n o ɾ
+^hermana$	ɛ ɾ m a n a
+^hermana_mayor$	ɛ ɾ m a n a + m a ʝ o ɾ
+^hermana_menor$	ɛ ɾ m a n a + m e n o ɾ
+^hermano$	ɛ ɾ m a n o
+^hermana$	ɛ ɾ m a n a
+^gemelos$	x e m e l o s
+^mellizo$	m e ʎ i θ o
+^abuelo$	a β w e l o
+^anciano$	a n θ j a n o
+^hombre_viejo$	o m b ɾ e + β j e x o
+^abuela$	a β w e l a
+^anciana$	a n θ j a n a
+^mujer_vieja$	m u x ɛ ɾ + β j e x a
+^nieto$	n j ɛ t o
+^nieta$	n j ɛ t a
+^tío$	t i o
+^hermano_de_la_madre$	ɛ ɾ m a n o + ð e + l a + m a ð ɾ e
+^hermano_del_padre$	ɛ ɾ m a n o + ð ɛ l + p a ð ɾ e
+^tía$	t i a
+^hermana_de_la_madre$	ɛ ɾ m a n a + ð e + l a + m a ð ɾ e
+^hermana_del_padre$	ɛ ɾ m a n a + ð ɛ l + p a ð ɾ e
+^sobrino$	s o β ɾ i n o
+^sobrina$	s o β ɾ i n a
+^primo$	p ɾ i m o
+^prima$	p ɾ i m a
+^antepasados$	a n t e p a s a ð o s
+^descendientes$	d e s e n d j e n t e s
+^suegro$	s w e ɣ ɾ o
+^suegro$	s w e ɣ ɾ o
+^suegra$	s w e ɣ ɾ a
+^suegra$	s w e ɣ ɾ a
+^yerno$	ɟ ʝ ɛ ɾ n o
+^yerno$	ɟ ʝ ɛ ɾ n o
+^nuera$	n w ɛ ɾ a
+^nuera$	n w ɛ ɾ a
+^padrastro$	p a ð ɾ a s t ɾ o
+^madrastra$	m a ð ɾ a s t ɾ a
+^hijastro$	i x a s t ɾ o
+^entenado$	e n t e n a ð o
+^hijastra$	i x a s t ɾ a
+^entenada$	e n t e n a ð a
+^huérfano$	w ɛ ɾ f a n o
+^huérfana$	w ɛ ɾ f a n a
+^viuda$	b j u ð a
+^viudo$	b j u ð o
+^parientes$	p a ɾ j e n t e s
+^parentela$	p a ɾ e n t e l a
+^familia$	f a m i l j a
+^yo$	ɟ ʝ o
+^tú$	t u
+^usted$	u s t ɛ ð
+^él$	ɛ l
+^ella$	e ʎ a
+^ello$	e ʎ o
+^nosotros$	n o s o t ɾ o s
+^nosotras$	n o s o t ɾ a s
+^nosotros$	n o s o t ɾ o s
+^nosotras$	n o s o t ɾ a s
+^nosotros$	n o s o t ɾ o s
+^nosotras$	n o s o t ɾ a s
+^ustedes$	u s t e ð e s
+^ellos$	e ʎ o s
+^ellas$	e ʎ a s
+^pelear$	p e l e a ɾ
+^guerra$	ɡ ɛ r a
+^batalla$	b a t a ʎ a
+^paz$	p a θ
+^ejército$	e x ɛ ɾ θ i t o
+^tropas$	t ɾ o p a s
+^soldado$	s o l d a ð o
+^armas$	a ɾ m a s
+^macana$	m a k a n a
+^garrote$	ɡ a r o t e
+^hacha_de_combate$	a tʃ a + ð e + k o m b a t e
+^honda$	o n d a
+^arco$	a ɾ k o
+^flecha$	f l e tʃ a
+^lanza$	l a n θ a
+^espada$	ɛ s p a ð a
+^escopeta$	ɛ s k o p ɛ t a
+^caɲón$	k a ɲ o n
+^armadura$	a ɾ m a ð u ɾ a
+^yelmo$	ɟ ʝ ɛ l m o
+^escudo$	ɛ s k u ð o
+^fortaleza$	f o ɾ t a l e θ a
+^castillo$	k a s t i ʎ o
+^torre$	t o r e
+^victoria$	b i k t o ɾ j a
+^derrota$	d ɛ r o t a
+^atacar$	a t a k a ɾ
+^defender$	d e f e n d ɛ ɾ
+^huir$	w i ɾ
+^retirarse$	r ɛ t i ɾ a ɾ s e
+^rendirse$	r e n d i ɾ s e
+^cautivo$	k a u t i β o
+^preso$	p ɾ e s o
+^prisionero$	p ɾ i s j o n ɛ ɾ o
+^guardia$	ɡ w a ɾ ð j a
+^centinela$	θ e n t i n e l a
+^botín$	b o t i n
+^acechar$	a θ e tʃ a ɾ
+^emboscar$	e m b o s k a ɾ
+^pescador$	p ɛ s k a ð o ɾ
+^anzuelo$	a n θ w e l o
+^cuerda_de_pescar$	k w ɛ ɾ ð a + ð e + p ɛ s k a ɾ
+^red$	r ɛ ð
+^atarraya$	a t a r a ʝ a
+^nasa$	n a s a
+^cebo$	θ e β o
+^carnada$	k a ɾ n a ð a
+^cazar$	k a θ a ɾ
+^tirar$	t i ɾ a ɾ
+^disparar$	d i s p a ɾ a ɾ
+^errar$	ɛ r a ɾ
+^fallar$	f a ʎ a ɾ
+^trampa$	t ɾ a m p a
+^atrapar$	a t ɾ a p a ɾ
+^ley$	l e i
+^tribunal$	t ɾ i β u n a l
+^juzgar$	x u ð ɣ a ɾ
+^juicio$	x w i θ j o
+^juez$	x w ɛ θ
+^demandante$	d e m a n d a n t e
+^acusado$	a k u s a ð o
+^testigo$	t ɛ s t i ɣ o
+^jurar$	x u ɾ a ɾ
+^juramento$	x u ɾ a m e n t o
+^acusar$	a k u s a ɾ
+^denunciar$	d e n u n θ j a ɾ
+^condenar$	k o n d e n a ɾ
+^inculpar$	i n k u l p a ɾ
+^condenar$	k o n d e n a ɾ
+^absolver$	a β s o l β ɛ ɾ
+^exculpar$	ɛ s k u l p a ɾ
+^culpable$	k u l p a β l e
+^inocente$	i n o θ e n t e
+^castigo$	k a s t i ɣ o
+^multa$	m u l t a
+^cárcel$	k a ɾ θ ɛ l
+^asesinar$	a s e s i n a ɾ
+^matar$	m a t a ɾ
+^adulterio$	a ð u l t ɛ ɾ j o
+^violación$	b j o l a θ j o n
+^incendio_premeditado$	i n θ e n d j o + p ɾ e m e ð i t a ð o
+^perjurio$	p ɛ ɾ x u ɾ j o
+^robar$	r o β a ɾ
+^ladrón$	l a ð ɾ o n
+^religión$	r e l i x j o n
+^Dios$	d j o s
+^templo$	t e m p l o
+^iglesia$	i ɣ l e s j a
+^altar$	a l t a ɾ
+^ofrenda$	o f ɾ e n d a
+^sacrificio$	s a k ɾ i f i θ j o
+^adorar$	a ð o ɾ a ɾ
+^culto$	k u l t o
+^orar$	o ɾ a ɾ
+^rezar$	r e θ a ɾ
+^cura$	k u ɾ a
+^presbítero$	p ɾ ɛ s β i t ɛ ɾ o
+^sacerdote$	s a θ ɛ ɾ ð o t e
+^sagrado$	s a ɣ ɾ a ð o
+^santo$	s a n t o
+^predicar$	p ɾ e ð i k a ɾ
+^bendecir$	b e n d e θ i ɾ
+^maldecir$	m a l d e θ i ɾ
+^ayunar$	a ʝ u n a ɾ
+^cielo$	θ j e l o
+^paraíso$	p a ɾ a i s o
+^infierno$	i m f j ɛ ɾ n o
+^demonio$	d e m o n j o
+^ídolo$	i ð o l o
+^brujería$	b ɾ u x ɛ ɾ i a
+^hechicería$	e tʃ i θ ɛ ɾ i a
+^brujo$	b ɾ u x o
+^bruja$	b ɾ u x a
+^hechicero$	e tʃ i θ ɛ ɾ o
+^hada$	a ð a
+^duende$	d w e n d e
+^fantasma$	f a n t a s m a
+^agüero$	a ɣ w ɛ ɾ o
+^presagio$	p ɾ e s a x j o
+^animal$	a n i m a l
+^masculino$	m a s k u l i n o
+^macho$	m a tʃ o
+^femenino$	f e m e n i n o
+^hembra$	e m b ɾ a
+^ganado$	ɡ a n a ð o
+^pradera$	p ɾ a ð ɛ ɾ a
+^potrero$	p o t ɾ ɛ ɾ o
+^pastor$	p a s t o ɾ
+^vaquero$	b a k ɛ ɾ o
+^establo$	ɛ s t a β l o
+^ganado$	ɡ a n a ð o
+^toro$	t o ɾ o
+^buey$	b w e i
+^vaca$	b a k a
+^becerro$	b e θ ɛ r o
+^ternero$	t ɛ ɾ n ɛ ɾ o
+^oveja$	o β e x a
+^carnero$	k a ɾ n ɛ ɾ o
+^morueco$	m o ɾ w e k o
+^oveja$	o β e x a
+^borrego$	b o r e ɣ o
+^cordero$	k o ɾ ð ɛ ɾ o
+^jabalí$	x a β a l i
+^puerca$	p w ɛ ɾ k a
+^cochina$	k o tʃ i n a
+^cerda$	θ ɛ ɾ ð a
+^cerdo$	θ ɛ ɾ ð o
+^puerco$	p w ɛ ɾ k o
+^chancho$	tʃ a n tʃ o
+^cabra$	k a β ɾ a
+^chivo$	tʃ i β o
+^macho_cabrío$	m a tʃ o + k a β ɾ i o
+^cabrito$	k a β ɾ i t o
+^caballo$	k a β a ʎ o
+^caballo_padre$	k a β a ʎ o + p a ð ɾ e
+^semental$	s e m e n t a l
+^yegua$	ɟ ʝ e ɣ w a
+^potro$	p o t ɾ o
+^potrillo$	p o t ɾ i ʎ o
+^asno$	a s n o
+^burro$	b u r o
+^mulo$	m u l o
+^mula$	m u l a
+^ave$	a β e
+^gallo$	ɡ a ʎ o
+^gallina$	ɡ a ʎ i n a
+^pollo$	p o ʎ o
+^ganso$	ɡ a n s o
+^pato$	p a t o
+^ánade$	a n a ð e
+^nido$	n i ð o
+^pájaro$	p a x a ɾ o
+^ave$	a β e
+^gaviota$	ɡ a β j o t a
+^garza$	ɡ a ɾ θ a
+^águila$	a ɣ i l a
+^gavilán$	ɡ a β i l a n
+^halcón$	a l k o n
+^buitre$	b w i t ɾ e
+^murciélago$	m u ɾ θ j e l a ɣ o
+^loro$	l o ɾ o
+^papagayo$	p a p a ɣ a ʝ o
+^cuervo$	k w ɛ ɾ β o
+^paloma$	p a l o m a
+^lechuza$	l e tʃ u θ a
+^buho$	b u o
+^perro$	p ɛ r o
+^conejo$	k o n e x o
+^gato$	ɡ a t o
+^zarigüeya$	θ a ɾ i ɣ w e ʝ a
+^ratón$	r a t o n
+^rata$	r a t a
+^pez$	p ɛ θ
+^pescado$	p ɛ s k a ð o
+^aleta$	a l ɛ t a
+^escama$	ɛ s k a m a
+^agalla$	a ɣ a ʎ a
+^valva$	b a l β a
+^tiburón$	t i β u ɾ o n
+^delfín$	d ɛ l f i n
+^ballena$	b a ʎ e n a
+^raya$	r a ʝ a
+^pastinaca$	p a s t i n a k a
+^anguila_de_agua_dulce$	a n ɡ i l a + ð e + a ɣ w a + ð u l θ e
+^lobo$	l o β o
+^león$	l e o n
+^oso$	o s o
+^zorro$	θ o r o
+^venado$	b e n a ð o
+^ciervo$	θ j ɛ ɾ β o
+^a$	a
+^mono$	m o n o
+^elefante$	e l e f a n t e
+^camello$	k a m e ʎ o
+^insecto$	i n s e k t o
+^piojo$	p j o x o
+^liendre$	l j e n d ɾ e
+^pulga$	p u l ɣ a
+^ciempiés$	θ j e m p j e s
+^alacrán$	a l a k ɾ a n
+^escorpión$	ɛ s k o ɾ p j o n
+^cucaracha$	k u k a ɾ a tʃ a
+^hormiga$	o ɾ m i ɣ a
+^araɲa$	a ɾ a ɲ a
+^telaraɲa$	t e l a ɾ a ɲ a
+^abeja$	a β e x a
+^cera_de_abeja$	θ ɛ ɾ a + ð e + a β e x a
+^colmena$	k o l m e n a
+^avispa$	a β i s p a
+^mosca$	m o s k a
+^jején$	x e x e n
+^mosquito$	m o s k i t o
+^lombriz$	l o m b ɾ i θ
+^gusano$	ɡ u s a n o
+^culebra$	k u l e β ɾ a
+^serpiente$	s ɛ ɾ p j e n t e
+^luciérnaga$	l u θ j ɛ ɾ n a ɣ a
+^mariposa$	m a ɾ i p o s a
+^saltamontes$	s a l t a m o n t e s
+^caracol$	k a ɾ a k o l
+^rana$	r a n a
+^lagartija$	l a ɣ a ɾ t i x a
+^cocodrilo$	k o k o ð ɾ i l o
+^caimán$	k a i m a n
+^tortuga$	t o ɾ t u ɣ a
+^cuerpo$	k w ɛ ɾ p o
+^piel$	p j ɛ l
+^cutis$	k u t i s
+^pellejo$	p e ʎ e x o
+^carne$	k a ɾ n e
+^cabello$	k a β e ʎ o
+^pelo$	p e l o
+^barba$	b a ɾ β a
+^vello$	b e ʎ o
+^pelo_púbico$	p e l o + p u β i k o
+^caspa$	k a s p a
+^sangre$	s a n ɡ ɾ e
+^vena$	b e n a
+^arteria$	a ɾ t ɛ ɾ j a
+^hueso$	w e s o
+^costilla$	k o s t i ʎ a
+^cuerno$	k w ɛ ɾ n o
+^cola$	k o l a
+^espalda$	ɛ s p a l d a
+^espinazo$	ɛ s p i n a θ o
+^espina_dorsal$	ɛ s p i n a + ð o ɾ s a l
+^cabeza$	k a β e θ a
+^sien$	s j e n
+^cráneo$	k ɾ a n e o
+^calavera$	k a l a β ɛ ɾ a
+^cerebro$	θ ɛ ɾ e β ɾ o
+^sesos$	s e s o s
+^cara$	k a ɾ a
+^frente$	f ɾ e n t e
+^mandíbula$	m a n d i β u l a
+^mejilla$	m e x i ʎ a
+^mentón$	m e n t o n
+^barbilla$	b a ɾ β i ʎ a
+^ojo$	o x o
+^ceja$	θ e x a
+^párpado$	p a ɾ p a ð o
+^pestaɲa$	p ɛ s t a ɲ a
+^parpadear$	p a ɾ p a ð e a ɾ
+^pestaɲear$	p ɛ s t a ɲ e a ɾ
+^oreja$	o ɾ e x a
+^lóbulo$	l o β u l o
+^cerumen$	θ ɛ ɾ u m e n
+^nariz$	n a ɾ i θ
+^ventana_de_la_nariz$	b e n t a n a + ð e + l a + n a ɾ i θ
+^moco$	m o k o
+^boca$	b o k a
+^pico$	p i k o
+^labio$	l a β j o
+^lengua$	l e n ɡ w a
+^diente$	d j e n t e
+^encías$	e n θ i a s
+^molar$	m o l a ɾ
+^muela$	m w e l a
+^cuello$	k w e ʎ o
+^nuca$	n u k a
+^garganta$	ɡ a ɾ ɣ a n t a
+^hombro$	o m b ɾ o
+^escápula$	ɛ s k a p u l a
+^omóplato$	o m o p l a t o
+^clavícula$	k l a β i k u l a
+^brazo$	b ɾ a θ o
+^sobaco$	s o β a k o
+^axila$	a k s i l a
+^codo$	k o ð o
+^muɲeca$	m u ɲ e k a
+^mano$	m a n o
+^palma_de_la_mano$	p a l m a + ð e + l a + m a n o
+^dedo$	d e ð o
+^pulgar$	p u l ɣ a ɾ
+^uɲa$	u ɲ a
+^garra$	ɡ a r a
+^pierna$	p j ɛ ɾ n a
+^pata$	p a t a
+^muslo$	m u s l o
+^pantorrilla$	p a n t o r i ʎ a
+^rodilla$	r o ð i ʎ a
+^pie$	p j e
+^tobillo$	t o β i ʎ o
+^talón$	t a l o n
+^huella$	w e ʎ a
+^dedo_del_pie$	d e ð o + ð ɛ l + p j e
+^ala$	a l a
+^pluma$	p l u m a
+^pecho$	p e tʃ o
+^seno$	s e n o
+^pezón$	p e θ o n
+^teta$	t ɛ t a
+^ubre$	u β ɾ e
+^ombligo$	o m b l i ɣ o
+^corazón$	k o ɾ a θ o n
+^pulmón$	p u l m o n
+^hígado$	i ɣ a ð o
+^riɲón$	r i ɲ o n
+^bazo$	b a θ o
+^estómago$	ɛ s t o m a ɣ o
+^barriga$	b a r i ɣ a
+^intestinos$	i n t ɛ s t i n o s
+^tripas$	t ɾ i p a s
+^cintura$	θ i n t u ɾ a
+^cadera$	k a ð ɛ ɾ a
+^nalgas$	n a l ɣ a s
+^trasero$	t ɾ a s ɛ ɾ o
+^matriz$	m a t ɾ i θ
+^vientre$	b j e n t ɾ e
+^testículo$	t ɛ s t i k u l o
+^pene$	p e n e
+^respirar$	r ɛ s p i ɾ a ɾ
+^aliento$	a l j e n t o
+^bostezar$	b o s t e θ a ɾ
+^tener_hipo$	t e n ɛ ɾ + i p o
+^toser$	t o s ɛ ɾ
+^estornudar$	ɛ s t o ɾ n u ð a ɾ
+^sudar$	s u ð a ɾ
+^escupir$	ɛ s k u p i ɾ
+^saliva$	s a l i β a
+^vomitar$	b o m i t a ɾ
+^morder$	m o ɾ ð ɛ ɾ
+^lamer$	l a m ɛ ɾ
+^gotear$	ɡ o t e a ɾ
+^babear$	b a β e a ɾ
+^dormir$	d o ɾ m i ɾ
+^roncar$	r o n k a ɾ
+^soɲar$	s o ɲ a ɾ
+^despertarse$	d ɛ s p ɛ ɾ t a ɾ s e
+^ventosear$	b e n t o s e a ɾ
+^flato$	f l a t o
+^orinar$	o ɾ i n a ɾ
+^mear$	m e a ɾ
+^defecar$	d e f e k a ɾ
+^excremento$	ɛ s k ɾ e m e n t o
+^tener_relaciones_sexuales$	t e n ɛ ɾ + r e l a θ j o n e s + s ɛ k s w a l e s
+^temblar$	t e m b l a ɾ
+^baɲar$	b a ɲ a ɾ
+^engendrar$	e n x e n d ɾ a ɾ
+^procrear$	p ɾ o k ɾ e a ɾ
+^nacer$	n a θ ɛ ɾ
+^embarazada$	e m b a ɾ a θ a ð a
+^preɲada$	p ɾ e ɲ a ð a
+^concebir$	k o n θ e β i ɾ
+^vivir$	b i β i ɾ
+^vivo$	b i β o
+^vida$	b i ð a
+^morir$	m o ɾ i ɾ
+^muerto$	m w ɛ ɾ t o
+^ahogado$	a o ɣ a ð o
+^matar$	m a t a ɾ
+^cadáver$	k a ð a β ɛ ɾ
+^enterrar$	e n t ɛ r a ɾ
+^sepultar$	s e p u l t a ɾ
+^sepulcro$	s e p u l k ɾ o
+^tumba$	t u m b a
+^fuerte$	f w ɛ ɾ t e
+^poderoso$	p o ð ɛ ɾ o s o
+^débil$	d e β i l
+^sano$	s a n o
+^salud$	s a l u ð
+^enfermo$	e m f ɛ ɾ m o
+^enfermedad$	e m f ɛ ɾ m e ð a ð
+^fiebre$	f j e β ɾ e
+^bocio$	b o θ j o
+^coto$	k o t o
+^catarro$	k a t a r o
+^resfriado$	r ɛ s f ɾ j a ð o
+^herida$	ɛ ɾ i ð a
+^llaga$	ʎ a ɣ a
+^cardenal$	k a ɾ ð e n a l
+^magulladura$	m a ɣ u ʎ a ð u ɾ a
+^contusión$	k o n t u s j o n
+^hinchazón$	i n tʃ a θ o n
+^comezón$	k o m e θ o n
+^ampolla$	a m p o ʎ a
+^furúnculo$	f u ɾ u n k u l o
+^forúnculo$	f o ɾ u n k u l o
+^pus$	p u s
+^cicatriz$	θ i k a t ɾ i θ
+^sanar$	s a n a ɾ
+^curar$	k u ɾ a ɾ
+^doctor$	d o k t o ɾ
+^médico$	m e ð i k o
+^medicina$	m e ð i θ i n a
+^remedio$	r e m e ð j o
+^veneno$	b e n e n o
+^cansado$	k a n s a ð o
+^descansar$	d ɛ s k a n s a ɾ
+^perezoso$	p ɛ ɾ e θ o s o
+^flojo$	f l o x o
+^calvo$	k a l β o
+^pelado$	p e l a ð o
+^lisiado$	l i s j a ð o
+^sordo$	s o ɾ ð o
+^mudo$	m u ð o
+^ciego$	θ j e ɣ o
+^ebrio$	e β ɾ j o
+^embriagado$	e m b ɾ j a ɣ a ð o
+^desnudo$	d ɛ s n u ð o
+^comer$	k o m ɛ ɾ
+^comida$	k o m i ð a
+^alimento$	a l i m e n t o
+^cocido$	k o θ i ð o
+^cocinado$	k o θ i n a ð o
+^crudo$	k ɾ u ð o
+^maduro$	m a ð u ɾ o
+^inmaduro$	i m m a ð u ɾ o
+^no_maduro$	n o + m a ð u ɾ o
+^verde$	b ɛ ɾ ð e
+^podrido$	p o ð ɾ i ð o
+^beber$	b e β ɛ ɾ
+^hambre$	a m b ɾ e
+^hambre$	a m b ɾ e
+^sed$	s ɛ ð
+^chupar$	tʃ u p a ɾ
+^masticar$	m a s t i k a ɾ
+^mascar$	m a s k a ɾ
+^tragar$	t ɾ a ɣ a ɾ
+^sofocar$	s o f o k a ɾ
+^cocinar$	k o θ i n a ɾ
+^hervir$	ɛ ɾ β i ɾ
+^asar$	a s a ɾ
+^freír$	f ɾ e i ɾ
+^hornear$	o ɾ n e a ɾ
+^horno$	o ɾ n o
+^olla$	o ʎ a
+^caldera$	k a l d ɛ ɾ a
+^cacerola$	k a θ ɛ ɾ o l a
+^cazuela$	k a θ w e l a
+^plato$	p l a t o
+^fuente$	f w e n t e
+^plato$	p l a t o
+^tazón$	t a θ o n
+^cántaro$	k a n t a ɾ o
+^jarro$	x a r o
+^taza$	t a θ a
+^copa$	k o p a
+^platillo$	p l a t i ʎ o
+^cuchara$	k u tʃ a ɾ a
+^cuchillo$	k u tʃ i ʎ o
+^tenedor$	t e n e ð o ɾ
+^tenazas$	t e n a θ a s
+^comida$	k o m i ð a
+^desayuno$	d e s a ʝ u n o
+^almuerzo$	a l m w ɛ ɾ θ o
+^comida$	k o m i ð a
+^cena$	θ e n a
+^pelar$	p e l a ɾ
+^cribar$	k ɾ i β a ɾ
+^colar$	k o l a ɾ
+^cerner$	θ ɛ ɾ n ɛ ɾ
+^raspar$	r a s p a ɾ
+^rallar$	r a ʎ a ɾ
+^mezclar$	m ɛ θ k l a ɾ
+^mixturar$	m i s t u ɾ a ɾ
+^pan$	p a n
+^masa$	m a s a
+^amasar$	a m a s a ɾ
+^harina$	a ɾ i n a
+^aplastar$	a p l a s t a ɾ
+^moler$	m o l ɛ ɾ
+^molino$	m o l i n o
+^mortero$	m o ɾ t ɛ ɾ o
+^mano_de_mortero$	m a n o + ð e + m o ɾ t ɛ ɾ o
+^carne$	k a ɾ n e
+^salchicha$	s a l tʃ i tʃ a
+^sopa$	s o p a
+^legumbres$	l e ɣ u m b ɾ e s
+^frijol$	f ɾ i x o l
+^poroto$	p o ɾ o t o
+^papa$	p a p a
+^fruta$	f ɾ u t a
+^racimo$	r a θ i m o
+^higo$	i ɣ o
+^uva$	u β a
+^nuez$	n w ɛ θ
+^aceituna$	a θ e i t u n a
+^oliva$	o l i β a
+^aceite$	a θ e i t e
+^grasa$	ɡ ɾ a s a
+^sal$	s a l
+^pimienta$	p i m j e n t a
+^ají$	a x i
+^miel$	m j ɛ l
+^azúcar$	a θ u k a ɾ
+^leche$	l e tʃ e
+^ordeɲar$	o ɾ ð e ɲ a ɾ
+^queso$	k e s o
+^mantequilla$	m a n t e k i ʎ a
+^manteca$	m a n t e k a
+^bebida$	b e β i ð a
+^aguamiel$	a ɣ w a m j ɛ l
+^vino$	b i n o
+^cerveza$	θ ɛ ɾ β e θ a
+^bebida_fermentada$	b e β i ð a + f ɛ ɾ m e n t a ð a
+^huevo$	w e β o
+^yema$	ɟ ʝ e m a
+^vestirse$	b ɛ s t i ɾ s e
+^ropa$	r o p a
+^sastre$	s a s t ɾ e
+^tela$	t e l a
+^lana$	l a n a
+^lino$	l i n o
+^algodón$	a l ɣ o ð o n
+^seda$	s e ð a
+^fieltro$	f j ɛ l t ɾ o
+^piel$	p j ɛ l
+^cuero$	k w ɛ ɾ o
+^piel$	p j ɛ l
+^hilar$	i l a ɾ
+^huso$	u s o
+^tejer$	t e x ɛ ɾ
+^telar$	t e l a ɾ
+^coser$	k o s ɛ ɾ
+^aguja$	a ɣ u x a
+^punzón$	p u n θ o n
+^hilo$	i l o
+^teɲir$	t e ɲ i ɾ
+^capa$	k a p a
+^manta$	m a n t a
+^poncho$	p o n tʃ o
+^ruana$	r w a n a
+^vestido$	b ɛ s t i ð o
+^abrigo$	a β ɾ i ɣ o
+^saco$	s a k o
+^camisa$	k a m i s a
+^cuello$	k w e ʎ o
+^falda$	f a l d a
+^falda_de_hierbas$	f a l d a + ð e + ʝ ɛ ɾ β a s
+^pantalones$	p a n t a l o n e s
+^calzones$	k a l θ o n e s
+^media$	m e ð j a
+^calcetín$	k a l θ ɛ t i n
+^zapato$	θ a p a t o
+^bota$	b o t a
+^zapatero$	θ a p a t ɛ ɾ o
+^sombrero$	s o m b ɾ ɛ ɾ o
+^gorro$	ɡ o r o
+^cinturón$	θ i n t u ɾ o n
+^faja$	f a x a
+^guante$	ɡ w a n t e
+^velo$	b e l o
+^bolsillo$	b o l s i ʎ o
+^botón$	b o t o n
+^alfiler$	a l f i l ɛ ɾ
+^adorno$	a ð o ɾ n o
+^ornato$	o ɾ n a t o
+^joya$	x o ʝ a
+^anillo$	a n i ʎ o
+^sortija$	s o ɾ t i x a
+^brazalete$	b ɾ a θ a l ɛ t e
+^pulsera$	p u l s ɛ ɾ a
+^collar$	k o ʎ a ɾ
+^chaquira$	tʃ a k i ɾ a
+^abalorio$	a β a l o ɾ j o
+^arete$	a ɾ ɛ t e
+^aro$	a ɾ o
+^pendiente$	p e n d j e n t e
+^cinta$	θ i n t a
+^tocado$	t o k a ð o
+^tatuaje$	t a t w a x e
+^paɲuelo$	p a ɲ w e l o
+^trapo$	t ɾ a p o
+^toalla$	t o a ʎ a
+^peine$	p e i n e
+^cepillo$	θ e p i ʎ o
+^trenzar$	t ɾ e n θ a ɾ
+^navaja_de_afeitar$	n a β a x a + ð e + a f e i t a ɾ
+^ungüento$	u n ɡ w e n t o
+^jabón$	x a β o n
+^espejo$	ɛ s p e x o
+^habitar$	a β i t a ɾ
+^vivir$	b i β i ɾ
+^morar$	m o ɾ a ɾ
+^casa$	k a s a
+^cabaɲa$	k a β a ɲ a
+^choza$	tʃ o θ a
+^casa_de_huerta$	k a s a + ð e + w ɛ ɾ t a
+^granja$	ɡ ɾ a n x a
+^toldo$	t o l d o
+^cancha$	k a n tʃ a
+^patio$	p a t j o
+^casa_de_hombres$	k a s a + ð e + o m b ɾ e s
+^cocina$	k o θ i n a
+^casa_de_reunión$	k a s a + ð e + r e u n j o n
+^cuarto$	k w a ɾ t o
+^pieza$	p j e θ a
+^puerta$	p w ɛ ɾ t a
+^jamba_de_puerta$	x a m b a + ð e + p w ɛ ɾ t a
+^larguero$	l a ɾ ɣ ɛ ɾ o
+^cerradura$	θ ɛ r a ð u ɾ a
+^candado$	k a n d a ð o
+^cerrojo$	θ ɛ r o x o
+^llave$	ʎ a β e
+^ventana$	b e n t a n a
+^suelo$	s w e l o
+^pared$	p a ɾ ɛ ð
+^muro$	m u ɾ o
+^fogón$	f o ɣ o n
+^estufa$	ɛ s t u f a
+^chimenea$	tʃ i m e n e a
+^escalera$	ɛ s k a l ɛ ɾ a
+^cama$	k a m a
+^almohada$	a l m o a ð a
+^frazada$	f ɾ a θ a ð a
+^cobija$	k o β i x a
+^silla$	s i ʎ a
+^mesa$	m e s a
+^lámpara$	l a m p a ɾ a
+^antorcha$	a n t o ɾ tʃ a
+^vela$	b e l a
+^repisa$	r e p i s a
+^batea$	b a t e a
+^artesa$	a ɾ t e s a
+^techo$	t e tʃ o
+^paja$	p a x a
+^cumbrera$	k u m b ɾ ɛ ɾ a
+^viga$	b i ɣ a
+^viga$	b i ɣ a
+^poste$	p o s t e
+^tabla$	t a β l a
+^arco$	a ɾ k o
+^albaɲil$	a l β a ɲ i l
+^masón$	m a s o n
+^ladrillo$	l a ð ɾ i ʎ o
+^argamasa$	a ɾ ɣ a m a s a
+^adobe$	a ð o β e
+^labrador$	l a β ɾ a ð o ɾ
+^ranchero$	r a n tʃ ɛ ɾ o
+^agricultor$	a ɣ ɾ i k u l t o ɾ
+^campo$	k a m p o
+^chacra$	tʃ a k ɾ a
+^jardín$	x a ɾ ð i n
+^huerto$	w ɛ ɾ t o
+^cultivar$	k u l t i β a ɾ
+^labrar$	l a β ɾ a ɾ
+^cerca$	θ ɛ ɾ k a
+^cerco$	θ ɛ ɾ k o
+^zanja$	θ a n x a
+^canal$	k a n a l
+^arar$	a ɾ a ɾ
+^surco$	s u ɾ k o
+^excavar$	ɛ s k a β a ɾ
+^cavar$	k a β a ɾ
+^laya$	l a ʝ a
+^pala$	p a l a
+^azadón$	a θ a ð o n
+^azada$	a θ a ð a
+^horqueta$	o ɾ k ɛ t a
+^rastro$	r a s t ɾ o
+^rastrillo$	r a s t ɾ i ʎ o
+^sembrar$	s e m b ɾ a ɾ
+^desparramar$	d ɛ s p a r a m a ɾ
+^semilla$	s e m i ʎ a
+^segar$	s e ɣ a ɾ
+^cosechar$	k o s e tʃ a ɾ
+^hoz$	o θ
+^guadaɲa$	ɡ w a ð a ɲ a
+^trillar$	t ɾ i ʎ a ɾ
+^desgranar$	d ɛ s ɣ ɾ a n a ɾ
+^era$	ɛ ɾ a
+^lugar_para_trillar$	l u ɣ a ɾ + p a ɾ a + t ɾ i ʎ a ɾ
+^cosecha$	k o s e tʃ a
+^siega$	s j e ɣ a
+^grano$	ɡ ɾ a n o
+^trigo$	t ɾ i ɣ o
+^cebada$	θ e β a ð a
+^centeno$	θ e n t e n o
+^avena$	a β e n a
+^maíz$	m a i θ
+^arroz$	a r o θ
+^hierba$	ɟ ʝ ɛ ɾ β a
+^pasto$	p a s t o
+^heno$	e n o
+^paja$	p a x a
+^planta$	p l a n t a
+^plantar$	p l a n t a ɾ
+^sembrar$	s e m b ɾ a ɾ
+^raíz$	r a i θ
+^rama$	r a m a
+^hoja$	o x a
+^flor$	f l o ɾ
+^árbol$	a ɾ β o l
+^roble$	r o β l e
+^haya$	a ʝ a
+^abedul$	a β e ð u l
+^pino$	p i n o
+^abeto$	a β ɛ t o
+^bellota$	b e ʎ o t a
+^enredadera$	e n r e ð a ð ɛ ɾ a
+^bejuco$	b e x u k o
+^liana$	l j a n a
+^tabaco$	t a β a k o
+^fumar$	f u m a ɾ
+^pipa$	p i p a
+^tocón$	t o k o n
+^cepa$	θ e p a
+^tronco$	t ɾ o n k o
+^rama_bifurcada$	r a m a + β i f u ɾ k a ð a
+^corteza$	k o ɾ t e θ a
+^savia$	s a β j a
+^palmera$	p a l m ɛ ɾ a
+^coco$	k o k o
+^cítrico$	θ i t ɾ i k o
+^plátano$	p l a t a n o
+^banano$	b a n a n o
+^baniano$	b a n j a n o
+^camote$	k a m o t e
+^batata$	b a t a t a
+^ɲame$	ɲ a m e
+^mandioca$	m a n d j o k a
+^yuca$	ɟ ʝ u k a
+^calabaza$	k a l a β a θ a
+^zapallo$	θ a p a ʎ o
+^calabaza$	k a l a β a θ a
+^calabazo$	k a l a β a θ o
+^bambú$	b a m b u
+^caɲa_de_azúcar$	k a ɲ a + ð e + a θ u k a ɾ
+^barbasco$	b a ɾ β a s k o
+^ortiga$	o ɾ t i ɣ a
+^hongo$	o n ɡ o
+^seta$	s ɛ t a
+^hacer$	a θ ɛ ɾ
+^trabajar$	t ɾ a β a x a ɾ
+^encorvar$	e n k o ɾ β a ɾ
+^doblar$	d o β l a ɾ
+^doblar$	d o β l a ɾ
+^amarrar$	a m a r a ɾ
+^atar$	a t a ɾ
+^desatar$	d e s a t a ɾ
+^cadena$	k a ð e n a
+^cuerda$	k w ɛ ɾ ð a
+^soga$	s o ɣ a
+^nudo$	n u ð o
+^golpear$	ɡ o l p e a ɾ
+^machacar_con_el_puɲo$	m a tʃ a k a ɾ + k o n + ɛ l + p u ɲ o
+^cortar$	k o ɾ t a ɾ
+^tumbar$	t u m b a ɾ
+^talar$	t a l a ɾ
+^tajar$	t a x a ɾ
+^picar$	p i k a ɾ
+^apuɲalar$	a p u ɲ a l a ɾ
+^cuchillo$	k u tʃ i ʎ o
+^tijeras$	t i x ɛ ɾ a s
+^hacha$	a tʃ a
+^azuela$	a θ w e l a
+^quebrar$	k e β ɾ a ɾ
+^quebrado$	k e β ɾ a ð o
+^hender$	e n d ɛ ɾ
+^partir$	p a ɾ t i ɾ
+^romper$	r o m p ɛ ɾ
+^rasgar$	r a s ɣ a ɾ
+^desollar$	d e s o ʎ a ɾ
+^frotar$	f ɾ o t a ɾ
+^enjugar$	e n x u ɣ a ɾ
+^alargar$	a l a ɾ ɣ a ɾ
+^estirar$	ɛ s t i ɾ a ɾ
+^tender$	t e n d ɛ ɾ
+^tirar$	t i ɾ a ɾ
+^jalar$	x a l a ɾ
+^extender$	ɛ s t e n d ɛ ɾ
+^esparcir$	ɛ s p a ɾ θ i ɾ
+^colgar$	k o l ɣ a ɾ
+^apretar$	a p ɾ ɛ t a ɾ
+^oprimir$	o p ɾ i m i ɾ
+^estrujar$	ɛ s t ɾ u x a ɾ
+^exprimir$	ɛ s p ɾ i m i ɾ
+^vaciar$	b a θ j a ɾ
+^verter$	b ɛ ɾ t ɛ ɾ
+^derramar$	d ɛ r a m a ɾ
+^lavar$	l a β a ɾ
+^barrer$	b a r ɛ ɾ
+^escoba$	ɛ s k o β a
+^herramienta$	ɛ r a m j e n t a
+^carpintero$	k a ɾ p i n t ɛ ɾ o
+^edificar$	e ð i f i k a ɾ
+^construir$	k o n s t ɾ w i ɾ
+^perforar$	p ɛ ɾ f o ɾ a ɾ
+^ahuecar$	a w e k a ɾ
+^serrucho$	s ɛ r u tʃ o
+^sierra$	s j ɛ r a
+^martillo$	m a ɾ t i ʎ o
+^clavo$	k l a β o
+^cola$	k o l a
+^adhesivo$	a ð e s i β o
+^herrero$	ɛ r ɛ ɾ o
+^fragua$	f ɾ a ɣ w a
+^yunque$	ɟ ʝ u n k e
+^fundir$	f u n d i ɾ
+^oro$	o ɾ o
+^plata$	p l a t a
+^cobre$	k o β ɾ e
+^bronce$	b ɾ o n θ e
+^hierro$	ɟ ʝ ɛ r o
+^plomo$	p l o m o
+^estaɲo$	ɛ s t a ɲ o
+^alfarero$	a l f a ɾ ɛ ɾ o
+^moldear$	m o l d e a ɾ
+^formar$	f o ɾ m a ɾ
+^barro$	b a r o
+^arcilla$	a ɾ θ i ʎ a
+^vidrio$	b i ð ɾ j o
+^tejer$	t e x ɛ ɾ
+^trenzar$	t ɾ e n θ a ɾ
+^cesto$	θ ɛ s t o
+^canasto$	k a n a s t o
+^canasta$	k a n a s t a
+^estera$	ɛ s t ɛ ɾ a
+^tapete$	t a p ɛ t e
+^alfombra$	a l f o m b ɾ a
+^bolsa_de_malla$	b o l s a + ð e + m a ʎ a
+^abanico$	a β a n i k o
+^abanicar$	a β a n i k a ɾ
+^aventar$	a β e n t a ɾ
+^ventilar$	b e n t i l a ɾ
+^esculpir$	ɛ s k u l p i ɾ
+^escultor$	ɛ s k u l t o ɾ
+^estatua$	ɛ s t a t w a
+^escoplo$	ɛ s k o p l o
+^cincel$	θ i n θ ɛ l
+^pintura$	p i n t u ɾ a
+^pintar$	p i n t a ɾ
