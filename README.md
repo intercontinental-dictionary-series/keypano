@@ -27,21 +27,21 @@ Conceptlists in Concepticon:
 ![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
-- **Varieties:** 24
+- **Varieties:** 26
 - **Concepts:** 1,310
-- **Lexemes:** 26,772
+- **Lexemes:** 30,138
 - **Sources:** 0
 - **Synonymy:** 1.25
 - **Invalid lexemes:** 0
-- **Tokens:** 168,521
-- **Segments:** 120 (0 BIPA errors, 0 CTLS sound class errors, 120 CLTS modified)
-- **Inventory size (avg):** 32.50
+- **Tokens:** 187,917
+- **Segments:** 126 (0 BIPA errors, 0 CTLS sound class errors, 126 CLTS modified)
+- **Inventory size (avg):** 33.81
 
 ## Possible Improvements:
 
 
 
-- Entries missing sources: 26772/26772 (100.00%)
+- Entries missing sources: 30138/30138 (100.00%)
 
 # Contributors
 
