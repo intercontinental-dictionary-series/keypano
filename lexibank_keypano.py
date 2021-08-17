@@ -63,45 +63,45 @@ class Dataset(IDSDataset):
             args.writer.add_concept(
                     **concept.data)
 
+        def add_language_(lang):
+            args.writer.add_language(
+                **{k: lang.data[k] for k in ["ID", "Name", "Glottocode", 
+                                        "ISO639P3code", "Latitude",
+                                        "Longitude"
+                ]})
+                
         for language in ids_data.objects("LanguageTable"):
             if language.id in ids:
                 if language.name == "Spanish":
                     for lid in ["SpanishEU", "SpanishLA"]:
                         language.data["ID"] = lid
-                        args.writer.add_language(
-                                **{k: language.data[k] for k in [
-                                    "ID", "Name", "Glottocode", "ISO639P3code", "Latitude",
-                                    "Longitude"
-                                    ]})
+                        add_language_(language)
+                elif language.name == "Portuguese":
+                    for lid in ["PortugueseEU", "PortugueseBR"]:
+                        language.data["ID"] = lid
+                        add_language_(language)
+
                 language.data["ID"] = ids[language.id]
-                args.writer.add_language(
-                        **{k: language.data[k] for k in [
-                            "ID", "Name", "Glottocode", "ISO639P3code", "Latitude",
-                            "Longitude"
-                            ]})
+                add_language_(language)
         args.log.info("added languages")
         
+        def add_form_(wl, idx, docid=None):
+            args.writer.add_form(
+                ID=wl[idx, "form_id"],
+                Language_ID=docid or ids[wl[idx, "doculect_id"]],
+                Parameter_ID=wl[idx, "concept_id"],
+                Form=wl[idx, "form"].replace(" ", "_"),
+                Value=wl[idx, "value"],
+                Loan=True if wl[idx, "borrowing"] else None)
+                
         wl = Wordlist(self.raw_dir.joinpath("ids-data.tsv").as_posix())
         for idx in pb(wl, desc="adding forms"):
             if ids[wl[idx, "doculect_id"]] == "Spanish":
                 for lid in ["SpanishEU", "SpanishLA"]:
-                    args.writer.add_form(
-                            ID=wl[idx, "form_id"],
-                            Language_ID=lid,
-                            Parameter_ID=wl[idx, "concept_id"],
-                            Form=wl[idx, "form"].replace(" ", "_"),
-                            Value=wl[idx, "value"],
-                            Loan=True if wl[idx, "borrowing"] else None
-                            )
+                    add_form_(wl, idx, lid)
+            elif ids[wl[idx, "doculect_id"]] == "Portuguese":
+                for lid in ["PortugueseEU", "PortugueseBR"]:
+                    add_form_(wl, idx, lid)
 
-
-            args.writer.add_form(
-                    ID=wl[idx, "form_id"],
-                    Language_ID=ids[wl[idx, "doculect_id"]],
-                    Parameter_ID=wl[idx, "concept_id"],
-                    Form=wl[idx, "form"].replace(" ", "_"),
-                    Value=wl[idx, "value"],
-                    Loan=True if wl[idx, "borrowing"] else None
-                    )
-
+            add_form_(wl, idx)
 
