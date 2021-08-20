@@ -73,16 +73,16 @@ class Dataset(IDSDataset):
         for language in ids_data.objects("LanguageTable"):
             if language.id in ids:
                 if language.name == "Spanish":
-                    for lid in ["SpanishEU", "SpanishLA"]:
+                    for lid in ["Spanish", "SpanishLA"]:
                         language.data["ID"] = lid
                         add_language_(language)
                 elif language.name == "Portuguese":
-                    for lid in ["PortugueseEU", "PortugueseBR"]:
+                    for lid in ["Portuguese", "PortugueseBR"]:
                         language.data["ID"] = lid
                         add_language_(language)
-
-                language.data["ID"] = ids[language.id]
-                add_language_(language)
+                else:
+                    language.data["ID"] = ids[language.id]
+                    add_language_(language)
         args.log.info("added languages")
         
         def add_form_(wl, idx, docid=None):
@@ -97,11 +97,11 @@ class Dataset(IDSDataset):
         wl = Wordlist(self.raw_dir.joinpath("ids-data.tsv").as_posix())
         for idx in pb(wl, desc="adding forms"):
             if ids[wl[idx, "doculect_id"]] == "Spanish":
-                for lid in ["SpanishEU", "SpanishLA"]:
+                for lid in ["Spanish", "SpanishLA"]:
                     add_form_(wl, idx, lid)
             elif ids[wl[idx, "doculect_id"]] == "Portuguese":
-                for lid in ["PortugueseEU", "PortugueseBR"]:
+                for lid in ["Portuguese", "PortugueseBR"]:
                     add_form_(wl, idx, lid)
-
-            add_form_(wl, idx)
+            else:
+                add_form_(wl, idx)
 
