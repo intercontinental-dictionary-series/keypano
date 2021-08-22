@@ -13,10 +13,18 @@ setup(
     entry_points={
         'lexibank.dataset': [
             'keypano=lexibank_keypano:Dataset',
+        ],
+        'cldfbench.commands': [
+            'keypano=keypanocommands',
         ]
     },
     install_requires=[
-        "pylexibank>=3.0.0",
+        "pylexibank>=3.2.0",
+        "collabutils",
+        "cartopy",
+        "matplotlib",
+        # "python-igraph",
+        "scipy",
         "idspy"
     ],
     extras_require={

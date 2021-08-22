@@ -1,10 +1,8 @@
 ID,Name,Glottocode,Glottolog_Name,ISO639P3code,Macroarea,Latitude,Longitude,Family,Location,Remark
-SpanishEU,Spanish,stan1288,Spanish,spa,Eurasia,40.4414,-1.11788,Indo-European,,
-SpanishLA,Spanish,stan1288,Spanish,spa,Eurasia,40.4414,-1.11788,Indo-European,,
 Spanish,Spanish,stan1288,Spanish,spa,Eurasia,40.4414,-1.11788,Indo-European,,
-PortugueseEU,Portuguese,port1283,Portuguese,por,Eurasia,39.91,-8.1,Indo-European,,
-PortugueseBR,Portuguese,port1283,Portuguese,por,Eurasia,39.91,-8.1,Indo-European,,
+SpanishLA,Spanish,stan1288,Spanish,spa,Eurasia,40.4414,-1.11788,Indo-European,,
 Portuguese,Portuguese,port1283,Portuguese,por,Eurasia,39.91,-8.1,Indo-European,,
+PortugueseBR,Portuguese,port1283,Portuguese,por,Eurasia,39.91,-8.1,Indo-European,,
 Aguaruna,Aguaruna,agua1253,Aguaruna,agr,South America,-5.30044,-77.9218,Chicham,,
 Yagua,Yagua,yagu1244,Yagua,yad,South America,-3.42913,-72.2186,Peba-Yagua,,
 MashcoPiro,Mashco Piro,mash1270,Mashco Piro,cuj,South America,-11.4745,-70.7953,Arawakan,,
