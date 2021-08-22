@@ -137,4 +137,3 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     register(parser)
     run(parser.parse_args())
-

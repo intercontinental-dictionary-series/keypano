@@ -11,6 +11,7 @@ sca_{i}ID - cognate id within family.
 import argparse
 
 from lingpy import *
+from lexibank_keypano import Dataset as keypano
 from lingpy.compare.util import mutual_coverage_check
 from lingpy.compare.sanity import average_coverage
 
@@ -28,9 +29,16 @@ def check_coverage(wl=None):
 
 
 def compose():
-    lex = LexStat.from_cldf("cldf/cldf-metadata.json",
-                            columns=("language_id", "concept_name", "value", "form",
-                                     "segments", "language_subgroup", "language_family"))
+    lex = LexStat.from_cldf(
+        keypano().cldf_dir / "cldf-metadata.json",
+        columns=["language_id",
+                 "language_family",
+                 "concept_name",
+                 "concept_concepticon_id",
+                 "value",
+                 "form",
+                 "segments"])
+
     check_coverage(lex)
     return lex
 
@@ -99,7 +107,7 @@ def register(parser):
         "--thresholds",
         nargs="*",
         type=float,
-        default=0.6,
+        default=[0.6],
         help='Thresholds to use for cluster method.',
     )
     parser.add_argument(
