@@ -56,53 +56,65 @@ def report_basic_for(table, index=0):
 
 def get_cogids_table_for(table, index=0):
     family_ = list(table.LANGUAGE_FAMILY.values)
+    language_ = list(table.DOCULECT.values)
     local_, global_, global_gt1_ = get_cogids_for(table, index)
     local_ = list(local_.values)
     global_ = list(global_.values)
     global_gt1_ = list(global_gt1_.values)
-    cogids_table = list(zip(family_, local_, global_, global_gt1_))
+    cogids_table = list(zip(family_, language_, local_, global_, global_gt1_))
     return cogids_table
 
 
-def get_cogids_by_family(table):
+def get_cogids_by_family(table, family=None):
     # Table is intermediate result from get_cogids_table_for
-    language_family_set = sorted(set([row[0] for row in table]))
-    lf_global_cognates_gt1 = {}
+    # lu refers to language unit - language or family.
+    if family:
+        # Family is given, so
+        # Filter on family, and construct language unit set on languages.
+        table = [row for row in table if row[0] == family]
+        lu_idx = 1
+    else:
+        lu_idx = 0
 
-    # global_gt1 in [3] of table.
-    for lf in language_family_set:
-        lf_global_cognates = set([row[3] for row in table if row[0] == lf and row[3] != 0])
+    lu_unit_set = sorted(set([row[lu_idx] for row in table]))
+    lu_global_cognates_gt1 = {}
+
+    # global_gt1 in [4] of table.
+    for lu in lu_unit_set:
+        cognates_gt1 = set([row[4] for row in table
+                            if row[lu_idx] == lu and row[4] != 0])
+
         # Construct dictionary of counters for each language family.
-        cognates_gt1_ = {lf_: Counter() for lf_ in language_family_set}
+        cognates_gt1_ = {lu_: Counter() for lu_ in lu_unit_set}
         for row in table:
-            if row[3] in lf_global_cognates:
-                cognates_gt1_[row[0]][row[3]] += 1
+            if row[4] in cognates_gt1:
+                cognates_gt1_[row[lu_idx]][row[4]] += 1
 
         # Condense detail down to numbers of distinct cognates and words.
-        cognates_gt1_stats = {lf_: [len(counter), sum(counter.values())] for lf_, counter in cognates_gt1_.items()}
+        lu_global_cognates_gt1[lu] = {lu_: [len(counter), sum(counter.values())]
+                                      for lu_, counter in cognates_gt1_.items()}
 
-        lf_global_cognates_gt1[lf] = cognates_gt1_stats
-
-    return lf_global_cognates_gt1
+    return lu_global_cognates_gt1
 
 
-def report_cogids_table(lf_global_cognates, selector=0):
+def report_cogids_table(global_cognates, selector=0):
     # Display as table.
     # Selector 0 : cognates, 1: words
-    lf_cognates_table = []
-    language_families = [lf for lf in lf_global_cognates.keys()]
+    # lu == language unit -- language, language_family
+    cognates_table = []
+    lu_keys = [key for key in global_cognates.keys()]
 
-    for lf, lf_cognates in lf_global_cognates.items():
-        lf_cognates_table.append([lf] + [lf_cognates[lf_][selector] for lf_ in language_families])
+    for lu, lu_cognates in global_cognates.items():
+        cognates_table.append([lu] + [lu_cognates[lu_][selector] for lu_ in lu_keys])
 
     header0 = 'Language ' + ('Cognates' if not selector else 'Words')
-    print(tabulate(lf_cognates_table, headers=[header0] + language_families))
+    print(tabulate(cognates_table, headers=[header0] + lu_keys))
 
 
-def report_cogids_by_family(table, index=0, selector=0):
-    cogids = get_cogids_table_for(table, index=index)
-    cogids_by_family = get_cogids_by_family(cogids)
-    report_cogids_table(cogids_by_family, selector=selector)
+def report_cogids_by_family(table, family=None, index=0, selector=0):
+    cogids_table = get_cogids_table_for(table, index=index)
+    lu_cogids_gt1 = get_cogids_by_family(cogids_table, family=family)
+    report_cogids_table(lu_cogids_gt1, selector=selector)
 
 
 def register(parser):
@@ -113,10 +125,16 @@ def register(parser):
         help="File path for flat file lexstat wordlist in .tsv format.",
     )
     parser.add_argument(
+        "--family",
+        type=str,
+        default=None,
+        help="Family name to report or None if report over all families."
+    )
+    parser.add_argument(
         "--index",
         type=int,
         default=0,
-        help='Index of threshold used in cognate analysis',
+        help='Index of threshold used for report.',
     )
     parser.add_argument(
         "--selector",
@@ -130,7 +148,8 @@ def register(parser):
 def run(args):
     table = get_table(args.dataset)
     report_basic_for(table, index=args.index)
-    report_cogids_by_family(table, index=args.index, selector=args.selector)
+    report_cogids_by_family(table, family=args.family,
+                            index=args.index, selector=args.selector)
 
 
 if __name__ == "__main__":

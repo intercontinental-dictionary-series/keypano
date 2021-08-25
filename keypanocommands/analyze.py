@@ -104,11 +104,11 @@ def register(parser):
         help='Scoring method (default: "lexstat")',
     )
     parser.add_argument(
-        "--thresholds",
+        "--threshold",
         nargs="*",
         type=float,
         default=[0.6],
-        help='Thresholds to use for cluster method.',
+        help='Threshold(s) to use for cluster method.',
     )
     parser.add_argument(
         "--file_out",
@@ -118,7 +118,7 @@ def register(parser):
 
 
 def run(args):
-    analyze(method=args.method, thresholds=args.thresholds, file_out=args.file_out)
+    analyze(method=args.method, thresholds=args.threshold, file_out=args.file_out)
 
 
 if __name__ == "__main__":

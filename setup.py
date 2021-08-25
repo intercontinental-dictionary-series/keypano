@@ -8,7 +8,7 @@ setup(
     name='lexibank_keypano',
     py_modules=['lexibank_keypano'],
     include_package_data=True,
-    url=metadata.get("url",""),
+    url=metadata.get("url", ""),
     zip_safe=False,
     entry_points={
         'lexibank.dataset': [
@@ -23,7 +23,7 @@ setup(
         "collabutils",
         "cartopy",
         "matplotlib",
-        # "python-igraph",
+        "python-igraph",
         "scipy",
         "idspy"
     ],
