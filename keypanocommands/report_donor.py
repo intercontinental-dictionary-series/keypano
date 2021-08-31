@@ -3,7 +3,7 @@
 
     Johann-Mattis List, Aug 22, 2021
 """
-import csv
+# import csv
 import argparse
 from lingpy import *
 from lexibank_keypano import Dataset as keypano
@@ -27,31 +27,53 @@ def compose_wl():
 
 def construct_alignments(wl, mode, donors):
     # Construct borrowing-bookkeeping structure
-    bb = {doc: {} for doc in wl.cols
-          if not any((lambda x, y: x in y)(donor, doc) for donor in donors)}
+    bb = {doculect: {} for doculect in wl.cols
+          if not any((lambda x, y: x in y)(donor, doculect) for donor in donors)}
 
     for concept in progressbar(wl.rows, desc="pairwise SCA"):
         idxs = wl.get_dict(row=concept)
         donors_concepts = {donor: idxs.get(donor, []) for donor in donors}
-        for doc in idxs:
-            if any((lambda x, y: x in y)(donor, doc) for donor in donors): continue
+        for doculect in idxs:
+            if any((lambda x, y: x in y)(donor, doculect) for donor in donors): continue
             # if "Spanish" not in doc and "Portuguese" not in doc:
-            bb[doc][concept] = {idx: [] for idx in idxs[doc]}
+            bb[doculect][concept] = {idx: [] for idx in idxs[doculect]}
             for donor in donors:
-                for idxA, idxB in product(donors_concepts[donor], idxs[doc]):
+                # All combinations of donor and doculect entries for this concept.
+                for idxA, idxB in product(donors_concepts[donor], idxs[doculect]):
+                    # Combination of donor and doculect entries.
                     wordA, wordB = wl[idxA, "tokens"], wl[idxB, "tokens"]
                     pair = Pairwise(wordA, wordB)
                     pair.align(distance=True, mode=mode)
-                    d = pair.alignments[0][2]
-                    bb[doc][concept][idxB] += [(donor, d)]
+                    dist = pair.alignments[0][2]
+                    # Save donor word reference to store.
+                    bb[doculect][concept][idxB] += [(donor, dist, wordA)]
 
     return bb
 
 
-def report_borrowing(wl, bb, thresholds, donors, donor_file_out):
+def screen_word_hits(tmp_words, delta_threshold):
+    # Organize according to requirements of discrimination between donors.
+    # Get index of min distance word.
+    min_idx = min(enumerate(tmp_words), key=lambda x: x[1][1])[0]
+    min_dist = tmp_words[min_idx][1]
+    tmp_words_ = []
+    for idx, row in enumerate(tmp_words):
+        if idx == min_idx:
+            tmp_words_ += [row + ['*']]
+        elif row[1] <= min_dist+delta_threshold:
+            tmp_words_ += [row + ['-']]
+        else:
+            tmp_words_ += [row + ['']]
+    return tmp_words_
+
+
+def report_borrowing(wl, bb,
+                     thresholds, delta_threshold,
+                     donors, donor_words_out,
+                     donor_words_policy, combine_policy):
+
     rdr = keypano().cldf_reader()
     families = {language["ID"]: language["Family"] for language in rdr['LanguageTable']}
-    # print('***', wl.header)
     for threshold in thresholds:
         props = []
         words = []
@@ -62,22 +84,26 @@ def report_borrowing(wl, bb, thresholds, donors, donor_file_out):
             concept_count = 0
             for concept, idxs in concepts.items():
                 concept_ = concept
-                concept_tokens = wl.get_dict(row=concept, entry='tokens')
                 tmp_prop = {donor: 0 for donor in donors}
                 for idx, hits in idxs.items():
-                    for donor_lang, dist in hits:
-                        donor_tokens = concept_tokens[donor_lang]
+                    word = wl[idx, 'tokens']
+                    word_ = word
+                    tmp_words = []
+                    for donor_lang, dist, donor_word in hits:
                         if dist <= threshold:
-                            tmp_prop[donor_lang] += 1
-                            if donor_file_out:
-                                # Report words which hit - both donor and receiver languages.
-                                word = wl[idx, 'tokens']
-                                words += [[language_, concept_, word, donor_lang,
-                                           donor_tokens[0],
-                                           donor_tokens[1] if len(donor_tokens) > 1 else '',
-                                           donor_tokens[2] if len(donor_tokens) > 2 else '']]
-                                language_ = ''
-                                concept_ = ''
+                            tmp_words += [[donor_lang, dist, donor_word]]
+
+                    if not tmp_words: continue
+                    tmp_words = screen_word_hits(tmp_words, delta_threshold)
+                    for row in tmp_words:
+                        # Skip words not near minimum distance.
+                        if donor_words_policy == "exclude" and not row[3]: continue
+                        tmp_prop[row[0]] += 1
+                        words.append([language_, concept_, word_,
+                                      row[0], f'{row[1]:0.2f}', row[2], row[3]])
+                        language_ = ''
+                        concept_ = ''
+                        word_ = ''
 
                 if idxs:
                     for donor_lang, score in tmp_prop.items():
@@ -92,17 +118,26 @@ def report_borrowing(wl, bb, thresholds, donors, donor_file_out):
                 [sum(prop[donor])/concept_count for donor in donors]
             ]
 
-        if donor_file_out:
-            headers = ["Language", "Concept", "Word", "Donor",
-                       "Donor words (0)", "Donor words (1)", "Donor words (2)"]
+        if donor_words_out:
+            headers = ["Language", "Concept", "Word",
+                       "Donor", "Distance", "Donor word", "Marker"]
             words_table = tabulate(words, headers=headers, tablefmt="simple")
-            with open(donor_file_out+'.txt', "w") as f:
+            with open(donor_words_out + '.txt', "w") as f:
                 print(words_table, file=f)
 
-        print(f"\nPairwise alignment with threshold {threshold:0.2f}.")
+        print(f"\nPairwise alignment with threshold {threshold:0.2f} and "
+              f"delta threshold {delta_threshold:0.2f}.")
         headers = ["Language", "Family", "Concepts"] + [
             donor for donor in donors] + [
             donor+'P' for donor in donors]
+        if combine_policy:
+            # Construct combined columns for summary report.
+            headers += ["Combined", "CombinedP"]
+            # Upgrade props to include combined.
+            props_ = props
+            props = []
+            for row in props_:
+                props += [row + [sum(row[3:3+len(donors)])] + [sum(row[3:3+len(donors)])/row[2]]]
 
         print(tabulate(
             sorted(props, key=lambda x: (x[1], x[0])),
@@ -114,9 +149,16 @@ def register(parser):
         "--threshold",
         nargs="*",
         type=float,
-        default=[0.45],
+        default=[0.4],
         help='Threshold(s) to use with pairwise alignment method.',
     )
+    parser.add_argument(
+        "--delta_threshold",
+        type=float,
+        default=0.1,
+        help='Threshold to distinguish difference between candidate donors.',
+    )
+
     parser.add_argument(
         "--mode",
         type=str,
@@ -132,9 +174,23 @@ def register(parser):
         help='Donor language(s).',
     )
     parser.add_argument(
-        "--donor_file_out",
+        "--donor_words_out",
         type=str,
-        default="output/pano_donor_words",
+        default="output/donor_words",
+        help='Filename for detail list of candidate donor words.'
+    )
+    parser.add_argument(
+        "--donor_words_policy",
+        type=str,
+        default="exclude",
+        choices=["exclude", "retain"],
+        help='Whether to exclude or retain candidate words far from minimum.'
+    )
+    parser.add_argument(
+        "--disable_combine",
+        dest='combine_policy',
+        action='store_false',
+        help='Disable combine language statistics.'
     )
 
 
@@ -142,7 +198,11 @@ def run(args):
     wl = compose_wl()
     bb = construct_alignments(wl, mode=args.mode, donors=args.donor)
     report_borrowing(wl, bb, thresholds=args.threshold,
-                     donors=args.donor, donor_file_out=args.donor_file_out)
+                     delta_threshold=args.delta_threshold,
+                     donors=args.donor,
+                     donor_words_out=args.donor_words_out,
+                     donor_words_policy=args.donor_words_policy,
+                     combine_policy=args.combine_policy)
 
 
 if __name__ == "__main__":
