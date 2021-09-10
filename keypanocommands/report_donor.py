@@ -1,28 +1,16 @@
 """
-    Report on pairwise alignments with Spanish and Portugues languages.
+    Report on pairwise alignments with Spanish and Portuguese languages.
 
     Johann-Mattis List, Aug 22, 2021
 """
-# import csv
+from pathlib import Path
 import argparse
 from lingpy import *
 from lexibank_keypano import Dataset as keypano
 from itertools import product
 from tabulate import tabulate
 from pylexibank import progressbar
-
-
-def compose_wl():
-    wl = Wordlist.from_cldf(
-        keypano().cldf_dir / "cldf-metadata.json",
-        columns=["language_id",
-                 "language_family",
-                 "concept_name",
-                 "concept_concepticon_id",
-                 "value",
-                 "form",
-                 "segments"])
-    return wl
+import keypanocommands.util as util
 
 
 def construct_alignments(wl, mode, donors):
@@ -68,12 +56,17 @@ def screen_word_hits(tmp_words, delta_threshold):
 
 
 def report_borrowing(wl, bb,
-                     thresholds, delta_threshold,
-                     donors, donor_words_out,
-                     donor_words_policy, combine_policy):
+                     thresholds,
+                     delta_threshold,
+                     donors,
+                     donor_words_policy,
+                     combine_policy,
+                     output='output',
+                     series=''):
 
     rdr = keypano().cldf_reader()
     families = {language["ID"]: language["Family"] for language in rdr['LanguageTable']}
+    first_time = True
     for threshold in thresholds:
         props = []
         words = []
@@ -118,12 +111,17 @@ def report_borrowing(wl, bb,
                 [sum(prop[donor])/concept_count for donor in donors]
             ]
 
-        if donor_words_out:
+        if series:
             headers = ["Language", "Concept", "Word",
                        "Donor", "Distance", "Donor word", "Marker"]
             words_table = tabulate(words, headers=headers, tablefmt="simple")
-            with open(donor_words_out + '.txt', "w") as f:
+            filename = f"{series}-{threshold:0.2f}.txt"
+            filepath = Path(output).joinpath(filename).as_posix()
+            with open(filepath, 'w' if first_time else 'a') as f:
+                print(f"Threshold: {threshold:0.2f}.", file=f)
                 print(words_table, file=f)
+                print(file=f)
+            first_time = False
 
         print(f"\nPairwise alignment with threshold {threshold:0.2f} and "
               f"delta threshold {delta_threshold:0.2f}.")
@@ -162,7 +160,7 @@ def register(parser):
     parser.add_argument(
         "--mode",
         type=str,
-        default="global",
+        default="overlap",
         choices=["global", "local", "overlap", "dialign"],
         help='Alignment mode.',
     )
@@ -172,12 +170,6 @@ def register(parser):
         type=str,
         default=["Spanish", "Portuguese"],
         help='Donor language(s).',
-    )
-    parser.add_argument(
-        "--donor_words_out",
-        type=str,
-        default="output/donor_words",
-        help='Filename for detail list of candidate donor words.'
     )
     parser.add_argument(
         "--donor_words_policy",
@@ -192,17 +184,30 @@ def register(parser):
         action='store_false',
         help='Disable combine language statistics.'
     )
+    parser.add_argument(
+        "--output",
+        type=str,
+        default="output",
+        help='Directory to write output.'
+    )
+    parser.add_argument(
+        "--series",
+        type=str,
+        default="pairwise-donor-words",
+        help='Filename prefix for candidate donor words.'
+    )
 
 
 def run(args):
-    wl = compose_wl()
+    wl = util.compose_wl()
     bb = construct_alignments(wl, mode=args.mode, donors=args.donor)
     report_borrowing(wl, bb, thresholds=args.threshold,
                      delta_threshold=args.delta_threshold,
                      donors=args.donor,
-                     donor_words_out=args.donor_words_out,
                      donor_words_policy=args.donor_words_policy,
-                     combine_policy=args.combine_policy)
+                     combine_policy=args.combine_policy,
+                     output=args.output,
+                     series=args.series)
 
 
 if __name__ == "__main__":

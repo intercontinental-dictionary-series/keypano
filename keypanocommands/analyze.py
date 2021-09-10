@@ -2,126 +2,178 @@
 Analysis output -- some variable interpretations:
 scalllid_{i} - cognate id for cognates that cross families.
 sca_{i} - cognate id and language family for cognates whether or not they cross families.
-sca_{i}ID - cognate id within family.
+sca_{i}ID - cognate id and family combination renumbered as integer.
 
 """
-
-# from pathlib import Path
-# from collections import Counter
+from pathlib import Path
 import argparse
-
 from lingpy import *
-from lexibank_keypano import Dataset as keypano
-from lingpy.compare.util import mutual_coverage_check
-from lingpy.compare.sanity import average_coverage
-
-# from lingpy.evaluate.acd import bcubes
-# from clldutils.clilib import Table, add_format
+from lingpy.compare.partial import Partial
+import keypanocommands.util as util
 
 
-def check_coverage(wl=None):
-    print(f"Wordlist has {wl.width} languages, and {wl.height} concepts in {len(wl)} words.")
-    for i in range(200, 0, -1):
-        if mutual_coverage_check(wl, i):
-            print(f"Minimum mutual coverage is at {i} concept pairs.")
-            break
-    print(f"Average coverage is at {average_coverage(wl):.2f}")
+# See lingrex/borrowing for use of different modules.
+def analyze_lexstat(module=None,
+                    method='lexstat',
+                    thresholds=None,
+                    runs=2000,
+                    mode='overlap',
+                    cluster_method='infomap',
+                    idtype='loose',
+                    store='store',
+                    series='analysis',
+                    label=""):
 
+    # method: sca, lexstat, edit-dist, turchin
+    # mode: global, local, overlap, dialign
+    # cluster_method: upgma, infomap
 
-def compose():
-    lex = LexStat.from_cldf(
-        keypano().cldf_dir / "cldf-metadata.json",
-        columns=["language_id",
-                 "language_family",
-                 "concept_name",
-                 "concept_concepticon_id",
-                 "value",
-                 "form",
-                 "segments"])
-
-    check_coverage(lex)
-    return lex
-
-
-def analyze(method='sca', thresholds=None, file_out="output/pano_analysis"):
-
-    # table = []
-    dataset = compose()
-    lex = LexStat(dataset)
+    dataset = util.compose_wl()
+    if module == 'cluster':
+        wl = LexStat(dataset)
+    elif module == 'partial':
+        wl = Partial(dataset, check=True)
+    else:
+        raise NameError(f"{module} not a known cluster module.")
     if method == "lexstat":
-        lex.get_scorer(method="lexstat", runs=1000)
+        wl.get_scorer(method=method, runs=runs, ratio=(3, 2))
 
     for i, t in enumerate(thresholds):
-        # args.log.info("loaded data")
         print(f"Processing for threshold {t:.3f}")
-        # John: Cluster using specified method and threshold
-        # John: Cluster id stored in wordlist as variable scallid_{i}.
-        lex.cluster(method=method, threshold=t, ref="scallid_{0}".format(i))
-        # John: Add entries for cluster id combined with language family.
-        # John: Formatting provided by lambda expression. Not obvious!
-        lex.add_entries("sca_{0}".format(i), "scallid_{0},language_family".format(i),
-                        lambda x, y: str(x[y[0]]) + "-" + x[y[1]])
-        # John: Replace cluster ids with numbers.  I don't understand this.
-        lex.renumber("sca_{0}".format(i))
-        # John: Get dictionary representations of cluster ids.
-        # John: Seems to be dictionary for each row.
-        etd = lex.get_etymdict(ref="scallid_{0}".format(i))
-        # nulls = {}
+        # Cluster using specified method and threshold
+        # Cluster id stored in wordlist as variable scallid_{i}.
+        sca_id = "scallid_{0}".format(i)
+        if module == 'cluster':
+            wl.cluster(method=method,
+                       threshold=t,
+                       mode=mode,
+                       cluster_method=cluster_method,
+                       ref=sca_id)
+        elif module == 'partial':
+            sca_ids = "scallids_{0}".format(i)
+            wl.partial_cluster(method=method,
+                               threshold=t,
+                               mode=mode,
+                               cluster_method=cluster_method,
+                               ref=sca_ids)
+            # Construct single cognate ids from lists of ids.
+            wl.add_cognate_ids(sca_ids, sca_id, idtype=idtype)  # or 'strict'
+            # Could also align partial cognates for output.
+        else:
+            raise NameError(f"{module} not a known cluster module.")
 
-        # John: Zero out cluster ids (cognate ids) that do not cross families.
+        # Add entries for cluster id combined with language family.
+        # Formatting provided by lambda expression. Not obvious!
+        wl.add_entries("sca_{0}".format(i), sca_id+",language_family",
+                       lambda x, y: str(x[y[0]]) + "-" + x[y[1]])
+        # Renumber combination of cluster_id, family as integer.
+        # Store in sca_{0}ID by default.
+        wl.renumber("sca_{0}".format(i))
+        # Get dictionary representations of cluster ids.
+        # Seems to be dictionary for each row.
+        etd = wl.get_etymdict(ref=sca_id)
+
+        # Zero out cluster ids (cognate ids) that do not cross families.
         for cogid, values in etd.items():
             # John: Construct list of row indices for this cognate id.
             idxs = []
             for v in values:
                 if v:
                     idxs += v
-            # John: Form list of language families.
-            families = [lex[idx, 'language_family'] for idx in idxs]
-            # John: If set of 1 family then local cognate.
+            # Form list of language families.
+            families = [wl[idx, 'language_family'] for idx in idxs]
+            # If set of just 1 family then local cognate.
             if len(set(families)) == 1:
                 for idx in idxs:
-                    # John: Set cognate id to 0.
-                    lex[idx, 'scallid_{0}'.format(i)] = 0
+                    # Set cognate id to 0 since just 1 family.
+                    wl[idx, sca_id] = 0
 
-        # p1, r1, f1 = bcubes(lex, "ucogid", "sca_{0}id".format(i), pprint=False)
-        # p2, r2, f2 = bcubes(lex, "uborid", "scallid_{0}".format(i), pprint=False)
-        # table += [[t, p1, r1, f1, p2, r2, f2]]
-    # with Table(args, "Threshold", "P1", "R1", "F1", "P2", "R2", "F2") as tab:
-    #     for row in table:
-    #         tab.append(row)
-
-    # file_path = Path(output).joinpath(filename).as_posix()
-    lex.output('tsv', filename=file_out, ignore='all', prettify=False)
-    lex.output('qlc', filename=file_out, ignore=['scorer'], prettify=False)
+    filename = f"{series}{'-' if label else ''}{label}-{module}"
+    file_path = Path(store).joinpath(filename).as_posix()
+    wl.output('tsv', filename=file_path, ignore='all', prettify=False)
+    wl.output('qlc', filename=file_path, ignore=['scorer'], prettify=False)
 
 
 def register(parser):
     parser.add_argument(
+        "module",
+        type=str,
+        choices=["cluster", "partial"],
+        help='Which clustering module to use.',
+    )
+    parser.add_argument(
         "--method",
         type=str,
-        choices=["sca", "lexstat"],
+        choices=["sca", "lexstat", "edit-dist", "turchin"],
         default="lexstat",
-        help='Scoring method (default: "lexstat")',
+        help='Scoring method (default: "lexstat").',
     )
     parser.add_argument(
         "--threshold",
         nargs="*",
         type=float,
-        default=[0.6],
-        help='Threshold(s) to use for cluster method.',
+        default=[0.5],
+        help='Threshold(s) to use for clustering.',
     )
     parser.add_argument(
-        "--file_out",
+        "--mode",
         type=str,
-        default="output/pano_analysis",
+        choices=["global", "local", "overlap", "dialign"],
+        default="overlap",
+        help='Mode used for alignment.',
+    )
+    parser.add_argument(
+        "--cluster_method",
+        type=str,
+        choices=["upgma", "infomap"],
+        default="infomap",
+        help='Method to use in clustering.',
+    )
+    parser.add_argument(
+        "--idtype",
+        type=str,
+        choices=["loose", "strict"],
+        default="loose",
+        help="Manner of unifying multiple cognate ids."
+    )
+    parser.add_argument(
+        "--runs",
+        type=int,
+        default=2000,
+        help='Number of runs for lexstat scorer.',
+    )
+    parser.add_argument(
+        "--store",
+        type=str,
+        default="store",
+        help='Directory to store analysis wordlist.'
+    )
+    parser.add_argument(
+        "--series",
+        type=str,
+        default="analysis"
+    )
+    parser.add_argument(
+        "--label",
+        type=str,
+        default=""
     )
 
 
 def run(args):
-    analyze(method=args.method, thresholds=args.threshold, file_out=args.file_out)
+    analyze_lexstat(module=args.module,
+                    method=args.method,
+                    thresholds=args.threshold,
+                    mode=args.mode,
+                    cluster_method=args.cluster_method,
+                    idtype=args.idtype,
+                    runs=args.runs,
+                    store=args.store,
+                    series=args.series,
+                    label=args.label)
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    register(parser)
-    run(parser.parse_args())
+    parser_ = argparse.ArgumentParser()
+    register(parser_)
+    run(parser_.parse_args())

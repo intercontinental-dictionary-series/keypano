@@ -3852,7 +3852,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 230139	258-5-350-1	Aguaruna	258	cup, drinking vessel	5-350	šiki'ka 'umu-tai	šiki'ka 'umu-tai	
 230140	258-5-370-1	Aguaruna	258	spoon	5-370	[kučag]	kučag	1
 230141	258-5-380-1	Aguaruna	258	knife (2)	5-380	[ku'či]; c̷upika yu-tai	ku'či	1
-230142	258-5-380-2	Aguaruna	258	knife (2)	5-380	[ku'či]; c̷upika yu-tai	c̷upika yu-tai	1
+230142	258-5-380-2	Aguaruna	258	knife (2)	5-380	[ku'či]; c̷upika yu-tai	c̷upika yu-tai	
 230143	258-5-390-1	Aguaruna	258	fork (2)	5-390	takaku	takaku	
 230144	258-5-410-1	Aguaruna	258	meal (a)	5-410	yu-ta	yu-ta	
 230145	258-5-420-1	Aguaruna	258	breakfast	5-420	'kasik yu-ta	'kasik yu-ta	
@@ -3944,7 +3944,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 230231	258-6-790-1	Aguaruna	258	tattoo	6-790	u'sum-tai; u'su-mat	u'sum-tai	
 230232	258-6-790-2	Aguaruna	258	tattoo	6-790	u'sum-tai; u'su-mat	u'su-mat	
 230233	258-6-810-1	Aguaruna	258	handkerchief, rag	6-810	[paɲu]; hapima-tai	paɲu	1
-230234	258-6-810-2	Aguaruna	258	handkerchief, rag	6-810	[paɲu]; hapima-tai	hapima-tai	1
+230234	258-6-810-2	Aguaruna	258	handkerchief, rag	6-810	[paɲu]; hapima-tai	hapima-tai	
 230235	258-6-820-1	Aguaruna	258	towel	6-820	uhug'mam-tai	uhug'mam-tai	
 230236	258-6-910-1	Aguaruna	258	comb	6-910	tɨmaš	tɨmaš	
 230237	258-6-920-1	Aguaruna	258	brush	6-920	[taapna] 'kɨsa-tai	taapna 'kɨsa-tai	1
@@ -4092,7 +4092,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 230379	258-9-620-1	Aguaruna	258	anvil	9-620	anɨntain ɨmɨthau	anɨntain ɨmɨthau	
 230380	258-9-630-1	Aguaruna	258	cast (metals)	9-630	hihu ukuiyat	hihu ukuiyat	
 230381	258-9-640-1	Aguaruna	258	gold	9-640	[uru]; kuri	uru	1
-230382	258-9-640-2	Aguaruna	258	gold	9-640	[uru]; kuri	kuri	1
+230382	258-9-640-2	Aguaruna	258	gold	9-640	[uru]; kuri	kuri	
 230383	258-9-650-1	Aguaruna	258	silver	9-650	ku'ičik	ku'ičik	
 230384	258-9-670-1	Aguaruna	258	iron	9-670	hihu	hihu	
 230385	258-9-710-1	Aguaruna	258	potter	9-710	ičinkan 'nahan-in	ičinkan 'nahan-in	
@@ -4925,7 +4925,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 231212	260-3-120-1	Yagua	260	male (adj)	3-120	wanu	wanu	
 231213	260-3-130-1	Yagua	260	female (adj)	3-130	watura	watura	
 231214	260-3-150-1	Yagua	260	livestock	3-150	hasĩweda	hasĩweda	
-231215	260-3-160-1	Yagua	260	pasture	3-160	wapãtyo; [pastu]	wapãtyo	1
+231215	260-3-160-1	Yagua	260	pasture	3-160	wapãtyo; [pastu]	wapãtyo	
 231216	260-3-160-2	Yagua	260	pasture	3-160	wapãtyo; [pastu]	pastu	1
 231217	260-3-180-1	Yagua	260	herdsman	3-180	hasĩ hnũtyĩ	hasĩ hnũtyĩ	
 231218	260-3-190-1	Yagua	260	stable, stall	3-190	hasĩ wičaho	hasĩ wičaho	
@@ -4956,7 +4956,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 231243	260-3-540-1	Yagua	260	hen	3-540	tawari tyoda	tawari tyoda	
 231244	260-3-550-1	Yagua	260	chicken	3-550	tuwari; tawari	tuwari	
 231245	260-3-550-2	Yagua	260	chicken	3-550	tuwari; tawari	tawari	
-231246	260-3-570-1	Yagua	260	duck	3-570	hãmusatu; [patu]	hãmusatu	1
+231246	260-3-570-1	Yagua	260	duck	3-570	hãmusatu; [patu]	hãmusatu	
 231247	260-3-570-2	Yagua	260	duck	3-570	hãmusatu; [patu]	patu	1
 231248	260-3-580-1	Yagua	260	nest	3-580	ruy; rutyõ	ruy	
 231249	260-3-580-2	Yagua	260	nest	3-580	ruy; rutyõ	rutyõ	
@@ -5003,9 +5003,9 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 231290	260-3-814-2	Yagua	260	centipede	3-814	mutitu; siryẽtyu	siryẽtyu	
 231291	260-3-815-1	Yagua	260	scorpion	3-815	norityu; watahũtu	norityu	
 231292	260-3-815-2	Yagua	260	scorpion	3-815	norityu; watahũtu	watahũtu	
-231293	260-3-816-1	Yagua	260	cockroach	3-816	[karča; kariča; karuča]	karča	1
-231294	260-3-816-2	Yagua	260	cockroach	3-816	[karča; kariča; karuča]	kariča	1
-231295	260-3-816-3	Yagua	260	cockroach	3-816	[karča; kariča; karuča]	karuča	1
+231293	260-3-816-1	Yagua	260	cockroach	3-816	[karča; kariča; karuča]	karča	
+231294	260-3-816-2	Yagua	260	cockroach	3-816	[karča; kariča; karuča]	kariča	
+231295	260-3-816-3	Yagua	260	cockroach	3-816	[karča; kariča; karuča]	karuča	
 231296	260-3-817-1	Yagua	260	ant	3-817	-hu; hĩtyinu	-hu	
 231297	260-3-817-2	Yagua	260	ant	3-817	-hu; hĩtyinu	hĩtyinu	
 231298	260-3-818-1	Yagua	260	spider	3-818	tityu; tutityu	tityu	
@@ -5296,8 +5296,8 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 231583	260-5-350-2	Yagua	260	cup, drinking vessel	5-350	hatuho; hatusi; hatuwũ	hatusi	
 231584	260-5-350-3	Yagua	260	cup, drinking vessel	5-350	hatuho; hatusi; hatuwũ	hatuwũ	
 231585	260-5-360-1	Yagua	260	saucer	5-360	sidyedye	sidyedye	
-231586	260-5-370-1	Yagua	260	spoon	5-370	himityã; mityã; [kučera]	himityã	1
-231587	260-5-370-2	Yagua	260	spoon	5-370	himityã; mityã; [kučera]	mityã	1
+231586	260-5-370-1	Yagua	260	spoon	5-370	himityã; mityã; [kučera]	himityã	
+231587	260-5-370-2	Yagua	260	spoon	5-370	himityã; mityã; [kučera]	mityã	
 231588	260-5-370-3	Yagua	260	spoon	5-370	himityã; mityã; [kučera]	kučera	1
 231589	260-5-380-1	Yagua	260	knife (2)	5-380	kiči	kiči	
 231590	260-5-390-1	Yagua	260	fork (2)	5-390	himityã	himityã	
@@ -5402,7 +5402,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 231689	260-6-770-1	Yagua	260	earring	6-770	tuwãči	tuwãči	
 231690	260-6-780-1	Yagua	260	headband, headdress	6-780	parenu nuwi	parenu nuwi	
 231691	260-6-790-1	Yagua	260	tattoo	6-790	mõkadahu	mõkadahu	
-231692	260-6-810-1	Yagua	260	handkerchief, rag	6-810	suhaɲẽ; [pãɲĩ]	suhaɲẽ	1
+231692	260-6-810-1	Yagua	260	handkerchief, rag	6-810	suhaɲẽ; [pãɲĩ]	suhaɲẽ	
 231693	260-6-810-2	Yagua	260	handkerchief, rag	6-810	suhaɲẽ; [pãɲĩ]	pãɲĩ	1
 231694	260-6-820-1	Yagua	260	towel	6-820	mõpũhe	mõpũhe	
 231695	260-6-910-1	Yagua	260	comb	6-910	muniyõ; mũyõ	muniyõ	
@@ -5425,7 +5425,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 231712	260-7-221-1	Yagua	260	doorpost, jamb	7-221	rori-hyũday	rori-hyũday	
 231713	260-7-230-1	Yagua	260	lock (noun)	7-230	kõtu	kõtu	
 231714	260-7-231-1	Yagua	260	latch, door-bolt	7-231	mutanutã	mutanutã	
-231715	260-7-240-1	Yagua	260	key	7-240	mutatã; [yewyi]	mutatã	1
+231715	260-7-240-1	Yagua	260	key	7-240	mutatã; [yewyi]	mutatã	
 231716	260-7-240-2	Yagua	260	key	7-240	mutatã; [yewyi]	yewyi	1
 231717	260-7-250-1	Yagua	260	window	7-250	rori-hyude	rori-hyude	
 231718	260-7-260-1	Yagua	260	floor	7-260	rupi-hyo	rupi-hyo	
@@ -5435,7 +5435,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 231722	260-7-370-1	Yagua	260	ladder	7-370	hasumihyo	hasumihyo	
 231723	260-7-420-1	Yagua	260	bed	7-420	mãya	mãya	
 231724	260-7-421-1	Yagua	260	pillow	7-421	tiryõsuy	tiryõsuy	
-231725	260-7-422-1	Yagua	260	blanket	7-422	tiryõhay; [kodihay]	tiryõhay	1
+231725	260-7-422-1	Yagua	260	blanket	7-422	tiryõhay; [kodihay]	tiryõhay	
 231726	260-7-422-2	Yagua	260	blanket	7-422	tiryõhay; [kodihay]	kodihay	1
 231727	260-7-430-1	Yagua	260	chair	7-430	mãsaho	mãsaho	
 231728	260-7-440-1	Yagua	260	table	7-440	[mĩsa]	mĩsa	1
@@ -5496,7 +5496,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 231783	260-8-680-1	Yagua	260	tobacco	8-680	sudi	sudi	
 231784	260-8-690-1	Yagua	260	smoke (tobacco)	8-690	saday; suday	saday	
 231785	260-8-690-2	Yagua	260	smoke (tobacco)	8-690	saday; suday	suday	
-231786	260-8-691-1	Yagua	260	pipe	8-691	sudači; [kačĩpu]	sudači	1
+231786	260-8-691-1	Yagua	260	pipe	8-691	sudači; [kačĩpu]	sudači	
 231787	260-8-691-2	Yagua	260	pipe	8-691	sudači; [kačĩpu]	kačĩpu	1
 231788	260-8-720-1	Yagua	260	tree stump	8-720	hiryu; hiryu-wũ	hiryu	
 231789	260-8-720-2	Yagua	260	tree stump	8-720	hiryu; hiryu-wũ	hiryu-wũ	
@@ -5733,7 +5733,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 232020	260-10-750-1	Yagua	260	carriage, wagon, cart	10-750	[karru]	karru	1
 232021	260-10-760-1	Yagua	260	wheel	10-760	watatõ	watatõ	
 232022	260-10-810-1	Yagua	260	ship	10-810	[wapuru]	wapuru	1
-232023	260-10-830-1	Yagua	260	boat	10-830	kartye; [wapuru]	kartye	1
+232023	260-10-830-1	Yagua	260	boat	10-830	kartye; [wapuru]	kartye	
 232024	260-10-830-2	Yagua	260	boat	10-830	kartye; [wapuru]	wapuru	1
 232025	260-10-831-1	Yagua	260	canoe	10-831	kartye; hũmuɲu	kartye	
 232026	260-10-831-2	Yagua	260	canoe	10-831	kartye; hũmuɲu	hũmuɲu	
@@ -5778,8 +5778,8 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 232065	260-11-330-1	Yagua	260	lose	11-330	pãčitya; karay	pãčitya	
 232066	260-11-330-2	Yagua	260	lose	11-330	pãčitya; karay	karay	
 232067	260-11-340-1	Yagua	260	release, let go	11-340	hmũrya	hmũrya	
-232068	260-11-430-1	Yagua	260	money	11-430	[k(u)riki; kuruki]	kriki	1
-232069	260-11-430-2	Yagua	260	money	11-430	[k(u)riki; kuruki]	kuruki	1
+232068	260-11-430-1	Yagua	260	money	11-430	[k(u)riki; kuruki]	kriki	
+232069	260-11-430-2	Yagua	260	money	11-430	[k(u)riki; kuruki]	kuruki	
 232070	260-11-440-1	Yagua	260	coin	11-440	[kriki]dye	krikidye	1
 232071	260-11-510-1	Yagua	260	rich	11-510	ratyã; taratĩ	ratyã	
 232072	260-11-510-2	Yagua	260	rich	11-510	ratyã; taratĩ	taratĩ	
@@ -5798,7 +5798,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 232085	260-11-790-1	Yagua	260	earn	11-790	[kãnãy]	kãnãy	1
 232086	260-11-810-1	Yagua	260	buy	11-810	tãryũy	tãryũy	
 232087	260-11-820-1	Yagua	260	sell	11-820	tãryũtya	tãryũtya	
-232088	260-11-840-1	Yagua	260	merchant	11-840	tãryũtyĩ; [rikyatũ]	tãryũtyĩ	1
+232088	260-11-840-1	Yagua	260	merchant	11-840	tãryũtyĩ; [rikyatũ]	tãryũtyĩ	
 232089	260-11-840-2	Yagua	260	merchant	11-840	tãryũtyĩ; [rikyatũ]	rikyatũ	1
 232090	260-11-850-1	Yagua	260	market (place)	11-850	tãryũtyaho	tãryũtyaho	
 232091	260-11-860-1	Yagua	260	store, shop	11-860	[tĩnta]	tĩnta	1
@@ -6355,13 +6355,13 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 232642	260-19-210-1	Yagua	260	people (populace)	19-210	nihyãmĩ; nihyãnway	nihyãmĩ	
 232643	260-19-210-2	Yagua	260	people (populace)	19-210	nihyãmĩ; nihyãnway	nihyãnway	
 232644	260-19-230-1	Yagua	260	tribe, clan	19-230	-hũrirya	-hũrirya	
-232645	260-19-240-1	Yagua	260	chief, chieftain	19-240	[hapu; kuraka]	hapu	1
-232646	260-19-240-2	Yagua	260	chief, chieftain	19-240	[hapu; kuraka]	kuraka	1
+232645	260-19-240-1	Yagua	260	chief, chieftain	19-240	[hapu; kuraka]	hapu	
+232646	260-19-240-2	Yagua	260	chief, chieftain	19-240	[hapu; kuraka]	kuraka	
 232647	260-19-250-1	Yagua	260	staff, walking stick	19-250	ruwese	ruwese	
 232648	260-19-310-1	Yagua	260	rule, govern	19-310	nsũy; nusũy	nsũy	
 232649	260-19-310-2	Yagua	260	rule, govern	19-310	nsũy; nusũy	nusũy	
-232650	260-19-320-1	Yagua	260	king, ruler	19-320	nusũɲu; hãmu nutityũ; [hapu]	nusũɲu	1
-232651	260-19-320-2	Yagua	260	king, ruler	19-320	nusũɲu; hãmu nutityũ; [hapu]	hãmu nutityũ	1
+232650	260-19-320-1	Yagua	260	king, ruler	19-320	nusũɲu; hãmu nutityũ; [hapu]	nusũɲu	
+232651	260-19-320-2	Yagua	260	king, ruler	19-320	nusũɲu; hãmu nutityũ; [hapu]	hãmu nutityũ	
 232652	260-19-320-3	Yagua	260	king, ruler	19-320	nusũɲu; hãmu nutityũ; [hapu]	hapu	1
 232653	260-19-330-1	Yagua	260	queen	19-330	hãmu nutityoda	hãmu nutityoda	
 232654	260-19-370-1	Yagua	260	citizen, subject	19-370	-hãmĩ; tenu; tenuwičĩ	-hãmĩ	
@@ -6369,17 +6369,17 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 232656	260-19-370-3	Yagua	260	citizen, subject	19-370	-hãmĩ; tenu; tenuwičĩ	tenuwičĩ	
 232657	260-19-410-1	Yagua	260	master	19-410	hãmĩ; nutityũ	hãmĩ	
 232658	260-19-410-2	Yagua	260	master	19-410	hãmĩ; nutityũ	nutityũ	
-232659	260-19-420-1	Yagua	260	slave	19-420	kumude; [mučeči]	kumude	1
+232659	260-19-420-1	Yagua	260	slave	19-420	kumude; [mučeči]	kumude	
 232660	260-19-420-2	Yagua	260	slave	19-420	kumude; [mučeči]	mučeči	1
-232661	260-19-430-1	Yagua	260	servant	19-430	[mučeči; mučečityu]	mučeči	1
-232662	260-19-430-2	Yagua	260	servant	19-430	[mučeči; mučečityu]	mučečityu	1
+232661	260-19-430-1	Yagua	260	servant	19-430	[mučeči; mučečityu]	mučeči	
+232662	260-19-430-2	Yagua	260	servant	19-430	[mučeči; mučečityu]	mučečityu	
 232663	260-19-450-1	Yagua	260	command, order	19-450	hũteda; nusũyada	hũteda	
 232664	260-19-450-2	Yagua	260	command, order	19-450	hũteda; nusũyada	nusũyada	
 232665	260-19-460-1	Yagua	260	obey	19-460	tuwãču; sitye	tuwãču	
 232666	260-19-460-2	Yagua	260	obey	19-460	tuwãču; sitye	sitye	
 232667	260-19-470-1	Yagua	260	let, permit	19-470	parũy	parũy	
-232668	260-19-510-1	Yagua	260	friend, companion	19-510	-datyĩ; sisã wičĩ; [hamyi]	-datyĩ	1
-232669	260-19-510-2	Yagua	260	friend, companion	19-510	-datyĩ; sisã wičĩ; [hamyi]	sisã wičĩ	1
+232668	260-19-510-1	Yagua	260	friend, companion	19-510	-datyĩ; sisã wičĩ; [hamyi]	-datyĩ	
+232669	260-19-510-2	Yagua	260	friend, companion	19-510	-datyĩ; sisã wičĩ; [hamyi]	sisã wičĩ	
 232670	260-19-510-3	Yagua	260	friend, companion	19-510	-datyĩ; sisã wičĩ; [hamyi]	hamyi	1
 232671	260-19-520-1	Yagua	260	enemy	19-520	mityasi; mutyasi	mityasi	
 232672	260-19-520-2	Yagua	260	enemy	19-520	mityasi; mutyasi	mutyasi	
@@ -6399,8 +6399,8 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 232686	260-20-110-2	Yagua	260	fight (vb)	20-110	hũway; tapũy	tapũy	
 232687	260-20-130-1	Yagua	260	war, battle	20-130	hũweda	hũweda	
 232688	260-20-140-1	Yagua	260	peace	20-140	samirya wičãda	samirya wičãda	
-232689	260-20-170-1	Yagua	260	soldier	20-170	hũwĩ; tapũɲu; [sũtaru]	hũwĩ	1
-232690	260-20-170-2	Yagua	260	soldier	20-170	hũwĩ; tapũɲu; [sũtaru]	tapũɲu	1
+232689	260-20-170-1	Yagua	260	soldier	20-170	hũwĩ; tapũɲu; [sũtaru]	hũwĩ	
+232690	260-20-170-2	Yagua	260	soldier	20-170	hũwĩ; tapũɲu; [sũtaru]	tapũɲu	
 232691	260-20-170-3	Yagua	260	soldier	20-170	hũwĩ; tapũɲu; [sũtaru]	sũtaru	1
 232692	260-20-210-1	Yagua	260	weapons, arms	20-210	hũwatyã	hũwatyã	
 232693	260-20-220-1	Yagua	260	club	20-220	hũmũy	hũmũy	
@@ -6460,15 +6460,15 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 232747	260-21-470-1	Yagua	260	perjury	21-470	kiwũyada	kiwũyada	
 232748	260-21-510-1	Yagua	260	steal	21-510	paranu	paranu	
 232749	260-21-520-1	Yagua	260	thief	21-520	paranu-nĩ	paranu-nĩ	
-232750	260-22-120-1	Yagua	260	God	22-120	wũhẽ; [risu]	wũhẽ	1
+232750	260-22-120-1	Yagua	260	God	22-120	wũhẽ; [risu]	wũhẽ	
 232751	260-22-120-2	Yagua	260	God	22-120	wũhẽ; [risu]	risu	1
 232752	260-22-130-1	Yagua	260	temple, church	22-130	[pãtiri] rori; hũdenu rori	pãtiri rori	1
-232753	260-22-130-2	Yagua	260	temple, church	22-130	[pãtiri] rori; hũdenu rori	hũdenu rori	1
+232753	260-22-130-2	Yagua	260	temple, church	22-130	[pãtiri] rori; hũdenu rori	hũdenu rori	
 232754	260-22-150-1	Yagua	260	sacrifice, offering	22-150	hnutatyasara	hnutatyasara	
 232755	260-22-160-1	Yagua	260	worship	22-160	hačipiyãhada sanihyũ	hačipiyãhada sanihyũ	
-232756	260-22-170-1	Yagua	260	pray	22-170	[resay; horay; horayanu]	resay	1
-232757	260-22-170-2	Yagua	260	pray	22-170	[resay; horay; horayanu]	horay	1
-232758	260-22-170-3	Yagua	260	pray	22-170	[resay; horay; horayanu]	horayanu	1
+232756	260-22-170-1	Yagua	260	pray	22-170	[resay; horay; horayanu]	resay	
+232757	260-22-170-2	Yagua	260	pray	22-170	[resay; horay; horayanu]	horay	
+232758	260-22-170-3	Yagua	260	pray	22-170	[resay; horay; horayanu]	horayanu	
 232759	260-22-180-1	Yagua	260	priest	22-180	[kaserdote]; [pãtiri]	kaserdote	1
 232760	260-22-180-2	Yagua	260	priest	22-180	[kaserdote]; [pãtiri]	pãtiri	1
 232761	260-22-190-1	Yagua	260	holy, sacred	22-190	hintyasara	hintyasara	
@@ -6837,7 +6837,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 235498	264-5-640-1	Mashco Piro	264	soup, broth	5-640	čopi	čopi	
 235499	264-5-791-1	Mashco Piro	264	grease, fat	5-791	nhi-či	nhi-či	
 235500	264-5-810-1	Mashco Piro	264	salt	5-810	[tɨwɨ]; mro	tɨwɨ	1
-235501	264-5-810-2	Mashco Piro	264	salt	5-810	[tɨwɨ]; mro	mro	1
+235501	264-5-810-2	Mashco Piro	264	salt	5-810	[tɨwɨ]; mro	mro	
 235502	264-5-840-1	Mashco Piro	264	honey	5-840	popnixirha; wroľ-ha	popnixirha	
 235503	264-5-840-2	Mashco Piro	264	honey	5-840	popnixirha; wroľ-ha	wroľ-ha	
 235504	264-5-860-1	Mashco Piro	264	milk (noun)	5-860	t-nɨ-ha	t-nɨ-ha	
@@ -7196,8 +7196,8 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 239956	269-3-190-1	Aymara	269	stable, stall	3-190	uyu	uyu	
 239957	269-3-200-1	Aymara	269	cattle (bovine)	3-200	uywa	uywa	
 239958	269-3-230-1	Aymara	269	cow	3-230	[waka]	waka	1
-239959	269-3-250-1	Aymara	269	sheep	3-250	[uwixa; iwisa]	uwixa	1
-239960	269-3-250-2	Aymara	269	sheep	3-250	[uwixa; iwisa]	iwisa	1
+239959	269-3-250-1	Aymara	269	sheep	3-250	[uwixa; iwisa]	uwixa	
+239960	269-3-250-2	Aymara	269	sheep	3-250	[uwixa; iwisa]	iwisa	
 239961	269-3-280-1	Aymara	269	ewe	3-280	puytu	puytu	
 239962	269-3-340-1	Aymara	269	sow (2)	3-340	kʰuči	kʰuči	
 239963	269-3-350-1	Aymara	269	pig	3-350	kʰuči	kʰuči	
@@ -7458,8 +7458,8 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 240218	269-5-860-1	Aymara	269	milk (noun)	5-860	milʸkˀi	milʸkˀi	
 240219	269-5-870-1	Aymara	269	milk (vb)	5-870	čˀawa-ɲa	čˀawa-ɲa	
 240220	269-5-880-1	Aymara	269	cheese	5-880	[kisu]	kisu	1
-240221	269-5-890-1	Aymara	269	butter	5-890	[mantika; mantikilʸa]	mantika	1
-240222	269-5-890-2	Aymara	269	butter	5-890	[mantika; mantikilʸa]	mantikilʸa	1
+240221	269-5-890-1	Aymara	269	butter	5-890	[mantika; mantikilʸa]	mantika	
+240222	269-5-890-2	Aymara	269	butter	5-890	[mantika; mantikilʸa]	mantikilʸa	
 240223	269-5-900-1	Aymara	269	beverage, drink	5-900	uma-ɲa	uma-ɲa	
 240224	269-5-920-1	Aymara	269	wine	5-920	[winu]	winu	1
 240225	269-5-930-1	Aymara	269	beer	5-930	[sirwisa]	sirwisa	1
@@ -7559,7 +7559,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 240319	269-8-680-1	Aymara	269	tobacco	8-680	tʰuxsa-tʰuxsa	tʰuxsa-tʰuxsa	
 240320	269-8-730-1	Aymara	269	tree trunk	8-730	kˀulʸu	kˀulʸu	
 240321	269-8-740-1	Aymara	269	forked branch	8-740	pˀalʸḳa	pˀalʸḳa	
-240322	269-8-840-1	Aymara	269	banana tree	8-840	puḳuta; [latanu]	puḳuta	1
+240322	269-8-840-1	Aymara	269	banana tree	8-840	puḳuta; [latanu]	puḳuta	
 240323	269-8-840-2	Aymara	269	banana tree	8-840	puḳuta; [latanu]	latanu	1
 240324	269-8-920-1	Aymara	269	tapioca, manioc, cassava	8-920	yuka	yuka	
 240325	269-8-940-1	Aymara	269	bamboo	8-940	suḳˀusa	suḳˀusa	
@@ -8495,8 +8495,8 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 242265	271-5-320-1	Mosetén	271	plate	5-320	pi'hiʔ	pi'hiʔ	
 242266	271-5-350-1	Mosetén	271	cup, drinking vessel	5-350	['tasa]	'tasa	1
 242267	271-5-370-1	Mosetén	271	spoon	5-370	[ko'čara]	ko'čara	1
-242268	271-5-380-1	Mosetén	271	knife (2)	5-380	[kučiɲo ~ kučino]	kučiɲo	1
-242269	271-5-380-2	Mosetén	271	knife (2)	5-380	[kučiɲo ~ kučino]	kučino	1
+242268	271-5-380-1	Mosetén	271	knife (2)	5-380	[kučiɲo ~ kučino]	kučiɲo	
+242269	271-5-380-2	Mosetén	271	knife (2)	5-380	[kučiɲo ~ kučino]	kučino	
 242270	271-5-390-1	Mosetén	271	fork (2)	5-390	['trinči]	'trinči	1
 242271	271-5-420-1	Mosetén	271	breakfast	5-420	sækse-'dʸe	sækse-'dʸe	
 242272	271-5-430-1	Mosetén	271	lunch	5-430	sækse-'dʸe	sækse-'dʸe	
@@ -8590,8 +8590,8 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 242360	271-7-422-1	Mosetén	271	blanket	7-422	phuir'yit	phuir'yit	
 242361	271-7-430-1	Mosetén	271	chair	7-430	bœʔya'kis	bœʔya'kis	
 242362	271-7-440-1	Mosetén	271	table	7-440	sœʔsa'kis	sœʔsa'kis	
-242363	271-7-450-1	Mosetén	271	lamp, torch	7-450	['rampara; rampa'rina]	'rampara	1
-242364	271-7-450-2	Mosetén	271	lamp, torch	7-450	['rampara; rampa'rina]	rampa'rina	1
+242363	271-7-450-1	Mosetén	271	lamp, torch	7-450	['rampara; rampa'rina]	'rampara	
+242364	271-7-450-2	Mosetén	271	lamp, torch	7-450	['rampara; rampa'rina]	rampa'rina	
 242365	271-7-460-1	Mosetén	271	candle	7-460	['bera]	'bera	1
 242366	271-7-470-1	Mosetén	271	shelf	7-470	yuʔta'kis	yuʔta'kis	
 242367	271-7-480-1	Mosetén	271	trough	7-480	ux'duʔ	ux'duʔ	
@@ -8693,8 +8693,8 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 242463	271-9-440-1	Mosetén	271	build	9-440	hœmʔta'ki ~ hemʔta'ki	hœmʔta'ki	
 242464	271-9-440-2	Mosetén	271	build	9-440	hœmʔta'ki ~ hemʔta'ki	hemʔta'ki	
 242465	271-9-480-1	Mosetén	271	saw	9-480	šu'kakis	šu'kakis	
-242466	271-9-500-1	Mosetén	271	nail	9-500	[ka'ravo; 'kravo]	ka'ravo	1
-242467	271-9-500-2	Mosetén	271	nail	9-500	[ka'ravo; 'kravo]	'kravo	1
+242466	271-9-500-1	Mosetén	271	nail	9-500	[ka'ravo; 'kravo]	ka'ravo	
+242467	271-9-500-2	Mosetén	271	nail	9-500	[ka'ravo; 'kravo]	'kravo	
 242468	271-9-560-1	Mosetén	271	glue	9-560	'peitakis	'peitakis	
 242469	271-9-640-1	Mosetén	271	gold	9-640	['oro]	'oro	1
 242470	271-9-650-1	Mosetén	271	silver	9-650	['prata]	'prata	1
@@ -8811,7 +8811,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 242581	271-11-850-1	Mosetén	271	market (place)	11-850	[marka'tuk]	marka'tuk	1
 242582	271-11-860-1	Mosetén	271	store, shop	11-860	['kyenda]	'kyenda	1
 242583	271-11-870-1	Mosetén	271	price	11-870	yaʔi'yeʔ	yaʔi'yeʔ	
-242584	271-11-880-1	Mosetén	271	dear (costly, expensive)	11-880	'yaʔi; ['karo]	'yaʔi	1
+242584	271-11-880-1	Mosetén	271	dear (costly, expensive)	11-880	'yaʔi; ['karo]	'yaʔi	
 242585	271-11-880-2	Mosetén	271	dear (costly, expensive)	11-880	'yaʔi; ['karo]	'karo	1
 242586	271-11-890-1	Mosetén	271	cheap	11-890	ham ya'ʔi	ham ya'ʔi	
 242587	271-11-910-1	Mosetén	271	share (distribute)	11-910	kœc̷ yi'ri tʸitʸih'ʔin	kœc̷ yi'ri tʸitʸih'ʔin	
@@ -8959,7 +8959,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 242729	271-14-450-1	Mosetén	271	noon, midday	14-450	kit kaɲ c̷œɲ	kit kaɲ c̷œɲ	
 242730	271-14-451-1	Mosetén	271	afternoon	14-451	yomo'kibe	yomo'kibe	
 242731	271-14-460-1	Mosetén	271	evening	14-460	yo'moi	yo'moi	
-242732	271-14-470-1	Mosetén	271	today	14-470	khin; [õi]	khin	1
+242732	271-14-470-1	Mosetén	271	today	14-470	khin; [õi]	khin	
 242733	271-14-470-2	Mosetén	271	today	14-470	khin; [õi]	õi	1
 242734	271-14-480-1	Mosetén	271	tomorrow	14-480	'ɲohno ~ 'noxno	'ɲohno	
 242735	271-14-480-2	Mosetén	271	tomorrow	14-480	'ɲohno ~ 'noxno	'noxno	
@@ -10103,7 +10103,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 243873	272-14-480-2	Araona	272	tomorrow	14-480	-wena, weno	weno	
 243874	272-14-490-1	Araona	272	yesterday	14-490	we-c̷eiɲe-o	we-c̷eiɲe-o	
 243875	272-14-510-1	Araona	272	hour	14-510	[ola]; da babaowe	ola	1
-243876	272-14-510-2	Araona	272	hour	14-510	[ola]; da babaowe	da babaowe	1
+243876	272-14-510-2	Araona	272	hour	14-510	[ola]; da babaowe	da babaowe	
 243877	272-14-730-1	Araona	272	year	14-730	mala	mala	
 243878	272-14-780-1	Araona	272	season	14-780	malakata	malakata	
 243879	272-15-210-1	Araona	272	smell (vb intrans)	15-210	hebe	hebe	
@@ -11365,7 +11365,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 245135	273-22-130-1	Cavineña	273	temple, church	22-130	[iriša]	iriša	1
 245136	273-22-160-1	Cavineña	273	worship	22-160	moida-ho-ya	moida-ho-ya	
 245137	273-22-170-1	Cavineña	273	pray	22-170	[yosa]-mimi	yosa-mimi	1
-245138	273-22-180-1	Cavineña	273	priest	22-180	[pa(ʔ)e]-ra	pae-ra	1
+245138	273-22-180-1	Cavineña	273	priest	22-180	[pa(ʔ)e]-ra	pae-ra	
 245139	273-22-190-1	Cavineña	273	holy, sacred	22-190	moida-ho-	moida-ho-	
 245140	273-22-220-1	Cavineña	273	preach	22-220	kʷeha-ya	kʷeha-ya	
 245141	273-22-320-1	Cavineña	273	hell	22-320	e-tiki-doko	e-tiki-doko	
@@ -11512,7 +11512,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 245282	274-3-410-1	Ese Ejja	274	horse (equine)	3-410	[mona]	mona	1
 245283	274-3-500-1	Ese Ejja	274	fowl	3-500	kʷičoxi	kʷičoxi	
 245284	274-3-520-1	Ese Ejja	274	cock, rooster	3-520	[kačina]-yawe	kačina-yawe	1
-245285	274-3-540-1	Ese Ejja	274	hen	3-540	waʔipa; [kačina]	waʔipa	1
+245285	274-3-540-1	Ese Ejja	274	hen	3-540	waʔipa; [kačina]	waʔipa	
 245286	274-3-540-2	Ese Ejja	274	hen	3-540	waʔipa; [kačina]	kačina	1
 245287	274-3-550-1	Ese Ejja	274	chicken	3-550	[kačina]-ha-ɓakʷa	kačina-ha-ɓakʷa	1
 245288	274-3-570-1	Ese Ejja	274	duck	3-570	xoxi	xoxi	
@@ -11636,8 +11636,8 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 245406	274-4-350-2	Ese Ejja	274	leg	4-350	e-kise; e-ahoho	e-ahoho	
 245407	274-4-351-1	Ese Ejja	274	thigh	4-351	e-kise	e-kise	
 245408	274-4-360-1	Ese Ejja	274	knee	4-360	e-kʷio-šaxa	e-kʷio-šaxa	
-245409	274-4-370-1	Ese Ejja	274	foot	4-370	e-hioxi; [or exioxi] ???e-wasi	e-hioxi	1
-245410	274-4-370-2	Ese Ejja	274	foot	4-370	e-hioxi; [or exioxi] ???e-wasi	exioxi	1
+245409	274-4-370-1	Ese Ejja	274	foot	4-370	e-hioxi; [or exioxi] ???e-wasi	e-hioxi	
+245410	274-4-370-2	Ese Ejja	274	foot	4-370	e-hioxi; [or exioxi] ???e-wasi	exioxi	
 245411	274-4-371-1	Ese Ejja	274	ankle	4-371	e-kiɓo; e-xioxi-kokaxi	e-kiɓo	
 245412	274-4-371-2	Ese Ejja	274	ankle	4-371	e-kiɓo; e-xioxi-kokaxi	e-xioxi-kokaxi	
 245413	274-4-372-1	Ese Ejja	274	heel	4-372	e-xioxi-kokaxi	e-xioxi-kokaxi	
@@ -11778,7 +11778,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 245548	274-6-120-1	Ese Ejja	274	clothing, clothes	6-120	ɗaki	ɗaki	
 245549	274-6-210-1	Ese Ejja	274	cloth	6-210	ɗaki	ɗaki	
 245550	274-6-240-1	Ese Ejja	274	cotton	6-240	wapehe	wapehe	
-245551	274-6-290-1	Ese Ejja	274	leather	6-290	e'he; [waka]he	e'he	1
+245551	274-6-290-1	Ese Ejja	274	leather	6-290	e'he; [waka]he	e'he	
 245552	274-6-290-2	Ese Ejja	274	leather	6-290	e'he; [waka]he	wakahe	1
 245553	274-6-310-1	Ese Ejja	274	spin	6-310	ɓeyo- ~ meyo-	ɓeyo-	
 245554	274-6-310-2	Ese Ejja	274	spin	6-310	ɓeyo- ~ meyo-	meyo-	
@@ -13533,7 +13533,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 247303	276-6-920-1	Tacana	276	brush	6-920	ha-c̷e-ď̶iki-ti	ha-c̷e-ď̶iki-ti	
 247304	276-6-921-1	Tacana	276	braid	6-921	bakʷapa-	bakʷapa-	
 247305	276-6-940-1	Tacana	276	ointment	6-940	papi-	papi-	
-247306	276-6-950-1	Tacana	276	soap	6-950	[ha(h)o]	hao	1
+247306	276-6-950-1	Tacana	276	soap	6-950	[ha(h)o]	hao	
 247307	276-6-960-1	Tacana	276	mirror	6-960	ha-niď̶o-čama-ti-	ha-niď̶o-čama-ti-	
 247308	276-7-120-1	Tacana	276	house	7-120	ete	ete	
 247309	276-7-130-1	Tacana	276	hut	7-130	erere; epawani	erere	
@@ -15407,7 +15407,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 249177	278-5-380-1	Catuquina	278	knife (2)	5-380	roɨ šɨta	roɨ šɨta	
 249178	278-5-390-1	Catuquina	278	fork (2)	5-390	hanõ pi-ti koṣ̌a	hanõ pi-ti koṣ̌a	
 249179	278-5-391-1	Catuquina	278	tongs	5-391	hanõ aṣ̌i-ti	hanõ aṣ̌i-ti	
-249180	278-5-420-1	Catuquina	278	breakfast	5-420	[kebra ǰeǰum] (?)	kebra ǰeǰum	1
+249180	278-5-420-1	Catuquina	278	breakfast	5-420	[kebra ǰeǰum] (?)	kebra ǰeǰum	
 249181	278-5-440-1	Catuquina	278	dinner	5-440	[almoso]	almoso	1
 249182	278-5-450-1	Catuquina	278	supper	5-450	[ǰanta] (?) [yanta] (?)	ǰanta yanta	1
 249183	278-5-460-1	Catuquina	278	peel	5-460	šoka-	šoka-	
@@ -15491,7 +15491,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 249261	278-7-210-1	Catuquina	278	room	7-210	kɨnɨ	kɨnɨ	
 249262	278-7-220-1	Catuquina	278	door, gate	7-220	kɨpo-ti	kɨpo-ti	
 249263	278-7-221-1	Catuquina	278	doorpost, jamb	7-221	ṣ̌iʔo	ṣ̌iʔo	
-249264	278-7-230-1	Catuquina	278	lock (noun)	7-230	[kaṣ̌iato]	kaṣ̌iato	1
+249264	278-7-230-1	Catuquina	278	lock (noun)	7-230	[kaṣ̌iato]	kaṣ̌iato	
 249265	278-7-231-1	Catuquina	278	latch, door-bolt	7-231	tɨrɨʔa-ti	tɨrɨʔa-ti	
 249266	278-7-240-1	Catuquina	278	key	7-240	[čaβi]	čaβi	1
 249267	278-7-250-1	Catuquina	278	window	7-250	hanõ-šõ oĩ-ti	hanõ-šõ oĩ-ti	
@@ -16067,7 +16067,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 249837	278-19-720-1	Catuquina	278	prostitute	19-720	aĩ-βo a-ti-sma-koĩnãka	aĩ-βo a-ti-sma-koĩnãka	
 249838	278-20-110-1	Catuquina	278	fight (vb)	20-110	βaṣ̌ĩ-	βaṣ̌ĩ-	
 249839	278-20-130-1	Catuquina	278	war, battle	20-130	tɨkõ-nã-na-	tɨkõ-nã-na-	
-249840	278-20-170-1	Catuquina	278	soldier	20-170	[saotaṣ̌i]	saotaṣ̌i	1
+249840	278-20-170-1	Catuquina	278	soldier	20-170	[saotaṣ̌i]	saotaṣ̌i	
 249841	278-20-220-1	Catuquina	278	club	20-220	hino	hino	
 249842	278-20-230-1	Catuquina	278	sling	20-230	ṣ̌anãpi	ṣ̌anãpi	
 249843	278-20-240-1	Catuquina	278	bow	20-240	kãti	kãti	
@@ -16095,7 +16095,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 249865	278-21-440-1	Catuquina	278	rape	21-440	tašo-βaʔĩ-šõ a-	tašo-βaʔĩ-šõ a-	
 249866	278-21-510-1	Catuquina	278	steal	21-510	hawɨ honɨ-	hawɨ honɨ-	
 249867	278-21-520-1	Catuquina	278	thief	21-520	hawɨ honɨ-koĩnãka-ʔi	hawɨ honɨ-koĩnãka-ʔi	
-249868	278-22-180-1	Catuquina	278	priest	22-180	[paṣ̌i]	paṣ̌i	1
+249868	278-22-180-1	Catuquina	278	priest	22-180	[paṣ̌i]	paṣ̌i	
 249869	278-22-220-1	Catuquina	278	preach	22-220	βana yoã-	βana yoã-	
 249870	278-22-230-1	Catuquina	278	bless	22-230	roʔa-pa-kĩ a-	roʔa-pa-kĩ a-	
 249871	278-22-240-1	Catuquina	278	curse	22-240	ičṣ̌a-pa a-; ična-	ičṣ̌a-pa a-	
@@ -17845,9 +17845,9 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 251615	281-8-750-2	Shipibo-Conibo	281	bark	8-750	βiči; ṣ̌aka	ṣ̌aka	
 251616	281-8-760-1	Shipibo-Conibo	281	sap	8-760	βɨpõ	βɨpõ	
 251617	281-8-810-1	Shipibo-Conibo	281	palm tree	8-810	wanĩ	wanĩ	
-251618	281-8-830-1	Shipibo-Conibo	281	citrus fruit	8-830	[rima; rimõ; narãṣ̌a]	rima	1
-251619	281-8-830-2	Shipibo-Conibo	281	citrus fruit	8-830	[rima; rimõ; narãṣ̌a]	rimõ	1
-251620	281-8-830-3	Shipibo-Conibo	281	citrus fruit	8-830	[rima; rimõ; narãṣ̌a]	narãṣ̌a	1
+251618	281-8-830-1	Shipibo-Conibo	281	citrus fruit	8-830	[rima; rimõ; narãṣ̌a]	rima	
+251619	281-8-830-2	Shipibo-Conibo	281	citrus fruit	8-830	[rima; rimõ; narãṣ̌a]	rimõ	
+251620	281-8-830-3	Shipibo-Conibo	281	citrus fruit	8-830	[rima; rimõ; narãṣ̌a]	narãṣ̌a	
 251621	281-8-840-1	Shipibo-Conibo	281	banana tree	8-840	parãta	parãta	
 251622	281-8-910-1	Shipibo-Conibo	281	sweet potato	8-910	kari	kari	
 251623	281-8-920-1	Shipibo-Conibo	281	tapioca, manioc, cassava	8-920	ac̷a	ac̷a	
@@ -17919,8 +17919,8 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 251689	281-9-461-1	Shipibo-Conibo	281	hollow out	9-461	pɨka-ti; kini-ati; pɨkɨ	pɨka-ti	
 251690	281-9-461-2	Shipibo-Conibo	281	hollow out	9-461	pɨka-ti; kini-ati; pɨkɨ	kini-ati	
 251691	281-9-461-3	Shipibo-Conibo	281	hollow out	9-461	pɨka-ti; kini-ati; pɨkɨ	pɨkɨ	
-251692	281-9-480-1	Shipibo-Conibo	281	saw	9-480	[siročo; sira]	siročo	1
-251693	281-9-480-2	Shipibo-Conibo	281	saw	9-480	[siročo; sira]	sira	1
+251692	281-9-480-1	Shipibo-Conibo	281	saw	9-480	[siročo; sira]	siročo	
+251693	281-9-480-2	Shipibo-Conibo	281	saw	9-480	[siročo; sira]	sira	
 251694	281-9-500-1	Shipibo-Conibo	281	nail	9-500	raβo	raβo	
 251695	281-9-560-1	Shipibo-Conibo	281	glue	9-560	mɨtaṣ̌nameeti	mɨtaṣ̌nameeti	
 251696	281-9-600-1	Shipibo-Conibo	281	smith, blacksmith	9-600	yamĩ tɨɨtai	yamĩ tɨɨtai	
@@ -17937,7 +17937,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 251707	281-9-770-1	Shipibo-Conibo	281	mat	9-770	pišĩ; kawĩ	pišĩ	
 251708	281-9-770-2	Shipibo-Conibo	281	mat	9-770	pišĩ; kawĩ	kawĩ	
 251709	281-9-780-1	Shipibo-Conibo	281	netbag	9-780	[borosa]; piša	borosa	1
-251710	281-9-780-2	Shipibo-Conibo	281	netbag	9-780	[borosa]; piša	piša	1
+251710	281-9-780-2	Shipibo-Conibo	281	netbag	9-780	[borosa]; piša	piša	
 251711	281-9-790-1	Shipibo-Conibo	281	fan (noun)	9-790	paya-ti	paya-ti	
 251712	281-9-791-1	Shipibo-Conibo	281	fan (vb)	9-791	payã-ti	payã-ti	
 251713	281-9-880-1	Shipibo-Conibo	281	paint (noun)	9-880	sika	sika	
@@ -18487,8 +18487,8 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 252257	281-18-560-1	Shipibo-Conibo	281	paper	18-560	kirika	kirika	
 252258	281-18-610-1	Shipibo-Conibo	281	book	18-610	kirika	kirika	
 252259	281-18-710-1	Shipibo-Conibo	281	flute	18-710	kina	kina	
-252260	281-18-720-1	Shipibo-Conibo	281	drum	18-720	[tãpora; βõpo]	tãpora	1
-252261	281-18-720-2	Shipibo-Conibo	281	drum	18-720	[tãpora; βõpo]	βõpo	1
+252260	281-18-720-1	Shipibo-Conibo	281	drum	18-720	[tãpora; βõpo]	tãpora	
+252261	281-18-720-2	Shipibo-Conibo	281	drum	18-720	[tãpora; βõpo]	βõpo	
 252262	281-19-110-1	Shipibo-Conibo	281	country	19-110	nɨtɨ	nɨtɨ	
 252263	281-19-150-1	Shipibo-Conibo	281	city, town	19-150	hɨma	hɨma	
 252264	281-19-160-1	Shipibo-Conibo	281	village	19-160	hɨma	hɨma	
@@ -18524,7 +18524,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 252294	281-20-270-1	Shipibo-Conibo	281	sword	20-270	[ispara]	ispara	1
 252295	281-20-280-1	Shipibo-Conibo	281	gun, cannon	20-280	tooati	tooati	
 252296	281-20-340-1	Shipibo-Conibo	281	shield	20-340	[iskoro]; kɨɨti	iskoro	1
-252297	281-20-340-2	Shipibo-Conibo	281	shield	20-340	[iskoro]; kɨɨti	kɨɨti	1
+252297	281-20-340-2	Shipibo-Conibo	281	shield	20-340	[iskoro]; kɨɨti	kɨɨti	
 252298	281-20-440-1	Shipibo-Conibo	281	defend	20-440	paranã iti	paranã iti	
 252299	281-20-510-1	Shipibo-Conibo	281	fisherman	20-510	mɨča	mɨča	
 252300	281-20-520-1	Shipibo-Conibo	281	fishhook	20-520	miškiti	miškiti	
@@ -18542,9 +18542,9 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 252312	281-21-510-1	Shipibo-Conibo	281	steal	21-510	yo-mɨ-c̷o-ti	yo-mɨ-c̷o-ti	
 252313	281-21-520-1	Shipibo-Conibo	281	thief	21-520	yo-mɨ-c̷o	yo-mɨ-c̷o	
 252314	281-22-120-1	Shipibo-Conibo	281	God	22-120	[rios]; iβo	rios	1
-252315	281-22-120-2	Shipibo-Conibo	281	God	22-120	[rios]; iβo	iβo	1
+252315	281-22-120-2	Shipibo-Conibo	281	God	22-120	[rios]; iβo	iβo	
 252316	281-22-130-1	Shipibo-Conibo	281	temple, church	22-130	[ikirisia]; haĩ rios raβiti ṣ̌oβo	ikirisia	1
-252317	281-22-130-2	Shipibo-Conibo	281	temple, church	22-130	[ikirisia]; haĩ rios raβiti ṣ̌oβo	haĩ rios raβiti ṣ̌oβo	1
+252317	281-22-130-2	Shipibo-Conibo	281	temple, church	22-130	[ikirisia]; haĩ rios raβiti ṣ̌oβo	haĩ rios raβiti ṣ̌oβo	
 252318	281-22-170-1	Shipibo-Conibo	281	pray	22-170	risãti	risãti	
 252319	281-22-180-1	Shipibo-Conibo	281	priest	22-180	paɨri	paɨri	
 252320	281-22-220-1	Shipibo-Conibo	281	preach	22-220	riosɨ̃ hoi yoiti	riosɨ̃ hoi yoiti	
@@ -18563,28 +18563,28 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 252333	281-22-450-1	Shipibo-Conibo	281	ghost, phantom	22-450	yošĩ	yošĩ	
 252334	281-22-470-1	Shipibo-Conibo	281	omen, portent	22-470	roa	roa	
 252335	282-1-100-1	Yaminahua	282	world	1-100	mai-tio	mai-tio	
-252336	282-1-210-1	Yaminahua	282	earth, land	1-210	mai [bai]	mai	1
+252336	282-1-210-1	Yaminahua	282	earth, land	1-210	mai [bai]	mai	
 252337	282-1-212-1	Yaminahua	282	earth=ground, soil	1-212	mai	mai	
-252338	282-1-213-1	Yaminahua	282	dust	1-213	mapo [bapo]	mapo	1
+252338	282-1-213-1	Yaminahua	282	dust	1-213	mapo [bapo]	mapo	
 252339	282-1-214-1	Yaminahua	282	mud	1-214	mɨβɨ	mɨβɨ	
 252340	282-1-215-1	Yaminahua	282	sand	1-215	maši	maši	
 252341	282-1-220-1	Yaminahua	282	mountain, hill	1-220	mãči kɨya	mãči kɨya	
 252342	282-1-222-1	Yaminahua	282	cliff, precipice	1-222	maβa	maβa	
 252343	282-1-230-1	Yaminahua	282	plain, field	1-230	mai mĩspa	mai mĩspa	
 252344	282-1-240-1	Yaminahua	282	valley	1-240	mači tɨnãmã naki-raβɨ	mači tɨnãmã naki-raβɨ	
-252345	282-1-250-1	Yaminahua	282	island	1-250	βaka nɨ̃ṣ̌pakĩa mai [waʔa nɨ̃ṣ̌paʔĩa...]	βaka nɨ̃ṣ̌pakĩa mai	1
+252345	282-1-250-1	Yaminahua	282	island	1-250	βaka nɨ̃ṣ̌pakĩa mai [waʔa nɨ̃ṣ̌paʔĩa...]	βaka nɨ̃ṣ̌pakĩa mai	
 252346	282-1-260-1	Yaminahua	282	mainland	1-260	mai ɨβapa	mai ɨβapa	
-252347	282-1-270-1	Yaminahua	282	shore	1-270	βaka kɨ̃sɨmɨ̃ [waʔa...]	βaka kɨ̃sɨmɨ̃	1
+252347	282-1-270-1	Yaminahua	282	shore	1-270	βaka kɨ̃sɨmɨ̃ [waʔa...]	βaka kɨ̃sɨmɨ̃	
 252348	282-1-280-1	Yaminahua	282	cave	1-280	tapɨiti	tapɨiti	
-252349	282-1-310-1	Yaminahua	282	water	1-310	βaka [waʔa]	βaka	1
-252350	282-1-320-1	Yaminahua	282	sea	1-320	βaka-βã [waʔa...]	βaka-βã	1
-252351	282-1-322-1	Yaminahua	282	calm (of sea)	1-322	βãka-βã βɨro ikima [...iʔiba]	βãka-βã βɨro ikima	1
-252352	282-1-323-1	Yaminahua	282	rough (of sea)	1-323	βãka-βã βɨro iki [...iʔi]	βãka-βã βɨro iki	1
-252353	282-1-324-1	Yaminahua	282	foam	1-324	βãkoṣ̌ [wãʔoṣ̌]	βãkoṣ̌	1
+252349	282-1-310-1	Yaminahua	282	water	1-310	βaka [waʔa]	βaka	
+252350	282-1-320-1	Yaminahua	282	sea	1-320	βaka-βã [waʔa...]	βaka-βã	
+252351	282-1-322-1	Yaminahua	282	calm (of sea)	1-322	βãka-βã βɨro ikima [...iʔiba]	βãka-βã βɨro ikima	
+252352	282-1-323-1	Yaminahua	282	rough (of sea)	1-323	βãka-βã βɨro iki [...iʔi]	βãka-βã βɨro iki	
+252353	282-1-324-1	Yaminahua	282	foam	1-324	βãkoṣ̌ [wãʔoṣ̌]	βãkoṣ̌	
 252354	282-1-329-1	Yaminahua	282	ocean	1-329	βaka-βã	βaka-βã	
 252355	282-1-330-1	Yaminahua	282	lake	1-330	ĩa	ĩa	
 252356	282-1-340-1	Yaminahua	282	gulf, bay	1-340	βaka čitia	βaka čitia	
-252357	282-1-341-1	Yaminahua	282	lagoon	1-341	βaka amãnão ṣ̌ačiβo [...ṣ̌ačiho]	βaka amãnão ṣ̌ačiβo	1
+252357	282-1-341-1	Yaminahua	282	lagoon	1-341	βaka amãnão ṣ̌ačiβo [...ṣ̌ačiho]	βaka amãnão ṣ̌ačiβo	
 252358	282-1-350-1	Yaminahua	282	wave	1-350	βaka pakɨai	βaka pakɨai	
 252359	282-1-360-1	Yaminahua	282	river, stream, brook	1-360	βaka; aṣ̌ka; ṣ̌ɨṣ̌a	βaka	
 252360	282-1-360-2	Yaminahua	282	river, stream, brook	1-360	βaka; aṣ̌ka; ṣ̌ɨṣ̌a	aṣ̌ka	
@@ -18592,13 +18592,13 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 252362	282-1-362-1	Yaminahua	282	whirlpool	1-362	βaka šiβi	βaka šiβi	
 252363	282-1-370-1	Yaminahua	282	spring, well	1-370	βaka poyo poyo iki	βaka poyo poyo iki	
 252364	282-1-390-1	Yaminahua	282	waterfall	1-390	mãṣ̌a poiti	mãṣ̌a poiti	
-252365	282-1-410-1	Yaminahua	282	woods, forest	1-410	nii [dii]	nii	1
+252365	282-1-410-1	Yaminahua	282	woods, forest	1-410	nii [dii]	nii	
 252366	282-1-420-1	Yaminahua	282	tree (cf 08.600)	1-420	iβi	iβi	
 252367	282-1-430-1	Yaminahua	282	wood	1-430	koṣ̌a	koṣ̌a	
 252368	282-1-440-1	Yaminahua	282	stone, rock	1-440	makɨṣ̌; tokiri	makɨṣ̌	
 252369	282-1-440-2	Yaminahua	282	stone, rock	1-440	makɨṣ̌; tokiri	tokiri	
 252370	282-1-450-1	Yaminahua	282	earthquake	1-450	mĩ-ma-βa	mĩ-ma-βa	
-252371	282-1-510-1	Yaminahua	282	sky	1-510	nai [dai]	nai	1
+252371	282-1-510-1	Yaminahua	282	sky	1-510	nai [dai]	nai	
 252372	282-1-520-1	Yaminahua	282	sun	1-520	ṣ̌ini	ṣ̌ini	
 252373	282-1-530-1	Yaminahua	282	moon	1-530	oṣ̌ɨ	oṣ̌ɨ	
 252374	282-1-540-1	Yaminahua	282	star	1-540	išti βɨro; βiši	išti βɨro	
@@ -18610,13 +18610,13 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 252380	282-1-590-1	Yaminahua	282	rainbow	1-590	nãβa βai	nãβa βai	
 252381	282-1-610-1	Yaminahua	282	light (noun)	1-610	pei ika; ota	pei ika	
 252382	282-1-610-2	Yaminahua	282	light (noun)	1-610	pei ika; ota	ota	
-252383	282-1-620-1	Yaminahua	282	darkness	1-620	βakiš [waʔiš]	βakiš	1
+252383	282-1-620-1	Yaminahua	282	darkness	1-620	βakiš [waʔiš]	βakiš	
 252384	282-1-630-1	Yaminahua	282	shade, shadow	1-630	mãta tõka	mãta tõka	
 252385	282-1-640-1	Yaminahua	282	dew	1-640	niβi	niβi	
 252386	282-1-710-1	Yaminahua	282	air	1-710	nɨβɨ	nɨβɨ	
 252387	282-1-720-1	Yaminahua	282	wind	1-720	nɨβɨ	nɨβɨ	
 252388	282-1-730-1	Yaminahua	282	cloud	1-730	kõi	kõi	
-252389	282-1-740-1	Yaminahua	282	fog	1-740	čaka pakɨi [čaʔa paʔɨi]	čaka pakɨi	1
+252389	282-1-740-1	Yaminahua	282	fog	1-740	čaka pakɨi [čaʔa paʔɨi]	čaka pakɨi	
 252390	282-1-750-1	Yaminahua	282	rain (noun)	1-750	oi	oi	
 252391	282-1-770-1	Yaminahua	282	ice	1-770	oi nami	oi nami	
 252392	282-1-810-1	Yaminahua	282	fire	1-810	čii	čii	
@@ -18624,11 +18624,11 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 252394	282-1-830-1	Yaminahua	282	smoke (noun)	1-830	kõi	kõi	
 252395	282-1-840-1	Yaminahua	282	ashes	1-840	čii mapo	čii mapo	
 252396	282-1-841-1	Yaminahua	282	embers	1-841	čii rɨ̃kɨ	čii rɨ̃kɨ	
-252397	282-1-851-1	Yaminahua	282	burn (vb trans)	1-851	koakĩ [koaʔĩ]; koo βaki	koakĩ	1
-252398	282-1-851-2	Yaminahua	282	burn (vb trans)	1-851	koakĩ [koaʔĩ]; koo βaki	koo βaki	1
+252397	282-1-851-1	Yaminahua	282	burn (vb trans)	1-851	koakĩ [koaʔĩ]; koo βaki	koakĩ	
+252398	282-1-851-2	Yaminahua	282	burn (vb trans)	1-851	koakĩ [koaʔĩ]; koo βaki	koo βaki	
 252399	282-1-852-1	Yaminahua	282	burn (vb intrans)	1-852	ṣ̌oisakĩ	ṣ̌oisakĩ	
 252400	282-1-860-1	Yaminahua	282	light, kindle, ignite	1-860	kɨtɨ βakĩ	kɨtɨ βakĩ	
-252401	282-1-861-1	Yaminahua	282	extinguish	1-861	noka βakĩ [doʔa waʔĩ]	noka βakĩ	1
+252401	282-1-861-1	Yaminahua	282	extinguish	1-861	noka βakĩ [doʔa waʔĩ]	noka βakĩ	
 252402	282-1-870-1	Yaminahua	282	match (noun)	1-870	čii	čii	
 252403	282-1-880-1	Yaminahua	282	firewood	1-880	karo	karo	
 252404	282-1-890-1	Yaminahua	282	charcoal	1-890	c̷ɨstɨ	c̷ɨstɨ	
@@ -18640,7 +18640,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 252410	282-2-240-2	Yaminahua	282	female	2-240	ṣ̌oto-βaʔɨ; ãβi	ãβi	
 252411	282-2-250-1	Yaminahua	282	boy	2-250	βɨrona-βakɨ	βɨrona-βakɨ	
 252412	282-2-251-1	Yaminahua	282	young man (adolescent)	2-251	naɨtapa	naɨtapa	
-252413	282-2-260-1	Yaminahua	282	girl	2-260	ṣ̌otoko-βakɨ [waʔɨ]	ṣ̌otoko-βakɨ	1
+252413	282-2-260-1	Yaminahua	282	girl	2-260	ṣ̌otoko-βakɨ [waʔɨ]	ṣ̌otoko-βakɨ	
 252414	282-2-261-1	Yaminahua	282	young woman (adolescent)	2-261	naɨtaβa; ṣ̌omaya	naɨtaβa	
 252415	282-2-261-2	Yaminahua	282	young woman (adolescent)	2-261	naɨtaβa; ṣ̌omaya	ṣ̌omaya	
 252416	282-2-270-1	Yaminahua	282	child	2-270	βakɨ	βakɨ	
@@ -18661,7 +18661,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 252431	282-2-444-1	Yaminahua	282	older brother	2-444	oči	oči	
 252432	282-2-445-1	Yaminahua	282	younger brother	2-445	ɨṣ̌to	ɨṣ̌to	
 252433	282-2-454-1	Yaminahua	282	older sister	2-454	čipi	čipi	
-252434	282-2-455-1	Yaminahua	282	younger sister	2-455	čiko [čiʔo]	čiko	1
+252434	282-2-455-1	Yaminahua	282	younger sister	2-455	čiko [čiʔo]	čiko	
 252435	282-2-456-1	Yaminahua	282	sibling	2-456	onɨβɨc̷a; poi	onɨβɨc̷a	
 252436	282-2-456-2	Yaminahua	282	sibling	2-456	onɨβɨc̷a; poi	poi	
 252437	282-2-458-1	Yaminahua	282	twins	2-458	raβɨ kãia; βɨ̃so raβɨ	raβɨ kãia	
@@ -18759,7 +18759,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 252529	282-3-630-1	Yaminahua	282	mouse, rat	3-630	ṣ̌oya; nĩi ṣ̌oya	ṣ̌oya	
 252530	282-3-630-2	Yaminahua	282	mouse, rat	3-630	ṣ̌oya; nĩi ṣ̌oya	nĩi ṣ̌oya	
 252531	282-3-650-1	Yaminahua	282	fish	3-650	βoɨ	βoɨ	
-252532	282-3-652-1	Yaminahua	282	fin (dorsal)	3-652	kaspaka [kaspaʔa]	kaspaka	1
+252532	282-3-652-1	Yaminahua	282	fin (dorsal)	3-652	kaspaka [kaspaʔa]	kaspaka	
 252533	282-3-653-1	Yaminahua	282	fishscale	3-653	pɨsɨ	pɨsɨ	
 252534	282-3-654-1	Yaminahua	282	gill	3-654	tɨsto	tɨsto	
 252535	282-3-655-1	Yaminahua	282	shell	3-655	pao; c̷ano; pato	pao	
@@ -18790,7 +18790,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 252560	282-3-820-1	Yaminahua	282	bee	3-820	ṣ̌ara βina	ṣ̌ara βina	
 252561	282-3-821-1	Yaminahua	282	beeswax	3-821	ṣ̌ara mapo; ṣ̌ĩti	ṣ̌ara mapo	
 252562	282-3-821-2	Yaminahua	282	beeswax	3-821	ṣ̌ara mapo; ṣ̌ĩti	ṣ̌ĩti	
-252563	282-3-822-1	Yaminahua	282	beehive	3-822	βona [hoda]	βona	1
+252563	282-3-822-1	Yaminahua	282	beehive	3-822	βona [hoda]	βona	
 252564	282-3-823-1	Yaminahua	282	wasp	3-823	βina	βina	
 252565	282-3-830-1	Yaminahua	282	fly	3-830	nãpɨ	nãpɨ	
 252566	282-3-831-1	Yaminahua	282	sandfly (midge), gnat	3-831	ropoto; nãpɨ mĩšti	ropoto	
@@ -18799,8 +18799,8 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 252569	282-3-840-1	Yaminahua	282	worm	3-840	nõi	nõi	
 252570	282-3-850-1	Yaminahua	282	snake	3-850	rono	rono	
 252571	282-3-910-1	Yaminahua	282	firefly	3-910	tapi	tapi	
-252572	282-3-920-1	Yaminahua	282	butterfly	3-920	kaβaβɨna [kawaβɨda]	kaβaβɨna	1
-252573	282-3-930-1	Yaminahua	282	grasshopper	3-930	kõkɨc̷ɨrɨ [kõʔɨ̃tsɨrɨ]	kõkɨc̷ɨrɨ	1
+252572	282-3-920-1	Yaminahua	282	butterfly	3-920	kaβaβɨna [kawaβɨda]	kaβaβɨna	
+252573	282-3-930-1	Yaminahua	282	grasshopper	3-930	kõkɨc̷ɨrɨ [kõʔɨ̃tsɨrɨ]	kõkɨc̷ɨrɨ	
 252574	282-3-940-1	Yaminahua	282	snail	3-940	sãka; nočo; nopoṣ̌; βõto	sãka	
 252575	282-3-940-2	Yaminahua	282	snail	3-940	sãka; nočo; nopoṣ̌; βõto	nočo	
 252576	282-3-940-3	Yaminahua	282	snail	3-940	sãka; nočo; nopoṣ̌; βõto	nopoṣ̌	
@@ -18816,7 +18816,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 252586	282-4-110-1	Yaminahua	282	body	4-110	yora	yora	
 252587	282-4-120-1	Yaminahua	282	skin, hide	4-120	βiči	βiči	
 252588	282-4-130-1	Yaminahua	282	flesh	4-130	nami	nami	
-252589	282-4-140-1	Yaminahua	282	hair (head)	4-140	βoo [huu]	βoo	1
+252589	282-4-140-1	Yaminahua	282	hair (head)	4-140	βoo [huu]	βoo	
 252590	282-4-142-1	Yaminahua	282	beard	4-142	kɨṣ̌tɨ	kɨṣ̌tɨ	
 252591	282-4-144-1	Yaminahua	282	body hair	4-144	rani	rani	
 252592	282-4-145-1	Yaminahua	282	pubic hair	4-145	ṣ̌ani	ṣ̌ani	
@@ -18905,8 +18905,8 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 252675	282-4-464-1	Yaminahua	282	buttocks	4-464	čipa	čipa	
 252676	282-4-470-1	Yaminahua	282	womb	4-470	βakɨ raka-ti	βakɨ raka-ti	
 252677	282-4-490-1	Yaminahua	282	testicle	4-490	oβo	oβo	
-252678	282-4-492-1	Yaminahua	282	penis	4-492	ĩso-ti; βoṣ̌-ki [hoṣ̌ki ...]	ĩso-ti	1
-252679	282-4-492-2	Yaminahua	282	penis	4-492	ĩso-ti; βoṣ̌-ki [hoṣ̌ki ...]	βoṣ̌-ki	1
+252678	282-4-492-1	Yaminahua	282	penis	4-492	ĩso-ti; βoṣ̌-ki [hoṣ̌ki ...]	ĩso-ti	
+252679	282-4-492-2	Yaminahua	282	penis	4-492	ĩso-ti; βoṣ̌-ki [hoṣ̌ki ...]	βoṣ̌-ki	
 252680	282-4-510-1	Yaminahua	282	breathe, breath	4-510	ṣ̌ãka ikĩ	ṣ̌ãka ikĩ	
 252681	282-4-520-1	Yaminahua	282	yawn, gape	4-520	ṣ̌aβa-kĩ	ṣ̌aβa-kĩ	
 252682	282-4-521-1	Yaminahua	282	hiccough	4-521	c̷ɨo-kĩ	c̷ɨo-kĩ	
@@ -18993,7 +18993,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 252763	282-5-230-1	Yaminahua	282	roast, fry	5-230	ṣ̌oi-kĩ; čiiša-kĩ	ṣ̌oi-kĩ	
 252764	282-5-230-2	Yaminahua	282	roast, fry	5-230	ṣ̌oi-kĩ; čiiša-kĩ	čiiša-kĩ	
 252765	282-5-260-1	Yaminahua	282	pot, cooking vessel	5-260	[oča] mɨβɨ-ti; kĩti	oča mɨβɨ-ti	1
-252766	282-5-260-2	Yaminahua	282	pot, cooking vessel	5-260	[oča] mɨβɨ-ti; kĩti	kĩti	1
+252766	282-5-260-2	Yaminahua	282	pot, cooking vessel	5-260	[oča] mɨβɨ-ti; kĩti	kĩti	
 252767	282-5-270-1	Yaminahua	282	kettle	5-270	[titira]	titira	1
 252768	282-5-320-1	Yaminahua	282	plate	5-320	sapa	sapa	
 252769	282-5-330-1	Yaminahua	282	bowl	5-330	[tasõ]	tasõ	1
@@ -19036,15 +19036,15 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 252806	282-5-810-1	Yaminahua	282	salt	5-810	taši	taši	
 252807	282-5-820-1	Yaminahua	282	pepper	5-820	noči βiso	noči βiso	
 252808	282-5-821-1	Yaminahua	282	chili pepper	5-821	noči	noči	
-252809	282-5-840-1	Yaminahua	282	honey	5-840	βona [huda]; aya	βona	1
-252810	282-5-840-2	Yaminahua	282	honey	5-840	βona [huda]; aya	aya	1
+252809	282-5-840-1	Yaminahua	282	honey	5-840	βona [huda]; aya	βona	
+252810	282-5-840-2	Yaminahua	282	honey	5-840	βona [huda]; aya	aya	
 252811	282-5-850-1	Yaminahua	282	sugar	5-850	[asoka]	asoka	1
 252812	282-5-860-1	Yaminahua	282	milk (noun)	5-860	čočo ɨnɨ	čočo ɨnɨ	
 252813	282-5-870-1	Yaminahua	282	milk (vb)	5-870	c̷ii βakĩ	c̷ii βakĩ	
 252814	282-5-890-1	Yaminahua	282	butter	5-890	ṣ̌ini βɨ̃tɨ	ṣ̌ini βɨ̃tɨ	
 252815	282-5-900-1	Yaminahua	282	beverage, drink	5-900	aya-ti	aya-ti	
 252816	282-5-930-1	Yaminahua	282	beer	5-930	[sirimisa]; aya-ti	sirimisa	1
-252817	282-5-930-2	Yaminahua	282	beer	5-930	[sirimisa]; aya-ti	aya-ti	1
+252817	282-5-930-2	Yaminahua	282	beer	5-930	[sirimisa]; aya-ti	aya-ti	
 252818	282-5-940-1	Yaminahua	282	fermented drink	5-940	mãmã; mãmã paɨa	mãmã	
 252819	282-5-940-2	Yaminahua	282	fermented drink	5-940	mãmã; mãmã paɨa	mãmã paɨa	
 252820	282-5-970-1	Yaminahua	282	egg	5-970	too	too	
@@ -19073,19 +19073,19 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 252843	282-6-460-1	Yaminahua	282	skirt	6-460	pi-nišɨ-bɨ-ti	pi-nišɨ-bɨ-ti	
 252844	282-6-480-1	Yaminahua	282	trousers	6-480	či-raṣ̌o-ti	či-raṣ̌o-ti	
 252845	282-6-490-1	Yaminahua	282	stocking, sock	6-490	nara-omɨ-ti	nara-omɨ-ti	
-252846	282-6-510-1	Yaminahua	282	shoe	6-510	o-ṣ̌aka-mɨ-ti; [sapato]	o-ṣ̌aka-mɨ-ti	1
+252846	282-6-510-1	Yaminahua	282	shoe	6-510	o-ṣ̌aka-mɨ-ti; [sapato]	o-ṣ̌aka-mɨ-ti	
 252847	282-6-510-2	Yaminahua	282	shoe	6-510	o-ṣ̌aka-mɨ-ti; [sapato]	sapato	1
-252848	282-6-520-1	Yaminahua	282	boot	6-520	o-ṣ̌aka-mɨ-ti; [mota]	o-ṣ̌aka-mɨ-ti	1
+252848	282-6-520-1	Yaminahua	282	boot	6-520	o-ṣ̌aka-mɨ-ti; [mota]	o-ṣ̌aka-mɨ-ti	
 252849	282-6-520-2	Yaminahua	282	boot	6-520	o-ṣ̌aka-mɨ-ti; [mota]	mota	1
 252850	282-6-540-1	Yaminahua	282	shoemaker, cobbler	6-540	o-ṣ̌aka-mɨ-ti βa-mis	o-ṣ̌aka-mɨ-ti βa-mis	
 252851	282-6-550-1	Yaminahua	282	hat, cap	6-550	ma-i-ti; ma-rako-mɨ-ti	ma-i-ti	
 252852	282-6-550-2	Yaminahua	282	hat, cap	6-550	ma-i-ti; ma-rako-mɨ-ti	ma-rako-mɨ-ti	
-252853	282-6-570-1	Yaminahua	282	belt, girdle	6-570	čɨ-nɨṣ̌ɨ-mɨ-ti; [sitora]	čɨ-nɨṣ̌ɨ-mɨ-ti	1
+252853	282-6-570-1	Yaminahua	282	belt, girdle	6-570	čɨ-nɨṣ̌ɨ-mɨ-ti; [sitora]	čɨ-nɨṣ̌ɨ-mɨ-ti	
 252854	282-6-570-2	Yaminahua	282	belt, girdle	6-570	čɨ-nɨṣ̌ɨ-mɨ-ti; [sitora]	sitora	1
 252855	282-6-580-1	Yaminahua	282	glove	6-580	mɨ-ṣ̌aka-ti; mɨ-rako-mɨ-ti	mɨ-ṣ̌aka-ti	
 252856	282-6-580-2	Yaminahua	282	glove	6-580	mɨ-ṣ̌aka-ti; mɨ-rako-mɨ-ti	mɨ-rako-mɨ-ti	
 252857	282-6-610-1	Yaminahua	282	pocket	6-610	nõṣ̌a-ti	nõṣ̌a-ti	
-252858	282-6-620-1	Yaminahua	282	button	6-620	rapa-ti βɨro; [čopa] βɨro	rapa-ti βɨro	1
+252858	282-6-620-1	Yaminahua	282	button	6-620	rapa-ti βɨro; [čopa] βɨro	rapa-ti βɨro	
 252859	282-6-620-2	Yaminahua	282	button	6-620	rapa-ti βɨro; [čopa] βɨro	čopa βɨro	1
 252860	282-6-630-1	Yaminahua	282	pin	6-630	ṣ̌omoṣ̌	ṣ̌omoṣ̌	
 252861	282-6-730-1	Yaminahua	282	ring (for finger)	6-730	[anĩča]	anĩča	1
@@ -19098,17 +19098,17 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 252868	282-6-780-1	Yaminahua	282	headband, headdress	6-780	manaṣ̌ɨmɨ-ti; mai-ti	manaṣ̌ɨmɨ-ti	
 252869	282-6-780-2	Yaminahua	282	headband, headdress	6-780	manaṣ̌ɨmɨ-ti; mai-ti	mai-ti	
 252870	282-6-810-1	Yaminahua	282	handkerchief, rag	6-810	[pãyoira]; sama βaṣ̌tɨ	pãyoira	1
-252871	282-6-810-2	Yaminahua	282	handkerchief, rag	6-810	[pãyoira]; sama βaṣ̌tɨ	sama βaṣ̌tɨ	1
+252871	282-6-810-2	Yaminahua	282	handkerchief, rag	6-810	[pãyoira]; sama βaṣ̌tɨ	sama βaṣ̌tɨ	
 252872	282-6-820-1	Yaminahua	282	towel	6-820	[toayo]	toayo	1
 252873	282-6-910-1	Yaminahua	282	comb	6-910	βo-ṣ̌-ti	βo-ṣ̌-ti	
-252874	282-6-920-1	Yaminahua	282	brush	6-920	βo-aro-mɨ-ti; [sipičo]	βo-aro-mɨ-ti	1
+252874	282-6-920-1	Yaminahua	282	brush	6-920	βo-aro-mɨ-ti; [sipičo]	βo-aro-mɨ-ti	
 252875	282-6-920-2	Yaminahua	282	brush	6-920	βo-aro-mɨ-ti; [sipičo]	sipičo	1
 252876	282-6-921-1	Yaminahua	282	braid	6-921	βoo ṣ̌ɨ-βai; βoo nɨṣ̌ɨ nɨṣ̌ɨ ika	βoo ṣ̌ɨ-βai	
 252877	282-6-921-2	Yaminahua	282	braid	6-921	βoo ṣ̌ɨ-βai; βoo nɨṣ̌ɨ nɨṣ̌ɨ ika	βoo nɨṣ̌ɨ nɨṣ̌ɨ ika	
 252878	282-6-930-1	Yaminahua	282	razor	6-930	čiri koṣ̌kɨ-ti	čiri koṣ̌kɨ-ti	
 252879	282-6-950-1	Yaminahua	282	soap	6-950	mãmõ	mãmõ	
 252880	282-6-960-1	Yaminahua	282	mirror	6-960	βɨ-is-ti	βɨ-is-ti	
-252881	282-7-110-1	Yaminahua	282	dwell, live	7-110	i-ki [i-ʔi]	i-ki	1
+252881	282-7-110-1	Yaminahua	282	dwell, live	7-110	i-ki [i-ʔi]	i-ki	
 252882	282-7-120-1	Yaminahua	282	house	7-120	pɨṣ̌ɨ	pɨṣ̌ɨ	
 252883	282-7-130-1	Yaminahua	282	hut	7-130	pɨṣ̌ɨ	pɨṣ̌ɨ	
 252884	282-7-131-1	Yaminahua	282	garden-house	7-131	tapas	tapas	
@@ -19139,7 +19139,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 252909	282-7-440-1	Yaminahua	282	table	7-440	[mĩsa]	mĩsa	1
 252910	282-7-450-1	Yaminahua	282	lamp, torch	7-450	[rãpari]; [kirosi]; kaβačo ota-ti	rãpari	1
 252911	282-7-450-2	Yaminahua	282	lamp, torch	7-450	[rãpari]; [kirosi]; kaβačo ota-ti	kirosi	1
-252912	282-7-450-3	Yaminahua	282	lamp, torch	7-450	[rãpari]; [kirosi]; kaβačo ota-ti	kaβačo ota-ti	1
+252912	282-7-450-3	Yaminahua	282	lamp, torch	7-450	[rãpari]; [kirosi]; kaβačo ota-ti	kaβačo ota-ti	
 252913	282-7-460-1	Yaminahua	282	candle	7-460	[mira]	mira	1
 252914	282-7-470-1	Yaminahua	282	shelf	7-470	akiki βa-ti; tapo	akiki βa-ti	
 252915	282-7-470-2	Yaminahua	282	shelf	7-470	akiki βa-ti; tapo	tapo	
@@ -19259,9 +19259,9 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 253029	282-9-460-1	Yaminahua	282	bore	9-460	c̷ɨpɨs-akĩ	c̷ɨpɨs-akĩ	
 253030	282-9-461-1	Yaminahua	282	hollow out	9-461	naβɨrɨṣ̌a-kĩ	naβɨrɨṣ̌a-kĩ	
 253031	282-9-480-1	Yaminahua	282	saw	9-480	[sɨra]	sɨra	1
-253032	282-9-490-1	Yaminahua	282	hammer	9-490	masta-ti; [mãritičo]; amɨ̃ṣ̌ɨta	masta-ti	1
+253032	282-9-490-1	Yaminahua	282	hammer	9-490	masta-ti; [mãritičo]; amɨ̃ṣ̌ɨta	masta-ti	
 253033	282-9-490-2	Yaminahua	282	hammer	9-490	masta-ti; [mãritičo]; amɨ̃ṣ̌ɨta	mãritičo	1
-253034	282-9-490-3	Yaminahua	282	hammer	9-490	masta-ti; [mãritičo]; amɨ̃ṣ̌ɨta	amɨ̃ṣ̌ɨta	1
+253034	282-9-490-3	Yaminahua	282	hammer	9-490	masta-ti; [mãritičo]; amɨ̃ṣ̌ɨta	amɨ̃ṣ̌ɨta	
 253035	282-9-500-1	Yaminahua	282	nail	9-500	rãβo	rãβo	
 253036	282-9-560-1	Yaminahua	282	glue	9-560	taṣ̌ta-ti	taṣ̌ta-ti	
 253037	282-9-620-1	Yaminahua	282	anvil	9-620	[kõma]	kõma	1
@@ -19498,7 +19498,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 253268	282-12-750-1	Yaminahua	282	hook	12-750	tɨtɨṣ̌-kɨrɨ-i-ti	tɨtɨṣ̌-kɨrɨ-i-ti	
 253269	282-12-760-1	Yaminahua	282	corner	12-760	βai paṣ̌ka-kaina	βai paṣ̌ka-kaina	
 253270	282-12-770-1	Yaminahua	282	cross	12-770	[koros]; iβi kõyaika	koros	1
-253271	282-12-770-2	Yaminahua	282	cross	12-770	[koros]; iβi kõyaika	iβi kõyaika	1
+253271	282-12-770-2	Yaminahua	282	cross	12-770	[koros]; iβi kõyaika	iβi kõyaika	
 253272	282-12-780-1	Yaminahua	282	square	12-780	ṣ̌atɨ-sara	ṣ̌atɨ-sara	
 253273	282-12-810-1	Yaminahua	282	round	12-810	tokoro	tokoro	
 253274	282-12-820-1	Yaminahua	282	circle	12-820	toroa	toroa	
@@ -19604,7 +19604,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 253374	282-14-510-1	Yaminahua	282	hour	14-510	[ora]	ora	1
 253375	282-14-530-1	Yaminahua	282	clock, timepiece	14-530	ṣ̌ini tana-ti	ṣ̌ini tana-ti	
 253376	282-14-610-1	Yaminahua	282	week	14-610	[simãnã]	simãnã	1
-253377	282-14-620-1	Yaminahua	282	Sunday	14-620	pɨna tɨnɨ-ti; [tomĩko]	pɨna tɨnɨ-ti	1
+253377	282-14-620-1	Yaminahua	282	Sunday	14-620	pɨna tɨnɨ-ti; [tomĩko]	pɨna tɨnɨ-ti	
 253378	282-14-620-2	Yaminahua	282	Sunday	14-620	pɨna tɨnɨ-ti; [tomĩko]	tomĩko	1
 253379	282-14-630-1	Yaminahua	282	Monday	14-630	[ronĩs]	ronĩs	1
 253380	282-14-640-1	Yaminahua	282	Tuesday	14-640	[mãratis]	mãratis	1
@@ -19817,7 +19817,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 253587	282-18-730-1	Yaminahua	282	horn, trumpet	18-730	põo iti	põo iti	
 253588	282-18-740-1	Yaminahua	282	rattle	18-740	sakka sakka iti	sakka sakka iti	
 253589	282-19-110-1	Yaminahua	282	country	19-110	mai	mai	
-253590	282-19-150-1	Yaminahua	282	city, town	19-150	yora mani nii; [siona]	yora mani nii	1
+253590	282-19-150-1	Yaminahua	282	city, town	19-150	yora mani nii; [siona]	yora mani nii	
 253591	282-19-150-2	Yaminahua	282	city, town	19-150	yora mani nii; [siona]	siona	1
 253592	282-19-160-1	Yaminahua	282	village	19-160	nɨ̃tɨ	nɨ̃tɨ	
 253593	282-19-170-1	Yaminahua	282	boundary	19-170	nono sɨnɨ no	nono sɨnɨ no	
@@ -19872,7 +19872,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 253642	282-20-280-1	Yaminahua	282	gun, cannon	20-280	[mara]; [kayõ]	mara	1
 253643	282-20-280-2	Yaminahua	282	gun, cannon	20-280	[mara]; [kayõ]	kayõ	1
 253644	282-20-410-1	Yaminahua	282	victory	20-410	[kanã]; paɨni-kõi	kanã	1
-253645	282-20-410-2	Yaminahua	282	victory	20-410	[kanã]; paɨni-kõi	paɨni-kõi	1
+253645	282-20-410-2	Yaminahua	282	victory	20-410	[kanã]; paɨni-kõi	paɨni-kõi	
 253646	282-20-420-1	Yaminahua	282	defeat	20-420	βinani-ma	βinani-ma	
 253647	282-20-440-1	Yaminahua	282	defend	20-440	raɨ βa-kĩ	raɨ βa-kĩ	
 253648	282-20-450-1	Yaminahua	282	retreat	20-450	tɨɨ iki	tɨɨ iki	
@@ -19891,7 +19891,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 253661	282-20-640-1	Yaminahua	282	trap (noun)	20-640	[tarapa]	tarapa	1
 253662	282-21-310-1	Yaminahua	282	accuse	21-310	yõa-kĩ	yõa-kĩ	
 253663	282-21-370-1	Yaminahua	282	penalty, punishment	21-370	omis-kõi-ma-kĩ	omis-kõi-ma-kĩ	
-253664	282-21-390-1	Yaminahua	282	prison, jail	21-390	[karaṣ̌a]	karaṣ̌a	1
+253664	282-21-390-1	Yaminahua	282	prison, jail	21-390	[karaṣ̌a]	karaṣ̌a	
 253665	282-21-420-1	Yaminahua	282	murder	21-420	rɨtɨ-kĩ	rɨtɨ-kĩ	
 253666	282-21-510-1	Yaminahua	282	steal	21-510	yomɨc̷o-kĩ	yomɨc̷o-kĩ	
 253667	282-21-520-1	Yaminahua	282	thief	21-520	yomɨc̷o	yomɨc̷o	
@@ -20135,7 +20135,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 253905	283-3-960-1	Cayuvava	283	lizard	3-960	βa'rakaka	βa'rakaka	
 253906	283-3-970-1	Cayuvava	283	crocodile, alligator	3-970	'ɲatæ ~ nat	'ɲatæ	
 253907	283-3-970-2	Cayuvava	283	crocodile, alligator	3-970	'ɲatæ ~ nat	nat	
-253908	283-3-980-1	Cayuvava	283	turtle	3-980	bada; [ta'taruga]	bada	1
+253908	283-3-980-1	Cayuvava	283	turtle	3-980	bada; [ta'taruga]	bada	
 253909	283-3-980-2	Cayuvava	283	turtle	3-980	bada; [ta'taruga]	ta'taruga	1
 253910	283-4-110-1	Cayuvava	283	body	4-110	-uaβ; od-uaβ-a	-uaβ	
 253911	283-4-110-2	Cayuvava	283	body	4-110	-uaβ; od-uaβ-a	od-uaβ-a	
@@ -20266,7 +20266,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 254036	283-4-750-2	Cayuvava	283	die, dead	4-750	ua; adu'a-riče; yarua	adu'a-riče	
 254037	283-4-750-3	Cayuvava	283	die, dead	4-750	ua; adu'a-riče; yarua	yarua	
 254038	283-4-751-1	Cayuvava	283	drowned	4-751	hɨrɨ	hɨrɨ	
-254039	283-4-760-1	Cayuvava	283	kill	4-760	rɨrɨ; [β]u'ari	rɨrɨ	1
+254039	283-4-760-1	Cayuvava	283	kill	4-760	rɨrɨ; [β]u'ari	rɨrɨ	
 254040	283-4-760-2	Cayuvava	283	kill	4-760	rɨrɨ; [β]u'ari	βu'ari	1
 254041	283-4-770-1	Cayuvava	283	corpse	4-770	ǰuǰa	ǰuǰa	
 254042	283-4-780-1	Cayuvava	283	bury (the dead)	4-780	βariri	βariri	
@@ -20337,7 +20337,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 254107	283-5-380-1	Cayuvava	283	knife (2)	5-380	dɨβɨrɨ; ra'dɨβɨrɨ	dɨβɨrɨ	
 254108	283-5-380-2	Cayuvava	283	knife (2)	5-380	dɨβɨrɨ; ra'dɨβɨrɨ	ra'dɨβɨrɨ	
 254109	283-5-420-1	Cayuvava	283	breakfast	5-420	[de'hayuno]; payo	de'hayuno	1
-254110	283-5-420-2	Cayuvava	283	breakfast	5-420	[de'hayuno]; payo	payo	1
+254110	283-5-420-2	Cayuvava	283	breakfast	5-420	[de'hayuno]; payo	payo	
 254111	283-5-430-1	Cayuvava	283	lunch	5-430	pɨǰɨrɨ'eama	pɨǰɨrɨ'eama	
 254112	283-5-470-1	Cayuvava	283	sieve, strain	5-470	βo	βo	
 254113	283-5-480-1	Cayuvava	283	scrape	5-480	'βæβæræ; βo'rohi; tæko	'βæβæræ	
@@ -20417,7 +20417,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 254187	283-7-260-1	Cayuvava	283	floor	7-260	rada'roeke	rada'roeke	
 254188	283-7-270-1	Cayuvava	283	wall	7-270	rapɨ'pɨɲika	rapɨ'pɨɲika	
 254189	283-7-370-1	Cayuvava	283	ladder	7-370	si'karera	si'karera	
-254190	283-7-420-1	Cayuvava	283	bed	7-420	'raɲuka; [kɔ̃čɔ]	'raɲuka	1
+254190	283-7-420-1	Cayuvava	283	bed	7-420	'raɲuka; [kɔ̃čɔ]	'raɲuka	
 254191	283-7-420-2	Cayuvava	283	bed	7-420	'raɲuka; [kɔ̃čɔ]	kɔ̃čɔ	1
 254192	283-7-422-1	Cayuvava	283	blanket	7-422	pe'resara; rahahae	pe'resara	
 254193	283-7-422-2	Cayuvava	283	blanket	7-422	pe'resara; rahahae	rahahae	
@@ -21002,10 +21002,10 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 254772	283-19-150-1	Cayuvava	283	city, town	19-150	'idærɔ; ramohe	'idærɔ	
 254773	283-19-150-2	Cayuvava	283	city, town	19-150	'idærɔ; ramohe	ramohe	
 254774	283-19-160-1	Cayuvava	283	village	19-160	dærɔ	dærɔ	
-254775	283-19-210-1	Cayuvava	283	people (populace)	19-210	mei-'duaβa; [kiri'tiano]	mei-'duaβa	1
+254775	283-19-210-1	Cayuvava	283	people (populace)	19-210	mei-'duaβa; [kiri'tiano]	mei-'duaβa	
 254776	283-19-210-2	Cayuvava	283	people (populace)	19-210	mei-'duaβa; [kiri'tiano]	kiri'tiano	1
 254777	283-19-240-1	Cayuvava	283	chief, chieftain	19-240	[kasiki]; 'tedede	kasiki	1
-254778	283-19-240-2	Cayuvava	283	chief, chieftain	19-240	[kasiki]; 'tedede	'tedede	1
+254778	283-19-240-2	Cayuvava	283	chief, chieftain	19-240	[kasiki]; 'tedede	'tedede	
 254779	283-19-410-1	Cayuvava	283	master	19-410	-βairi; apa	-βairi	
 254780	283-19-410-2	Cayuvava	283	master	19-410	-βairi; apa	apa	
 254781	283-19-450-1	Cayuvava	283	command, order	19-450	-basiri-; si	-basiri-	
@@ -21039,7 +21039,7 @@ ID	FORM_ID	DOCULECT	DOCULECT_ID	CONCEPT	CONCEPT_ID	VALUE	FORM	BORROWING
 254809	283-20-620-1	Cayuvava	283	shoot	20-620	bibiki; bikiri	bibiki	
 254810	283-20-620-2	Cayuvava	283	shoot	20-620	bibiki; bikiri	bikiri	
 254811	283-21-160-1	Cayuvava	283	judge (vb)	21-160	[hoese]; puǰu	hoese	1
-254812	283-21-160-2	Cayuvava	283	judge (vb)	21-160	[hoese]; puǰu	puǰu	1
+254812	283-21-160-2	Cayuvava	283	judge (vb)	21-160	[hoese]; puǰu	puǰu	
 254813	283-21-350-1	Cayuvava	283	guilty	21-350	βudu; ra-βudu	βudu	
 254814	283-21-350-2	Cayuvava	283	guilty	21-350	βudu; ra-βudu	ra-βudu	
 254815	283-21-370-1	Cayuvava	283	penalty, punishment	21-370	bokororo	bokororo	

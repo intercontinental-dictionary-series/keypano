@@ -1,0 +1,570 @@
+Threshold: 0.40.
+Language        Family           Concept                Assessment    Tokens
+--------------  ---------------  ---------------------  ------------  ---------------------------------------------------------
+MashcoPiro      Arawakan         deaf                   FN            m a ʃ o n t i
+                                 match (noun)           FN            p o s p o ɾ o
+                                 nail                   FN            k l a w o
+                                 paper                  FN            k i ɾ ɨ k a
+                                 rice                   FN            h a ɾ o s o
+                                 salt                   FN            t ɨ w ɨ
+                                 soap                   FN            h a w o
+                                 thousand               FN            w a ɾ a n k a
+Aymara          Aymaran          adobe                  FN            a ɾ u w i
+                                 ass, donkey            FN            a s n u
+                                 bake                   FN            x u ɾ n u + ɲ a
+                                 banana tree            FN            l a t a n u
+                                 beer                   FN            s i ɾ w i s a
+                                 boot                   FN            pʰ u t a s a
+                                 button                 FN            w u t u n a
+                                 cheek                  FN            m i x i lʲ a
+                                 crocodile, alligator   FN            qʼ u q u t ɾ i lʲ u
+                                 earring                FN            a ɾ i t i
+                                 elephant               FN            i l i pʰ a n t i
+                                 furrow                 FN            s u k a
+                                 glove                  FN            w a n t i s a
+                                 goat                   FN            tʃ i w a
+                                 horse (equine)         FN            k a w a lʲ u
+                                 howl                   FN            a w u lʲ i + ɲ a
+                                 linen, flax            FN            l i n u
+                                 mill                   FN            m u l i n u
+                                 nephew                 FN            s u w ɾ i n u
+                                 niece                  FN            s u w ɾ i n u
+                                 oil                    FN            a s i j t i
+                                 olive                  FN            a s i j t u n a
+                                 pocket                 FN            w u l s i k u
+                                 relatives, kinsmen     FN            p a ɾ i n t i
+                                 sea                    FN            l a m a ɾ a
+                                 sickle, scythe         FN            x u s i
+                                 skirt                  FN            pʰ a l t a
+                                 spade                  FN            l a m p a
+                                 stocking, sock         FN            k a l s i t i n a
+                                 sugar                  FN            a s u k a ɾ a
+                                 tongs                  FN            t i n a s a
+                                 trousers               FN            p a n t a l u n a
+                                 turtle                 FN            t u ɾ t u k a
+                                 wine                   FN            w i n u
+                                 yoke                   FN            j u k u
+Cayuvava        Cayubaba         bed                    FN            k ɔ̃ tʃ ɔ
+                                 boat                   FN            l ã tʃ a
+                                 bread                  FN            p ã a
+                                                        FN            n a p æ p æ
+                                                        FN            o ɾ n e a o
+                                 breakfast              FN            d e h a j u n o
+                                 chief, chieftain       FN            k a s i k i
+                                 citrus fruit           FN            n a ɾ a s a
+                                                        FN            ɾ i m o
+                                 cow                    FN            β a k a
+                                 dough                  FN            m a s a
+                                 fishnet                FN            t a ɾ a f a
+                                 judge (vb)             FN            h o e s e
+                                 kill                   FN            β u a ɾ i
+                                 market (place)         FN            m e k a d o
+                                 netbag                 FN            s u ɾ u m a e
+                                                        FN            s u l u m a
+                                 pay (vb)               FN            p a g a
+                                 people (populace)      FN            k i ɾ i t i a n o
+                                 priest                 FN            p aː h e
+                                 ram                    FN            t o ɾ o + β e s a
+                                 sheep                  FN            β eː s a
+                                 ship                   FN            β a p o
+                                 soap                   FN            h a β o n o
+                                 stranger               FN            t ɾ ã h e ɾ o
+                                 turtle                 FN            t a t a ɾ u g a
+PacaasNovos     Chapacuran       salt                   FN            s a l
+Aguaruna        Chicham          Sunday                 FN            t u m i g
+                                 adze                   FN            a s ɨ w a i
+                                 belt, girdle           FN            s ɨ n tʃ u
+                                 blanket                FN            p u n tʃ u
+                                 board                  FN            t aː p n a
+                                 book                   FN            p a p i
+                                 brush                  FN            t aː p n a + k ɨ s a + t a i
+                                 button                 FN            b u t u g
+                                 canoe                  FN            k a n u
+                                 carpenter              FN            t aː p n a + t a k a u
+                                 cat                    FN            b i ʃ u
+                                 citizen, subject       FN            a ɨ n ts + p a p i h i + a ʃ i + a h + a m u
+                                 debt                   FN            d i w i
+                                                        FN            d i w i + m k a g t + a m u
+                                 goose                  FN            a p a tʃ + p a t u
+                                 handkerchief, rag      FN            p a ɲ u
+                                 key                    FN            j a w i
+                                 knife                  FN            k u tʃ i
+                                 knife (2)              FN            k u tʃ i
+                                 mare                   FN            k a w a j u + n u w ɨ
+                                 mirror                 FN            i s p i h u
+                                 needle                 FN            a u h
+                                 paper                  FN            p a p i
+                                 pupil                  FN            p a p i + h a m
+                                 read                   FN            p a p i + a u h u t
+                                 rice                   FN            a h u s
+                                 sausage                FN            k u tʃ i + n ɨ h ɨ + a m p u h i n + tʃ i m p i k + b a u
+                                 school                 FN            p a p i + a u h + t a i
+                                 shoe                   FN            s a p a t
+                                 shoemaker, cobbler     FN            s a p a t i n + n a h a n i n
+                                 sing                   FN            k a n t a m a t
+                                 soap                   FN            h a p u g
+                                 spoon                  FN            k u tʃ a g
+                                 stallion               FN            k a w a j u + a p a + h i
+                                 sword                  FN            m a tʃ i t + ts a k a s k a t u
+Itonama         Itonama          Friday                 FN            w i e ɾ e n e
+                                 Monday                 FN            u l u n e
+                                 Saturday               FN            s a w a ɾ o
+                                 Sunday                 FN            l o m i k o
+                                 Tuesday                FN            m a ɾ i t i
+                                 Wednesday              FN            m i e k o ɾ a
+                                 cattle (bovine)        FN            j a k a w a k a ʔ n a
+                                 cock, rooster          FN            k o p o n e
+                                 four                   FN            k u w a t u ɾ u
+                                 horse (equine)         FN            k a w a j u
+                                 lion                   FN            o + l e j o n o
+                                 milk (noun)            FN            o + l i tʃ i
+                                 ox                     FN            a + w ɨ j e
+                                 rice                   FN            w a ɾ u s u
+                                 soap                   FN            w a h w o n o
+                                 sugar                  FN            w a s u k a
+Moseten         Mosetén-Chimané  Thursday               FN            f w e b e ʃ
+                                 axle                   FN            e h e
+                                 board                  FN            t a b r a
+                                 book                   FN            r i w r o
+                                 borrow                 FN            p r e s t a + j e w a
+                                 candle                 FN            b e r a
+                                 change                 FN            k a m b j a + t a k
+                                 chief, chieftain       FN            h e f e
+                                 coin                   FN            f i tʃ a
+                                 cookhouse              FN            k o s i h n a
+                                 firefly                FN            k o j o j o ʔ
+                                 fishing line           FN            r i n j a
+                                 fork (2)               FN            t r i n tʃ i
+                                 hat, cap               FN            ʃ o m e r o r o
+                                 he-goat                FN            tʃ i b o
+                                 horse (equine)         FN            k a b a j u
+                                 iron                   FN            f j e r o
+                                 key                    FN            dʲ a b e
+                                 king, ruler            FN            a j i o
+                                 knife                  FN            k u tʃ i n o
+                                                        FN            k u tʃ i ɲ o
+                                 line                   FN            e r i n j a
+                                 livestock              FN            w a k a + ʔ i n
+                                 market (place)         FN            m a r k a t u k
+                                 match (noun)           FN            p a f e r a
+                                 merchant               FN            k a m b j a ʔ r a + p a e r æ j i
+                                 milk (noun)            FN            e r e tʃ e
+                                 mirror                 FN            e h p e x o
+                                 oats                   FN            a b e n a
+                                 orphan                 FN            w a tʃ a ɲ
+                                 owe                    FN            d e b e + t u n j œ
+                                 ox                     FN            b w e j e
+                                 penalty, punishment    FN            k a h t i g o
+                                 pepper                 FN            p i mʲ e n t a
+                                 pig                    FN            k u ts i
+                                 pocket                 FN            w o r s i r i o
+                                 pray                   FN            e r e s o
+                                 read                   FN            p e j a k i + p a p e r + tʃ e
+                                 ride                   FN            k a w a j o + tʃ e
+                                 ring (for finger)      FN            s o n t i k a
+                                 school                 FN            i ʃ k w e r a
+                                 sheep                  FN            o b e k a
+                                 soldier                FN            s o n d a r o
+                                 sow (2)                FN            k u ts i
+                                 sphere, ball           FN            b o r a
+                                 stir, mix              FN            k u tʃ a n a k i
+                                 store, shop            FN            k j e n d a
+                                 swamp                  FN            k u r i tʃ i
+                                 temple, church         FN            e g r e s j a
+                                                        FN            e r e s j a
+                                 today                  FN            õ i
+                                 towel                  FN            t o a j a
+                                 trade, barter          FN            k a m b i j a
+                                 udder                  FN            t aː ʃ i n + w a k a s
+                                 victory                FN            g a n a i
+                                 weapons, arms          FN            f o s i r + m œ ʔ i n
+                                 whale                  FN            b a j e n a
+                                 wheat                  FN            t r i w o
+                                 wheel                  FN            k a r e t o
+                                 wood                   FN            t a b r a
+Movima          Movima           Friday                 FN            m i e ɾ e n e s
+                                 God                    FN            d i o s
+                                 Saturday               FN            s a w a ð o
+                                 Sunday                 FN            l o m i k o
+                                 Thursday               FN            w e β e s
+                                 Tuesday                FN            m a ɾ e t e s
+                                 Wednesday              FN            m i e ɾ k o l e s
+                                 altar                  FN            a l t a ɾ e
+                                 board                  FN            t a u l a
+                                 button                 FN            w o t o n e
+                                 chair                  FN            s i j a
+                                 citrus fruit           FN            l i m o
+                                 clock, timepiece       FN            r e l o
+                                 coin                   FN            r e a l
+                                 ditch                  FN            s a n h a
+                                 elephant               FN            e l e p a n t e
+                                 fast (vb)              FN            a j u n a + t i ʔ i
+                                 flesh                  FN            w a k a
+                                 flute                  FN            p o l a u t a
+                                 foolish, stupid        FN            s o n + s o
+                                 goat                   FN            tʃ i β o
+                                 iron                   FN            h i j e ɾ o
+                                 mirror                 FN            e s p e h o
+                                 money                  FN            p o l a t a
+                                 nail                   FN            k a l a β o
+                                 ointment               FN            p o m a ð a
+                                 ox                     FN            w e j e
+                                 pocket                 FN            β o s i j a
+                                 poison                 FN            β e n e n o
+                                 rice                   FN            a ɾ o s o
+                                 school                 FN            e s kʷ e l a
+                                 scissors, shears       FN            t i h e ɾ a
+                                 sheep                  FN            m a s a
+                                 silver                 FN            p o l a t a
+                                 smoke (tobacco)        FN            s e k a ɾ u + n a
+                                 soap                   FN            h a w o l
+                                 soldier                FN            s o l ð a o
+                                 stable, stall          FN            k a w a j o + w a n ð i
+                                 stallion               FN            p o ɾ t ɾ o
+                                 store, shop            FN            t i e n ð a
+                                 tax, tribute           FN            m u l t a
+                                 temple, church         FN            e l e s i j a
+                                 up, above              FN            a ɾ i w a
+                                 wine                   FN            w i n o
+Araona          Pano-Tacanan     goat                   FN            tʃ i b a
+                                 hour                   FN            o l a
+                                 knife                  FN            kʷ i ʃ i l o
+                                 knife (2)              FN            kʷ i ʃ i l o
+                                 rice                   FN            a l o s o
+Catuquina                        Friday                 FN            s i s t a
+                                 Monday                 FN            s e g u n d a
+                                 Saturday               FN            s a β a
+                                 Sunday                 FN            t o m ĩ k o + β a ɾ i
+                                 Thursday               FN            k ĩ t a
+                                 Tuesday                FN            t i s a
+                                 Wednesday              FN            kʷ a t a
+                                 bean                   FN            tʃ i tʃ ã o
+                                 bed                    FN            k a m a
+                                 belt, girdle           FN            s ĩ t o ɾ ã o
+                                 boot                   FN            b o t a
+                                 bull                   FN            β o i + β ɨ n ɨ
+                                 calf                   FN            β o i + β a k ɨ
+                                 carriage, wagon, cart  FN            k a r o
+                                 cattle (bovine)        FN            β o i
+                                 chain                  FN            k o r e n t e
+                                 city, town             FN            s i d a d e
+                                 cow                    FN            β o i + a ĩ
+                                 dinner                 FN            a l m o s o
+                                 gun, cannon            FN            ɾ i p i
+                                 hoe                    FN            e n tʃ a d o
+                                 key                    FN            tʃ a β i
+                                 lead (noun)            FN            p a ɾ a
+                                 merchant               FN            h i k a t ã o
+                                 nut                    FN            k a s t ã j a
+                                 owe                    FN            d e β i ʔ a
+                                 ox                     FN            β o i
+                                 pasture                FN            k a m p o
+                                 physician              FN            m ɨ d i k o
+                                 retard, delay          FN            ĩ p a t a
+                                 salt                   FN            s a o
+                                 salty                  FN            s a o + k o ĩ n ã k a
+                                 ship                   FN            w a p o
+                                 stocking, sock         FN            m e i a
+                                 store, shop            FN            l o dʒ a + l o j a
+                                 sugar                  FN            a s o k a
+                                 supper                 FN            dʒ a n t a + j a n t a
+                                 table                  FN            m e s a
+                                 village                FN            a l d e i a
+                                 wheel                  FN            k a r o + n õ + t a ʔ ɨ
+Cavinena                         Friday                 FN            w i e ɹ e n e ʃ i
+                                 God                    FN            j o s o
+                                 Monday                 FN            ɹ o n e ʃ i
+                                 Sunday                 FN            d o m i k o
+                                 Thursday               FN            w e w e ʃ i
+                                 Tuesday                FN            m a ɹ t e ʃ i
+                                 Wednesday              FN            m i ɹ i k o ɹ e ʃ i
+                                 belt, girdle           FN            s i n t o ɹ o
+                                 board                  FN            t a o ɹ a
+                                 calf                   FN            w a k a + h a + b a kʷ a
+                                 citrus fruit           FN            ɹ i m o
+                                 clock, timepiece       FN            o ɹ a
+                                 cross                  FN            k o ɹ o s o
+                                 cup, drinking vessel   FN            p e ɹ o ɹ a
+                                 goat                   FN            o w i ʃ a
+                                 hoe                    FN            a s u e ɹ a
+                                 hour                   FN            o ɹ a
+                                 idol                   FN            j o s o + kʷ a n a
+                                 kettle                 FN            p e ɹ o ɹ a
+                                 knife                  FN            k o tʃ i ɹ o + k a k a
+                                 knife (2)              FN            k o tʃ i ɹ o + k a k a
+                                 leather                FN            w a k a + b i t i
+                                 milk (vb)              FN            l e tʃ e + h o + j a
+                                 mold (clay etc)        FN            m o d e
+                                 new                    FN            i + j a kʷ a + k e
+                                 now                    FN            i j a kʷ a
+                                 ox                     FN            h o j e
+                                 pray                   FN            j o s a + m i m i
+                                 rice                   FN            a ɹ o s o
+                                 saw                    FN            s e ɹ o tʃ o
+                                 sheep                  FN            o w i ʃ a
+                                 soldier                FN            s o d a ɹ o
+                                 statue                 FN            j o s o kʷ a n a
+                                 sugar                  FN            a s o k a
+                                 temple, church         FN            i ɹ i ʃ a
+                                 today                  FN            i j a kʷ a + w e k a k a
+                                 trousers               FN            k a ɹ o s o n e
+                                 window                 FN            w e t a n a
+                                 wood                   FN            t a o ɹ a
+Chacobo                          book                   FN            p a p i
+                                 coin                   FN            p a ɾ a t a
+                                 heart                  FN            h o w i t i
+                                 money                  FN            p a ɾ a t a
+                                 paper                  FN            p a p i
+                                 plate                  FN            ɾ a t a
+                                 read                   FN            p a p i + ts a j a
+                                 rich                   FN            p a ɾ a t a + j a
+                                 trousers               FN            p a t a ɾ o
+                                 write                  FN            p a p i + k ɨ n ɨ
+EseEjja                          chicken                FN            k a tʃ i n a + h a + β a kʷ a
+                                 cock, rooster          FN            k a tʃ i n a + j a w e
+                                 hen                    FN            k a tʃ i n a
+                                 horn, trumpet          FN            w a k a ʃ e ʔ a n a
+                                 horse (equine)         FN            m o n a
+                                 leather                FN            w a k a h e
+                                 paper                  FN            p a p e n i
+                                 rice                   FN            a n o s o
+HuarayoEseEjja                   rabbit                 FN            ʃ a x a + m i s i
+ShipiboConibo                    God                    FN            ɻ i o s
+                                 barley                 FN            s i β a ɻ a
+                                 bless                  FN            β i n i ɻ i s ĩ + t i
+                                 bull                   FN            w a k a + β ɨ n ɨ
+                                 button                 FN            β o t o n i s
+                                 calf                   FN            w a k a + β a k ɨ
+                                 camel                  FN            k a m i tʃ o
+                                 carpenter              FN            k a ɻ a p ĩ t i ɻ o
+                                 carriage, wagon, cart  FN            k a ɻ i t i
+                                 chain                  FN            k a ɻ i n ã
+                                 clock, timepiece       FN            ɻ i ɻ o s
+                                 copper, bronze         FN            β o ɻ õ s i
+                                 goat                   FN            tʃ i β o
+                                 goose                  FN            k ã s o
+                                 he-goat                FN            tʃ i β o
+                                 ice                    FN            iː ɻ o
+                                 key                    FN            tʃ a β i
+                                 lamb                   FN            k a ɻ a n i ɻ o + β a k ɨ
+                                 lion                   FN            ɻ i õ
+                                 market (place)         FN            m i ɻ i k a t o
+                                 match (noun)           FN            h o s p o ɻ o
+                                 mirror                 FN            i s p i k o
+                                 netbag                 FN            b o ɻ o s a
+                                 physician              FN            ɻ o k o t o ɻ o
+                                 prison, jail           FN            k a ɻ a s i ɻ a
+                                 rabbit                 FN            k o n i h o
+                                 school                 FN            i s ts o i ɻ a
+                                 sheep                  FN            o β i h a
+                                 shield                 FN            i s k o ɻ o
+                                 soap                   FN            h a β õ
+                                 soldier                FN            s õ t a ɻ o
+                                 temple, church         FN            i k i ɻ i s i a
+                                 twelve                 FN            ɻ o s i n a
+                                 week                   FN            s i m a n ã
+                                 wheat                  FN            t i ɻ i k o
+                                 wool                   FN            ɻ a n i
+Tacana                           God                    FN            d i o s o
+                                 animal                 FN            a n i m a l o
+                                 ass, donkey            FN            a s o n o
+                                 candle                 FN            k a i t e ɾ a
+                                 citrus fruit           FN            ɾ i m o
+                                 clock, timepiece       FN            ɾ e l o h o
+                                 hour                   FN            o ɾ a
+                                 knife                  FN            k o tʃ i ɾ o
+                                 knife (2)              FN            k o tʃ i ɾ o
+                                 match (noun)           FN            p a h o e l a
+                                 needle                 FN            a k o ʃ a
+                                 orphan                 FN            w a k i tʃ a
+                                 ox                     FN            h o j e
+                                 pig                    FN            k o tʃ i
+                                 rice                   FN            a ɾ o s o
+                                 sheep                  FN            w i ʃ a
+                                 statue                 FN            d i o s o + e i m i a
+                                 stranger               FN            w i ɾ a + k o tʃ a
+                                 table                  FN            m i ʃ a
+                                 temple, church         FN            i l i ʃ a
+Yaminahua                        Friday                 FN            m i ɾ i n ĩ s
+                                 God                    FN            n i o s
+                                 Saturday               FN            s a β a ɾ o
+                                 Sunday                 FN            t o m ĩ k o
+                                 Thursday               FN            β o i m i s
+                                 Tuesday                FN            m ã ɾ a t i s
+                                 Wednesday              FN            m ĩ ɾ i k o ɾ i s
+                                 anvil                  FN            k õ m a
+                                 army                   FN            s o ɾ a ɾ o + m i s + β o
+                                 ass, donkey            FN            m o ɾ a
+                                 beer                   FN            s i ɾ i m i s a
+                                 belt, girdle           FN            s i t o ɾ a
+                                 blanket                FN            ɾ a s a ɾ a
+                                 board                  FN            t a β a ɾ a
+                                 boat                   FN            m o t i
+                                 boot                   FN            m o t a
+                                 bowl                   FN            t a s õ
+                                 brick                  FN            ɾ a n i ɾ i j o
+                                 brush                  FN            s i p i tʃ o
+                                 bull                   FN            β a k k a + β ɨ n ɨ
+                                 button                 FN            tʃ o p a + β ɨ ɾ o
+                                 camel                  FN            k a m ĩ tʃ o
+                                 candle                 FN            m i ɾ a
+                                 canoe                  FN            k a n õ a
+                                 carriage, wagon, cart  FN            k a ɾ a t i tʃ a
+                                 cattle (bovine)        FN            β a k k a
+                                 city, town             FN            s i o n a
+                                 coin                   FN            k o ɾ i + ɨ ʂ ɨ
+                                 cow                    FN            β a k k a
+                                 debt                   FN            n i m i + a
+                                 drum                   FN            t ã p o ɾ i
+                                 earn                   FN            k o ɾ i + k a n ã + k ĩ
+                                 elephant               FN            i ɾ i β ã t i
+                                 eleven                 FN            õ s iː
+                                 ewe                    FN            o m i h a + k ɨ ɾ o
+                                 fifteen                FN            k ĩ s i
+                                 fish poison (root)     FN            β a ɾ a β a s k o
+                                 fisherman              FN            t a ɾ a β a + n ã + β i + m i s + β o
+                                 fishing line           FN            n ã i ɾ õ
+                                 fishnet                FN            t a ɾ a β a
+                                                        FN            ɾ i n i
+                                 five                   FN            s ĩ k k o
+                                 foal, colt             FN            k a β a j o + β a k ɨ
+                                 four                   FN            k o a t o ɾ o
+                                 goat                   FN            k a ɾ i n ĩ ɾ o
+                                 grape                  FN            o m a
+                                 guard, sentinel        FN            k o a ɾ a n i a
+                                 gun, cannon            FN            m a ɾ a
+                                                        FN            k a j õ
+                                 hammer                 FN            m ã ɾ i t i tʃ o
+                                 handkerchief, rag      FN            p ã j o i ɾ a
+                                 he-goat                FN            k a ɾ i n ĩ ɾ o + β ɨ n ɨ
+                                 hundred                FN            s i t o s iː
+                                                        FN            s ĩ
+                                 kettle                 FN            t i t i ɾ a
+                                 key                    FN            tʃ a m i s
+                                 kid                    FN            k a ɾ i n ĩ ɾ o + β a k ɨ
+                                 lamb                   FN            o m i h a + β a k ɨ
+                                 lamp, torch            FN            ɾ ã p a ɾ i
+                                                        FN            k i ɾ o s i
+                                 lead (noun)            FN            p o ɾ o m ã
+                                 lion                   FN            ɾ i j õ
+                                 mare                   FN            k a β a j o + k ɨ ɾ o
+                                 market (place)         FN            m ĩ ɾ i k a n õ
+                                 money                  FN            k o ɾ i
+                                                        FN            k o ɾ i + p ɨ i
+                                 nine                   FN            n õ β i
+                                 oats                   FN            a m i n ã
+                                 owe                    FN            n i m i + k ĩ
+                                 paint (noun)           FN            p ĩ t o ɾ a
+                                 pair                   FN            p a ɾ
+                                 physician              FN            n o t o ɾ o
+                                 pot, cooking vessel    FN            o tʃ a + m ɨ β ɨ + t i
+                                 pray                   FN            n i o s + k ĩ β i + k ĩ
+                                 ram                    FN            k a ɾ a n ĩ ɾ o
+                                 ring (for finger)      FN            a n ĩ tʃ a
+                                 school                 FN            i s k o i ɾ a + i + t i
+                                 seven                  FN            s i t i
+                                 sheep                  FN            o m i h a
+                                 ship                   FN            m o t i + p a + β a
+                                 shovel                 FN            p a ɾ a
+                                 six                    FN            s a i s
+                                 soldier                FN            s o ɾ a ɾ o
+                                 sow (2)                FN            k o tʃ i + k ɨ ɾ o
+                                 spade                  FN            p a ɾ a
+                                 stallion               FN            k a β a j o + β ɨ n ɨ
+                                 store, shop            FN            k a t i n ã
+                                 sugar                  FN            a s o k a
+                                 sugar cane             FN            k a ɲ a
+                                 teacher                FN            m ã i s t o ɾ o
+                                 temple, church         FN            n i o s + p ɨ ʃ ɨ
+                                                        FN            n i o s + j o i + t i + p ɨ ʂ ɨ
+                                 ten                    FN            n iː s
+                                 tent                   FN            k a ɾ a p a
+                                 thousand               FN            m ĩ ɾ i
+                                 thread                 FN            i ɾ o
+                                 three                  FN            t i ɾ i s
+                                 towel                  FN            t o a j o
+                                 trap (noun)            FN            t a ɾ a p a
+                                 twelve                 FN            n o s i
+                                 twenty                 FN            m i t i
+                                 victory                FN            k a n ã
+                                 wages                  FN            k o ɾ i + t a n a + t i
+                                 week                   FN            s i m ã n ã
+                                 wheel                  FN            k a ɾ o + t a ɨ
+Yagua           Peba-Yagua       Friday                 FN            b j e ɾ n e s i
+                                 God                    FN            ɾ i s u
+                                 Saturday               FN            s a w a ɾ u
+                                 Sunday                 FN            t u m i k j u + ɾ u n d a
+                                 Thursday               FN            h u e w e s i
+                                 Tuesday                FN            m a ɾ t i s i
+                                 Wednesday              FN            m j e ɾ k u d i
+                                 ass, donkey            FN            k a w a ɲ u
+                                 blanket                FN            k o d i h a j
+                                 boat                   FN            w a p u ɾ u
+                                 boot                   FN            s a p a t u p o
+                                 bull                   FN            w o k a + w a n u
+                                 calf                   FN            w o k a + d e ɾ a
+                                 camel                  FN            k a m e ɲ u
+                                 cat                    FN            m i tʃ i
+                                 chain                  FN            k a d i d j a h ũ
+                                 coat                   FN            s a k u
+                                 coin                   FN            k ɾ i k i d j e
+                                 copper, bronze         FN            b ɾ u n s i
+                                 cow                    FN            w o k a
+                                 cross                  FN            k u ɾ i s i
+                                 debt                   FN            d i w j i tʃ a ɾ a
+                                 earn                   FN            k ã n ã j
+                                 ewe                    FN            k a ɾ n ĩ ɾ u + w a t u ɾ a
+                                 foal, colt             FN            k a w a ɲ u + d e ɾ a
+                                 friend, companion      FN            h a m j i
+                                 glass                  FN            p u t i j a
+                                 goat                   FN            k a ɾ n ĩ ɾ u + w a n u
+                                 gold                   FN            h o ɾ o
+                                 handkerchief, rag      FN            p ã ɲ ĩ
+                                 he-goat                FN            k a ɾ n ĩ ɾ u + w a n u
+                                 horse (equine)         FN            k a w a ɲ u
+                                 hour                   FN            h o ɾ a
+                                                        FN            w o ɾ a
+                                 key                    FN            j e w j i
+                                 kid                    FN            k a ɾ n ĩ ɾ u + d e ɾ a
+                                 king, ruler            FN            h a p u
+                                 lamb                   FN            k a ɾ n ĩ ɾ u + d e ɾ a
+                                 mare                   FN            k a w a ɲ u + w a t u ɾ a
+                                 merchant               FN            ɾ i k j a t ũ
+                                 mule                   FN            k a w a ɲ u
+                                 oats                   FN            kʷ a k e
+                                 oven                   FN            h u ɾ u n u
+                                 owe                    FN            s a + d i w j i
+                                 ox                     FN            w o k a + m i s t j a s ĩ
+                                 pipe                   FN            k a tʃ ĩ p u
+                                 poncho                 FN            k u ʃ m a
+                                 priest                 FN            k a s e ɾ d o t e
+                                                        FN            p ã t i ɾ i
+                                 rabbit                 FN            k o n e h o
+                                 razor                  FN            n a w a j u
+                                 rice                   FN            h a ɾ u s i
+                                 room                   FN            kʷ a ɾ t o s i
+                                 rudder                 FN            t i m j ũ
+                                 saw                    FN            s i ɾ j a
+                                 sheep                  FN            k a ɾ n ĩ ɾ u
+                                 ship                   FN            w a p u ɾ u
+                                 shoemaker, cobbler     FN            s a p a t u h w a ɲ u
+                                 silk                   FN            s e d a h a j
+                                 silver                 FN            k u ɾ u k i
+                                                        FN            k u ɾ i k i
+                                 slave                  FN            m u tʃ e tʃ i
+                                 soap                   FN            h a w ũ
+                                 soldier                FN            s ũ t a ɾ u
+                                 sow (2)                FN            k u tʃ i t j o d a
+                                 spoon                  FN            k u tʃ e ɾ a
+                                 stallion               FN            k a w a ɲ u + w a n u
+                                 store, shop            FN            t ĩ n t a
+                                 stove                  FN            k u s i ɲ u
+                                 sugar                  FN            h a s u k a
+                                 table                  FN            m ĩ s a
+                                 temple, church         FN            p ã t i ɾ i + ɾ o ɾ i
+                                 tin, tinplate          FN            d a t a
+                                 udder                  FN            w o k a + h ĩ t j ã
+                                 victory                FN            k ã n ã j a d a
+                                 wages                  FN            k ã n ã tʃ a ɾ a
+                                 week                   FN            s i m j a n u
+                                 wine                   FN            b i n u h ã
