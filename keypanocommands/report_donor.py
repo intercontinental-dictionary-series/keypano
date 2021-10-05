@@ -11,10 +11,12 @@ from itertools import product
 from tabulate import tabulate
 from pylexibank import progressbar
 import keypanocommands.util as util
+import keypanocommands.report as report
 
 
-def construct_alignments(wl, mode, donors):
+def construct_alignments(wl, model, mode, donors):
     # Construct borrowing-bookkeeping structure
+
     bb = {doculect: {} for doculect in wl.cols
           if not any((lambda x, y: x in y)(donor, doculect) for donor in donors)}
 
@@ -31,22 +33,25 @@ def construct_alignments(wl, mode, donors):
                     # Combination of donor and doculect entries.
                     wordA, wordB = wl[idxA, "tokens"], wl[idxB, "tokens"]
                     pair = Pairwise(wordA, wordB)
-                    pair.align(distance=True, mode=mode)
+                    pair.align(distance=True, model=model, mode=mode)
                     dist = pair.alignments[0][2]
-                    # Save donor word reference to store.
+                    # Save donor word reference to store.  Save loanword status to store.
                     bb[doculect][concept][idxB] += [(donor, dist, wordA)]
 
     return bb
 
 
-def screen_word_hits(tmp_words, delta_threshold):
+def screen_word_hits(tmp_words, threshold, delta_threshold):
     # Organize according to requirements of discrimination between donors.
     # Get index of min distance word.
     min_idx = min(enumerate(tmp_words), key=lambda x: x[1][1])[0]
     min_dist = tmp_words[min_idx][1]
+    min_idx = min_idx if min_dist < threshold else None
     tmp_words_ = []
     for idx, row in enumerate(tmp_words):
-        if idx == min_idx:
+        if not min_idx:
+            tmp_words_ += [row + ['']]
+        elif idx == min_idx:
             tmp_words_ += [row + ['*']]
         elif row[1] <= min_dist+delta_threshold:
             tmp_words_ += [row + ['-']]
@@ -55,12 +60,117 @@ def screen_word_hits(tmp_words, delta_threshold):
     return tmp_words_
 
 
+def order_words_table(table):
+    # Sort table by family.  Stable sort so rest of order should be OK.
+    # Change unchanged fields to blank after sort for better presentation.
+    table = sorted(table, key=lambda table_row: table_row[0])
+    ordered_words = []
+    family = ''
+    language = ''
+    concept = ''
+    word = ''
+    for row in table:
+        family_ = row[0] if family != row[0] else ''
+        family = row[0]
+        language_ = row[1] if language != row[1] else ''
+        language = row[1]
+        concept_ = row[2] if concept != row[2] else ''
+        concept = row[2]
+        word_ = row[3] if word != row[3] else ''
+        word = row[3]
+        borrowed_ = 'True' if row[4] and word_ else 'False' if not row[4] and word_ else ''
+
+        ordered_words.append([family_, language_, concept_, word_, borrowed_] + row[5:9])
+
+    return ordered_words
+
+
+def report_pairwise_distance(words_table, threshold, output, series, first_time=True):
+    # Remove redundant use of family, language, concept, and word.
+    words = order_words_table(words_table)
+    # Report out.
+    headers = ["Family", "Language", "Concept", "Word", "Borrowed",
+               "Donor", "Distance", "Donor word", "Marker"]
+    words_table = tabulate(words, headers=headers, tablefmt="simple")
+    filename = f"{series}{'-' if series else ''}distance-{threshold:0.3f}.txt"
+    filepath = Path(output).joinpath(filename).as_posix()
+    with open(filepath, 'w' if first_time else 'a') as f:
+        print(f"Threshold: {threshold:0.3f}.", file=f)
+        print(words_table, file=f)
+        print(file=f)
+
+
+def report_donor_proportions(proportions, threshold, delta_threshold, donors):
+
+    print(f"\nPairwise alignment with threshold {threshold:0.3f} and "
+          f"delta threshold {delta_threshold:0.2f}.")
+    headers = ["Language", "Family", "Concepts"] + [
+        donor for donor in donors] + ['Combined'] + [
+                  donor + 'P' for donor in donors] + ['CombinedP']
+
+    print(tabulate(
+        sorted(proportions, key=lambda x: (x[1], x[0])),
+        headers=headers, tablefmt="pip", floatfmt=".2f"))
+
+
+def report_pairwise_detection(all_words, threshold):
+    # print(all_words[:10])
+    languages = sorted(set(row[1] for row in all_words))
+    families = sorted(set(row[0] for row in all_words))
+    # Report detection metrics by language
+    # language, family, concept, word, pred, loan in all_words:
+    pred = [1 if row[4] else 0 for row in all_words]
+    loan = [1 if row[5] else 0 for row in all_words]
+    q = util.prf(pred, loan)
+
+    def calculate_metrics_table(table, lu_units, lu_idx):
+        metrics_ = []
+        for lu in lu_units:
+            pred_ = [1 if row[4] else 0 for row in table if row[lu_idx] == lu]
+            loan_ = [1 if row[5] else 0 for row in table if row[lu_idx] == lu]
+            metrics_.append([lu] + util.prf(pred_, loan_))
+        return metrics_
+
+    metrics = calculate_metrics_table(all_words, lu_units=languages, lu_idx=1)
+    metrics.append(['Total'] + q)
+    report.report_metrics_table(metrics, family=True, threshold=threshold)
+
+    metrics = calculate_metrics_table(all_words, lu_units=families, lu_idx=0)
+    metrics.append(['Total'] + q)
+    report.report_metrics_table(metrics, family=False, threshold=threshold)
+
+
+def get_words_results(table, status=util.PredStatus.F):
+    words = []
+    family = ''
+    language = ''
+    concept = ''
+    table_ = sorted(table, key=lambda table_row: table_row[2])
+    table_ = sorted(table_, key=lambda table_row: table_row[1])
+    table_ = sorted(table_, key=lambda table_row: table_row[0])
+    for row in table_:
+        # pred == True if global_gt1
+        pred = int(row[4])
+        loan = int(row[5])
+        result = util.assess_pred(pred, loan)
+        if util.report_assessment(status, result):
+            family_ = row[0] if family != row[0] else ''
+            family = row[0]
+            language_ = row[1] if language != row[1] else ''
+            language = row[1]
+            concept_ = row[2] if concept != row[2] else ''
+            concept = row[2]
+            words.append([family_, language_, concept_, result.name, row[3], ])
+            # family, language, concept, prediction_result, tokens,
+    return words
+
+
 def report_borrowing(wl, bb,
                      thresholds,
                      delta_threshold,
+                     report_limit,
                      donors,
-                     donor_words_policy,
-                     combine_policy,
+                     policy,
                      output='output',
                      series=''):
 
@@ -68,81 +178,97 @@ def report_borrowing(wl, bb,
     families = {language["ID"]: language["Family"] for language in rdr['LanguageTable']}
     first_time = True
     for threshold in thresholds:
-        props = []
-        words = []
+        proportions = []
+        words = []  # Used for subsequent reporting of distances below threshold.
+        all_words = []  # Used for subsequent calculation of detection metrics.
         for language, concepts in bb.items():
-            language_ = language
+            family = families[language]
             # determine proportion of borrowed words
             prop = {donor: [] for donor in donors}
+            # include combined donors category.
+            prop['Combined'] = []
             concept_count = 0
+            # idx is index of word in target language
             for concept, idxs in concepts.items():
-                concept_ = concept
                 tmp_prop = {donor: 0 for donor in donors}
                 for idx, hits in idxs.items():
                     word = wl[idx, 'tokens']
-                    word_ = word
-                    tmp_words = []
-                    for donor_lang, dist, donor_word in hits:
-                        if dist <= threshold:
-                            tmp_words += [[donor_lang, dist, donor_word]]
 
-                    if not tmp_words: continue
-                    tmp_words = screen_word_hits(tmp_words, delta_threshold)
+                    loan = wl[idx, "loan"]
+                    pred = False
+                    tmp_words = []
+                    for donor, dist, donor_word in hits:
+                        if dist <= threshold or report_limit and dist < report_limit:
+                            tmp_words += [[donor, dist, donor_word]]
+                        if dist <= threshold:
+                            pred = True
+
+                    # Add word to all_words for words status report.
+                    all_words.append([families[language], language,
+                                      concept, word, pred, loan])
+
+                    if not tmp_words: continue  # Nothing to add to distance report
+
+                    # Add marker of minimum '*' or near minimum '-' < threshold.
+                    tmp_words = screen_word_hits(tmp_words, threshold, delta_threshold)
                     for row in tmp_words:
-                        # Skip words not near minimum distance.
-                        if donor_words_policy == "exclude" and not row[3]: continue
-                        tmp_prop[row[0]] += 1
-                        words.append([language_, concept_, word_,
-                                      row[0], f'{row[1]:0.2f}', row[2], row[3]])
-                        language_ = ''
-                        concept_ = ''
-                        word_ = ''
+                        # Count hits for distance < threshold, or
+                        # only words close to minimum distance < threshold.
+                        if (policy == "retain" and row[1] < threshold or
+                                policy == "exclude" and row[3]):
+                            tmp_prop[row[0]] += 1
+                        # Report marked words (words not near minimum distance), or
+                        # unmarked words < threshold, or words < report_limit.
+                        if (policy == "retain" and row[1] < threshold or
+                                policy == "exclude" and row[3] or
+                                report_limit and row[1] < report_limit):
+                            words.append([family, language, concept, word, loan,
+                                          row[0], f'{row[1]:0.2f}', row[2], row[3]])
 
                 if idxs:
-                    for donor_lang, score in tmp_prop.items():
-                        prop[donor_lang] += [score/len(idxs)]
+                    # Get max score for use with combined donors category.
+                    max_score = 0
+                    for donor, score in tmp_prop.items():
+                        max_score = max(max_score, score)
+                        prop[donor] += [score/len(idxs)]
+                    # Add in score for Combined category.
+                    prop['Combined'] += [max_score/len(idxs)]
                     concept_count += 1
 
-            props += [[
+            proportions += [[
                 language,
                 families[language],
                 concept_count] +
                 [sum(prop[donor]) for donor in donors] +
-                [sum(prop[donor])/concept_count for donor in donors]
+                [sum(prop['Combined'])] +
+                [sum(prop[donor])/concept_count for donor in donors] +
+                [sum(prop['Combined'])/concept_count]
             ]
 
         if series:
-            headers = ["Language", "Concept", "Word",
-                       "Donor", "Distance", "Donor word", "Marker"]
-            words_table = tabulate(words, headers=headers, tablefmt="simple")
-            filename = f"{series}-{threshold:0.2f}.txt"
-            filepath = Path(output).joinpath(filename).as_posix()
-            with open(filepath, 'w' if first_time else 'a') as f:
-                print(f"Threshold: {threshold:0.2f}.", file=f)
-                print(words_table, file=f)
-                print(file=f)
-            first_time = False
+            report_pairwise_distance(words_table=words, threshold=threshold,
+                                     output=output, series=series,
+                                     first_time=first_time)
 
-        print(f"\nPairwise alignment with threshold {threshold:0.2f} and "
-              f"delta threshold {delta_threshold:0.2f}.")
-        headers = ["Language", "Family", "Concepts"] + [
-            donor for donor in donors] + [
-            donor+'P' for donor in donors]
-        if combine_policy:
-            # Construct combined columns for summary report.
-            headers += ["Combined", "CombinedP"]
-            # Upgrade props to include combined.
-            props_ = props
-            props = []
-            for row in props_:
-                props += [row + [sum(row[3:3+len(donors)])] + [sum(row[3:3+len(donors)])/row[2]]]
+            word_assessments = get_words_results(table=all_words, status=util.PredStatus.F)
+            report.report_words_table(word_assessments, threshold=threshold,
+                                      output=output, series=series,
+                                      first_time=first_time)
 
-        print(tabulate(
-            sorted(props, key=lambda x: (x[1], x[0])),
-            headers=headers, tablefmt="pip", floatfmt=".2f"))
+        report_donor_proportions(proportions, threshold, delta_threshold, donors)
+        first_time = False
+
+        report_pairwise_detection(all_words, threshold)
 
 
 def register(parser):
+    parser.add_argument(
+        "--model",
+        type=str,
+        choices=["sca", "asjp"],
+        default="sca",
+        help='Sound class model to transform tokens.'
+    )
     parser.add_argument(
         "--threshold",
         nargs="*",
@@ -154,9 +280,14 @@ def register(parser):
         "--delta_threshold",
         type=float,
         default=0.1,
-        help='Threshold to distinguish difference between candidate donors.',
+        help='Threshold augment to consider candidate donors beyond the minimum.',
     )
-
+    parser.add_argument(
+        "--report_limit",
+        type=float,
+        default=None,
+        help="Limit to use for reporting words and donor candidate distances."
+    )
     parser.add_argument(
         "--mode",
         type=str,
@@ -172,17 +303,11 @@ def register(parser):
         help='Donor language(s).',
     )
     parser.add_argument(
-        "--donor_words_policy",
+        "--policy",
         type=str,
         default="exclude",
         choices=["exclude", "retain"],
         help='Whether to exclude or retain candidate words far from minimum.'
-    )
-    parser.add_argument(
-        "--disable_combine",
-        dest='combine_policy',
-        action='store_false',
-        help='Disable combine language statistics.'
     )
     parser.add_argument(
         "--output",
@@ -200,17 +325,21 @@ def register(parser):
 
 def run(args):
     wl = util.compose_wl()
-    bb = construct_alignments(wl, mode=args.mode, donors=args.donor)
-    report_borrowing(wl, bb, thresholds=args.threshold,
+    bb = construct_alignments(wl,
+                              model=args.model,
+                              mode=args.mode,
+                              donors=args.donor)
+    report_borrowing(wl, bb,
+                     thresholds=args.threshold,
                      delta_threshold=args.delta_threshold,
+                     report_limit=args.report_limit,
                      donors=args.donor,
-                     donor_words_policy=args.donor_words_policy,
-                     combine_policy=args.combine_policy,
+                     policy=args.policy,
                      output=args.output,
                      series=args.series)
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    register(parser)
-    run(parser.parse_args())
+    parser_ = argparse.ArgumentParser()
+    register(parser_)
+    run(parser_.parse_args())

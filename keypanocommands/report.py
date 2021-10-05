@@ -91,13 +91,13 @@ def get_cogids_by_family(table, family=None):
     else:
         lu_idx = 0
 
-    lu_unit_set = sorted(set([row[lu_idx] for row in table]))
+    lu_unit_set = sorted(set(row[lu_idx] for row in table))
     lu_global_cognates_gt1 = {}
 
     # global_gt1 in [4] of table.
     for lu in lu_unit_set:
-        cognates_gt1 = set([row[4] for row in table
-                            if row[lu_idx] == lu and row[4] != 0])
+        cognates_gt1 = set(row[4] for row in table
+                           if row[lu_idx] == lu and row[4] != 0)
 
         # Construct dictionary of counters for each language family.
         cognates_gt1_ = {lu_: Counter() for lu_ in lu_unit_set}
@@ -165,14 +165,8 @@ def get_words_results(table, status=util.PredStatus.F):
         pred = 0 if row[4] == 0 else 1
         loan = 1 if row[5] else 0
         result = util.assess_pred(pred, loan)
-        # Only report on FN for now.
-        if (status == util.PredStatus.ALL or
-            (status == util.PredStatus.F and
-                (result == util.PredStatus.FN or result == util.PredStatus.FP)) or
-            (status == util.PredStatus.T and
-                (result == util.PredStatus.TN or result == util.PredStatus.TP)) or
-            (status == util.PredStatus.NTN and result != util.PredStatus.TN) or
-                result == status):
+
+        if util.report_assessment(status, result):
 
             family_ = row[0] if family != row[0] else ''
             family = row[0]
@@ -180,18 +174,20 @@ def get_words_results(table, status=util.PredStatus.F):
             language = row[1]
             concept_ = row[7] if concept != row[7] else ''
             concept = row[7]
-            words.append([language_, family_, concept_, result.name, row[6], ])
-            # language, family, concept, tokens, prediction_result
+            words.append([family_, language_, concept_, result.name, row[6], ])
+            # family, language, concept, prediction_result, tokens,
     return words
 
 
-def report_words_table(words, threshold=None, output=None, series=''):
-    filename = f"{series}{'-' if series else ''}words-status-{threshold:0.2f}"
+def report_words_table(words, threshold=None,
+                       output=None, series='', first_time=True):
+
+    filename = f"{series}{'-' if series else ''}words-status-{threshold:0.3f}"
     file_path = Path(output).joinpath(filename).as_posix()
-    header = ['Language', 'Family', 'Concept',  'Assessment', 'Tokens', ]
+    header = ['Family', 'Language', 'Concept',  'Assessment', 'Tokens', ]
     words_table = tabulate(words, headers=header, tablefmt="pip")
-    with open(file_path + '.txt', "w") as f:
-        print(f"Threshold: {threshold:0.2f}.", file=f)
+    with open(file_path + '.txt', 'w' if first_time else 'a') as f:
+        print(f"Threshold: {threshold:0.3f}.", file=f)
         print(words_table, file=f)
 
 
@@ -214,20 +210,24 @@ def get_metrics_by_language_unit(table, lu_units, lu_idx):
 
 
 def report_metrics_table(metrics, family=None, threshold=None):
-    print(f"Threshold: {threshold:0.2f}.")
+    print(f"Threshold: {threshold:0.3f}.")
     header0 = 'Language ' + ('' if family else 'Family')
     print(tabulate(metrics,
           headers=[header0, 'tp', 'tn', 'fp', 'fn',
                    'precision', 'recall', 'F1 score', 'accuracy'],
                    tablefmt="pip", floatfmt=".3f"))
     total = metrics[-1]
-    print(f"Total: borrowed {total[1]+total[4]}, inherited {total[2]+total[3]}")
+    print(f"Total: borrowed {total[1]+total[4]}, "
+          f"inherited {total[2]+total[3]}, "
+          f"total {total[1] + total[2] + total[3] + total[4]}")
 
 
-def report_metrics_by_family(table, family=None, exclude=None,
+def report_metrics_by_family(cogids_table,
+                             family=None, exclude=None,
                              status=None, threshold=None,
                              output=None, series=''):
-    table, lu_units, lu_idx = get_language_unit_table(table, family=family, exclude=exclude)
+    table, lu_units, lu_idx = get_language_unit_table(
+        cogids_table, family=family, exclude=exclude)
     metrics = get_metrics_by_language_unit(table, lu_units=lu_units, lu_idx=lu_idx)
     report_metrics_table(metrics, family=family, threshold=threshold)
     # Need to convert status str to PredStatus
@@ -241,7 +241,7 @@ def register(parser):
         "--store",
         type=str,
         default='store',
-        help='Director from which to load analysis wordlist.',
+        help='Directory from which to load analysis wordlist.',
     )
     parser.add_argument(
         "--infile",
@@ -271,7 +271,7 @@ def register(parser):
         type=int,
         default=0,
         choices=[0, 1],
-        help='Whether reporting for cognates=0 or words=1.',
+        help='Whether reporting for concepts=0 or words=1.',
     )
     parser.add_argument(
         "--status",
@@ -310,6 +310,17 @@ def run(args):
                              threshold=thresholds[args.index],
                              output=args.output,
                              series=args.series)
+
+
+def get_total_run_result(store, infile, family, exclude):
+    table, parameters = get_table(store, infile)
+    cogids_table = get_cogids_table_for(table, index=0)
+    table_, lu_units, lu_idx = get_language_unit_table(
+        cogids_table, family=family, exclude=exclude)
+    metrics = get_metrics_by_language_unit(table_, lu_units=lu_units, lu_idx=lu_idx)
+    q = metrics[-1]
+    # print(q)
+    return q[1:]
 
 
 if __name__ == "__main__":

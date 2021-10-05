@@ -15,8 +15,9 @@ import keypanocommands.util as util
 # See lingrex/borrowing for use of different modules.
 def analyze_lexstat(module=None,
                     method='lexstat',
+                    model='sca',
                     thresholds=None,
-                    runs=2000,
+                    runs=1000,
                     mode='overlap',
                     cluster_method='infomap',
                     idtype='loose',
@@ -31,12 +32,15 @@ def analyze_lexstat(module=None,
     dataset = util.compose_wl()
     if module == 'cluster':
         wl = LexStat(dataset)
+        if method == "lexstat":
+            wl.get_scorer(runs=runs, ratio=(3, 2))
     elif module == 'partial':
         wl = Partial(dataset, check=True)
+        if method == "lexstat":
+            # partial scorer errors.
+            wl.get_scorer(runs=runs, ratio=(3, 2))
     else:
         raise NameError(f"{module} not a known cluster module.")
-    if method == "lexstat":
-        wl.get_scorer(method=method, runs=runs, ratio=(3, 2))
 
     for i, t in enumerate(thresholds):
         print(f"Processing for threshold {t:.3f}")
@@ -45,6 +49,7 @@ def analyze_lexstat(module=None,
         sca_id = "scallid_{0}".format(i)
         if module == 'cluster':
             wl.cluster(method=method,
+                       model=model,
                        threshold=t,
                        mode=mode,
                        cluster_method=cluster_method,
@@ -52,6 +57,7 @@ def analyze_lexstat(module=None,
         elif module == 'partial':
             sca_ids = "scallids_{0}".format(i)
             wl.partial_cluster(method=method,
+                               model=model,
                                threshold=t,
                                mode=mode,
                                cluster_method=cluster_method,
@@ -88,7 +94,7 @@ def analyze_lexstat(module=None,
                     # Set cognate id to 0 since just 1 family.
                     wl[idx, sca_id] = 0
 
-    filename = f"{series}{'-' if label else ''}{label}-{module}"
+    filename = f"{module}{'-' if series else ''}{series}{'-' if label else ''}{label}"
     file_path = Path(store).joinpath(filename).as_posix()
     wl.output('tsv', filename=file_path, ignore='all', prettify=False)
     wl.output('qlc', filename=file_path, ignore=['scorer'], prettify=False)
@@ -107,6 +113,13 @@ def register(parser):
         choices=["sca", "lexstat", "edit-dist", "turchin"],
         default="lexstat",
         help='Scoring method (default: "lexstat").',
+    )
+    parser.add_argument(
+        "--model",
+        type=str,
+        choices=["sca", "asjp"],
+        default="sca",
+        help='Sound class model to transform tokens.'
     )
     parser.add_argument(
         "--threshold",
@@ -139,7 +152,7 @@ def register(parser):
     parser.add_argument(
         "--runs",
         type=int,
-        default=2000,
+        default=1000,
         help='Number of runs for lexstat scorer.',
     )
     parser.add_argument(
@@ -151,7 +164,7 @@ def register(parser):
     parser.add_argument(
         "--series",
         type=str,
-        default="analysis"
+        default=""
     )
     parser.add_argument(
         "--label",
@@ -163,6 +176,7 @@ def register(parser):
 def run(args):
     analyze_lexstat(module=args.module,
                     method=args.method,
+                    model=args.model,
                     thresholds=args.threshold,
                     mode=args.mode,
                     cluster_method=args.cluster_method,

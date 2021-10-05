@@ -1,0 +1,127 @@
+Threshold: 0.275.
+Family           Language       Concept                Word                     Borrowed    Donor         Distance  Donor word         Marker
+---------------  -------------  ---------------------  -----------------------  ----------  ----------  ----------  -----------------  --------
+Arawakan         MashcoPiro     gold                   k o ɾ i                  False       Spanish           0.26  o ɾ o              -
+                                                                                            Portuguese        0.23  o ɾ u              *
+                                wheat                  t ɾ i k o                True        Spanish           0.15  t ɾ i ɣ o          -
+                                                                                            Portuguese        0.12  t ɾ i ɡ u          *
+                                yard, court            p ɨ t ɨ                  False       Spanish           0.24  p a t j o          -
+                                                                                            Portuguese        0.23  p a t j u          *
+Aymaran          Aymara         butter                 m a n t i k a            False       Spanish           0.01  m a n t e k a      *
+                                cow                    w a k a                  True        Portuguese        0.08  v a k ɐ            *
+                                horse (equine)         k a w a lʲ u             True        Portuguese        0.05  k ɐ v a l u        *
+                                insane, crazy          l u qʰ i                 False       Spanish           0.25  l o k o            -
+                                                                                            Portuguese        0.23  l o k u            *
+                                match (noun)           pʰ u s pʰ u ɾ u          True        Spanish           0.23  f o s f o ɾ o      -
+                                                                                            Portuguese        0.22  f ɔ ʃ f u ɾ u      *
+                                mule                   m u l a                  True        Spanish           0.03  m u l o            -
+                                                                                            Spanish           0     m u l a            *
+                                                                                            Portuguese        0.09  m u l u            -
+                                                                                            Portuguese        0     m u l ɐ            -
+                                relatives, kinsmen     p a ɾ i n t i            True        Spanish           0.18  p a ɾ j e n t e s  -
+                                                                                            Spanish           0.16  p a ɾ e n t e l a  *
+                                                                                            Portuguese        0.22  p ɐ ɾ ẽ t ɨ ʃ      -
+                                sugar                  a s u k a ɾ a            True        Portuguese        0.11  ɐ s u k ɐ ɾ        *
+Cayubaba         Cayuvava       bread                  p ã a                    True        Portuguese        0     p ɐ̃ũ               *
+                                chief, chieftain       k a s i k i              True        Spanish           0.14  k a θ i k e        -
+                                                                                            Portuguese        0.13  k ɐ s i k w ɨ      *
+                                market (place)         m e k a d o              True        Spanish           0.2   m ɛ ɾ k a ð o      -
+                                                                                            Portuguese        0.15  m ɨ ɾ k a d u      *
+Chicham          Aguaruna       button                 b u t u g                True        Spanish           0.27  b o t o n          -
+                                                                                            Portuguese        0.21  b u t ɐ̃ũ           *
+                                duck                   p a t u                  True        Spanish           0.03  p a t o            -
+                                                                                            Portuguese        0     p a t u            *
+                                gold                   u ɾ u                    True        Spanish           0.1   o ɾ o              -
+                                                                                            Portuguese        0.05  o ɾ u              *
+                                plate                  p a ɾ a t u              True        Spanish           0.23  p l a t o          -
+                                                                                            Portuguese        0.17  p ɾ a t u          *
+                                shoe                   s a p a t                True        Portuguese        0.13  s ɐ p a t u        *
+Itonama          Itonama        four                   k u w a t u ɾ u          True        Spanish           0.27  k w a t ɾ o        -
+                                                                                            Portuguese        0.25  k w a t ɾ u        *
+Mosetén-Chimané  Moseten        book                   r i w r o                True        Spanish           0.24  l i β ɾ o          -
+                                                                                            Portuguese        0.19  l i v ɾ u          *
+                                carriage, wagon, cart  k a r e t o              True        Spanish           0.11  k a r ɛ t o n      *
+                                cow                    w a k a                  True        Portuguese        0.08  v a k ɐ            *
+                                harbor, port           p o r t o                True        Portuguese        0.03  p o ɾ t u          *
+                                market (place)         m a r k a t u k          True        Spanish           0.19  m ɛ ɾ k a ð o      -
+                                                                                            Portuguese        0.18  m ɨ ɾ k a d u      *
+                                mule                   m u r a                  True        Spanish           0.09  m u l o            -
+                                                                                            Spanish           0.06  m u l a            *
+                                                                                            Portuguese        0.15  m u l u            -
+                                                                                            Portuguese        0.06  m u l ɐ            -
+                                penalty, punishment    k a h t i g o            True        Spanish           0.22  k a s t i ɣ o      -
+                                                                                            Portuguese        0.15  k ɐ ʃ t i ɡ u      *
+                                rice                   a r o s                  True        Spanish           0.19  a r o θ            -
+                                                                                            Portuguese        0.16  ɐ ʁ ɔ ʃ            *
+                                Saturday               s a b a r o              True        Spanish           0.18  s a β a ð o        -
+                                                                                            Portuguese        0.12  s a b ɐ d u        *
+                                shoe                   s a p a t o              True        Portuguese        0.02  s ɐ p a t u        *
+                                silver                 p r a t a                True        Spanish           0.04  p l a t a          -
+                                                                                            Portuguese        0     p ɾ a t ɐ          *
+                                spear                  r a n s a                True        Spanish           0.19  l a n θ a          -
+                                                                                            Portuguese        0.19  l ɐ̃ s ɐ            *
+                                sugar                  a s u k a r              True        Portuguese        0     ɐ s u k ɐ ɾ        *
+Movima           Movima         cow                    w a k a                  True        Portuguese        0.08  v a k ɐ            *
+                                mule                   m u l a                  True        Spanish           0.03  m u l o            -
+                                                                                            Spanish           0     m u l a            *
+                                                                                            Portuguese        0.09  m u l u            -
+                                                                                            Portuguese        0     m u l ɐ            -
+                                shoe                   s a p a t o              True        Portuguese        0.02  s ɐ p a t u        *
+                                sugar                  a s u k a ɾ              True        Portuguese        0     ɐ s u k ɐ ɾ        *
+                                wheat                  t ɾ i g o                True        Portuguese        0.03  t ɾ i ɡ u          *
+Pano-Tacanan     Araona         cow                    w a k a                  True        Portuguese        0.08  v a k ɐ            *
+                 Cashibo        clothing, clothes      h a p a                  False       Spanish           0.27  r o p a            -
+                                                                                            Portuguese        0.21  ʁ o p ɐ            *
+                 Catuquina      account, reckoning     k o n t a                True        Spanish           0.17  k w e n t a        -
+                                                                                            Portuguese        0.14  k õ t ɐ            *
+                                bread                  p ã o                    True        Portuguese        0     p ɐ̃ũ               *
+                                physician              m ɨ d i k o              True        Spanish           0.14  m e ð i k o        -
+                                                                                            Portuguese        0.06  m ɛ d i k u        *
+                                plain, field           k a m p o                True        Spanish           0     k a m p o          *
+                 Cavinena       carriage, wagon, cart  k a ɹ e t o              True        Spanish           0.11  k a r ɛ t o n      *
+                                cow                    w a k a                  True        Portuguese        0.08  v a k ɐ            *
+                                Saturday               s a b a ɹ o              True        Spanish           0.18  s a β a ð o        -
+                                                                                            Portuguese        0.12  s a b ɐ d u        *
+                                shoe                   s a p a t o + k i        True        Spanish           0.25  θ a p a t o        -
+                                                                                            Portuguese        0.16  s ɐ p a t u        *
+                                soldier                s o d a ɹ o              True        Spanish           0.26  s o l d a ð o      -
+                                                                                            Portuguese        0.21  s ɔ ɫ d a d u      *
+                                Sunday                 d o m i k o              True        Spanish           0.17  d o m i n g o      -
+                                                                                            Portuguese        0.12  d u m ĩ ɡ u        *
+                 EseEjja        cow                    w a k a                  True        Portuguese        0.08  v a k ɐ            *
+                 ShipiboConibo  elephant               i ɻ i h ã t i            False       Spanish           0.26  e l e f a n t e    -
+                                                                                            Portuguese        0.2   i l ɨ f ɐ̃ t ɨ      *
+                                goose                  k ã s o                  True        Spanish           0.24  g a n s o          -
+                                                                                            Portuguese        0.15  ɡ ɐ̃ s u            *
+                 Tacana         cow                    w a k a                  True        Portuguese        0.08  v a k ɐ            *
+                 Yaminahua      bread                  p ã                      True        Portuguese        0     p ɐ̃ũ               *
+                                elephant               i ɾ i β ã t i            True        Spanish           0.27  e l e f a n t e    -
+                                                                                            Portuguese        0.21  i l ɨ f ɐ̃ t ɨ      *
+                                mule                   m o ɾ a                  True        Spanish           0.13  m u l o            -
+                                                                                            Spanish           0.09  m u l a            *
+                                                                                            Portuguese        0.18  m u l u            -
+                                                                                            Portuguese        0.09  m u l ɐ            -
+                                nine                   n õ β i                  True        Spanish           0.23  n w e β e          -
+                                                                                            Portuguese        0.15  n ɔ v ɨ            *
+                                rice                   a ɾ o s                  True        Spanish           0.19  a r o θ            -
+                                                                                            Portuguese        0.16  ɐ ʁ ɔ ʃ            *
+                                Saturday               s a β a ɾ o              True        Spanish           0.18  s a β a ð o        -
+                                                                                            Portuguese        0.12  s a b ɐ d u        *
+                                saw                    s ɨ ɾ a                  True        Spanish           0.19  s j ɛ r a          -
+                                                                                            Portuguese        0.16  s ɛ ʁ ɐ            *
+                                seven                  s i t i                  True        Portuguese        0.11  s ɛ t ɨ            *
+                                shoe                   s a p a t o              True        Portuguese        0.02  s ɐ p a t u        *
+                                Sunday                 t o m ĩ k o              True        Spanish           0.24  d o m i n g o      -
+                                                                                            Portuguese        0.21  d u m ĩ ɡ u        *
+Peba-Yagua       Yagua          bread                  p ã                      True        Portuguese        0     p ɐ̃ũ               *
+                                camel                  k a m e ɲ u              True        Spanish           0.19  k a m e ʎ o        -
+                                                                                            Portuguese        0.19  k ɐ m ɛ l u        *
+                                cow                    w o k a                  True        Portuguese        0.11  v a k ɐ            *
+                                duck                   p a t u                  True        Spanish           0.03  p a t o            -
+                                                                                            Portuguese        0     p a t u            *
+                                no, negative           n e                      False       Portuguese        0.05  n ɐ̃ũ               *
+                                priest                 k a s e ɾ d o t e        True        Portuguese        0.16  s ɐ s ɨ ɾ d ɔ t ɨ  *
+                                ram                    k a ɾ n ĩ ɾ u + w a n u  True        Spanish           0.26  k a ɾ n ɛ ɾ o      -
+                                                                                            Portuguese        0.25  k ɐ ɾ n ɐi ɾ u     *
+                                shoe                   s a p a t u              True        Portuguese        0     s ɐ p a t u        *
+

@@ -85,6 +85,16 @@ def assess_pred(pred, gold):
     raise ValueError(f"Pred {pred}, gold {gold}.")
 
 
+def report_assessment(status, result):
+    return (status == PredStatus.ALL or
+            (status == PredStatus.F and
+             (result == PredStatus.FN or result == PredStatus.FP)) or
+            (status == PredStatus.T and
+             (result == PredStatus.TN or result == PredStatus.TP)) or
+            (status == PredStatus.NTN and result != PredStatus.TN) or
+            result == status)
+
+
 def pred_by_gold(pred, gold):
     """
     Simple stats on tn, tp, fn, fp.
