@@ -122,14 +122,19 @@ def report_cogids_table(global_cognates, selector=0, threshold=None):
     for lu, lu_cognates in global_cognates.items():
         cognates_table.append([lu] + [lu_cognates[lu_][selector] for lu_ in lu_keys])
 
-    print(f"Threshold: {threshold:0.2f}.")
-    header0 = 'Language ' + ('Cognates' if not selector else 'Words')
+    unit = 'Cognates' if not selector else 'Words'
+    print(f"Report number of {unit} for cross-family concepts at threshold: {threshold:0.3f}.")
+    header0 = 'Language ' + unit
     print(tabulate(cognates_table, headers=[header0] + lu_keys))
 
 
-def report_cogids_by_family(cogids_table, family=None, selector=0, threshold=None):
+def report_cogids_by_family(cogids_table, family=None, selector=None, threshold=None):
     lu_cogids_gt1 = get_cogids_by_family(cogids_table, family=family)
-    report_cogids_table(lu_cogids_gt1, selector=selector, threshold=threshold)
+    if selector is None:
+        report_cogids_table(lu_cogids_gt1, selector=0, threshold=threshold)
+        report_cogids_table(lu_cogids_gt1, selector=1, threshold=threshold)
+    else:
+        report_cogids_table(lu_cogids_gt1, selector=selector, threshold=threshold)
 
 
 def get_language_unit_table(table, family=None, exclude=None):
@@ -210,6 +215,7 @@ def get_metrics_by_language_unit(table, lu_units, lu_idx):
 
 
 def report_metrics_table(metrics, family=None, threshold=None):
+    print()
     print(f"Threshold: {threshold:0.3f}.")
     header0 = 'Language ' + ('' if family else 'Family')
     print(tabulate(metrics,
@@ -269,8 +275,8 @@ def register(parser):
     parser.add_argument(
         "--selector",
         type=int,
-        default=0,
-        choices=[0, 1],
+        default=None,
+        choices=[0, 1, None],
         help='Whether reporting for concepts=0 or words=1.',
     )
     parser.add_argument(
@@ -299,6 +305,7 @@ def run(args):
     report_basic_for(table, index=args.index)
     cogids_table = get_cogids_table_for(table, index=args.index)
     thresholds = util.get_thresholds(parameters[-1])
+    # Report on cognates done over concepts or words corresponding to selector 0, 1.
     report_cogids_by_family(cogids_table,
                             family=args.family,
                             selector=args.selector,

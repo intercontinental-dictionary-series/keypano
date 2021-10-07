@@ -2,6 +2,7 @@
     Report on pairwise alignments with Spanish and Portuguese languages.
 
     Johann-Mattis List, Aug 22, 2021
+    John Edward Miller, Oct 6, 2021
 """
 from pathlib import Path
 import argparse
@@ -16,7 +17,6 @@ import keypanocommands.report as report
 
 def construct_alignments(wl, model, mode, donors):
     # Construct borrowing-bookkeeping structure
-
     bb = {doculect: {} for doculect in wl.cols
           if not any((lambda x, y: x in y)(donor, doculect) for donor in donors)}
 
@@ -49,7 +49,7 @@ def screen_word_hits(tmp_words, threshold, delta_threshold):
     min_idx = min_idx if min_dist < threshold else None
     tmp_words_ = []
     for idx, row in enumerate(tmp_words):
-        if not min_idx:
+        if min_idx is None:
             tmp_words_ += [row + ['']]
         elif idx == min_idx:
             tmp_words_ += [row + ['*']]
@@ -104,13 +104,29 @@ def report_donor_proportions(proportions, threshold, delta_threshold, donors):
 
     print(f"\nPairwise alignment with threshold {threshold:0.3f} and "
           f"delta threshold {delta_threshold:0.2f}.")
-    headers = ["Language", "Family", "Concepts"] + [
+    headers = ["Family", "Language", "Concepts"] + [
         donor for donor in donors] + ['Combined'] + [
                   donor + 'P' for donor in donors] + ['CombinedP']
 
-    print(tabulate(
-        sorted(proportions, key=lambda x: (x[1], x[0])),
-        headers=headers, tablefmt="pip", floatfmt=".2f"))
+    # Calculate total borrowed.
+    concepts_count = 0
+    combined_count = 0
+    donor_counts = [0]*len(donors)
+    for row in proportions:
+        concepts_count += row[2]
+        for d in range(len(donors)):
+            donor_counts[d] += row[3+d]
+        combined_count += row[len(donors)+3]
+    donor_proportions = [count/concepts_count for count in donor_counts]
+    combined_proportion = combined_count/concepts_count
+    total_row = (['Total', '', concepts_count] +
+                 donor_counts + [combined_count] +
+                 donor_proportions + [combined_proportion])
+
+    proportions = sorted(proportions, key=lambda x: (x[0], x[1]))
+    proportions.append(total_row)
+
+    print(tabulate(proportions, headers=headers, tablefmt="pip", floatfmt=".2f"))
 
 
 def report_pairwise_detection(all_words, threshold):
@@ -193,14 +209,13 @@ def report_borrowing(wl, bb,
                 tmp_prop = {donor: 0 for donor in donors}
                 for idx, hits in idxs.items():
                     word = wl[idx, 'tokens']
-
-                    loan = wl[idx, "loan"]
+                    loan = wl[idx, 'loan']
                     pred = False
                     tmp_words = []
                     for donor, dist, donor_word in hits:
-                        if dist <= threshold or report_limit and dist < report_limit:
+                        if dist <= threshold or (report_limit and dist < report_limit):
                             tmp_words += [[donor, dist, donor_word]]
-                        if dist <= threshold:
+                        if dist <= threshold:  # Only need 1 donor word < threshold.
                             pred = True
 
                     # Add word to all_words for words status report.
@@ -208,7 +223,6 @@ def report_borrowing(wl, bb,
                                       concept, word, pred, loan])
 
                     if not tmp_words: continue  # Nothing to add to distance report
-
                     # Add marker of minimum '*' or near minimum '-' < threshold.
                     tmp_words = screen_word_hits(tmp_words, threshold, delta_threshold)
                     for row in tmp_words:
@@ -236,8 +250,8 @@ def report_borrowing(wl, bb,
                     concept_count += 1
 
             proportions += [[
-                language,
                 families[language],
+                language,
                 concept_count] +
                 [sum(prop[donor]) for donor in donors] +
                 [sum(prop['Combined'])] +

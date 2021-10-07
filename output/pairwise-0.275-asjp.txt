@@ -3,28 +3,30 @@ Minimum mutual coverage is at 58 concept pairs.
 Average coverage is at 0.50
 
 Pairwise alignment with threshold 0.275 and delta threshold 0.10.
-Language        Family             Concepts    Spanish    Portuguese    Combined    SpanishP    PortugueseP    CombinedP
---------------  ---------------  ----------  ---------  ------------  ----------  ----------  -------------  -----------
-MashcoPiro      Arawakan                459       3.00          3.00        3.00        0.01           0.01         0.01
-Aymara          Aymaran                 957       6.50          8.00        9.50        0.01           0.01         0.01
-Cayuvava        Cayubaba                662       1.50          1.83        1.83        0.00           0.00         0.00
-PacaasNovos     Chapacuran              186       0.00          0.00        0.00        0.00           0.00         0.00
-Aguaruna        Chicham                1160       3.50          4.50        4.50        0.00           0.00         0.00
-Itonama         Itonama                 676       1.00          1.00        1.00        0.00           0.00         0.00
-Moseten         Mosetén-Chimané        1035      10.00         13.00       14.00        0.01           0.01         0.01
-Movima          Movima                 1036       2.00          6.00        6.00        0.00           0.01         0.01
-Araona          Pano-Tacanan            802       0.00          1.00        1.00        0.00           0.00         0.00
-Cashibo         Pano-Tacanan            648       0.50          0.50        0.50        0.00           0.00         0.00
-Catuquina       Pano-Tacanan           1055       3.00          3.00        4.00        0.00           0.00         0.00
-Cavinena        Pano-Tacanan            943       5.00          5.00        6.00        0.01           0.01         0.01
-Chacobo         Pano-Tacanan            836       0.00          0.00        0.00        0.00           0.00         0.00
-EseEjja         Pano-Tacanan            724       0.00          1.00        1.00        0.00           0.00         0.00
-HuarayoEseEjja  Pano-Tacanan            659       0.00          0.00        0.00        0.00           0.00         0.00
-Pacahuara       Pano-Tacanan             93       0.00          0.00        0.00        0.00           0.00         0.00
-ShipiboConibo   Pano-Tacanan            918       2.00          2.00        2.00        0.00           0.00         0.00
-Tacana          Pano-Tacanan            903       0.00          1.00        1.00        0.00           0.00         0.00
-Yaminahua       Pano-Tacanan           1129       7.50         10.00       10.00        0.01           0.01         0.01
-Yagua           Peba-Yagua             1179       2.50          6.25        6.25        0.00           0.01         0.01
+Family           Language          Concepts    Spanish    Portuguese    Combined    SpanishP    PortugueseP    CombinedP
+---------------  --------------  ----------  ---------  ------------  ----------  ----------  -------------  -----------
+Arawakan         MashcoPiro             459       9.50         12.50       15.00        0.02           0.03         0.03
+Aymaran          Aymara                 957      43.33         20.00       50.33        0.05           0.02         0.05
+Cayubaba         Cayuvava               662      17.33         13.75       23.42        0.03           0.02         0.04
+Chapacuran       PacaasNovos            186       1.00          1.00        1.00        0.01           0.01         0.01
+Chicham          Aguaruna              1160      14.00         12.00       19.50        0.01           0.01         0.02
+Itonama          Itonama                676       6.00          9.00       11.00        0.01           0.01         0.02
+Mosetén-Chimané  Moseten               1035      82.50         44.50       93.00        0.08           0.04         0.09
+Movima           Movima                1036      60.00         24.00       68.00        0.06           0.02         0.07
+Pano-Tacanan     Araona                 802       9.50          4.50       11.00        0.01           0.01         0.01
+Pano-Tacanan     Cashibo                648       3.00          4.00        5.50        0.00           0.01         0.01
+Pano-Tacanan     Catuquina             1055      17.00         18.00       27.00        0.02           0.02         0.03
+Pano-Tacanan     Cavinena               943      18.50         15.00       25.00        0.02           0.02         0.03
+Pano-Tacanan     Chacobo                836       9.00          9.00       14.50        0.01           0.01         0.02
+Pano-Tacanan     EseEjja                724       1.50          3.50        4.00        0.00           0.00         0.01
+Pano-Tacanan     HuarayoEseEjja         659       0.00          0.00        0.00        0.00           0.00         0.00
+Pano-Tacanan     Pacahuara               93       1.00          1.00        2.00        0.01           0.01         0.02
+Pano-Tacanan     ShipiboConibo          918      24.00         13.33       30.33        0.03           0.01         0.03
+Pano-Tacanan     Tacana                 903      13.00          9.00       18.00        0.01           0.01         0.02
+Pano-Tacanan     Yaminahua             1129      49.17         36.50       64.67        0.04           0.03         0.06
+Peba-Yagua       Yagua                 1179      22.00         18.92       32.75        0.02           0.02         0.03
+Total                                 16060     401.33        269.50      516.00        0.02           0.02         0.03
+
 Threshold: 0.275.
 Language          tp     tn    fp    fn    precision    recall    F1 score    accuracy
 --------------  ----  -----  ----  ----  -----------  --------  ----------  ----------
@@ -50,6 +52,7 @@ Yagua             31   1678    10    57        0.756     0.352       0.481      
 Yaminahua         57   1209    14    67        0.803     0.460       0.585       0.940
 Total            410  18843   158   368        0.722     0.527       0.609       0.973
 Total: borrowed 778, inherited 19001, total 19779
+
 Threshold: 0.275.
 Language Family      tp     tn    fp    fn    precision    recall    F1 score    accuracy
 -----------------  ----  -----  ----  ----  -----------  --------  ----------  ----------
