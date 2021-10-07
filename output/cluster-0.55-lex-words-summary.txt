@@ -1,0 +1,39 @@
+Analysis file details:
+# Created using the LexStat class of LingPy-2.6.8
+# Parameters: 3:2_1.00_10000_0.70_global-2-0.50:local-1-0.50_0.30__T_shuffle_False:upgma:-2_0.7_0.00_-5.00
+# Cluster: lexstat_upgma_0.55
+
+26685 words in store/cluster-for-release-lex.tsv.
+Number of words: 26685, number of distinct local cognates: 19342
+Number of words for >1 local cognates: 11606, number of distinct >1 local cognates: 4263
+Number of words: 26685, number distinct global cognates: 18899
+Number of words for >1 family global cognates: 1282, number of distinct >1 family global cognates: 330
+Threshold: 0.55.
+Language Words      Arawakan    Aymaran    Cayubaba    Chapacuran    Chicham    Indo-European    Itonama    Mosetén-Chimané    Movima    Pano-Tacanan    Peba-Yagua
+----------------  ----------  ---------  ----------  ------------  ---------  ---------------  ---------  -----------------  --------  --------------  ------------
+Arawakan                  30          4           7             2          6               16          0                  3         2              29             5
+Aymaran                    4         77           2             0          8              118          0                 10         9              62             7
+Cayubaba                   4          2          58             1          2               26          2                  6         4              60             5
+Chapacuran                 2          0           1            10          0                6          0                  0         0               6             0
+Chicham                    5          7           2             0         25               22          0                  3         3              18             7
+Indo-European              6         38           7             1          7              526          0                 74        48              83            19
+Itonama                    0          0           2             0          0                0          6                  2         2               9             1
+Mosetén-Chimané            2          9           6             0          3              230          2                103        35              74            11
+Movima                     2          9           4             0          3              150          2                 38        68              59             9
+Pano-Tacanan              14         32          37             6         11              170          4                 39        30             314            41
+Peba-Yagua                 5          6           6             0          7               58          1                 12         9              75            65
+Threshold: 0.550.
+Language Family      tp     tn    fp    fn    precision    recall    F1 score    accuracy
+-----------------  ----  -----  ----  ----  -----------  --------  ----------  ----------
+Arawakan              9    537    21     2        0.300     0.818       0.439       0.960
+Aymaran              34    932    43    17        0.442     0.667       0.531       0.942
+Cayubaba             13   1077    45    19        0.224     0.406       0.289       0.945
+Chapacuran            0    217    10     1        0.000     0.000       0.000       0.952
+Chicham              16   1205     9    28        0.640     0.364       0.464       0.971
+Itonama               4    881     2    15        0.667     0.211       0.320       0.981
+Mosetén-Chimané      83   1023    20    36        0.806     0.697       0.748       0.952
+Movima               64    945     4    25        0.941     0.719       0.815       0.972
+Pano-Tacanan        123  10151   191   201        0.392     0.380       0.386       0.963
+Peba-Yagua           30   1653    35    58        0.462     0.341       0.392       0.948
+Total               376  18621   380   402        0.497     0.483       0.490       0.960
+Total: borrowed 778, inherited 19001, total 19779

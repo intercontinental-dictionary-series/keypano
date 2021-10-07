@@ -17,10 +17,10 @@ def register(parser):
     parser.add_argument(
         "--dataset",
         type=str,
-        default="output/pano_analysis",
+        default=None,
     )
     parser.add_argument(
-        "--ref",
+        "--index",
         type=int,
         default=0,
         help="Integer indicator of which threshold used in cognate analysis."
@@ -29,7 +29,7 @@ def register(parser):
 
 def run(args):
     lex = LexStat(args.dataset+".qlc")
-    make_tree(lex, ref=args.ref)
+    make_tree(lex, ref=args.index)
 
 
 if __name__ == "__main__":

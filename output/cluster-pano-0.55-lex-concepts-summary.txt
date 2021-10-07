@@ -1,0 +1,40 @@
+Analysis file details:
+# Created using the LexStat class of LingPy-2.6.8
+# Parameters: 3:2_1.00_10000_0.70_global-2-0.50:local-1-0.50_0.30__T_shuffle_False:upgma:-2_0.7_0.00_-5.00
+# Cluster: lexstat_upgma_0.55
+
+26685 words in store/cluster-for-release-lex.tsv.
+Number of words: 26685, number of distinct local cognates: 19342
+Number of words for >1 local cognates: 11606, number of distinct >1 local cognates: 4263
+Number of words: 26685, number distinct global cognates: 18899
+Number of words for >1 family global cognates: 1282, number of distinct >1 family global cognates: 330
+Threshold: 0.55.
+Language Cognates      Araona    Cashibo    Catuquina    Cavinena    Chacobo    EseEjja    HuarayoEseEjja    Pacahuara    ShipiboConibo    Tacana    Yaminahua
+-------------------  --------  ---------  -----------  ----------  ---------  ---------  ----------------  -----------  ---------------  --------  -----------
+Araona                     17          3            1          10          1          1                 1            0                4        10            3
+Cashibo                     3         25           10           3          9          0                 0            2               13         2           10
+Catuquina                   1         10           31           2          9          0                 0            3                9         1           10
+Cavinena                   10          3            2          41          0          2                 1            1               15        24           11
+Chacobo                     1          9            9           0         26          0                 0            2                9         0            7
+EseEjja                     1          0            0           2          0          6                 0            0                1         2            0
+HuarayoEseEjja              1          0            0           1          0          0                 2            0                0         1            0
+Pacahuara                   0          2            3           1          2          0                 0            6                3         1            2
+ShipiboConibo               4         13            9          15          9          1                 0            3               60         9           18
+Tacana                     10          2            1          24          0          2                 1            1                9        39            7
+Yaminahua                   3         10           10          11          7          0                 0            2               18         7           57
+Threshold: 0.550.
+Language          tp     tn    fp    fn    precision    recall    F1 score    accuracy
+--------------  ----  -----  ----  ----  -----------  --------  ----------  ----------
+Araona             5   1105    12     3        0.294     0.625       0.400       0.987
+Cashibo            0    719    25     0        0.000     0.000       0.000       0.966
+Catuquina         14   1062    17    31        0.452     0.311       0.368       0.957
+Cavinena          21    935    21    28        0.500     0.429       0.462       0.951
+Chacobo            4    985    23     7        0.148     0.364       0.211       0.971
+EseEjja            2    954     4     8        0.333     0.200       0.250       0.988
+HuarayoEseEjja     1    707     1     1        0.500     0.500       0.500       0.997
+Pacahuara          1     94     5     0        0.167     1.000       0.286       0.950
+ShipiboConibo     22   1247    40    25        0.355     0.468       0.404       0.951
+Tacana            13   1137    26    14        0.333     0.481       0.394       0.966
+Yaminahua         40   1206    17    84        0.702     0.323       0.442       0.925
+Total            123  10151   191   201        0.392     0.380       0.386       0.963
+Total: borrowed 324, inherited 10342, total 10666
