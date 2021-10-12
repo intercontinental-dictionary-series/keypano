@@ -88,12 +88,24 @@ def order_words_table(table, status=util.PredStatus.NTN):
     return ordered_words
 
 
+def report_words_table(words, threshold=None,
+                       output=None, series='', first_time=True):
+
+    filename = f"pairwise-{threshold:0.3f}-{series}{'-' if series else ''}words-status"
+    file_path = Path(output).joinpath(filename).as_posix()
+    header = ['Family', 'Language', 'Concept',  'Status', 'Tokens']
+    words_table = tabulate(words, headers=header, tablefmt="pip")
+    with open(file_path + '.txt', 'w' if first_time else 'a') as f:
+        print(f"Threshold: {threshold:0.3f}.", file=f)
+        print(words_table, file=f)
+
+
 def report_pairwise_distance(words_table, threshold, output, series, first_time=True):
     # Report out.
-    headers = ["Family", "Language", "Concept", "Word", "Borrowed",
-               "Donor", "Distance", "Donor word", "Marker", "Status"]
+    headers = ["Family", "Language", "Concept", "Tokens", "Borrowed",
+               "Donor", "Distance", "Donor Tokens", "Marker", "Status"]
     words_table = tabulate(words_table, headers=headers, tablefmt="simple")
-    filename = f"{series}{'-' if series else ''}distance-{threshold:0.3f}.txt"
+    filename = f"pairwise-{threshold:0.3f}-{series}{'-' if series else ''}words-distance.txt"
     filepath = Path(output).joinpath(filename).as_posix()
     with open(filepath, 'w' if first_time else 'a') as f:
         print(f"Threshold: {threshold:0.3f}.", file=f)
@@ -271,10 +283,10 @@ def report_borrowing(wl, bb,
                                      first_time=first_time)
 
             word_assessments = get_words_results(table=all_words, status=report_status)
-            report.report_words_table(word_assessments,
-                                      threshold=threshold,
-                                      output=output, series=series,
-                                      first_time=first_time)
+            report_words_table(word_assessments,
+                               threshold=threshold,
+                               output=output, series=series,
+                               first_time=first_time)
 
         report_donor_proportions(proportions, threshold, donors)
         first_time = False
@@ -322,7 +334,7 @@ def register(parser):
         "--donor",
         nargs="*",
         type=str,
-        default=["Spanish", "Portuguese"],
+        default=["Spanish", "SpanishLA", "Portuguese", "PortugueseBR"],
         help='Donor language(s).',
     )
     parser.add_argument(
