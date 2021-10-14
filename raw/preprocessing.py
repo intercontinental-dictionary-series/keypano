@@ -6,14 +6,14 @@ from lingrex.cognates import common_morpheme_cognates
 def run(wordlist):
     
     internal_cognates(wordlist, ref="autocogids", cluster_method="infomap")
-    common_morpheme_cognates(wordlist, ref="autocogids")
+    common_morpheme_cognates(wordlist, cognates="autocogids", ref="autocogid")
     external_cognates(wordlist, ref="autoborid", cognates="autocogid")
 
     wordlist.add_entries("cogids", "autocogids", lambda x: x)
     wordlist.add_entries("cogid", "autocogid", lambda x: x)
     wordlist.add_entries("borid", "autoborid", lambda x: x)
 
-    alms = Alignments(wordlist, ref="cogids")
+    alms = Alignments(wordlist, ref="cogids", transcription="form")
     alms.align()
 
     D = {0: [
@@ -34,5 +34,5 @@ def run(wordlist):
         "note"
         ]}
     for idx in alms:
-        D[idx] = [alms[idx, h] for h in D[0]]
+        D[idx] = [alms[idx, h] or '' for h in D[0]]
     return D
