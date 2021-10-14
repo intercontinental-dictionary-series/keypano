@@ -1,22 +1,19 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
     "aboutUrl": null,
-    "dc:bibliographicCitation": "Uday Raj Aaley and Timotheus A. Bodt (2020): New Kusunda data: A list of 250 concepts. Computer-Assisted Language Comparison in Practice 3.4 (08/04/2020), URL: https://calc.hypotheses.org/2414.",
+    "dc:bibliographicCitation": "+++",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
-    "dc:format": [
-        "http://concepticon.clld.org/contributions/Sagart-2019-250"
-    ],
-    "dc:identifier": "https://calc.hypotheses.org/2414",
+    "dc:identifier": "https://ids.clld.org",
     "dc:isVersionOf": null,
     "dc:license": "https://creativecommons.org/licenses/by/4.0/",
     "dc:related": null,
-    "dc:title": "CLDF dataset derived from Aaley and Bodt's \"New Kusunda data: A list of 250 concepts\" from 2020",
+    "dc:title": "CLDF dataset Prepared for a Study of Panoan Languages",
     "dcat:accessURL": "https://github.com/intercontinental-dictionary-series/keypano",
     "prov:wasDerivedFrom": [
         {
             "rdf:about": "https://github.com/intercontinental-dictionary-series/keypano",
             "rdf:type": "prov:Entity",
-            "dc:created": "2f10731",
+            "dc:created": "150dc08",
             "dc:title": "Repository"
         },
         {

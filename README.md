@@ -1,10 +1,10 @@
-# CLDF dataset derived from Aaley and Bodt's "New Kusunda data: A list of 250 concepts" from 2020
+# CLDF dataset Prepared for a Study of Panoan Languages
 
 ## How to cite
 
 If you use these data please cite
 - the original source
-  > Uday Raj Aaley and Timotheus A. Bodt (2020): New Kusunda data: A list of 250 concepts. Computer-Assisted Language Comparison in Practice 3.4 (08/04/2020), URL: https://calc.hypotheses.org/2414.
+  > +++
 - the derived dataset using the DOI of the [particular released version](../../releases/) you were using
 
 ## Description
@@ -12,11 +12,8 @@ If you use these data please cite
 
 This dataset is licensed under a CC-BY-4.0 license
 
-Available online at https://calc.hypotheses.org/2414
+Available online at https://ids.clld.org
 
-
-Conceptlists in Concepticon:
-- [Sagart-2019-250](https://concepticon.clld.org/contributions/Sagart-2019-250)
 ## Statistics
 
 

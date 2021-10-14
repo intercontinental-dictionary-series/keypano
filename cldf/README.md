@@ -1,18 +1,17 @@
 <a name="ds-cldfmetadatajson"> </a>
 
-# Wordlist CLDF dataset derived from Aaley and Bodt's "New Kusunda data: A list of 250 concepts" from 2020
+# Wordlist CLDF dataset Prepared for a Study of Panoan Languages
 
 **CLDF Metadata**: [cldf-metadata.json](./cldf-metadata.json)
 
 property | value
  --- | ---
-[dc:bibliographicCitation](http://purl.org/dc/terms/bibliographicCitation) | Uday Raj Aaley and Timotheus A. Bodt (2020): New Kusunda data: A list of 250 concepts. Computer-Assisted Language Comparison in Practice 3.4 (08/04/2020), URL: https://calc.hypotheses.org/2414.
+[dc:bibliographicCitation](http://purl.org/dc/terms/bibliographicCitation) | +++
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF Wordlist](http://cldf.clld.org/v1.0/terms.rdf#Wordlist)
-[dc:format](http://purl.org/dc/terms/format) | <ol><li>http://concepticon.clld.org/contributions/Sagart-2019-250</li></ol>
-[dc:identifier](http://purl.org/dc/terms/identifier) | https://calc.hypotheses.org/2414
+[dc:identifier](http://purl.org/dc/terms/identifier) | https://ids.clld.org
 [dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by/4.0/
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/intercontinental-dictionary-series/keypano
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/intercontinental-dictionary-series/keypano/tree/2f10731">intercontinental-dictionary-series/keypano 2f10731</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v4.4">Glottolog v4.4</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/v2.5.0">Concepticon v2.5.0</a></li><li><a href="https://github.com/cldf-clts/clts//tree/b12a7df">CLTS v2.1.0-26-gb12a7df</a></li><li><a href="https://github.com/intercontinental-dictionary-series/ids/tree/v4.0">intercontinental-dictionary-series/ids v4.0</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/intercontinental-dictionary-series/keypano/tree/150dc08">intercontinental-dictionary-series/keypano 150dc08</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v4.4">Glottolog v4.4</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/v2.5.0">Concepticon v2.5.0</a></li><li><a href="https://github.com/cldf-clts/clts//tree/b12a7df">CLTS v2.1.0-26-gb12a7df</a></li><li><a href="https://github.com/intercontinental-dictionary-series/ids/tree/v4.0">intercontinental-dictionary-series/ids v4.0</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>lingpy-rcParams</strong>: <a href="./lingpy-rcParams.json">lingpy-rcParams.json</a></li><li><strong>python</strong>: 3.9.5</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | keypano
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
