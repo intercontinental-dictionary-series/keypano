@@ -2904,7 +2904,7 @@
             },
             "sclass_errors": [],
             "segments": {
-                "+": 152,
+                "+": 150,
                 "a": 779,
                 "a\u02d0": 16,
                 "b": 129,
@@ -10088,16 +10088,8 @@
         }
     },
     "stats": {
-        "bad_words": [
-            [
-                "Cayuvava-16-110-1",
-                "Cayuvava",
-                "16-110",
-                "r\u0268\u0303h\u1ebd_..._ua\u03b2-a",
-                "\u027e \u0268\u0303 h \u1ebd + + + u a \u03b2 + a"
-            ]
-        ],
-        "bad_words_count": 1,
+        "bad_words": [],
+        "bad_words_count": 0,
         "bipa_errors": [],
         "general_errors": 0,
         "invalid_words": [],
@@ -10485,7 +10477,7 @@
         },
         "sclass_errors": [],
         "segments": {
-            "+": 9362,
+            "+": 9360,
             "a": 26162,
             "ai": 61,
             "au": 53,
