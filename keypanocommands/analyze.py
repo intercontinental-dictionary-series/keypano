@@ -38,7 +38,7 @@ def analyze_lexstat(module=None,
         wl = Partial(dataset, check=True)
         if method == "lexstat":
             # partial scorer errors.
-            wl.get_scorer(runs=runs, ratio=(3, 2))
+            wl.get_partial_scorer(runs=runs, ratio=(3, 2))
     else:
         raise NameError(f"{module} not a known cluster module.")
 

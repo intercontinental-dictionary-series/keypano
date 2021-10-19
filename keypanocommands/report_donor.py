@@ -41,7 +41,7 @@ def construct_alignments(wl, model, mode, donors):
     return bb
 
 
-def screen_word_hits(tmp_words, threshold, delta_threshold):
+def screen_word_hits(tmp_words, threshold):
     # Organize according to requirements of discrimination between donors.
     # Get index of min distance word.
     min_idx = min(enumerate(tmp_words), key=lambda x: x[1][1])[0]
@@ -53,14 +53,15 @@ def screen_word_hits(tmp_words, threshold, delta_threshold):
             tmp_words_ += [row + ['']]
         elif idx == min_idx:
             tmp_words_ += [row + ['*']]
-        elif row[1] <= min_dist+delta_threshold:
+        elif row[1] <= threshold:
             tmp_words_ += [row + ['-']]
         else:
             tmp_words_ += [row + ['']]
     return tmp_words_
 
 
-def order_words_table(table):
+def order_words_table(table, status=util.PredStatus.NTN):
+    # Remove redundant use of family, language, concept, and word.
     # Sort table by family.  Stable sort so rest of order should be OK.
     # Change unchanged fields to blank after sort for better presentation.
     table = sorted(table, key=lambda table_row: table_row[0])
@@ -70,6 +71,9 @@ def order_words_table(table):
     concept = ''
     word = ''
     for row in table:
+        status_ = row[-1]
+        if not util.report_assessment(status, status_): continue
+
         family_ = row[0] if family != row[0] else ''
         family = row[0]
         language_ = row[1] if language != row[1] else ''
@@ -79,20 +83,29 @@ def order_words_table(table):
         word_ = row[3] if word != row[3] else ''
         word = row[3]
         borrowed_ = 'True' if row[4] and word_ else 'False' if not row[4] and word_ else ''
-
-        ordered_words.append([family_, language_, concept_, word_, borrowed_] + row[5:9])
+        ordered_words.append([family_, language_, concept_, word_, borrowed_] + row[5:-1] + [status_.name])
 
     return ordered_words
 
 
+def report_words_table(words, threshold=None,
+                       output=None, series='', first_time=True):
+
+    filename = f"pairwise-{threshold:0.3f}-{series}{'-' if series else ''}words-status"
+    file_path = Path(output).joinpath(filename).as_posix()
+    header = ['Family', 'Language', 'Concept',  'Status', 'Tokens']
+    words_table = tabulate(words, headers=header, tablefmt="pip")
+    with open(file_path + '.txt', 'w' if first_time else 'a') as f:
+        print(f"Threshold: {threshold:0.3f}.", file=f)
+        print(words_table, file=f)
+
+
 def report_pairwise_distance(words_table, threshold, output, series, first_time=True):
-    # Remove redundant use of family, language, concept, and word.
-    words = order_words_table(words_table)
     # Report out.
-    headers = ["Family", "Language", "Concept", "Word", "Borrowed",
-               "Donor", "Distance", "Donor word", "Marker"]
-    words_table = tabulate(words, headers=headers, tablefmt="simple")
-    filename = f"{series}{'-' if series else ''}distance-{threshold:0.3f}.txt"
+    headers = ["Family", "Language", "Concept", "Tokens", "Borrowed",
+               "Donor", "Distance", "Donor Tokens", "Marker", "Status"]
+    words_table = tabulate(words_table, headers=headers, tablefmt="simple")
+    filename = f"pairwise-{threshold:0.3f}-{series}{'-' if series else ''}words-distance.txt"
     filepath = Path(output).joinpath(filename).as_posix()
     with open(filepath, 'w' if first_time else 'a') as f:
         print(f"Threshold: {threshold:0.3f}.", file=f)
@@ -100,10 +113,9 @@ def report_pairwise_distance(words_table, threshold, output, series, first_time=
         print(file=f)
 
 
-def report_donor_proportions(proportions, threshold, delta_threshold, donors):
+def report_donor_proportions(proportions, threshold, donors):
 
-    print(f"\nPairwise alignment with threshold {threshold:0.3f} and "
-          f"delta threshold {delta_threshold:0.2f}.")
+    print(f"\nPairwise alignment with threshold {threshold:0.3f}.")
     headers = ["Family", "Language", "Concepts"] + [
         donor for donor in donors] + ['Combined'] + [
                   donor + 'P' for donor in donors] + ['CombinedP']
@@ -168,23 +180,23 @@ def get_words_results(table, status=util.PredStatus.F):
         # pred == True if global_gt1
         pred = int(row[4])
         loan = int(row[5])
-        result = util.assess_pred(pred, loan)
-        if util.report_assessment(status, result):
+        status_ = util.assess_pred(pred, loan)
+        if util.report_assessment(status, status_):
             family_ = row[0] if family != row[0] else ''
             family = row[0]
             language_ = row[1] if language != row[1] else ''
             language = row[1]
             concept_ = row[2] if concept != row[2] else ''
             concept = row[2]
-            words.append([family_, language_, concept_, result.name, row[3], ])
+            words.append([family_, language_, concept_, status_.name, row[3], ])
             # family, language, concept, prediction_result, tokens,
     return words
 
 
 def report_borrowing(wl, bb,
                      thresholds,
-                     delta_threshold,
                      report_limit,
+                     report_status,
                      donors,
                      policy,
                      output='output',
@@ -219,12 +231,13 @@ def report_borrowing(wl, bb,
                             pred = True
 
                     # Add word to all_words for words status report.
+                    # Words are target language words, not possible donor words.
                     all_words.append([families[language], language,
                                       concept, word, pred, loan])
 
                     if not tmp_words: continue  # Nothing to add to distance report
                     # Add marker of minimum '*' or near minimum '-' < threshold.
-                    tmp_words = screen_word_hits(tmp_words, threshold, delta_threshold)
+                    tmp_words = screen_word_hits(tmp_words, threshold)
                     for row in tmp_words:
                         # Count hits for distance < threshold, or
                         # only words close to minimum distance < threshold.
@@ -236,8 +249,11 @@ def report_borrowing(wl, bb,
                         if (policy == "retain" and row[1] < threshold or
                                 policy == "exclude" and row[3] or
                                 report_limit and row[1] < report_limit):
+                            pred_ = 1 if row[3] in ['*', '-'] else 0
+                            status_ = util.assess_pred(pred_, int(loan))
                             words.append([family, language, concept, word, loan,
-                                          row[0], f'{row[1]:0.2f}', row[2], row[3]])
+                                          row[0], f'{row[1]:0.2f}', row[2], row[3],
+                                          status_])
 
                 if idxs:
                     # Get max score for use with combined donors category.
@@ -260,16 +276,19 @@ def report_borrowing(wl, bb,
             ]
 
         if series:
-            report_pairwise_distance(words_table=words, threshold=threshold,
+            word_distances = order_words_table(table=words, status=report_status)
+            report_pairwise_distance(words_table=word_distances,
+                                     threshold=threshold,
                                      output=output, series=series,
                                      first_time=first_time)
 
-            word_assessments = get_words_results(table=all_words, status=util.PredStatus.F)
-            report.report_words_table(word_assessments, threshold=threshold,
-                                      output=output, series=series,
-                                      first_time=first_time)
+            word_assessments = get_words_results(table=all_words, status=report_status)
+            report_words_table(word_assessments,
+                               threshold=threshold,
+                               output=output, series=series,
+                               first_time=first_time)
 
-        report_donor_proportions(proportions, threshold, delta_threshold, donors)
+        report_donor_proportions(proportions, threshold, donors)
         first_time = False
 
         report_pairwise_detection(all_words, threshold)
@@ -291,17 +310,19 @@ def register(parser):
         help='Threshold(s) to use with pairwise alignment method.',
     )
     parser.add_argument(
-        "--delta_threshold",
-        type=float,
-        default=0.1,
-        help='Threshold augment to consider candidate donors beyond the minimum.',
-    )
-    parser.add_argument(
-        "--report_limit",
+        "--limit",
         type=float,
         default=None,
         help="Limit to use for reporting words and donor candidate distances."
     )
+    parser.add_argument(
+        "--status",
+        type=str,
+        default='ntn',
+        choices=[e.name.lower() for e in util.PredStatus],
+        help="Status mask to use for reporting borrowed word detection status."
+    )
+
     parser.add_argument(
         "--mode",
         type=str,
@@ -313,7 +334,7 @@ def register(parser):
         "--donor",
         nargs="*",
         type=str,
-        default=["Spanish", "Portuguese"],
+        default=["Spanish", "SpanishLA", "Portuguese", "PortugueseBR"],
         help='Donor language(s).',
     )
     parser.add_argument(
@@ -345,8 +366,8 @@ def run(args):
                               donors=args.donor)
     report_borrowing(wl, bb,
                      thresholds=args.threshold,
-                     delta_threshold=args.delta_threshold,
-                     report_limit=args.report_limit,
+                     report_limit=args.limit,
+                     report_status=util.PredStatus[args.status.upper()],
                      donors=args.donor,
                      policy=args.policy,
                      output=args.output,

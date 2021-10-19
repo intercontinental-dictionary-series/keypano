@@ -8,7 +8,21 @@ Number of words: 26684, number of distinct local cognates: 20402
 Number of words for >1 local cognates: 10328, number of distinct >1 local cognates: 4046
 Number of words: 26684, number distinct global cognates: 19772
 Number of words for >1 family global cognates: 1702, number of distinct >1 family global cognates: 473
-Threshold: 0.25.
+Report number of Cognates for cross-family concepts at threshold: 0.250.
+Language Cognates      Arawakan    Aymaran    Cayubaba    Chapacuran    Chicham    Indo-European    Itonama    Mosetén-Chimané    Movima    Pano-Tacanan    Peba-Yagua
+-------------------  ----------  ---------  ----------  ------------  ---------  ---------------  ---------  -----------------  --------  --------------  ------------
+Arawakan                     36          4           5             0          5                8          1                  2         2              18             6
+Aymaran                       4         91           3             1         12               43          1                 14        10              42             7
+Cayubaba                      5          3          96             2          4               15          7                 10         6              67             8
+Chapacuran                    0          1           2             9          0                1          0                  0         0               5             1
+Chicham                       5         12           4             0         47               14          2                 13         7              23             9
+Indo-European                 8         43          15             1         14              215          4                 73        53             102            23
+Itonama                       1          1           7             0          2                4         24                  4         7              16             6
+Mosetén-Chimané               2         14          10             0         13               73          4                121        35              63            11
+Movima                        2         10           6             0          7               53          7                 35        76              41            11
+Pano-Tacanan                 18         42          67             5         23              102         16                 63        41             306            55
+Peba-Yagua                    6          7           8             1          9               23          6                 11        11              55            82
+Report number of Words for cross-family concepts at threshold: 0.250.
 Language Words      Arawakan    Aymaran    Cayubaba    Chapacuran    Chicham    Indo-European    Itonama    Mosetén-Chimané    Movima    Pano-Tacanan    Peba-Yagua
 ----------------  ----------  ---------  ----------  ------------  ---------  ---------------  ---------  -----------------  --------  --------------  ------------
 Arawakan                  36          4           7             0          5               22          1                  2         2              36             6
@@ -22,6 +36,7 @@ Mosetén-Chimané            2         14          10             0         13  
 Movima                     2         10           6             0          7              161          7                 36        76              76            11
 Pano-Tacanan              18         43          75             5         23              289         16                 66        41             493            58
 Peba-Yagua                 6          7          10             1          9               65          6                 11        11             106            86
+
 Threshold: 0.250.
 Language Family      tp     tn    fp    fn    precision    recall    F1 score    accuracy
 -----------------  ----  -----  ----  ----  -----------  --------  ----------  ----------

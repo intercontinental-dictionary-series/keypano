@@ -1,0 +1,693 @@
+Threshold: 0.550.
+Family        Language        Concept                  Tokens                                 Cog_id    Borrowed    Status    Donor Language    Donor Tokens
+------------  --------------  -----------------------  -------------------------------------  --------  ----------  --------  ----------------  -----------------------
+
+
+Pano-Tacanan  Araona          canoe                    k a n a w a                            3128      False       FP        Unknown           Unknown
+                              cat                      m i s i                                3298      False       FP        Unknown           Unknown
+                              cough                    o t o                                  4580      False       FP        Unknown           Unknown
+                              cow                      w a k a                                4698      True        TP        Unknown           Unknown
+                              father                   t a d i                                7344      False       FP        Unknown           Unknown
+                              goat                     tʃ i b a                               9267      True        TP        Unknown           Unknown
+                              he/she/it                d a                                    10200     False       FP        Unknown           Unknown
+                              hour                     o l a                                  10887     True        TP        Spanish           ['o ɾ a']
+                                                                                                                              SpanishLA         ['o ɾ a']
+                                                                                                                              Portuguese        ['ɔ ɾ ɐ']
+                                                                                                                              PortugueseBR      ['ɔ ɾ ɐ']
+                              knife                    kʷ i ʃ i l o                           0         True        FN
+                              knife (2)                kʷ i ʃ i l o                           0         True        FN
+                              match (noun)             f o s f o ɾ o                          0         True        FN
+                              needle                   ʃ o p i l i                            14585     False       FP        Unknown           Unknown
+                              part, piece              p e z o                                15771     False       FP        Portuguese        ['p ɛ s ɐ']
+                                                                                                                              PortugueseBR      ['p ɛ s ɐ']
+                              pig                      k o ts i                               16068     False       FP        Unknown           Unknown
+                              rice                     a l o s o                              17577     True        TP        Unknown           Unknown
+                              scissors, shears         t i ʃ i l a                            18425     True        TP        Portuguese        ['t ɨ z o ɾ ɐ']
+                                                                                                                              PortugueseBR      ['t e z o ɾ ɐ']
+                              three                    k i m i ʃ a                            22463     False       FP        Unknown           Unknown
+                              wife                     m a m a                                24605     False       FP        Unknown           Unknown
+                              year                     m a l a                                25200     False       FP        Unknown           Unknown
+                              you (singular)           m i                                    25347     False       FP        Unknown           Unknown
+
+              Cashibo         acid, sour               k a tʃ a                               150       False       FP        Unknown           Unknown
+                              beak                     ʂ ɨ t a                                1196      False       FP        Unknown           Unknown
+                              chief, chieftain         ʔ a p u                                3622      False       FP        Unknown           Unknown
+                              father                   p a p a                                7342      False       FP        Unknown           Unknown
+                              fire                     ts iː                                  7821      False       FP        Unknown           Unknown
+                              foolish, stupid          u p a                                  8510      False       FP        Unknown           Unknown
+                              gold                     k u ɾ i                                9299      False       FP        Unknown           Unknown
+                              grandmother              tʃ i tʃ i                              9443      False       FP        Unknown           Unknown
+                              handkerchief, rag        p a ɲ ũ                                9934      False       FP        Unknown           Unknown
+                              hard                     k ɨ ɾ ɨ                                10002     False       FP        Unknown           Unknown
+                              hen                      ʔ a t a p a                            10466     False       FP        Unknown           Unknown
+                              husband                  β ɨ n ɨ                                11067     False       FP        Unknown           Unknown
+                              maize, corn              ʂ ɨ k i                                13152     False       FP        Unknown           Unknown
+                              money                    k u ɾ i k i                            13776     False       FP        Unknown           Unknown
+                              mother                   t i t a                                13946     False       FP        Unknown           Unknown
+                              pig                      k u tʃ i                               16068     False       FP        Unknown           Unknown
+                              rain (noun)              u ɲ e                                  17096     False       FP        Unknown           Unknown
+                              sew                      k ɨ ʂ ɨ                                18784     False       FP        Unknown           Unknown
+                              stand                    n i                                    20931     False       FP        Unknown           Unknown
+                              sweet potato             k a ɾ i                                21727     False       FP        Unknown           Unknown
+                              thigh                    k i s i                                22266     False       FP        Portuguese        ['k ɔ ʃ ɐ']
+                                                                                                                              PortugueseBR      ['k ɔ ʃ ɐ']
+                              three                    k i m i ʃ a                            22463     False       FP        Unknown           Unknown
+                              throat                   t ɨ ɾ o                                22517     False       FP        Unknown           Unknown
+                              vein, artery             p o n o                                23572     False       FP        Spanish           ['b e n a']
+                                                                                                                              SpanishLA         ['b e n a']
+                              you (singular)           m iː                                   25347     False       FP        Unknown           Unknown
+
+              Catuquina       Friday                   s i s t a                              0         True        FN
+                              Monday                   s e g u n d a                          0         True        FN
+                              Saturday                 s a β a                                0         True        FN
+                              Sunday                   t o m ĩ k o + β a ɾ i                  0         True        FN
+                              Thursday                 k ĩ t a                                0         True        FN
+                              Tuesday                  t i s a                                0         True        FN
+                              Wednesday                kʷ a t a                               0         True        FN
+                              account, reckoning       k o n t a                              121       True        TP        Unknown           Unknown
+                              acid, sour               k a ʂ a                                150       False       FP        Unknown           Unknown
+                              beak                     ʃ ɨ t a                                1196      False       FP        Unknown           Unknown
+                              bean                     tʃ i tʃ ã o                            0         True        FN
+                              bed                      k a m a                                1340      True        TP        Spanish           ['k a m a']
+                                                                                                                              SpanishLA         ['k a m a']
+                                                                                                                              Portuguese        ['k ɐ m ɐ']
+                                                                                                                              PortugueseBR      ['k ɐ m ɐ']
+                              belt, girdle             s ĩ t o ɾ ã o                          0         True        FN
+                              boot                     b o t a                                2198      True        TP        Spanish           ['b o t a']
+                                                                                                                              SpanishLA         ['b o t a']
+                                                                                                                              Portuguese        ['b ɔ t ɐ']
+                                                                                                                              PortugueseBR      ['b ɔ t ɐ']
+                              bread                    p ã o                                  2474      True        TP        Unknown           Unknown
+                              bull                     β o i + β ɨ n ɨ                        0         True        FN
+                              calf                     β o i + β a k ɨ                        0         True        FN
+                              carriage, wagon, cart    k a r o                                3177      True        TP        Spanish           ['k a r o']
+                                                                                                                              SpanishLA         ['k a r o']
+                              cattle (bovine)          β o i                                  0         True        FN
+                              chain                    k o r e n t e                          0         True        FN
+                              city, town               s i d a d e                            3843      True        TP        Portuguese        ['s i d a d ɨ']
+                                                                                                                              PortugueseBR      ['s i d a dʒ i']
+                              cow                      β o i + a ĩ                            0         True        FN
+                              cup, drinking vessel     k o p o                                4951      True        TP        Spanish           ['k o p a']
+                                                                                                                              SpanishLA         ['k o p a']
+                                                                                                                              Portuguese        ['k ɔ p u']
+                                                                                                                              PortugueseBR      ['k ɔ p u']
+                              dinner                   a l m o s o                            0         True        FN
+                              father                   p a p a                                7342      False       FP        Unknown           Unknown
+                              fermented drink          k a ʂ a                                7587      False       FP        Unknown           Unknown
+                              field (for cultivation)  k a m p o                              7636      True        TP        Spanish           ['k a m p o']
+                                                                                                                              SpanishLA         ['k a m p o']
+                                                                                                                              Portuguese        ['k ɐ̃ p u']
+                                                                                                                              PortugueseBR      ['k ɐ̃ p u']
+                              fish                     ts a ts a                              7932      False       FP        Unknown           Unknown
+                              goiter                   k õ t õ                                9281      False       FP        Spanish           ['k o t o']
+                                                                                                                              SpanishLA         ['k o t o']
+                              gun, cannon              ɾ i p i                                0         True        FN
+                              hoe                      e n tʃ a d o                           0         True        FN
+                              husband                  β ɨ n ɨ                                11067     False       FP        Unknown           Unknown
+                              key                      tʃ a β i                               11598     True        TP        Unknown           Unknown
+                              lead (noun)              p a ɾ a                                0         True        FN
+                              maize, corn              ʃ ɨ k i                                13152     False       FP        Unknown           Unknown
+                              merchant                 h i k a t ã o                          0         True        FN
+                              mountain, hill           m a ʂ i                                14044     False       FP        Unknown           Unknown
+                              nut                      k a s t ã j a                          0         True        FN
+                              owe                      d e β i ʔ a                            0         True        FN
+                              ox                       β o i                                  0         True        FN
+                              palm tree                k õ t a                                15646     False       FP        Unknown           Unknown
+                              pasture                  k a m p o                              0         True        FN
+                              physician                m ɨ d i k o                            16038     True        TP        Spanish           ['m e ð i k o']
+                                                                                                                              SpanishLA         ['m e ð i k o']
+                                                                                                                              Portuguese        ['m ɛ d i k u']
+                                                                                                                              PortugueseBR      ['m ɛ dʒ i k u']
+                              plain, field             k a m p o                              16251     True        TP        Spanish           ['k a m p o']
+                                                                                                                              SpanishLA         ['k a m p o']
+                                                                                                                              Portuguese        ['k ɐ̃ p u']
+                                                                                                                              PortugueseBR      ['k ɐ̃ p u']
+                              priest                   p a ʂ i                                16760     False       FP        Unknown           Unknown
+                              retard, delay            ĩ p a t a                              0         True        FN
+                              salt                     s a o                                  0         True        FN
+                              salty                    s a o + k o ĩ n ã k a                  0         True        FN
+                              ship                     w a p o                                19037     True        TP        Unknown           Unknown
+                              stand                    n i                                    20931     False       FP        Unknown           Unknown
+                              stocking, sock           m e i a                                0         True        FN
+                              store, shop              l o dʒ a + l o j a                     0         True        FN
+                              sugar                    a s o k a                              21494     True        TP        Unknown           Unknown
+                              supper                   dʒ a n t a + j a n t a                 0         True        FN
+                              sweet potato             k a ɾ i                                21727     False       FP        Unknown           Unknown
+                              swim                     n o n a                                21810     False       FP        Unknown           Unknown
+                              table                    m e s a                                21841     True        TP        Spanish           ['m e s a']
+                                                                                                                              SpanishLA         ['m e s a']
+                                                                                                                              Portuguese        ['m ɛ z ɐ']
+                                                                                                                              PortugueseBR      ['m ɛ z ɐ']
+                              thigh                    k i tʃ i                               22266     False       FP        Portuguese        ['k ɔ ʃ ɐ']
+                                                                                                                              PortugueseBR      ['k ɔ ʃ ɐ']
+                              vein, artery             p o n o                                23572     False       FP        Spanish           ['b e n a']
+                                                                                                                              SpanishLA         ['b e n a']
+                              village                  a l d e i a                            0         True        FN
+                              wheel                    k a r o + n õ + t a ʔ ɨ                0         True        FN
+                              you (singular)           m ĩ                                    25347     False       FP        Unknown           Unknown
+
+              Cavinena        Friday                   w i e ɹ e n e ʃ i                      0         True        FN
+                              God                      j o s o                                0         True        FN
+                              Monday                   ɹ o n e ʃ i                            0         True        FN
+                              Saturday                 s a b a ɹ o                            77        True        TP        Unknown           Unknown
+                              Sunday                   d o m i k o                            83        True        TP        Spanish           ['d o m i n g o']
+                                                                                                                              SpanishLA         ['d o m i n g o']
+                                                                                                                              Portuguese        ['d u m ĩ ɡ u']
+                                                                                                                              PortugueseBR      ['d o m ĩ ɡ u']
+                              Thursday                 w e w e ʃ i                            0         True        FN
+                              Tuesday                  m a ɹ t e ʃ i                          0         True        FN
+                              Wednesday                m i ɹ i k o ɹ e ʃ i                    0         True        FN
+                              ant                      p o k i                                555       False       FP        Unknown           Unknown
+                              ax                       h a tʃ a                               866       True        TP        Unknown           Unknown
+                              bean                     p o ɹ o t o                            1238      False       FP        Spanish           ['p o ɾ o t o']
+                                                                                                                              SpanishLA         ['p o ɾ o t o']
+                              belt, girdle             s i n t o ɹ o                          1576      True        TP        Spanish           ['θ i n t u ɾ o n']
+                                                                                                                              SpanishLA         ['s i n t u ɾ o n']
+                              board                    t a o ɹ a                              2023      True        TP        Unknown           Unknown
+                              calf                     w a k a + h a + b a kʷ a               0         True        FN
+                              carriage, wagon, cart    k a ɹ e t o                            3178      True        TP        Spanish           ['k a r ɛ t o n']
+                                                                                                                              SpanishLA         ['k a r ɛ t o n']
+                              cat                      m i ʃ i                                3298      False       FP        Unknown           Unknown
+                              cattle (bovine)          w a k a                                3334      True        TP        Unknown           Unknown
+                              cheese                   k i s o                                3551      True        TP        Spanish           ['k e s o']
+                                                                                                                              SpanishLA         ['k e s o']
+                                                                                                                              Portuguese        ['k w ɐi ʒ u']
+                                                                                                                              PortugueseBR      ['k ei ʒ u']
+                              citrus fruit             ɹ i m o                                3830      True        TP        Unknown           Unknown
+                              clock, timepiece         o ɹ a                                  0         True        FN
+                              cockroach                s o p a                                4169      False       FP        Unknown           Unknown
+                              cow                      w a k a                                4698      True        TP        Unknown           Unknown
+                              cross                    k o ɹ o s o                            4819      True        TP        Unknown           Unknown
+                              cup, drinking vessel     p e ɹ o ɹ a                            0         True        FN
+                              debt                     m a n o                                5392      False       FP        Unknown           Unknown
+                              dish                     s eː t a                               5814      False       FP        Unknown           Unknown
+                              earring                  ʃ a p o ɹ o                            6442      False       FP        Unknown           Unknown
+                              father                   t a t a                                7344      False       FP        Unknown           Unknown
+                              five                     p i ʃ i k a                            8078      False       FP        Unknown           Unknown
+                              four                     p o ʃ i                                8709      False       FP        Unknown           Unknown
+                              goat                     o w i ʃ a                              0         True        FN
+                              grandmother              a w i tʃ a                             9442      False       FP        Unknown           Unknown
+                              hoe                      a s u e ɹ a                            0         True        FN
+                              horse (equine)           k a w a j o                            10839     True        TP        Unknown           Unknown
+                              hour                     o ɹ a                                  10887     True        TP        Spanish           ['o ɾ a']
+                                                                                                                              SpanishLA         ['o ɾ a']
+                                                                                                                              Portuguese        ['ɔ ɾ ɐ']
+                                                                                                                              PortugueseBR      ['ɔ ɾ ɐ']
+                              idol                     j o s o + kʷ a n a                     0         True        FN
+                              kettle                   p e ɹ o ɹ a                            0         True        FN
+                              knife                    k o tʃ i ɹ o + k a k a                 0         True        FN
+                              knife (2)                k o tʃ i ɹ o + k a k a                 0         True        FN
+                              leather                  w a k a + b i t i                      0         True        FN
+                              measure                  t o p o + j a                          13442     False       FP        Unknown           Unknown
+                              milk (vb)                l e tʃ e + h o + j a                   0         True        FN
+                              mold (clay etc)          m o d e                                0         True        FN
+                              new                      i + j a kʷ a + k e                     0         True        FN
+                              now                      i j a kʷ a                             0         True        FN
+                              ox                       h o j e                                0         True        FN
+                              paper                    k i ɹ i k a                            15683     False       FP        Unknown           Unknown
+                                                       k i l i k a                            15683     False       FP        Unknown           Unknown
+                              pig                      k o tʃ i                               16068     False       FP        Unknown           Unknown
+                              pray                     j o s a + m i m i                      0         True        FN
+                              rice                     a ɹ o s o                              17577     True        TP        Unknown           Unknown
+                              saw                      s e ɹ o tʃ o                           18345     True        TP        Spanish           ['s ɛ r u tʃ o']
+                                                                                                                              SpanishLA         ['s ɛ r u tʃ o']
+                              scissors, shears         t i ʃ i ɹ a                            18425     True        TP        Portuguese        ['t ɨ z o ɾ ɐ']
+                                                                                                                              PortugueseBR      ['t e z o ɾ ɐ']
+                              sheep                    o w i ʃ a                              18959     True        TP        Unknown           Unknown
+                              shoe                     s a p a t o + k i                      0         True        FN
+                              six                      ʃ o k o t a                            19615     False       FP        Unknown           Unknown
+                              soap                     h a b o                                20123     True        TP        Unknown           Unknown
+                              soldier                  s o d a ɹ o                            20178     True        TP        Unknown           Unknown
+                              statue                   j o s o kʷ a n a                       0         True        FN
+                              sugar                    a s o k a                              21494     True        TP        Unknown           Unknown
+                              temple, church           i ɹ i ʃ a                              0         True        FN
+                              ten                      t o n k a                              22121     False       FP        Unknown           Unknown
+                              three                    k i m i ʃ a                            22463     False       FP        Unknown           Unknown
+                              today                    i j a kʷ a + w e k a k a               0         True        FN
+                              trousers                 k a ɹ o s o n e                        23093     True        TP        Unknown           Unknown
+                              weigh                    t o p o + j a                          24166     False       FP        Unknown           Unknown
+                              window                   w e t a n a                            0         True        FN
+                              wood                     t a o ɹ a                              0         True        FN
+                              year                     m a ɹ a                                25200     False       FP        Unknown           Unknown
+                              you (singular)           m i                                    25347     False       FP        Unknown           Unknown
+
+              Chacobo         bark                     β i tʃ i                               1061      False       FP        Unknown           Unknown
+                              beak                     ʂ ɨ t a                                1196      False       FP        Unknown           Unknown
+                              bend                     n a n a                                1600      False       FP        Unknown           Unknown
+                              book                     p a p i                                2182      True        TP        Unknown           Unknown
+                              coin                     p a ɾ a t a                            0         True        FN
+                              father                   p a p a                                7342      False       FP        Unknown           Unknown
+                              father's sister          j a j a                                7391      False       FP        Unknown           Unknown
+                              foot                     t a + ʔ ɨ                              8537      False       FP        Unknown           Unknown
+                              hand                     m ɨ                                    9914      False       FP        Portuguese        ['m ɐ̃ũ']
+                                                                                                                              PortugueseBR      ['m ɐ̃ũ']
+                              hang up                  ɾ o t a                                9961      False       FP        Unknown           Unknown
+                              hard                     t a ɾ o                                10009     False       FP        Spanish           ['d u ɾ o']
+                                                                                                                              SpanishLA         ['d u ɾ o']
+                                                                                                                              Portuguese        ['d u ɾ u']
+                                                                                                                              PortugueseBR      ['d u ɾ u']
+                              heart                    h o w i t i                            0         True        FN
+                              husband                  β ɨ n ɨ                                11067     False       FP        Unknown           Unknown
+                              maize, corn              ʂ ɨ k i                                13152     False       FP        Unknown           Unknown
+                              money                    p a ɾ a t a                            13780     True        TP        Unknown           Unknown
+                              needle                   s o p i ɾ i                            14585     False       FP        Unknown           Unknown
+                              nipple, teat             tʃ o tʃ o                              14801     False       FP        Spanish           ['t ɛ t a']
+                                                                                                                              SpanishLA         ['t ɛ t a']
+                                                                                                                              Portuguese        ['t ɛ t ɐ']
+                                                                                                                              PortugueseBR      ['t ɛ t ɐ']
+                              ox                       w ɨ j ɨ                                15513     True        TP        Unknown           Unknown
+                              paper                    p a p i                                15680     True        TP        Unknown           Unknown
+                              plate                    ɾ a t a                                0         True        FN
+                              read                     p a p i + ts a j a                     0         True        FN
+                              rich                     p a ɾ a t a + j a                      0         True        FN
+                              salt                     tʃ o p a ɾ a                           18195     False       FP        Unknown           Unknown
+                              salty                    t iː                                   18220     False       FP        Unknown           Unknown
+                              sew                      k ɨ ʂ a                                18784     False       FP        Unknown           Unknown
+                              shovel                   t a k o                                19270     False       FP        Unknown           Unknown
+                              stand                    n iː                                   20931     False       FP        Unknown           Unknown
+                                                       n i                                    20931     False       FP        Unknown           Unknown
+                              sweet potato             k a ɾ i                                21727     False       FP        Unknown           Unknown
+                              swim                     n o n o                                21810     False       FP        Unknown           Unknown
+                              thigh                    k i ʃ i                                22266     False       FP        Portuguese        ['k ɔ ʃ ɐ']
+                                                                                                                              PortugueseBR      ['k ɔ ʃ ɐ']
+                              trousers                 p a t a ɾ o                            0         True        FN
+                              vein, artery             p o n o                                23572     False       FP        Spanish           ['b e n a']
+                                                                                                                              SpanishLA         ['b e n a']
+                              write                    p a p i + k ɨ n ɨ                      0         True        FN
+
+              EseEjja         cat                      m i tʃ i                               3304      False       FP        Unknown           Unknown
+                              cattle (bovine)          w a k a                                3334      True        TP        Unknown           Unknown
+                              chicken                  k a tʃ i n a + h a + β a kʷ a          0         True        FN
+                              cock, rooster            k a tʃ i n a + j a w e                 0         True        FN
+                              cow                      w a k a                                4698      True        TP        Unknown           Unknown
+                              hen                      k a tʃ i n a                           0         True        FN
+                              horn, trumpet            w a k a ʃ e ʔ a n a                    0         True        FN
+                              horse (equine)           m o n a                                0         True        FN
+                              leaf                     i ɲ a                                  12244     False       FP        Unknown           Unknown
+                              leather                  w a k a h e                            0         True        FN
+                              paper                    p a p e n i                            0         True        FN
+                              pile up                  w a n a                                16117     False       FP        Unknown           Unknown
+                              rice                     a n o s o                              0         True        FN
+                              tooth                    e s e ʔ                                22825     False       FP        Unknown           Unknown
+
+              HuarayoEseEjja  cat                      m i s i                                3298      True        TP        Unknown           Unknown
+                              father's brother         i tʃ a                                 7378      False       FP        Unknown           Unknown
+                              rabbit                   ʃ a x a + m i s i                      0         True        FN
+
+              Pacahuara       ax                       h a tʃ a                               866       True        TP        Unknown           Unknown
+                              cut                      k ɨː s a k i a                         5050      False       FP        Unknown           Unknown
+                              husband                  w ɨ n ɨ                                11067     False       FP        Unknown           Unknown
+                              maize, corn              ʂ ɨ k i                                13152     False       FP        Unknown           Unknown
+                              palm tree                k o t i                                15646     False       FP        Unknown           Unknown
+                              water                    h ɨ n ɨ                                23933     False       FP        Unknown           Unknown
+
+              ShipiboConibo   God                      ɻ i o s                                0         True        FN
+                              Monday                   ɻ o n i s + n ɨ t ɨ                    0         True        FN
+                              ass, donkey              b o ɻ o                                786       True        TP        Spanish           ['b u r o']
+                                                                                                                              SpanishLA         ['b u r o']
+                                                                                                                              Portuguese        ['b u ʁ u']
+                                                                                                                              PortugueseBR      ['b u ʁ u']
+                              bark                     β i tʃ i                               1061      False       FP        Unknown           Unknown
+                              barley                   s i β a ɻ a                            0         True        FN
+                              beak                     ʂ ɨ t a                                1196      False       FP        Unknown           Unknown
+                              bean                     p o ɻ o t o                            1238      False       FP        Spanish           ['p o ɾ o t o']
+                                                                                                                              SpanishLA         ['p o ɾ o t o']
+                              bless                    β i n i ɻ i s ĩ + t i                  0         True        FN
+                              bull                     w a k a + β ɨ n ɨ                      0         True        FN
+                              button                   β o t o n i s                          0         True        FN
+                              calf                     w a k a + β a k ɨ                      0         True        FN
+                              camel                    k a m i tʃ o                           0         True        FN
+                              carpenter                k a ɻ a p ĩ t i ɻ o                    3168      True        TP        Spanish           ['k a ɾ p i n t ɛ ɾ o']
+                                                                                                                              SpanishLA         ['k a ɾ p i n t ɛ ɾ o']
+                                                                                                                              Portuguese        ['k ɐ ɾ p ĩ t ɐi ɾ u']
+                                                                                                                              PortugueseBR      ['k a ʁ p ĩ t ei ɾ u']
+                              carriage, wagon, cart    k a ɻ i t i                            3178      True        TP        Spanish           ['k a r ɛ t o n']
+                                                                                                                              SpanishLA         ['k a r ɛ t o n']
+                              carry (bear)             β o t i                                3203      False       FP        Unknown           Unknown
+                              cat                      m i ʃ i t o                            3307      False       FP        Unknown           Unknown
+                              cattle (bovine)          w a k a                                3334      True        TP        Unknown           Unknown
+                              cease, stop              ts a s i m a t i                       3389      False       FP        Unknown           Unknown
+                              chain                    k a ɻ i n ã                            0         True        FN
+                              chief, chieftain         k o ɻ a k a                            3621      False       FP        Unknown           Unknown
+                                                       a p o                                  3622      False       FP        Unknown           Unknown
+                              citrus fruit             ɻ i m a                                3830      False       FP        Unknown           Unknown
+                                                       ɻ i m õ                                3830      False       FP        Unknown           Unknown
+                                                       n a ɻ ã ʂ a                            3831      False       FP        Unknown           Unknown
+                              clay                     tʃ a w a                               3884      False       FP        Unknown           Unknown
+                              clock, timepiece         ɻ i ɻ o s                              0         True        FN
+                              copper, bronze           β o ɻ õ s i                            0         True        FN
+                              cross                    k o ɻ o s                              4819      True        TP        Unknown           Unknown
+                              father                   p a p a                                7342      False       FP        Unknown           Unknown
+                              flat                     p ã tʃ a                               8127      False       FP        Unknown           Unknown
+                              flute                    k i n a                                8311      False       FP        Unknown           Unknown
+                              full                     p o t o                                8906      False       FP        Unknown           Unknown
+                              goat                     tʃ i β o                               9267      True        TP        Unknown           Unknown
+                              gold                     k o ɻ i                                9299      False       FP        Unknown           Unknown
+                              goose                    k ã s o                                9360      True        TP        Spanish           ['g a n s o']
+                                                                                                                              SpanishLA         ['g a n s o']
+                                                                                                                              Portuguese        ['ɡ ɐ̃ s u']
+                                                                                                                              PortugueseBR      ['ɡ ɐ̃ s u']
+                              he-goat                  tʃ i β o                               10189     True        TP        Spanish           ['tʃ i β o']
+                                                                                                                              SpanishLA         ['tʃ i β o']
+                              hen                      a t a p a                              10466     False       FP        Unknown           Unknown
+                                                       a t a p aː w ĩ                         10466     False       FP        Unknown           Unknown
+                              horse (equine)           k a b a j o                            10839     True        TP        Unknown           Unknown
+                              hour                     o ɻ a                                  10887     True        TP        Spanish           ['o ɾ a']
+                                                                                                                              SpanishLA         ['o ɾ a']
+                                                                                                                              Portuguese        ['ɔ ɾ ɐ']
+                                                                                                                              PortugueseBR      ['ɔ ɾ ɐ']
+                              hundred                  p a tʃ a                               10996     False       FP        Unknown           Unknown
+                              husband                  β ɨ n ɨ                                11067     False       FP        Unknown           Unknown
+                              ice                      iː ɻ o                                 0         True        FN
+                              inside, in               n a p o                                11310     False       FP        Unknown           Unknown
+                              key                      tʃ a β i                               11598     True        TP        Unknown           Unknown
+                              lamb                     k a ɻ a n i ɻ o + β a k ɨ              0         True        FN
+                              lion                     ɻ i õ                                  0         True        FN
+                              maize, corn              ʂ ɨ k i                                13152     False       FP        Unknown           Unknown
+                              market (place)           m i ɻ i k a t o                        0         True        FN
+                              match (noun)             h o s p o ɻ o                          13374     True        TP        Spanish           ['f o s f o ɾ o']
+                                                                                                                              SpanishLA         ['f o s f o ɾ o']
+                                                                                                                              Portuguese        ['f ɔ ʃ f u ɾ u']
+                                                                                                                              PortugueseBR      ['f ɔ ʃ f u ɾ u']
+                              measure                  t o p õ + t i                          13442     False       FP        Unknown           Unknown
+                              mirror                   i s p i k o                            13668     True        TP        Spanish           ['ɛ s p e x o']
+                                                                                                                              SpanishLA         ['ɛ s p e x o']
+                              mother                   t i t a                                13946     False       FP        Unknown           Unknown
+                              move                     ʃ a k õ t i                            14149     False       FP        Unknown           Unknown
+                              netbag                   b o ɻ o s a                            0         True        FN
+                              paper                    k i ɻ i k a                            15683     False       FP        Unknown           Unknown
+                              physician                ɻ o k o t o ɻ o                        0         True        FN
+                              pig                      k o tʃ i                               16068     True        TP        Unknown           Unknown
+                              prison, jail             k a ɻ a s i ɻ a                        0         True        FN
+                              rabbit                   k o n i h o                            17054     True        TP        Spanish           ['k o n e x o']
+                                                                                                                              SpanishLA         ['k o n e x o']
+                              rice                     a ɻ o s                                17587     True        TP        Spanish           ['a r o θ']
+                                                                                                                              SpanishLA         ['a r o s']
+                                                                                                                              Portuguese        ['ɐ ʁ ɔ ʃ']
+                                                                                                                              PortugueseBR      ['a ʁ ɔ ʃ']
+                              saw                      s i ɻ o tʃ o                           18345     False       FP        Spanish           ['s ɛ r u tʃ o']
+                                                                                                                              SpanishLA         ['s ɛ r u tʃ o']
+                                                       s i ɻ a                                18349     False       FP        Spanish           ['s j ɛ r a']
+                                                                                                                              SpanishLA         ['s j ɛ r a']
+                                                                                                                              Portuguese        ['s ɛ ʁ ɐ']
+                                                                                                                              PortugueseBR      ['s ɛ ʁ ɐ']
+                              school                   i s ts o i ɻ a                         0         True        FN
+                              sheep                    o β i h a                              0         True        FN
+                              shield                   i s k o ɻ o                            0         True        FN
+                              six                      s o k o t a                            19615     False       FP        Unknown           Unknown
+                              skirt                    s a j a                                19669     False       FP        Unknown           Unknown
+                              soap                     h a β õ                                20123     True        TP        Unknown           Unknown
+                              soldier                  s õ t a ɻ o                            20178     True        TP        Unknown           Unknown
+                              spoon                    k o tʃ a ɻ a                           20748     True        TP        Spanish           ['k u tʃ a ɾ a']
+                                                                                                                              SpanishLA         ['k u tʃ a ɾ a']
+                              sugar                    a s o k a ɻ o                          21493     True        TP        Unknown           Unknown
+                              sweet potato             k a ɻ i                                21727     False       FP        Unknown           Unknown
+                              swim                     n o n o                                21810     False       FP        Unknown           Unknown
+                              sword                    i s p a ɻ a                            21832     True        TP        Unknown           Unknown
+                              temple, church           i k i ɻ i s i a                        0         True        FN
+                              thigh                    k i ʃ i                                22266     False       FP        Portuguese        ['k ɔ ʃ ɐ']
+                                                                                                                              PortugueseBR      ['k ɔ ʃ ɐ']
+                              thousand                 w a ɻ ã k a                            22418     False       FP        Unknown           Unknown
+                              three                    k i m i ʃ a                            22463     False       FP        Unknown           Unknown
+                              touch                    t i a t i                              22895     False       FP        Unknown           Unknown
+                              twelve                   ɻ o s i n a                            0         True        FN
+                              vein, artery             p o n o                                23572     False       FP        Spanish           ['b e n a']
+                                                                                                                              SpanishLA         ['b e n a']
+                              water                    h ɨ n ɨ                                23933     False       FP        Unknown           Unknown
+                              week                     s i m a n ã                            24163     True        TP        Spanish           ['s e m a n a']
+                                                                                                                              SpanishLA         ['s e m a n a']
+                                                                                                                              Portuguese        ['s ɨ m ɐ n ɐ']
+                                                                                                                              PortugueseBR      ['s e m ɐ n ɐ']
+                              wheat                    t i ɻ i k o                            0         True        FN
+                              wool                     ɻ a n i                                0         True        FN
+                              yes, affirmative         h ɨ̃ + h ɨ̃                              25261     False       FP        Unknown           Unknown
+
+              Tacana          God                      d i o s o                              0         True        FN
+                              animal                   a n i m a l o                          0         True        FN
+                              ass, donkey              a s o n o                              0         True        FN
+                              ax                       h a tʃ a                               866       True        TP        Unknown           Unknown
+                              bean                     p o ɾ o t o                            1238      False       FP        Spanish           ['p o ɾ o t o']
+                                                                                                                              SpanishLA         ['p o ɾ o t o']
+                              beverage, drink          w a ɾ a p o                            1660      False       FP        Unknown           Unknown
+                              blow                     h o                                    1949      False       FP        Unknown           Unknown
+                              candle                   k a i t e ɾ a                          0         True        FN
+                              cat                      m i ʃ i                                3298      False       FP        Unknown           Unknown
+                              cattle (bovine)          w a k a                                3334      True        TP        Unknown           Unknown
+                              citrus fruit             ɾ i m o                                3830      True        TP        Unknown           Unknown
+                              clock, timepiece         ɾ e l o h o                            0         True        FN
+                              cough                    o t o                                  4580      False       FP        Unknown           Unknown
+                              cow                      w a k a                                4698      True        TP        Unknown           Unknown
+                              debt                     m a n o                                5392      False       FP        Unknown           Unknown
+                              earring                  ʃ a p o ɾ o                            6442      False       FP        Unknown           Unknown
+                              father                   t a t a                                7344      False       FP        Unknown           Unknown
+                              five                     p i ʃ i k a                            8078      False       FP        Unknown           Unknown
+                              four                     p o ʃ i                                8709      False       FP        Unknown           Unknown
+                              gold                     o ɾ o                                  9304      True        TP        Spanish           ['o ɾ o']
+                                                                                                                              SpanishLA         ['o ɾ o']
+                                                                                                                              Portuguese        ['o ɾ u']
+                                                                                                                              PortugueseBR      ['o ɾ u']
+                              grandmother              a w i tʃ a                             9442      False       FP        Unknown           Unknown
+                              horse (equine)           k a w a j o                            10839     True        TP        Unknown           Unknown
+                              hour                     o ɾ a                                  10887     True        TP        Spanish           ['o ɾ a']
+                                                                                                                              SpanishLA         ['o ɾ a']
+                                                                                                                              Portuguese        ['ɔ ɾ ɐ']
+                                                                                                                              PortugueseBR      ['ɔ ɾ ɐ']
+                              knife                    k o tʃ i ɾ o                           0         True        FN
+                              knife (2)                k o tʃ i ɾ o                           0         True        FN
+                              mat                      dt i p e                               13358     False       FP        Unknown           Unknown
+                              match (noun)             p a h o e l a                          0         True        FN
+                              mother                   m a m a                                13968     False       FP        Unknown           Unknown
+                              navel                    tʃ o                                   14486     False       FP        Unknown           Unknown
+                              needle                   a k o ʃ a                              0         True        FN
+                              orphan                   w a k i tʃ a                           15389     True        TP        Unknown           Unknown
+                              ox                       h o j e                                0         True        FN
+                              paper                    k i ɾ i k a                            15683     False       FP        Unknown           Unknown
+                              pig                      k o tʃ i                               16068     True        TP        Unknown           Unknown
+                              priest                   t a t a + p a ɾ i                      0         True        FN
+                              rice                     a ɾ o s o                              17577     True        TP        Unknown           Unknown
+                              sandfly (midge), gnat    tʃ a tʃ a                              18278     False       FP        Unknown           Unknown
+                              scissors, shears         t i ʃ i ɾ a                            18425     True        TP        Portuguese        ['t ɨ z o ɾ ɐ']
+                                                                                                                              PortugueseBR      ['t e z o ɾ ɐ']
+                              sheep                    w i ʃ a                                18959     True        TP        Unknown           Unknown
+                              shoe                     p o l o k o                            19088     False       FP        Unknown           Unknown
+                              six                      s o k o t a                            19615     False       FP        Unknown           Unknown
+                              small, little            tʃ i d i                               19849     False       FP        Unknown           Unknown
+                              statue                   d i o s o + e i m i a                  0         True        FN
+                              stranger                 w i ɾ a + k o tʃ a                     0         True        FN
+                              table                    m i ʃ a                                21841     True        TP        Spanish           ['m e s a']
+                                                                                                                              SpanishLA         ['m e s a']
+                                                                                                                              Portuguese        ['m ɛ z ɐ']
+                                                                                                                              PortugueseBR      ['m ɛ z ɐ']
+                              temple, church           i l i ʃ a                              0         True        FN
+                              ten                      t o n k a                              22121     False       FP        Unknown           Unknown
+                              three                    k i m i ʃ a                            22463     False       FP        Unknown           Unknown
+                              tie, bind                dt e k e                               22624     False       FP        Unknown           Unknown
+                              trap (noun)              h o p a tʃ a                           22929     False       FP        Unknown           Unknown
+                              wall                     p i ɾ i k a                            23803     False       FP        Unknown           Unknown
+                              weigh                    t o p o + a                            24166     False       FP        Unknown           Unknown
+                              year                     m a ɾ a                                25200     False       FP        Unknown           Unknown
+
+              Yaminahua       Friday                   m i ɾ i n ĩ s                          5         True        TP        Unknown           Unknown
+                              God                      n i o s                                0         True        FN
+                              Monday                   ɾ o n ĩ s                              68        True        TP        Spanish           ['l u n e s']
+                                                                                                                              SpanishLA         ['l u n e s']
+                              Saturday                 s a β a ɾ o                            77        True        TP        Unknown           Unknown
+                              Sunday                   t o m ĩ k o                            83        True        TP        Spanish           ['d o m i n g o']
+                                                                                                                              SpanishLA         ['d o m i n g o']
+                                                                                                                              Portuguese        ['d u m ĩ ɡ u']
+                                                                                                                              PortugueseBR      ['d o m ĩ ɡ u']
+                              Thursday                 β o i m i s                            0         True        FN
+                              Tuesday                  m ã ɾ a t i s                          107       True        TP        Spanish           ['m a ɾ t e s']
+                                                                                                                              SpanishLA         ['m a ɾ t e s']
+                              Wednesday                m ĩ ɾ i k o ɾ i s                      0         True        FN
+                              acid, sour               k a tʃ a                               150       False       FP        Unknown           Unknown
+                              anvil                    k õ m a                                0         True        FN
+                              army                     s o ɾ a ɾ o + m i s + β o              0         True        FN
+                              ass, donkey              m o ɾ a                                0         True        FN
+                              beak                     ʂ ɨ t a                                1196      False       FP        Unknown           Unknown
+                              bean                     p o ɾ o t o                            1238      True        TP        Spanish           ['p o ɾ o t o']
+                                                                                                                              SpanishLA         ['p o ɾ o t o']
+                              bear                     o s o                                  1247      True        TP        Spanish           ['o s o']
+                                                                                                                              SpanishLA         ['o s o']
+                              beer                     s i ɾ i m i s a                        0         True        FN
+                              belt, girdle             s i t o ɾ a                            0         True        FN
+                              blanket                  ɾ a s a ɾ a                            0         True        FN
+                              boar                     k o tʃ i + β ɨ n ɨ                     2020      True        TP        Unknown           Unknown
+                              board                    t a β a ɾ a                            0         True        FN
+                              boat                     m o t i                                0         True        FN
+                              boot                     m o t a                                0         True        FN
+                              bowl                     t a s õ                                0         True        FN
+                              bread                    p ã                                    2480      True        TP        Portuguese        ['p ɐ̃ũ']
+                                                                                                                              PortugueseBR      ['p ɐ̃ũ']
+                              brick                    ɾ a n i ɾ i j o                        0         True        FN
+                              brush                    s i p i tʃ o                           0         True        FN
+                              bull                     β a k k a + β ɨ n ɨ                    0         True        FN
+                              button                   tʃ o p a + β ɨ ɾ o                     0         True        FN
+                              camel                    k a m ĩ tʃ o                           0         True        FN
+                              candle                   m i ɾ a                                0         True        FN
+                              canoe                    k a n õ a                              3142      True        TP        Spanish           ['k a n o a']
+                                                                                                                              SpanishLA         ['k a n o a']
+                                                                                                                              Portuguese        ['k ɐ n o ɐ']
+                                                                                                                              PortugueseBR      ['k ɐ n o ɐ']
+                              carriage, wagon, cart    k a ɾ a t i tʃ a                       0         True        FN
+                              cat                      m ĩ ʃ i t o                            3307      False       FP        Unknown           Unknown
+                              cattle (bovine)          β a k k a                              0         True        FN
+                              city, town               s i o n a                              0         True        FN
+                              coconut                  k o k o                                4184      True        TP        Spanish           ['k o k o']
+                                                                                                                              SpanishLA         ['k o k o']
+                                                                                                                              Portuguese        ['k ɔ k u']
+                                                                                                                              PortugueseBR      ['k ɔ k u']
+                              coin                     k o ɾ i + ɨ ʂ ɨ                        0         True        FN
+                              cow                      β a k k a                              0         True        FN
+                              cross                    k o ɾ o s                              4819      True        TP        Unknown           Unknown
+                              debt                     n i m i + a                            0         True        FN
+                              drum                     t ã p o ɾ i                            0         True        FN
+                              earn                     k o ɾ i + k a n ã + k ĩ                0         True        FN
+                              eight                    o tʃ o                                 6679      True        TP        Spanish           ['o tʃ o']
+                                                                                                                              SpanishLA         ['o tʃ o']
+                                                                                                                              Portuguese        ['oi t u']
+                                                                                                                              PortugueseBR      ['oi t u']
+                              elephant                 i ɾ i β ã t i                          0         True        FN
+                              eleven                   õ s iː                                 6717      True        TP        Spanish           ['o n θ e']
+                                                                                                                              SpanishLA         ['o n s e']
+                                                                                                                              Portuguese        ['õ z ɨ']
+                                                                                                                              PortugueseBR      ['õ z i']
+                              ewe                      o m i h a + k ɨ ɾ o                    0         True        FN
+                              father's sister          j a j a                                7391      False       FP        Unknown           Unknown
+                              fifteen                  k ĩ s i                                7660      True        TP        Spanish           ['k i n θ e']
+                                                                                                                              SpanishLA         ['k i n s e']
+                                                                                                                              Portuguese        ['k ĩ z ɨ']
+                                                                                                                              PortugueseBR      ['k ĩ z i']
+                              fish poison (root)       β a ɾ a β a s k o                      0         True        FN
+                              fisherman                t a ɾ a β a + n ã + β i + m i s + β o  0         True        FN
+                              fishing line             n ã i ɾ õ                              0         True        FN
+                              fishnet                  t a ɾ a β a                            8040      True        TP        Unknown           Unknown
+                                                       ɾ i n i                                0         True        FN
+                              five                     s ĩ k k o                              0         True        FN
+                              flame (noun)             t o ɾ o                                8100      False       FP        Unknown           Unknown
+                              foal, colt               k a β a j o + β a k ɨ                  0         True        FN
+                              four                     k o a t o ɾ o                          8713      True        TP        Unknown           Unknown
+                              goat                     k a ɾ i n ĩ ɾ o                        0         True        FN
+                              gold                     o ɾ o                                  9304      True        TP        Spanish           ['o ɾ o']
+                                                                                                                              SpanishLA         ['o ɾ o']
+                                                                                                                              Portuguese        ['o ɾ u']
+                                                                                                                              PortugueseBR      ['o ɾ u']
+                              grandmother              tʃ i tʃ i                              9443      False       FP        Unknown           Unknown
+                              grape                    o m a                                  0         True        FN
+                              guard, sentinel          k o a ɾ a n i a                        0         True        FN
+                              gun, cannon              m a ɾ a                                0         True        FN
+                                                       k a j õ                                0         True        FN
+                              hammer                   m ã ɾ i t i tʃ o                       0         True        FN
+                              handkerchief, rag        p ã j o i ɾ a                          0         True        FN
+                              he-goat                  k a ɾ i n ĩ ɾ o + β ɨ n ɨ              10196     True        TP        Unknown           Unknown
+                              horse (equine)           k a β a j o                            10839     True        TP        Unknown           Unknown
+                              hour                     o ɾ a                                  10887     True        TP        Spanish           ['o ɾ a']
+                                                                                                                              SpanishLA         ['o ɾ a']
+                                                                                                                              Portuguese        ['ɔ ɾ ɐ']
+                                                                                                                              PortugueseBR      ['ɔ ɾ ɐ']
+                              hundred                  s i t o s iː                           0         True        FN
+                                                       s ĩ                                    11005     True        TP        Portuguese        ['s ɐ̃ĩ']
+                                                                                                                              PortugueseBR      ['s ẽĩ']
+                              husband                  β ɨ n ɨ                                11067     False       FP        Unknown           Unknown
+                              kettle                   t i t i ɾ a                            0         True        FN
+                              key                      tʃ a m i s                             0         True        FN
+                              kid                      k a ɾ i n ĩ ɾ o + β a k ɨ              0         True        FN
+                              lamb                     o m i h a + β a k ɨ                    0         True        FN
+                              lamp, torch              ɾ ã p a ɾ i                            0         True        FN
+                                                       k i ɾ o s i                            0         True        FN
+                              lead (noun)              p o ɾ o m ã                            0         True        FN
+                              lion                     ɾ i j õ                                0         True        FN
+                              maize, corn              ʂ i k i                                13152     False       FP        Unknown           Unknown
+                              mare                     k a β a j o + k ɨ ɾ o                  0         True        FN
+                              market (place)           m ĩ ɾ i k a n õ                        0         True        FN
+                              money                    k o ɾ i                                0         True        FN
+                                                       k o ɾ i + p ɨ i                        0         True        FN
+                              mule                     m o ɾ a                                14266     True        TP        Unknown           Unknown
+                              nine                     n õ β i                                0         True        FN
+                              oats                     a m i n ã                              0         True        FN
+                              owe                      n i m i + k ĩ                          0         True        FN
+                              paint (noun)             p ĩ t o ɾ a                            15577     True        TP        Spanish           ['p i n t u ɾ a']
+                                                                                                                              SpanishLA         ['p i n t u ɾ a']
+                              pair                     p a ɾ                                  0         True        FN
+                              paper                    k i ɾ i k a                            15683     False       FP        Unknown           Unknown
+                              pen                      ɾ a p i s i ɾ o                        15886     True        TP        Unknown           Unknown
+                              physician                n o t o ɾ o                            0         True        FN
+                              pig                      k o tʃ i                               16068     True        TP        Unknown           Unknown
+                              pot, cooking vessel      o tʃ a + m ɨ β ɨ + t i                 0         True        FN
+                              pray                     n i o s + k ĩ β i + k ĩ                0         True        FN
+                              ram                      k a ɾ a n ĩ ɾ o                        17192     True        TP        Spanish           ['k a ɾ n ɛ ɾ o']
+                                                                                                                              SpanishLA         ['k a ɾ n ɛ ɾ o']
+                                                                                                                              Portuguese        ['k ɐ ɾ n ɐi ɾ u']
+                                                                                                                              PortugueseBR      ['k a ʁ n ei ɾ u']
+                              rice                     a ɾ o s                                17587     True        TP        Spanish           ['a r o θ']
+                                                                                                                              SpanishLA         ['a r o s']
+                                                                                                                              Portuguese        ['ɐ ʁ ɔ ʃ']
+                                                                                                                              PortugueseBR      ['a ʁ ɔ ʃ']
+                              ring (for finger)        a n ĩ tʃ a                             0         True        FN
+                              saw                      s ɨ ɾ a                                18349     True        TP        Spanish           ['s j ɛ r a']
+                                                                                                                              SpanishLA         ['s j ɛ r a']
+                                                                                                                              Portuguese        ['s ɛ ʁ ɐ']
+                                                                                                                              PortugueseBR      ['s ɛ ʁ ɐ']
+                              school                   i s k o i ɾ a + i + t i                0         True        FN
+                              seven                    s i t i                                18775     True        TP        Spanish           ['s j ɛ t e']
+                                                                                                                              SpanishLA         ['s j ɛ t e']
+                                                                                                                              Portuguese        ['s ɛ t ɨ']
+                                                                                                                              PortugueseBR      ['s ɛ tʃ i']
+                              sheep                    o m i h a                              0         True        FN
+                              ship                     m o t i + p a + β a                    0         True        FN
+                              shoe                     s a p a t o                            19086     True        TP        Spanish           ['θ a p a t o']
+                                                                                                                              SpanishLA         ['s a p a t o']
+                                                                                                                              Portuguese        ['s ɐ p a t u']
+                                                                                                                              PortugueseBR      ['s a p a t u']
+                              shovel                   p a ɾ a                                19277     True        TP        Spanish           ['p a l a']
+                                                                                                                              SpanishLA         ['p a l a']
+                              side of head, temple     t a p a ɾ a                            19437     False       FP        Portuguese        ['t ẽ p u ɾ ɐ']
+                                                                                                                              PortugueseBR      ['t ẽ p u ɾ ɐ']
+                              six                      s a i s                                19618     True        TP        Spanish           ['s e i s']
+                                                                                                                              SpanishLA         ['s e i s']
+                                                                                                                              Portuguese        ['s ɐi ʃ']
+                                                                                                                              PortugueseBR      ['s ei ʃ']
+                              soldier                  s o ɾ a ɾ o                            20178     True        TP        Unknown           Unknown
+                              sow (2)                  k o tʃ i + k ɨ ɾ o                     0         True        FN
+                              spade                    p a ɾ a                                0         True        FN
+                              sphere, ball             p i ɾ o t a                            20533     False       FP        Spanish           ['p e l o t a']
+                                                                                                                              SpanishLA         ['p e l o t a']
+                              spoon                    k o tʃ a ɾ a                           20748     True        TP        Spanish           ['k u tʃ a ɾ a']
+                                                                                                                              SpanishLA         ['k u tʃ a ɾ a']
+                              stallion                 k a β a j o + β ɨ n ɨ                  0         True        FN
+                              store, shop              k a t i n ã                            0         True        FN
+                              sugar                    a s o k a                              21494     True        TP        Unknown           Unknown
+                              sugar cane               k a ɲ a                                0         True        FN
+                              sun                      ʂ i n i                                21553     False       FP        Unknown           Unknown
+                              sweet potato             k a ɾ i                                21727     False       FP        Unknown           Unknown
+                              table                    m ĩ s a                                21841     True        TP        Spanish           ['m e s a']
+                                                                                                                              SpanishLA         ['m e s a']
+                                                                                                                              Portuguese        ['m ɛ z ɐ']
+                                                                                                                              PortugueseBR      ['m ɛ z ɐ']
+                              teacher                  m ã i s t o ɾ o                        22034     True        TP        Spanish           ['m a ɛ s t ɾ o']
+                                                                                                                              SpanishLA         ['m a ɛ s t ɾ o']
+                              temple, church           n i o s + p ɨ ʃ ɨ                      0         True        FN
+                                                       n i o s + j o i + t i + p ɨ ʂ ɨ        0         True        FN
+                              ten                      n iː s                                 0         True        FN
+                              tent                     k a ɾ a p a                            0         True        FN
+                              thigh                    k i ʃ i                                22266     False       FP        Portuguese        ['k ɔ ʃ ɐ']
+                                                                                                                              PortugueseBR      ['k ɔ ʃ ɐ']
+                              thousand                 m ĩ ɾ i                                0         True        FN
+                              thread                   i ɾ o                                  0         True        FN
+                              three                    t i ɾ i s                              0         True        FN
+                              towel                    t o a j o                              22903     True        TP        Unknown           Unknown
+                              trap (noun)              t a ɾ a p a                            0         True        FN
+                              twelve                   n o s i                                0         True        FN
+                              twenty                   m i t i                                0         True        FN
+                              vein, artery             p o n o                                23572     False       FP        Spanish           ['b e n a']
+                                                                                                                              SpanishLA         ['b e n a']
+                              victory                  k a n ã                                0         True        FN
+                              wages                    k o ɾ i + t a n a + t i                0         True        FN
+                              week                     s i m ã n ã                            24163     True        TP        Spanish           ['s e m a n a']
+                                                                                                                              SpanishLA         ['s e m a n a']
+                                                                                                                              Portuguese        ['s ɨ m ɐ n ɐ']
+                                                                                                                              PortugueseBR      ['s e m ɐ n ɐ']
+                              wheel                    k a ɾ o + t a ɨ                        0         True        FN
+                              yam                      k a ɾ i                                25158     False       FP        Portuguese        ['k ɐ ɾ a']
+                                                                                                                              PortugueseBR      ['k a ɾ a']
+                              you (singular)           m ĩ                                    25347     False       FP        Unknown           Unknown
