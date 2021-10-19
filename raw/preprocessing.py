@@ -12,6 +12,7 @@ def run(wordlist):
     wordlist.add_entries("cogids", "autocogids", lambda x: x)
     wordlist.add_entries("cogid", "autocogid", lambda x: x)
     wordlist.add_entries("borid", "autoborid", lambda x: x)
+    # wordlist.add_entries("loan", "loan", lambda x: x)
 
     alms = Alignments(wordlist, ref="cogids", transcription="form")
     alms.align()
@@ -31,6 +32,7 @@ def run(wordlist):
         "autoborid",
         "borid",
         "alignment",
+        "loan",
         "note"
         ]}
     for idx in alms:
