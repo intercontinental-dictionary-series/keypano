@@ -33,6 +33,7 @@ def run(wordlist):
         "autoborid",
         "borid",
         "alignment",
+        "loan",
         "note"
         ]}
     for idx in alms:

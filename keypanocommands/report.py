@@ -3,7 +3,7 @@
 
     John E. Miller, Aug 21, 2021
 """
-from collections import Counter
+from collections import Counter, defaultdict
 from pathlib import Path
 import argparse
 import pandas as pd
@@ -128,13 +128,10 @@ def report_cogids_table(global_cognates, selector=0, threshold=None):
     print(tabulate(cognates_table, headers=[header0] + lu_keys))
 
 
-def report_cogids_by_family(cogids_table, family=None, selector=None, threshold=None):
+def report_cogids_by_family(cogids_table, family=None, threshold=None):
     lu_cogids_gt1 = get_cogids_by_family(cogids_table, family=family)
-    if selector is None:
-        report_cogids_table(lu_cogids_gt1, selector=0, threshold=threshold)
-        report_cogids_table(lu_cogids_gt1, selector=1, threshold=threshold)
-    else:
-        report_cogids_table(lu_cogids_gt1, selector=selector, threshold=threshold)
+    report_cogids_table(lu_cogids_gt1, selector=0, threshold=threshold)
+    report_cogids_table(lu_cogids_gt1, selector=1, threshold=threshold)
 
 
 def get_language_unit_table(table, family=None, exclude=None):
@@ -155,9 +152,8 @@ def get_language_unit_table(table, family=None, exclude=None):
     return table, lu_units, lu_idx
 
 
-def get_words_results(table, status=util.PredStatus.F):
+def get_words_results(table, donor_forms, require_cogid=False, status=util.PredStatus.F):
     # Report by language unit iterating on lu_unit_set.
-    # For prototyping use FN
     words = []
     family = ''
     language = ''
@@ -165,31 +161,68 @@ def get_words_results(table, status=util.PredStatus.F):
     table_ = sorted(table, key=lambda table_row: table_row[7])
     table_ = sorted(table_, key=lambda table_row: table_row[1])
     table_ = sorted(table_, key=lambda table_row: table_row[0])
+
+    cnt = 0  # Testing.
     for row in table_:
-        # pred == True if global_gt1
-        pred = 0 if row[4] == 0 else 1
-        loan = 1 if row[5] else 0
-        result = util.assess_pred(pred, loan)
+        cnt += 1
+        # if cnt > 2000: break
+        cogid_ = row[4]
 
-        if util.report_assessment(status, result):
+        if require_cogid and cogid_ == 0: continue
 
-            family_ = row[0] if family != row[0] else ''
-            family = row[0]
-            language_ = row[1] if language != row[1] else ''
-            language = row[1]
-            concept_ = row[7] if concept != row[7] else ''
-            concept = row[7]
-            words.append([family_, language_, concept_, result.name, row[6], ])
-            # family, language, concept, prediction_result, tokens,
+        pred = 0 if cogid_ == 0 else 1
+        loan = row[5]
+        status_ = util.assess_pred(pred, loan)
+
+        if not util.report_assessment(status, status_): continue
+        if family != row[0]: words.append([])
+        family_ = row[0] if family != row[0] else ''
+        family = row[0]
+
+        if language != row[1]: words.append([])
+        language_ = row[1] if language != row[1] else ''
+        language = row[1]
+
+        concept_ = row[7] if concept != row[7] else ''
+        concept = row[7]
+
+        borrowed_ = True if loan else False
+        tokens_ = row[6]
+        status_name = status_.name
+        # Add in donor forms
+        if cogid_ != 0:
+            donors = donor_forms[cogid_]
+            if len(donors.items()) == 0:
+                words.append([family_, language_, concept_, tokens_,
+                              cogid_, borrowed_, status_name, 'Unknown', 'Unknown'])
+            else:
+                for key, value in donors.items():
+                    words.append([family_, language_, concept_, tokens_,
+                                  cogid_, borrowed_,  status_name,
+                                  key, value])
+                    family_ = ''
+                    language_ = ''
+                    concept_ = ''
+                    cogid_ = ''
+                    borrowed_ = ''
+                    tokens_ = ''
+                    status_name = ''
+
+        else:
+            words.append([family_, language_, concept_, tokens_,
+                          cogid_, borrowed_,  status_name])
+        # family, language, concept, tokens, loan, status
+
     return words
 
 
 def report_words_table(words, threshold=None,
                        output=None, series='', first_time=True):
 
-    filename = f"{series}{'-' if series else ''}words-status-{threshold:0.3f}"
+    filename = f"cluster-{threshold:0.2f}-{series}{'-' if series else ''}words-status"
     file_path = Path(output).joinpath(filename).as_posix()
-    header = ['Family', 'Language', 'Concept',  'Assessment', 'Tokens', ]
+    header = ['Family', 'Language', 'Concept',  'Tokens', 'Cog_id',
+              'Borrowed', 'Status', 'Donor Language', 'Donor Tokens']
     words_table = tabulate(words, headers=header, tablefmt="pip")
     with open(file_path + '.txt', 'w' if first_time else 'a') as f:
         print(f"Threshold: {threshold:0.3f}.", file=f)
@@ -214,6 +247,20 @@ def get_metrics_by_language_unit(table, lu_units, lu_idx):
     return metrics
 
 
+def build_donor_forms_dict(cogids_table, donor_family):
+    # From cogids_table:
+    #     family_, language_, local_, global_, global_gt1_,
+    #     loan_, tokens_, concepts_
+    # Use: family_, language_, global_gt1_, tokens_
+    # Row: 0,       1,         4,           6
+
+    donor_stuff = defaultdict(lambda: defaultdict(list))
+    for row in cogids_table:
+        if row[0] == donor_family and row[4] > 0:
+            donor_stuff[row[4]][row[1]].append(row[6])
+    return donor_stuff
+
+
 def report_metrics_table(metrics, family=None, threshold=None):
     print()
     print(f"Threshold: {threshold:0.3f}.")
@@ -229,16 +276,24 @@ def report_metrics_table(metrics, family=None, threshold=None):
 
 
 def report_metrics_by_family(cogids_table,
-                             family=None, exclude=None,
-                             status=None, threshold=None,
-                             output=None, series=''):
+                             family=None,
+                             exclude=None,
+                             require_cogid=False,
+                             report_status=None,
+                             threshold=None,
+                             output=None,
+                             series=''):
+    # Construct dictionary of donor forms of possible borrowed words for words report.
+    # Use exclude list of languages as donor languages.
+    donor_forms = build_donor_forms_dict(cogids_table, donor_family=exclude)
+
     table, lu_units, lu_idx = get_language_unit_table(
         cogids_table, family=family, exclude=exclude)
     metrics = get_metrics_by_language_unit(table, lu_units=lu_units, lu_idx=lu_idx)
     report_metrics_table(metrics, family=family, threshold=threshold)
-    # Need to convert status str to PredStatus
-    status = util.PredStatus[status.upper()]
-    words = get_words_results(table, status=status)
+
+    words = get_words_results(table, donor_forms=donor_forms,
+                              require_cogid=require_cogid, status=report_status)
     report_words_table(words, threshold=threshold, output=output, series=series)
 
 
@@ -273,11 +328,9 @@ def register(parser):
         help='Index of threshold used for report.',
     )
     parser.add_argument(
-        "--selector",
-        type=int,
-        default=None,
-        choices=[0, 1, None],
-        help='Whether reporting for concepts=0 or words=1.',
+        "--cogid",
+        action="store_true",
+        help='Report only concepts and words with cross family cognate id.'
     )
     parser.add_argument(
         "--status",
@@ -305,15 +358,14 @@ def run(args):
     report_basic_for(table, index=args.index)
     cogids_table = get_cogids_table_for(table, index=args.index)
     thresholds = util.get_thresholds(parameters[-1])
-    # Report on cognates done over concepts or words corresponding to selector 0, 1.
     report_cogids_by_family(cogids_table,
                             family=args.family,
-                            selector=args.selector,
                             threshold=thresholds[args.index])
     report_metrics_by_family(cogids_table,
                              family=args.family,
                              exclude=args.exclude,
-                             status=args.status,
+                             require_cogid=args.cogid,
+                             report_status=util.PredStatus[args.status.upper()],
                              threshold=thresholds[args.index],
                              output=args.output,
                              series=args.series)
