@@ -12,6 +12,7 @@ def run(wordlist):
     wordlist.add_entries("cogids", "autocogids", lambda x: x)
     wordlist.add_entries("cogid", "autocogid", lambda x: x)
     wordlist.add_entries("borid", "autoborid", lambda x: x)
+    wordlist.add_entries("subgroup", "family", lambda x: x)
 
     alms = Alignments(wordlist, ref="cogids", transcription="form")
     alms.align()
@@ -20,6 +21,7 @@ def run(wordlist):
         "doculect",
         "concept",
         "family",
+        "subgroup",
         "value", 
         "form",
         "tokens",
