@@ -3,6 +3,7 @@
 
     John E. Miller, Aug 21, 2021
 """
+import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 import argparse
@@ -19,12 +20,23 @@ def get_table(store='store', infile=None):
     filepath = Path(store).joinpath(infile).as_posix()
     table = pd.read_csv(filepath, sep='\t')
     parameters = table.iloc[-3:]['ID'].values
+    # Check to see if #Created on first line and so valid parameters list.
+    if str(parameters[0]).startswith("# Created"):
+        offset = -3
+    elif str(parameters[1]).startswith("# Created"):
+        offset = -2
+    else:  # Assume that at least a 'Created' parameter.
+        offset = -1
+    parameters = table.iloc[offset:]['ID'].values
+
+    # Change missing to '' for donor_language and donor_value
+    table.DONOR_LANGUAGE = table.DONOR_LANGUAGE.fillna('')
+    table.DONOR_VALUE = table.DONOR_VALUE.fillna('')
+
     print("Analysis file details:")
-    print(parameters[0])
-    print(parameters[1])
-    print(parameters[2])
+    for parameter in parameters: print(parameter)
     print()
-    table.drop(table.index[[-3, -2, -1]], inplace=True)
+    table.drop(table.index[offset:], inplace=True)
     print(f"{len(table)} words in {filepath}.")
     return table, parameters
 
@@ -64,19 +76,50 @@ def report_basic_for(table, index=0):
     report_basic(local_, global_, global_gt1_)
 
 
-def get_cogids_table_for(table, index=0):
+def get_cogids_table_for(table, index=0, donors=None, any_donor_language=False):
+    # Table is from Pandas, so we use column names in the code.
     family_ = list(table.LANGUAGE_FAMILY.values)
     language_ = list(table.DOCULECT.values)
-    concepts_ = list(table.CONCEPT.values)
+
+    if 'CONCEPTICON' in table.columns:
+        concepts_ = list(table.CONCEPTICON.values)
+        concept_names_ = list(table.CONCEPT.values)
+    else:
+        concept_names_ = list(table.CONCEPT.values)
+        concepts_ = list(table.CONCEPT_ID.values)
+
     tokens_ = list(table.TOKENS.values)
     local_, global_, global_gt1_ = get_cogids_for(table, index)
     local_ = list(local_.values)
     global_ = list(global_.values)
     global_gt1_ = list(global_gt1_.values)
-    loan_ = [int(value) for value in table.LOAN.values]
-    cogids_table = list(zip(family_, language_,
-                            local_, global_, global_gt1_,
-                            loan_, tokens_, concepts_))
+
+    # Test origin of table.
+    # With LOAN is from KeyPano currently without donor-language or value.
+    if 'LOAN' in table.columns:
+        loan_ = [int(value) for value in table.LOAN.values]
+        cogids_table = list(zip(family_, language_,
+                                local_, global_, global_gt1_,
+                                loan_, tokens_,
+                                concepts_, concept_names_))
+
+    else:  # From WOLD with donor language and value.
+        loan_ = [int(value) for value in table.BORROWED.values]
+        donor_language_ = list(table.DONOR_LANGUAGE.values)
+        donor_value_ = list(table.DONOR_VALUE.values)
+
+        # Focus on borrowings from donor languages only. ***
+        # With analyze we took into account prediction using cogid.
+        # Here we take into account whether loans are from donors in list.
+        if not any_donor_language:
+            loan_ = [False if not any(donor.startswith(dl) for donor in donors) else ln
+                     for dl, ln in zip(donor_language_, loan_)]
+
+        cogids_table = list(zip(family_, language_,
+                                local_, global_, global_gt1_,
+                                loan_, tokens_,
+                                concepts_, concept_names_,
+                                donor_language_, donor_value_))
     return cogids_table
 
 
@@ -90,22 +133,33 @@ def get_cogids_by_family(table, family=None):
         lu_idx = 1
     else:
         lu_idx = 0
-
+    # List of languages or language families depending on lu_idx.
     lu_unit_set = sorted(set(row[lu_idx] for row in table))
     lu_global_cognates_gt1 = {}
 
     # global_gt1 in [4] of table.
+    # for each language or language family in set.
     for lu in lu_unit_set:
+        # Get set of cross-family cogids for this language or language family.
         cognates_gt1 = set(row[4] for row in table
                            if row[lu_idx] == lu and row[4] != 0)
 
-        # Construct dictionary of counters for each language family.
+        # Construct dictionary of counters for each language or language family.
         cognates_gt1_ = {lu_: Counter() for lu_ in lu_unit_set}
+        # Process all the individual entries from the cogids table.
         for row in table:
             if row[4] in cognates_gt1:
+                # Count this entry if a cross-family cogid in the list
+                # for this language or language family.
+                # Create count for this cogid for this language or family.
+                # Add to count for this cogid for this language or family
+                #   for each qualified entry.
+                # lu_idx indexes into either the language or family column.
+                # *** could have just used 'lu' here!!!!
                 cognates_gt1_[row[lu_idx]][row[4]] += 1
 
-        # Condense detail down to numbers of distinct cognates and words.
+        # Condense detail down to numbers of cross-family concepts and words,
+        # shared with each other language unit.
         lu_global_cognates_gt1[lu] = {lu_: [len(counter), sum(counter.values())]
                                       for lu_, counter in cognates_gt1_.items()}
 
@@ -119,11 +173,15 @@ def report_cogids_table(global_cognates, selector=0, threshold=None):
     cognates_table = []
     lu_keys = [key for key in global_cognates.keys()]
 
+    # For each language or language family (lu), report on number of cognate concepts
+    # number of cognate words shared with another language unit.
+    # Selector indexes into concept (0) or word (1) counts.
     for lu, lu_cognates in global_cognates.items():
         cognates_table.append([lu] + [lu_cognates[lu_][selector] for lu_ in lu_keys])
 
-    unit = 'Cognates' if not selector else 'Words'
-    print(f"Report number of {unit} for cross-family concepts at threshold: {threshold:0.3f}.")
+    print()
+    unit = 'Concepts' if not selector else 'Words'
+    print(f"Number of {unit} for inferred cross-family cognate ids at threshold: {threshold:0.3f}.")
     header0 = 'Language ' + unit
     print(tabulate(cognates_table, headers=[header0] + lu_keys))
 
@@ -152,66 +210,88 @@ def get_language_unit_table(table, family=None, exclude=None):
     return table, lu_units, lu_idx
 
 
-def get_words_results(table, donor_forms, require_cogid=False, status=util.PredStatus.F):
+def get_words_results(table, donor_forms, unmarked_donor_forms,
+                      require_cogid=False, status=util.PredStatus.F):
+
     # Report by language unit iterating on lu_unit_set.
     words = []
     family = ''
     language = ''
     concept = ''
-    table_ = sorted(table, key=lambda table_row: table_row[7])
-    table_ = sorted(table_, key=lambda table_row: table_row[1])
-    table_ = sorted(table_, key=lambda table_row: table_row[0])
 
-    cnt = 0  # Testing.
+    # Sort by language family, language, and concept.
+    table_ = sorted(table, key=lambda table_row:
+                    (table_row[0], table_row[1], table_row[8]))
     for row in table_:
-        cnt += 1
-        # if cnt > 2000: break
         cogid_ = row[4]
 
+        # If only reporting identified cognates, then skip if no cogid.
         if require_cogid and cogid_ == 0: continue
+
+        # Any cogid > 0 interpreted as borrowed otherwise inherited.
+        # For donor candidate focus, need to insert test for donor language.
+        # Consider if donor not included in cogid.
+        # *** #
 
         pred = 0 if cogid_ == 0 else 1
         loan = row[5]
         status_ = util.assess_pred(pred, loan)
 
+        # Check whether status needs to be reported.
         if not util.report_assessment(status, status_): continue
+
+        # Do we start a new language family?
         if family != row[0]: words.append([])
         family_ = row[0] if family != row[0] else ''
         family = row[0]
-
+        # Do we start a new language?
         if language != row[1]: words.append([])
         language_ = row[1] if language != row[1] else ''
         language = row[1]
-
+        # Do we start a new concept?
         concept_ = row[7] if concept != row[7] else ''
         concept = row[7]
 
         borrowed_ = True if loan else False
         tokens_ = row[6]
+        donor_language = row[9] if len(row) > 9 else ''
+        donor_value = row[10] if len(row) > 10 else ''
+
         status_name = status_.name
-        # Add in donor forms
+
+        # Use concept name.
+        concept_name_ = '' if not concept_ else row[8]  # concept_name
+
+        # Add donor forms to reporting.
+        # Donor forms are indexed by cogid so only available for cogid>0.
         if cogid_ != 0:
             donors = donor_forms[cogid_]
-            if len(donors.items()) == 0:
-                words.append([family_, language_, concept_, tokens_,
-                              cogid_, borrowed_, status_name, 'Unknown', 'Unknown'])
-            else:
-                for key, value in donors.items():
-                    words.append([family_, language_, concept_, tokens_,
-                                  cogid_, borrowed_,  status_name,
-                                  key, value])
-                    family_ = ''
-                    language_ = ''
-                    concept_ = ''
-                    cogid_ = ''
-                    borrowed_ = ''
-                    tokens_ = ''
-                    status_name = ''
-
+            # candidate donors indexed by cogid.
+            marked = '*'
         else:
-            words.append([family_, language_, concept_, tokens_,
-                          cogid_, borrowed_,  status_name])
-        # family, language, concept, tokens, loan, status
+            donors = unmarked_donor_forms[row[7]]
+            # candidate donors indexed by concept_id
+            marked = ' '
+
+        if len(donors.items()) == 0:
+            words.append([family_, language_, concept_name_, tokens_,
+                          donor_language, donor_value,
+                          cogid_, borrowed_, status_name])
+        else:
+            for candidate, candidate_tokens in donors.items():
+                words.append([family_, language_, concept_name_, tokens_,
+                              donor_language, donor_value,
+                              cogid_, borrowed_,  status_name,
+                              candidate, marked, candidate_tokens])
+                family_ = ''
+                language_ = ''
+                concept_name_ = ''
+                cogid_ = ''
+                borrowed_ = ''
+                tokens_ = ''
+                status_name = ''
+                donor_language = ''
+                donor_value = ''
 
     return words
 
@@ -221,8 +301,10 @@ def report_words_table(words, threshold=None,
 
     filename = f"cluster-{threshold:0.2f}-{series}{'-' if series else ''}words-status"
     file_path = Path(output).joinpath(filename).as_posix()
-    header = ['Family', 'Language', 'Concept',  'Tokens', 'Cog_id',
-              'Borrowed', 'Status', 'Donor Language', 'Donor Tokens']
+    header = ['Family', 'Language', 'Concept',  'Tokens',
+              'Donor Language', 'Donor Value', 'Cog_id',
+              'Borrowed', 'Status', 'Donor Candidate', 'Mark',
+              'Candidate Tokens']
     words_table = tabulate(words, headers=header, tablefmt="pip")
     with open(file_path + '.txt', 'w' if first_time else 'a') as f:
         print(f"Threshold: {threshold:0.3f}.", file=f)
@@ -233,6 +315,16 @@ def get_metrics_by_language_unit(table, lu_units, lu_idx):
     # Consider all together.
     pred = [0 if row[4] == 0 else 1 for row in table]
     loan = [1 if row[5] else 0 for row in table]
+    # **** insert test for donor language.
+    # NOT here; we don't have the details here.
+    # if loan:
+    #     if not any(donor.startswith(wl[idx, 'donor_language'])
+    #                for donor in donors): loan = False
+    # Any cogid > 0 interpreted as borrowed otherwise inherited.
+    # For donor candidate focus, need to insert test for donor language.
+    # Consider if donor not included in cogid.
+    # *** #
+
     qa = util.prf(pred, loan)
 
     # Report by language unit iterating on lu_unit_set.
@@ -248,17 +340,35 @@ def get_metrics_by_language_unit(table, lu_units, lu_idx):
 
 
 def build_donor_forms_dict(cogids_table, donor_family):
+    # Construct candidate donor forms for marked candidate donor
+    # for donor family and language indexed by cogid.
+    # Only map for the same cognate table.
+    # Save form as string of tokens.
+    # Also construct unmarked candidate donors indexed by concept.
     # From cogids_table:
     #     family_, language_, local_, global_, global_gt1_,
-    #     loan_, tokens_, concepts_
+    #     loan_, tokens_, concepts_, concept_names_
     # Use: family_, language_, global_gt1_, tokens_
     # Row: 0,       1,         4,           6
+    # For unmarked use: family_, language_, concepts_, tokens_
+    # Row:              0,       1,         7,         6
 
     donor_stuff = defaultdict(lambda: defaultdict(list))
+    unmarked_donor_stuff = defaultdict(lambda: defaultdict(list))
+
     for row in cogids_table:
-        if row[0] == donor_family and row[4] > 0:
-            donor_stuff[row[4]][row[1]].append(row[6])
-    return donor_stuff
+        if row[0] == donor_family:
+            # Any cogid > 0 interpreted as borrowed otherwise inherited.
+            # For donor candidate focus, need to insert test for donor language.
+            # Consider if donor not included in cogid.
+            # *** #
+            if row[4] > 0:
+                # tokens = ' '.join(row[6]) if isinstance(row[6], list) else row[6]
+                donor_stuff[row[4]][row[1]].append(row[6])
+            else:  # Unmarked since no cogid>0
+                unmarked_donor_stuff[row[7]][row[1]].append(row[6])
+
+    return donor_stuff, unmarked_donor_stuff
 
 
 def report_metrics_table(metrics, family=None, threshold=None):
@@ -283,17 +393,22 @@ def report_metrics_by_family(cogids_table,
                              threshold=None,
                              output=None,
                              series=''):
-    # Construct dictionary of donor forms of possible borrowed words for words report.
+    # Construct dictionary of candidate donor forms
+    # of possible borrowed words for words report.
     # Use exclude list of languages as donor languages.
-    donor_forms = build_donor_forms_dict(cogids_table, donor_family=exclude)
+    donor_forms, unmarked_donor_forms = build_donor_forms_dict(
+        cogids_table, donor_family=exclude)
 
     table, lu_units, lu_idx = get_language_unit_table(
         cogids_table, family=family, exclude=exclude)
     metrics = get_metrics_by_language_unit(table, lu_units=lu_units, lu_idx=lu_idx)
     report_metrics_table(metrics, family=family, threshold=threshold)
 
-    words = get_words_results(table, donor_forms=donor_forms,
-                              require_cogid=require_cogid, status=report_status)
+    words = get_words_results(table,
+                              donor_forms=donor_forms,
+                              unmarked_donor_forms=unmarked_donor_forms,
+                              require_cogid=require_cogid,
+                              status=report_status)
     report_words_table(words, threshold=threshold, output=output, series=series)
 
 
@@ -318,7 +433,7 @@ def register(parser):
     parser.add_argument(
         "--exclude",
         type=str,
-        default=None,
+        default="Indo-European",
         help="Family name to exclude from calculation of putative recall, precision, F1 score."
     )
     parser.add_argument(
@@ -336,9 +451,19 @@ def register(parser):
         "--status",
         type=str,
         default='ntn',
-        choices=[s.name.lower() for s in util.PredStatus],
+        choices=[f"{s.name.lower()}" for s in util.PredStatus],
+        # choices=["tn", "tp", "fp", "fn", "f", "t", "ntn", "all"],
         help='Code for reporting words for status.',
     )
+    parser.add_argument(  # Added only to create donors list for exclusion in metrics.
+        "--donor",
+        nargs="*",
+        type=str,
+        default=["SpanishLA", "PortugueseBR"],
+        # default=["Spanish", "SpanishLA", "Portuguese", "PortugueseBR"],
+        help='Donor language(s).',
+    )
+
     parser.add_argument(
         "--output",
         type=str,
@@ -348,7 +473,7 @@ def register(parser):
     parser.add_argument(
         "--series",
         type=str,
-        default='',
+        default='devel-report',
         help='Filename prefix for borrowed word predictions.'
     )
 
@@ -356,7 +481,10 @@ def register(parser):
 def run(args):
     table, parameters = get_table(args.store, args.infile)
     report_basic_for(table, index=args.index)
-    cogids_table = get_cogids_table_for(table, index=args.index)
+    cogids_table = get_cogids_table_for(table, index=args.index,
+                                        # Donors list used to count only wrt donors.
+                                        # any_donor_language turns off donor only metrics.
+                                        donors=args.donor, any_donor_language=False)
     thresholds = util.get_thresholds(parameters[-1])
     report_cogids_by_family(cogids_table,
                             family=args.family,
@@ -371,9 +499,11 @@ def run(args):
                              series=args.series)
 
 
-def get_total_run_result(store, infile, family, exclude):
+def get_total_run_result(store, infile, family, exclude, index=0):
+    # Application interface to perform run based on invocation by another application.
+    # Purpose is to automate experimentation.
     table, parameters = get_table(store, infile)
-    cogids_table = get_cogids_table_for(table, index=0)
+    cogids_table = get_cogids_table_for(table, index=index)
     table_, lu_units, lu_idx = get_language_unit_table(
         cogids_table, family=family, exclude=exclude)
     metrics = get_metrics_by_language_unit(table_, lu_units=lu_units, lu_idx=lu_idx)
