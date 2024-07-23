@@ -11,9 +11,73 @@ from lingpy import *
 from lingpy.compare.partial import Partial
 import keypanocommands.util as util
 
+import lingrex
+from lingrex import borrowing, cognates
+from lingpy import evaluate
+from clldutils.markup import Table
+
+
+def analyze_lingrex(dataset,
+                    module=None,
+                    method='lexstat',
+                    model='sca',
+                    threshold=0.50,
+                    runs=2000,  # during development.
+                    mode='overlap',
+                    cluster_method='infomap',
+                    idtype='loose',
+                    store='store',
+                    series='common-morpheme',
+                    label="",
+                    donors=None,
+                    any_donor_language=False
+                    ):
+    # ignore arguments since prototyping lingrex.
+    wl = dataset
+
+    # See paper, section "4 Results" and section "3.2 Methods".
+    # Detect partial cognates:
+    lingrex.borrowing.internal_cognates(
+        wl,
+        family='language_family',
+        partial=True,
+        runs=runs,
+        ref="autocogids",
+        method="lexstat",
+        threshold=threshold,
+        cluster_method=cluster_method,
+        model=model)
+    # Convert partial cognates into full cognates:
+    lingrex.cognates.common_morpheme_cognates(
+        wl,
+        ref="autocogid",
+        cognates="autocogids",
+        morphemes="automorphemes")
+    # Detect cross-family shallow cognates:
+    lingrex.borrowing.external_cognates(
+        wl,
+        cognates="autocogid",
+        ref="autoborid",
+        threshold=0.3)
+
+    # Output the evaluation:
+    # p1, r1, f1 = evaluate.acd.bcubes(wl, "ucogid", "autocogid", pprint=False)
+    # p2, r2, f2 = evaluate.acd.bcubes(wl, "uborid", "autoborid", pprint=False)
+    # print('')
+    # with Table("method", "precision", "recall", "f-score",
+    #            tablefmt="simple", floatfmt=".4f") as tab:
+    #     tab.append(["automated cognate detection", p1, r1, f1])
+    #     tab.append(["automated borrowing detection", p2, r2, f2])
+    # print('')
+
+    filename = f"{module}{'-' if series else ''}{series}{'-' if label else ''}{label}"
+    file_path = Path(store).joinpath(filename).as_posix()
+    wl.output('tsv', filename=file_path, ignore='all', prettify=False)
+
 
 # See lingrex/borrowing for use of different modules.
-def analyze_lexstat(module=None,
+def analyze_lexstat(dataset,
+                    module=None,
                     method='lexstat',
                     model='sca',
                     thresholds=None,
@@ -23,13 +87,15 @@ def analyze_lexstat(module=None,
                     idtype='loose',
                     store='store',
                     series='analysis',
-                    label=""):
+                    label="",
+                    donors=None,
+                    any_donor_language=False):
 
     # method: sca, lexstat, edit-dist, turchin
     # mode: global, local, overlap, dialign
     # cluster_method: upgma, infomap
 
-    dataset = util.compose_wl()
+    # dataset = util.compose_wl()
     if module == 'cluster':
         wl = LexStat(dataset)
         if method == "lexstat":
@@ -69,30 +135,49 @@ def analyze_lexstat(module=None,
             raise NameError(f"{module} not a known cluster module.")
 
         # Add entries for cluster id combined with language family.
-        # Formatting provided by lambda expression. Not obvious!
+        # John: Formatting provided by lambda expression. Not obvious!
+        # John: Create variable "sca_{i}", using variables "{sca_id}, language_family".
+        # John: Format the new variable with 1st part from sca_id and
+        # John: second part from language_family.
         wl.add_entries("sca_{0}".format(i), sca_id+",language_family",
                        lambda x, y: str(x[y[0]]) + "-" + x[y[1]])
         # Renumber combination of cluster_id, family as integer.
         # Store in sca_{0}ID by default.
         wl.renumber("sca_{0}".format(i))
         # Get dictionary representations of cluster ids.
-        # Seems to be dictionary for each row.
+        # John: Seems to be dictionary of cluster ids for this threshold.
         etd = wl.get_etymdict(ref=sca_id)
 
+        # John: Process dictionary of cluster ids.
         # Zero out cluster ids (cognate ids) that do not cross families.
         for cogid, values in etd.items():
             # John: Construct list of row indices for this cognate id.
+            # John: What are the row indices?
+            # John: Each cluster id is formed from words for the same concept.
+            # John: So indices correspond to target words?
             idxs = []
             for v in values:
                 if v:
                     idxs += v
-            # Form list of language families.
+            # John: Form list of language families for this cluster id.
+            # John: Index must be over entries (words) for this cluster.
+            # John: So we obtain corresponding language family for each word.
             families = [wl[idx, 'language_family'] for idx in idxs]
             # If set of just 1 family then local cognate.
             if len(set(families)) == 1:
                 for idx in idxs:
                     # Set cognate id to 0 since just 1 family.
                     wl[idx, sca_id] = 0
+
+            # If only checking for listed donor languages
+            # then test for cognate-id>0 for donor language.
+            if not any_donor_language:
+                languages = [wl[idx, 'doculect'] for idx in idxs]
+                has_donor = any(donor.startswith(lang)
+                                for donor in donors
+                                for lang in languages)
+                if not has_donor:
+                    for idx in idxs: wl[idx, sca_id] = 0
 
     filename = f"{module}{'-' if series else ''}{series}{'-' if label else ''}{label}"
     file_path = Path(store).joinpath(filename).as_posix()
@@ -104,8 +189,26 @@ def register(parser):
     parser.add_argument(
         "module",
         type=str,
-        choices=["cluster", "partial"],
+        choices=["cluster", "partial", "lingrex"],
+        # 'lingrex' added to experiment with lingrex method.
+        # clustering module predetermined if lingrex.
         help='Which clustering module to use.',
+    )
+    parser.add_argument(
+        "--language",
+        nargs="*",
+        type=str,
+        default=['all'],
+        help="'all' or list of languages"
+        #
+    )
+    parser.add_argument(
+        "--donor",
+        nargs="*",
+        type=str,
+        default=["SpanishLA", "PortugueseBR"],
+        # default=["Spanish", "SpanishLA", "Portuguese", "PortugueseBR"],
+        help='Donor language(s).',
     )
     parser.add_argument(
         "--method",
@@ -169,22 +272,53 @@ def register(parser):
     parser.add_argument(
         "--label",
         type=str,
-        default=""
+        default="devel-analysis"
+    )
+    parser.add_argument(
+        "--foreign",
+        type=str,
+        default=None,
+        help="Filename of flat wordlist for analysis from foreign-tables directory."
     )
 
 
 def run(args):
-    analyze_lexstat(module=args.module,
-                    method=args.method,
-                    model=args.model,
-                    thresholds=args.threshold,
-                    mode=args.mode,
-                    cluster_method=args.cluster_method,
-                    idtype=args.idtype,
-                    runs=args.runs,
-                    store=args.store,
-                    series=args.series,
-                    label=args.label)
+    filename = args.foreign
+    if filename:
+        filepath = Path("foreign-tables").joinpath(filename+".tsv").as_posix()
+        wl = Wordlist(filepath)
+    else:
+        wl = util.compose_wl()
+    # Sub-select languages based on languages and donors arguments.
+    args.language = util.get_language_all(wl) if args.language[0] == 'all' else args.language
+    wl = util.select_languages(wl, languages=args.language, donors=args.donor)
+    if args.module == 'lingrex':
+
+        analyze_lingrex(dataset=wl,
+                        module=args.module,
+                        runs=args.runs,
+                        model=args.model,
+                        threshold=args.threshold[0],
+                        method=args.method,
+                        cluster_method=args.cluster_method,
+                        store=args.store,
+                        series=args.series,
+                        label=args.label)
+    else:
+        analyze_lexstat(dataset=wl,
+                        module=args.module,
+                        method=args.method,
+                        model=args.model,
+                        thresholds=args.threshold,
+                        mode=args.mode,
+                        cluster_method=args.cluster_method,
+                        idtype=args.idtype,
+                        runs=args.runs,
+                        store=args.store,
+                        series=args.series,
+                        label=args.label,
+                        donors=args.donor,
+                        any_donor_language=False)
 
 
 if __name__ == "__main__":

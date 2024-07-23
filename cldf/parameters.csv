@@ -1079,7 +1079,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 16-622,choose,1750,CHOOSE
 16-630,hope,1092,HOPE
 16-650,faithful,100,FAITHFUL
-16-660,true,1657,TRUE
+16-660,TRUE,1657,TRUE
 16-670,"lie, tell lies",601,LIE (MISLEAD)
 16-680,deceit,13,DECEIT
 16-690,forgive,1528,FORGIVE
@@ -1228,7 +1228,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 20-170,soldier,1941,SOLDIER
 20-210,"weapons, arms",951,WEAPONS
 20-220,club,1763,CLUB
-20-222,battle-ax,386,BATTLE-AXE
+20-222,battle-axe,386,BATTLE-AXE
 20-230,sling,387,SLING
 20-240,bow,994,BOW
 20-250,arrow,977,ARROW
