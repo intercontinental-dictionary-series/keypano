@@ -2,6 +2,7 @@
     "id": "keypano",
     "title": "CLDF dataset on Panoan Languages in Standardized Transcription derived from Key and Comrie's \"Intercontinental Dictionary Series\" from 2023",
     "license": "CC-BY-4.0",
+    "conceptlist": "Key-2016-1310",
     "url": "https://ids.clld.org",
     "citation": "Miller, J. and List, J.-M. (2024): Providing standardized phonetic transcriptions for the Panoan languages in the Intercontinental Dictionary Series. Computer-Assisted Language Comparison in Practice 7.2. URL: https://calc.hypotheses.org/7503."
 }

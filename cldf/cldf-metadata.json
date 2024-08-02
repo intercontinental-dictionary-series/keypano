@@ -3,6 +3,9 @@
     "aboutUrl": null,
     "dc:bibliographicCitation": "Miller, J. and List, J.-M. (2024): Providing standardized phonetic transcriptions for the Panoan languages in the Intercontinental Dictionary Series. Computer-Assisted Language Comparison in Practice 7.2. URL: https://calc.hypotheses.org/7503.",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
+    "dc:format": [
+        "http://concepticon.clld.org/contributions/Key-2016-1310"
+    ],
     "dc:identifier": "https://ids.clld.org",
     "dc:isVersionOf": null,
     "dc:license": "https://creativecommons.org/licenses/by/4.0/",
@@ -13,7 +16,7 @@
         {
             "rdf:about": "git@github.com:intercontinental-dictionary-series/keypano",
             "rdf:type": "prov:Entity",
-            "dc:created": "v0.0.1-6-ga95b23b",
+            "dc:created": "v0.0.1-6-g55ca3fd",
             "dc:title": "Repository"
         },
         {
@@ -29,7 +32,7 @@
             "dc:title": "Concepticon"
         },
         {
-            "rdf:about": "https://github.com/cldf-clts/clts/",
+            "rdf:about": "https://github.com/cldf-clts/clts",
             "rdf:type": "prov:Entity",
             "dc:created": "v2.3.0",
             "dc:title": "CLTS"
@@ -48,7 +51,7 @@
         },
         {
             "dc:title": "python",
-            "dc:description": "3.12.3"
+            "dc:description": "3.12.4"
         },
         {
             "dc:title": "python-packages",

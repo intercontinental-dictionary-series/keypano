@@ -1,5 +1,7 @@
 # CLDF dataset on Panoan Languages in Standardized Transcription derived from Key and Comrie's "Intercontinental Dictionary Series" from 2023
 
+[![CLDF validation](https://github.com/intercontinental-dictionary-series/keypano/workflows/CLDF-validation/badge.svg)](https://github.com/intercontinental-dictionary-series/keypano/actions?query=workflow%3ACLDF-validation)
+
 ## How to cite
 
 If you use these data please cite
@@ -14,6 +16,9 @@ This dataset is licensed under a CC-BY-4.0 license
 
 Available online at https://ids.clld.org
 
+
+Conceptlists in Concepticon:
+- [Key-2016-1310](https://concepticon.clld.org/contributions/Key-2016-1310)
 ## Notes
 
 # Pano-Tacanan Languages in the Intercontinental Dictionary Series
@@ -23,7 +28,6 @@ This dataset provides Pano-Tacanan languages in segmented form with standardized
 
 
 ## Statistics
-
 
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 100%](https://img.shields.io/badge/Concepticon-100%25-brightgreen.svg "Concepticon: 100%")
@@ -43,13 +47,12 @@ This dataset provides Pano-Tacanan languages in segmented form with standardized
 
 # Contributors
 
-Name | GitHub user | Description | Role |
---- | --- | --- | --- |
-Mary Ritchie Key | | founding editor | Author 
+Name | GitHub user | Description | Role
+--- | --- | --- | ---
+Mary Ritchie Key | | founding editor | Author
 Bernard Comrie | | founding editor | Author
 John Miller | @LinguList | orthography profile, maintainer | Editor
-Johann-Mattis List | @LinguList| orthography profile, maintainer | Editor
-
+Johann-Mattis List | @fractaldragonflies | orthography profile, maintainer | Editor
 
 
 

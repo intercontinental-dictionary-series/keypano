@@ -1,7 +1,7 @@
 from lingpy import *
-from lingpy.compare.partial import Partial
 from lingrex.borrowing import internal_cognates, external_cognates
 from lingrex.cognates import common_morpheme_cognates
+
 
 def run(wordlist):
     
