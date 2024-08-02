@@ -16,6 +16,9 @@ This dataset is licensed under a CC-BY-4.0 license
 
 Available online at https://ids.clld.org
 
+
+Conceptlists in Concepticon:
+- [Key-2016-1310](https://concepticon.clld.org/contributions/Key-2016-1310)
 ## Notes
 
 # Panoan Languages in the Intercontinental Dictionary Series
@@ -46,13 +49,12 @@ This dataset provides Panoan languages in segmented form with standardized trans
 
 # Contributors
 
-Name | GitHub user | Description | Role |
---- | --- | --- | --- |
-Mary Ritchie Key | | founding editor | Author 
+Name | GitHub user | Description | Role
+--- | --- | --- | ---
+Mary Ritchie Key | | founding editor | Author
 Bernard Comrie | | founding editor | Author
 John Miller | @LinguList | orthography profile, maintainer | Editor
-Johann-Mattis List | @LinguList| orthography profile, maintainer | Editor
-
+Johann-Mattis List | @fractaldragonflies | orthography profile, maintainer | Editor
 
 
 
