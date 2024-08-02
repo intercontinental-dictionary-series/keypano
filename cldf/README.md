@@ -4,6 +4,8 @@
 
 **CLDF Metadata**: [cldf-metadata.json](./cldf-metadata.json)
 
+**Sources**: [sources.bib](./sources.bib)
+
 property | value
  --- | ---
 [dc:bibliographicCitation](http://purl.org/dc/terms/bibliographicCitation) | Miller, J. and List, J.-M. (2024): Providing standardized phonetic transcriptions for the Panoan languages in the Intercontinental Dictionary Series. Computer-Assisted Language Comparison in Practice 7.2. URL: https://calc.hypotheses.org/7503.
@@ -12,7 +14,7 @@ property | value
 [dc:identifier](http://purl.org/dc/terms/identifier) | https://ids.clld.org
 [dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by/4.0/
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/intercontinental-dictionary-series/keypano
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/intercontinental-dictionary-series/keypano/tree/55ca3fd">intercontinental-dictionary-series/keypano v0.0.1-6-g55ca3fd</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v5.0">Glottolog v5.0</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/v3.2.0">Concepticon v3.2.0</a></li><li><a href="https://github.com/cldf-clts/clts/tree/v2.3.0">CLTS v2.3.0</a></li><li><a href="https://github.com/intercontinental-dictionary-series/ids/tree/v4.3">intercontinental-dictionary-series/ids v4.3</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/intercontinental-dictionary-series/keypano/tree/33f96fd">intercontinental-dictionary-series/keypano v0.0.1-11-g33f96fd</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v5.0">Glottolog v5.0</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/v3.2.0">Concepticon v3.2.0</a></li><li><a href="https://github.com/cldf-clts/clts/tree/v2.3.0">CLTS v2.3.0</a></li><li><a href="https://github.com/intercontinental-dictionary-series/ids/tree/v4.3">intercontinental-dictionary-series/ids v4.3</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>lingpy-rcParams</strong>: <a href="./lingpy-rcParams.json">lingpy-rcParams.json</a></li><li><strong>python</strong>: 3.12.4</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | keypano
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
@@ -47,7 +49,7 @@ Name/Property | Datatype | Description
 [Form](http://cldf.clld.org/v1.0/terms.rdf#form) | `string` | 
 [Segments](http://cldf.clld.org/v1.0/terms.rdf#segments) | list of `string` (separated by ` `) | 
 [Comment](http://cldf.clld.org/v1.0/terms.rdf#comment) | `string` | 
-[Source](http://cldf.clld.org/v1.0/terms.rdf#source) | list of `string` (separated by `;`) | 
+[Source](http://cldf.clld.org/v1.0/terms.rdf#source) | list of `string` (separated by `;`) | References [sources.bib::BibTeX-key](./sources.bib)
 `Cognacy` | `string` | 
 `Loan` | `boolean` | 
 `Graphemes` | `string` | 
