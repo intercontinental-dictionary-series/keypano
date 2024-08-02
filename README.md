@@ -14,6 +14,20 @@ This dataset is licensed under a CC-BY-4.0 license
 
 Available online at https://ids.clld.org
 
+## Notes
+
+# Creating the TSV/SQLITE Data for EDICTOR Processing
+
+This is done with the script `raw/preprocessing.py` and the command:
+
+```shell
+edictor wordlist --preprocessing=raw/preprocessing.py --addon=language_family:family --sqlite --name=keypano
+```
+
+The `PyEDICTOR` package then loads the data from CLDF in the form of a wordlist, analyzes this wordlist with the help of the code given in the function `run` in `raw/preprocessing.py` and outputs the data in the form of an SQLITE database which can be accessed by EDICTOR's web application. Without `--sqlite`, the output will be in the form of a LingPy wordlist.
+
+
+
 ## Statistics
 
 
@@ -24,21 +38,21 @@ Available online at https://ids.clld.org
 ![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
-- **Varieties:** 24
-- **Concepts:** 1,310
-- **Lexemes:** 26,685
+- **Varieties:** 22 (linked to 21 different Glottocodes)
+- **Concepts:** 1,310 (linked to 1,308 different Concepticon concept sets)
+- **Lexemes:** 23,232
 - **Sources:** 0
-- **Synonymy:** 1.25
+- **Synonymy:** 1.24
 - **Invalid lexemes:** 0
-- **Tokens:** 166,969
-- **Segments:** 126 (0 BIPA errors, 0 CTLS sound class errors, 126 CLTS modified)
-- **Inventory size (avg):** 33.25
+- **Tokens:** 146,061
+- **Segments:** 120 (0 BIPA errors, 0 CLTS sound class errors, 120 CLTS modified)
+- **Inventory size (avg):** 32.45
 
 ## Possible Improvements:
 
 
 
-- Entries missing sources: 26685/26685 (100.00%)
+- Entries missing sources: 23232/23232 (100.00%)
 
 # Contributors
 

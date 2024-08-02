@@ -6,14 +6,30 @@ from pylexibank import progressbar as pb
 from pylexibank import Language
 from pylexibank import FormSpec
 import pycldf
-from idspy import IDSDataset
+
 from lingpy import Wordlist
+
+try:
+    from idspy import IDSDataset
+except ImportError:
+    from pylexibank import Dataset as IDSDataset
 
 
 @attr.s
 class CustomLanguage(Language):
     Location = attr.ib(default=None)
     Remark = attr.ib(default=None)
+
+
+def add_form_(args, ids, wl, idx, docid=None):
+    args.writer.add_form(
+        ID=wl[idx, "form_id"],
+        Language_ID=docid or ids[wl[idx, "doculect_id"]],
+        Parameter_ID=wl[idx, "concept_id"],
+        Form=wl[idx, "form"].replace(" ", "_"),
+        Value=wl[idx, "value"],
+        Loan=True if wl[idx, "borrowing"] else False)
+
 
 
 class Dataset(IDSDataset):
@@ -43,7 +59,7 @@ class Dataset(IDSDataset):
                 if loan in word: return "1"
             # Not this form.
             return ""
-
+        
         with open(self.raw_dir.joinpath("ids-data.tsv").as_posix(), "w") as f:
             f.write("\t".join([
                 "ID", "FORM_ID", "DOCULECT", "DOCULECT_ID", "CONCEPT", "CONCEPT_ID",
@@ -51,7 +67,7 @@ class Dataset(IDSDataset):
             for i, form in pb(enumerate(ids_data.objects("FormTable")), desc="adding forms"):
                 if form.language.id in ids:
                     f.write("\t".join([
-                        str(i+1),
+                        str(i + 1),
                         form.id,
                         form.language.name,
                         form.language.id,
@@ -61,6 +77,13 @@ class Dataset(IDSDataset):
                         form.data["Form"],
                         test_borrowed(word=form.data["Form"], value=form.data["Value"])
                         ])+"\n")
+        # SOURCES HERE
+        # with open(self.raw_dir.joinpath("sources.bib"), "w") as f:
+        #     for language in self.languages:
+        #         f.write("@incollection{ids-" + language["IDS_ID"] + ",\n")
+        #         f.write("  address = {Leipzig},\n  author={
+
+        
 
     def cmd_makecldf(self, args):
         # add bib
@@ -86,34 +109,18 @@ class Dataset(IDSDataset):
         for language in ids_data.objects("LanguageTable"):
             if language.id in ids:
                 if language.name == "Spanish":
-                    for lid in ["Spanish", "SpanishLA"]:
-                        language.data["ID"] = lid
-                        add_language_(language)
+                    language.data["ID"] = "Spanish"
+                    add_language_(language)
                 elif language.name == "Portuguese":
-                    for lid in ["Portuguese", "PortugueseBR"]:
-                        language.data["ID"] = lid
-                        add_language_(language)
+                    language.data["ID"] = "Portuguese"
+                    add_language_(language)
                 else:
                     language.data["ID"] = ids[language.id]
                     add_language_(language)
         args.log.info("added languages")
-        
-        def add_form_(wl, idx, docid=None):
-            args.writer.add_form(
-                ID=wl[idx, "form_id"],
-                Language_ID=docid or ids[wl[idx, "doculect_id"]],
-                Parameter_ID=wl[idx, "concept_id"],
-                Form=wl[idx, "form"].replace(" ", "_"),
-                Value=wl[idx, "value"],
-                Loan=True if wl[idx, "borrowing"] else False)
+
+
                 
         wl = Wordlist(self.raw_dir.joinpath("ids-data.tsv").as_posix())
         for idx in pb(wl, desc="adding forms"):
-            if ids[wl[idx, "doculect_id"]] == "Spanish":
-                for lid in ["Spanish", "SpanishLA"]:
-                    add_form_(wl, idx, lid)
-            elif ids[wl[idx, "doculect_id"]] == "Portuguese":
-                for lid in ["Portuguese", "PortugueseBR"]:
-                    add_form_(wl, idx, lid)
-            else:
-                add_form_(wl, idx)
+            add_form_(args, ids, wl, idx)
