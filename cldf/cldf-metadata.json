@@ -10,12 +10,11 @@
     "dc:isVersionOf": null,
     "dc:license": "https://creativecommons.org/licenses/by/4.0/",
     "dc:related": null,
-    "dc:source": "sources.bib",
     "dc:title": "CLDF dataset on Panoan Languages in Standardized Transcription derived from Key and Comrie's \"Intercontinental Dictionary Series\" from 2023",
-    "dcat:accessURL": "https://github.com/intercontinental-dictionary-series/keypano",
+    "dcat:accessURL": "git@github.com:intercontinental-dictionary-series/keypano",
     "prov:wasDerivedFrom": [
         {
-            "rdf:about": "https://github.com/intercontinental-dictionary-series/keypano",
+            "rdf:about": "git@github.com:intercontinental-dictionary-series/keypano",
             "rdf:type": "prov:Entity",
             "dc:created": "v0.0.1-6-g55ca3fd",
             "dc:title": "Repository"

@@ -21,24 +21,22 @@ Conceptlists in Concepticon:
 - [Key-2016-1310](https://concepticon.clld.org/contributions/Key-2016-1310)
 ## Notes
 
-# Panoan Languages in the Intercontinental Dictionary Series
+# Pano-Tacanan Languages in the Intercontinental Dictionary Series
 
-This dataset provides Panoan languages in segmented form with standardized transcriptions, taking originall from the Intercontinental Dictionary Series. 
+This dataset provides Pano-Tacanan languages in segmented form with standardized transcriptions, taking originally from the Intercontinental Dictionary Series. 
 
 
 
 ## Statistics
 
-
-[![CLDF validation](https://github.com/intercontinental-dictionary-series/keypano/workflows/CLDF-validation/badge.svg)](https://github.com/intercontinental-dictionary-series/keypano/actions?query=workflow%3ACLDF-validation)
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 100%](https://img.shields.io/badge/Concepticon-100%25-brightgreen.svg "Concepticon: 100%")
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
 ![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
-- **Varieties:** 22 (linked to 21 different Glottocodes)
-- **Concepts:** 1,310 (linked to 1,308 different Concepticon concept sets)
+- **Varieties:** 22
+- **Concepts:** 1,310
 - **Lexemes:** 23,232
 - **Sources:** 22
 - **Synonymy:** 1.24
