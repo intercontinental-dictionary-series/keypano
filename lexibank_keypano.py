@@ -33,16 +33,15 @@ def add_form_(args, ids, wl, idx):
         )
 
 
-
 class Dataset(IDSDataset):
     dir = pathlib.Path(__file__).parent
     id = "keypano"
     language_class = CustomLanguage
     form_spec = FormSpec(
-            replacements=[(" ", "_")], 
+            replacements=[(" ", "_")],
             separators="~;,/", missing_data=["∅"], first_form_only=True)
 
-    def cmd_download(self, args):
+    def cmd_download(self, _):
         ids_data = pycldf.Dataset.from_metadata(
                 self.raw_dir.joinpath('ids', 'cldf', 'cldf-metadata.json')
                 )
@@ -51,14 +50,16 @@ class Dataset(IDSDataset):
         bex = re.compile(r"\[(.+?)\]")
 
         def test_borrowed(word, value):
-            if '[' not in value: return ""
+            if '[' not in value:
+                return ""
             # Need to be sure it is this form.
             # Test to see if loan substring of value in form.
             # Use regex to get all borrowed substrings from value.
             # Test for whether any of borrowed substrings in form.
             loans = bex.findall(value)
             for loan in loans:
-                if loan in word: return "1"
+                if loan in word:
+                    return "1"
             # Not this form.
             return ""
 
@@ -76,8 +77,7 @@ class Dataset(IDSDataset):
                     f.write("  url = {https://ids.clld.org/contributions/" + language.id + "},\n")
                     f.write("  year = {2023}\n}\n\n")
 
-        
-        with open(self.raw_dir.joinpath("ids-data.tsv").as_posix(), "w") as f:
+        with open(self.raw_dir.joinpath("ids-data.tsv").as_posix(), "w", encoding='utf8') as f:
             f.write("\t".join([
                 "ID", "FORM_ID", "DOCULECT", "DOCULECT_ID", "CONCEPT", "CONCEPT_ID",
                 "VALUE", "FORM", "BORROWING"])+"\n") 
@@ -95,8 +95,6 @@ class Dataset(IDSDataset):
                         test_borrowed(word=form.data["Form"], value=form.data["Value"])
                         ])+"\n")
 
-        
-
     def cmd_makecldf(self, args):
         # add bib
         args.writer.add_sources()
@@ -112,12 +110,9 @@ class Dataset(IDSDataset):
                     **concept.data)
 
         def add_language_(lang):
-            args.writer.add_language(
-                **{k: lang.data[k] for k in ["ID", "Name", "Glottocode", 
-                                             "ISO639P3code", "Latitude",
-                                             "Longitude"
-                                             ]})
-                
+            cols = ["ID", "Name", "Glottocode", "ISO639P3code", "Latitude", "Longitude"]
+            args.writer.add_language(**{k: lang.data[k] for k in cols})
+
         for language in ids_data.objects("LanguageTable"):
             if language.id in ids:
                 if language.name == "Spanish":
@@ -131,8 +126,6 @@ class Dataset(IDSDataset):
                     add_language_(language)
         args.log.info("added languages")
 
-
-                
         wl = Wordlist(self.raw_dir.joinpath("ids-data.tsv").as_posix())
         for idx in pb(wl, desc="adding forms"):
             add_form_(args, ids, wl, idx)

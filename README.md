@@ -1,5 +1,7 @@
 # CLDF dataset on Panoan Languages in Standardized Transcription derived from Key and Comrie's "Intercontinental Dictionary Series" from 2023
 
+[![CLDF validation](https://github.com/intercontinental-dictionary-series/keypano/workflows/CLDF-validation/badge.svg)](https://github.com/intercontinental-dictionary-series/keypano/actions?query=workflow%3ACLDF-validation)
+
 ## How to cite
 
 If you use these data please cite
@@ -25,7 +27,7 @@ This dataset provides Panoan languages in segmented form with standardized trans
 ## Statistics
 
 
-[![Build Status](https://travis-ci.org/intercontinental-dictionary-series/keypano.svg?branch=master)](https://travis-ci.org/intercontinental-dictionary-series/keypano)
+[![CLDF validation](https://github.com/intercontinental-dictionary-series/keypano/workflows/CLDF-validation/badge.svg)](https://github.com/intercontinental-dictionary-series/keypano/actions?query=workflow%3ACLDF-validation)
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 100%](https://img.shields.io/badge/Concepticon-100%25-brightgreen.svg "Concepticon: 100%")
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")

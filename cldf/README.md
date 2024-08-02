@@ -13,13 +13,22 @@ property | value
 [dc:identifier](http://purl.org/dc/terms/identifier) | https://ids.clld.org
 [dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by/4.0/
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/intercontinental-dictionary-series/keypano
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/intercontinental-dictionary-series/keypano/tree/bd444a2">intercontinental-dictionary-series/keypano v0.0.1-4-gbd444a2</a></li><li><a href="git@github.com:glottolog/glottolog/tree/v5.0">Glottolog v5.0</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/v3.2.0">Concepticon v3.2.0</a></li><li><a href="https://github.com/cldf-clts/clts//tree/v2.3.0">CLTS v2.3.0</a></li><li><a href="https://github.com/intercontinental-dictionary-series/ids/tree/3428921">intercontinental-dictionary-series/ids v4.3-1-g3428921</a></li></ol>
-[prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>lingpy-rcParams</strong>: <a href="./lingpy-rcParams.json">lingpy-rcParams.json</a></li><li><strong>python</strong>: 3.12.3</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/intercontinental-dictionary-series/keypano/tree/2fe4611">intercontinental-dictionary-series/keypano v0.0.1-5-g2fe4611</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v5.0">Glottolog v5.0</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/v3.2.0">Concepticon v3.2.0</a></li><li><a href="https://github.com/cldf-clts/clts/tree/v2.3.0">CLTS v2.3.0</a></li><li><a href="https://github.com/intercontinental-dictionary-series/ids/tree/3428921">intercontinental-dictionary-series/ids v4.3-1-g3428921</a></li></ol>
+[prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>lingpy-rcParams</strong>: <a href="./lingpy-rcParams.json">lingpy-rcParams.json</a></li><li><strong>python</strong>: 3.12.4</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | keypano
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
 
 
 ## <a name="table-formscsv"></a>Table [forms.csv](./forms.csv)
+
+
+Raw lexical data item as it can be pulled out of the original datasets.
+
+This is the basis for creating rows in CLDF representations of the data by
+- splitting the lexical item into forms
+- cleaning the forms
+- potentially tokenizing the form
+
 
 property | value
  --- | ---
@@ -44,8 +53,6 @@ Name/Property | Datatype | Description
 `Loan` | `boolean` | 
 `Graphemes` | `string` | 
 `Profile` | `string` | 
-`Transcriptions` | `string` | 
-`AlternativeValues` | `string` | 
 
 ## <a name="table-languagescsv"></a>Table [languages.csv](./languages.csv)
 
