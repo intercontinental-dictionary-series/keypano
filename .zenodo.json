@@ -1,5 +1,5 @@
 {
-    "title": "CLDF dataset Prepared for a Study of Panoan Languages",
+    "title": "CLDF dataset on Panoan Languages in Standardized Transcription derived from Key and Comrie's \"Intercontinental Dictionary Series\" from 2023",
     "access_right": "open",
     "keywords": [
         "cldf:Wordlist",
@@ -7,36 +7,20 @@
     ],
     "creators": [
         {
-            "name": "Uday Raj Aaley"
+            "name": "Mary Ritchie Key"
         },
         {
-            "name": "Timotheus A. Bodt"
+            "name": "Bernard Comrie"
         }
     ],
     "contributors": [
         {
-            "name": "Uday Raj Aaley",
-            "type": "RightsHolder"
-        },
-        {
-            "name": "Uday Raj Aaley",
-            "type": "Distributor"
-        },
-        {
-            "name": "Timotheus A. Bodt",
-            "type": "RightsHolder"
-        },
-        {
-            "name": "Timotheus A. Bodt",
-            "type": "Distributor"
-        },
-        {
-            "name": "Mei-Shin Wu",
-            "type": "Other"
+            "name": "John Miller",
+            "type": "Editor"
         },
         {
             "name": "Johann-Mattis List",
-            "type": "Other"
+            "type": "Editor"
         }
     ],
     "communities": [
@@ -45,7 +29,7 @@
         }
     ],
     "upload_type": "dataset",
-    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>+++</p>\n</blockquote>",
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Miller, J. and List, J.-M. (2024): Providing standardized phonetic transcriptions for the Panoan languages in the Intercontinental Dictionary Series. Computer-Assisted Language Comparison in Practice 7.2. URL: https://calc.hypotheses.org/7503.</p>\n</blockquote>",
     "license": {
         "id": "CC-BY-4.0"
     }

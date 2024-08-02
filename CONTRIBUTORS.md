@@ -2,7 +2,8 @@
 
 Name | GitHub user | Description | Role |
 --- | --- | --- | --- |
-Uday Raj Aaley| |publication author, fieldwork | Author, RightsHolder, Distributor
-Timotheus A. Bodt| | publication author, fieldwork, orthography profile | Author, RightsHolder, Distributor
-Mei-Shin Wu | @macyl | patron, maintainer | Other
-Johann-Mattis List | @LinguList| orthography profile, maintainer | Other
+Mary Ritchie Key | | founding editor | Author 
+Bernard Comrie | | founding editor | Author
+John Miller | @LinguList | orthography profile, maintainer | Editor
+Johann-Mattis List | @LinguList| orthography profile, maintainer | Editor
+

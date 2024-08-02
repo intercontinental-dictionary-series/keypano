@@ -1,10 +1,10 @@
-# CLDF dataset Prepared for a Study of Panoan Languages
+# CLDF dataset on Panoan Languages in Standardized Transcription derived from Key and Comrie's "Intercontinental Dictionary Series" from 2023
 
 ## How to cite
 
 If you use these data please cite
 - the original source
-  > +++
+  > Miller, J. and List, J.-M. (2024): Providing standardized phonetic transcriptions for the Panoan languages in the Intercontinental Dictionary Series. Computer-Assisted Language Comparison in Practice 7.2. URL: https://calc.hypotheses.org/7503.
 - the derived dataset using the DOI of the [particular released version](../../releases/) you were using
 
 ## Description
@@ -16,15 +16,9 @@ Available online at https://ids.clld.org
 
 ## Notes
 
-# Creating the TSV/SQLITE Data for EDICTOR Processing
+# Panoan Languages in the Intercontinental Dictionary Series
 
-This is done with the script `raw/preprocessing.py` and the command:
-
-```shell
-edictor wordlist --preprocessing=raw/preprocessing.py --addon=language_family:family --sqlite --name=keypano
-```
-
-The `PyEDICTOR` package then loads the data from CLDF in the form of a wordlist, analyzes this wordlist with the help of the code given in the function `run` in `raw/preprocessing.py` and outputs the data in the form of an SQLITE database which can be accessed by EDICTOR's web application. Without `--sqlite`, the output will be in the form of a LingPy wordlist.
+This dataset provides Panoan languages in segmented form with standardized transcriptions, taking originall from the Intercontinental Dictionary Series. 
 
 
 
@@ -52,10 +46,11 @@ The `PyEDICTOR` package then loads the data from CLDF in the form of a wordlist,
 
 Name | GitHub user | Description | Role |
 --- | --- | --- | --- |
-Uday Raj Aaley| |publication author, fieldwork | Author, RightsHolder, Distributor
-Timotheus A. Bodt| | publication author, fieldwork, orthography profile | Author, RightsHolder, Distributor
-Mei-Shin Wu | @macyl | patron, maintainer | Other
-Johann-Mattis List | @LinguList| orthography profile, maintainer | Other
+Mary Ritchie Key | | founding editor | Author 
+Bernard Comrie | | founding editor | Author
+John Miller | @LinguList | orthography profile, maintainer | Editor
+Johann-Mattis List | @LinguList| orthography profile, maintainer | Editor
+
 
 
 
