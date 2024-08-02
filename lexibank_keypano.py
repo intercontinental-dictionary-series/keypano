@@ -21,14 +21,16 @@ class CustomLanguage(Language):
     Remark = attr.ib(default=None)
 
 
-def add_form_(args, ids, wl, idx, docid=None):
+def add_form_(args, ids, wl, idx):
     args.writer.add_form(
         ID=wl[idx, "form_id"],
-        Language_ID=docid or ids[wl[idx, "doculect_id"]],
+        Language_ID=ids[wl[idx, "doculect_id"]],
         Parameter_ID=wl[idx, "concept_id"],
         Form=wl[idx, "form"].replace(" ", "_"),
         Value=wl[idx, "value"],
-        Loan=True if wl[idx, "borrowing"] else False)
+        Loan=True if wl[idx, "borrowing"] else False,
+        Source="ids-" + wl[idx, "doculect_id"]
+        )
 
 
 
@@ -59,6 +61,21 @@ class Dataset(IDSDataset):
                 if loan in word: return "1"
             # Not this form.
             return ""
+
+        # SOURCES HERE
+        with open(self.raw_dir.joinpath("sources.bib"), "w") as f:
+            for language in ids_data.objects("LanguageTable"):
+                if language.id in ids:
+                    f.write("@incollection{ids-" + language.id + ",\n")
+                    f.write("  address = {Leipzig},\n")
+                    f.write("  author={" + " and ".join(language.data["Authors"]) + "},\n")
+                    f.write("  booktitle = {The Intercontinental Dictionary Series},\n")
+                    f.write("  publisher = {Max Planck Institute for Evolutionary Anthropology},\n")
+                    f.write("  editor = {Mary Ritchie Key and Bernard Comrie},\n")
+                    f.write("  title = {" + language.name + "},\n"),
+                    f.write("  url = {https://ids.clld.org/contributions/" + language.id + "},\n")
+                    f.write("  year = {2023}\n}\n\n")
+
         
         with open(self.raw_dir.joinpath("ids-data.tsv").as_posix(), "w") as f:
             f.write("\t".join([
@@ -77,11 +94,6 @@ class Dataset(IDSDataset):
                         form.data["Form"],
                         test_borrowed(word=form.data["Form"], value=form.data["Value"])
                         ])+"\n")
-        # SOURCES HERE
-        # with open(self.raw_dir.joinpath("sources.bib"), "w") as f:
-        #     for language in self.languages:
-        #         f.write("@incollection{ids-" + language["IDS_ID"] + ",\n")
-        #         f.write("  address = {Leipzig},\n  author={
 
         
 

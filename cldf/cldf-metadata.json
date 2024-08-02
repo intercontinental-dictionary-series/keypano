@@ -7,13 +7,14 @@
     "dc:isVersionOf": null,
     "dc:license": "https://creativecommons.org/licenses/by/4.0/",
     "dc:related": null,
+    "dc:source": "sources.bib",
     "dc:title": "CLDF dataset Prepared for a Study of Panoan Languages",
     "dcat:accessURL": "https://github.com/intercontinental-dictionary-series/keypano",
     "prov:wasDerivedFrom": [
         {
             "rdf:about": "https://github.com/intercontinental-dictionary-series/keypano",
             "rdf:type": "prov:Entity",
-            "dc:created": "v0.0.1-2-gfe054af",
+            "dc:created": "v0.0.1-3-g1f621c4",
             "dc:title": "Repository"
         },
         {

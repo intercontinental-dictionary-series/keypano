@@ -14,9 +14,6 @@ setup(
         'lexibank.dataset': [
             'keypano=lexibank_keypano:Dataset',
         ],
-        'cldfbench.commands': [
-            'keypano=keypanocommands',
-        ]
     },
     install_requires=[
         "pylexibank>=3.2.0",
