@@ -509,7 +509,9 @@ def get_total_run_result(store, infile, family, exclude, index=0):
     metrics = get_metrics_by_language_unit(table_, lu_units=lu_units, lu_idx=lu_idx)
     q = metrics[-1]
     # print(q)
-    return q[1:]
+    result = q[1:]
+    result = [round(num, 3) for num in result]
+    return result
 
 
 if __name__ == "__main__":

@@ -476,14 +476,7 @@ def register(parser):
 
 def run(args):
     filename = args.foreign
-
-    if filename:
-        filepath = Path("foreign-tables").joinpath(filename+".tsv").as_posix()
-        print(f"File path: {filepath}", file=sys.stderr)
-        wl = Wordlist(filepath)
-        print(f"Cols {wl.columns}", file=sys.stderr)
-    else:
-        wl = util.compose_wl()
+    wl = util.get_wordlist(filename)
     # Sub-select languages based on languages and donors arguments.
     args.language = util.get_language_all(wl) if args.language[0] == 'all' else args.language
     wl = util.select_languages(wl, languages=args.language, donors=args.donor)
@@ -513,7 +506,7 @@ def run(args):
             threshold=threshold,
             report_limit=args.limit,
             donors=args.donor,
-            any_donor_language=True)
+            any_donor_language=False)
         report_borrowing(
             proportions=proportions,
             words=words,
@@ -525,13 +518,15 @@ def run(args):
             series=args.series)
 
 
-def get_total_run_result(languages, donors, config):
+def get_total_run_result(languages, donors, config, filename=None):
     # Application interface to perform run based on invocation by another application.
     # Purpose is to automate experimentation.
     # config includes alignment parameters: model, mode, gop, scale, factor;
     # positional based scoring parameters: pbs, slp_factor, slp_model, C, c, V, v, _; and
     # thresholds (list).
-    wl = util.compose_wl()
+
+    wl = util.get_wordlist(filename)
+
     # Sub-select languages based on languages and donors arguments.
     languages = util.get_language_all(wl) if languages[0] == 'all' else languages
     wl = util.select_languages(wl, languages=languages, donors=donors)
@@ -546,9 +541,9 @@ def get_total_run_result(languages, donors, config):
         min_len=config["min_len"],
         config=config)
 
-    rdr = keypano().cldf_reader()
-    families = {language["ID"]: language["Family"] for language in rdr['LanguageTable']}
-
+    # rdr = keypano().cldf_reader()
+    # families = {language["ID"]: language["Family"] for language in rdr['LanguageTable']}
+    families = util.get_language_family(wl)
     # Can have multiple thresholds in single invocation.
     results = []
     for threshold in config["threshold"]:
@@ -556,9 +551,12 @@ def get_total_run_result(languages, donors, config):
             wl, bb,
             families=families,
             threshold=threshold,
-            donors=donors)
+            donors=donors,
+            any_donor_language=True)
 
-        results.append(get_overall_detection(all_words))
+        result = get_overall_detection(all_words)
+        result = [round(num, 3) for num in result]
+        results.append(result)
 
     return results
 

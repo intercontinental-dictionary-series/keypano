@@ -89,7 +89,7 @@ def analyze_lexstat(dataset,
                     series='analysis',
                     label="",
                     donors=None,
-                    any_donor_language=False):
+                    any_donor_language=True):
 
     # method: sca, lexstat, edit-dist, turchin
     # mode: global, local, overlap, dialign
@@ -284,11 +284,14 @@ def register(parser):
 
 def run(args):
     filename = args.foreign
-    if filename:
-        filepath = Path("foreign-tables").joinpath(filename+".tsv").as_posix()
-        wl = Wordlist(filepath)
-    else:
-        wl = util.compose_wl()
+    wl = util.get_wordlist(filename)
+
+    # if filename:
+    #     filepath = Path("foreign-tables").joinpath(filename+".tsv").as_posix()
+    #     wl = Wordlist(filepath)
+    # else:
+    #     wl = util.compose_wl()
+
     # Sub-select languages based on languages and donors arguments.
     args.language = util.get_language_all(wl) if args.language[0] == 'all' else args.language
     wl = util.select_languages(wl, languages=args.language, donors=args.donor)

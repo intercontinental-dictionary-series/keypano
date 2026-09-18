@@ -9,6 +9,7 @@ import math
 from enum import Enum
 import regex as re
 import csv
+import sys
 from lingpy.sequence.sound_classes import token2class
 from tabulate import tabulate
 
@@ -297,6 +298,17 @@ def compose_wl():
 #     return lex
 
 
+def get_wordlist(filename=None):
+    if filename:
+        filepath = Path("foreign-tables").joinpath(filename+".tsv").as_posix()
+        print(f"Foreign wordlist - file path: {filepath}", file=sys.stderr)
+        wl = Wordlist(filepath)
+        # print(f"Cols {wl.columns}", file=sys.stderr)
+    else:
+        wl = compose_wl()
+    return wl
+
+
 # Get dictionary of family:language from wordlist.
 def get_language_family(wl):
     families = {}
@@ -423,6 +435,13 @@ def report_results(results, folder, filename):
     words_table = tabulate(results, headers=header, tablefmt="pip", floatfmt=".3f")
     with open(file_path + '.txt', 'w') as f:
         print(words_table, file=f)
+
+    # Report as .tsv
+    with open(file_path + '.tsv', 'w', newline='') as f:
+        wrt = csv.writer(f, delimiter='\t', quoting=csv.QUOTE_MINIMAL)
+        wrt.writerow(header)
+        for row in results:
+            wrt.writerow(row)
 
 
 def run(args):
