@@ -1,44 +1,44 @@
-Grapheme	IPA	Frequency	
-(	NULL		
-)	NULL		
-[	NULL		
-]	NULL		
-ˈ	NULL		
-a	a	1285	
-o	o	577	
-e	e	647	
-i	i	721	
-m	m	202	
-n	n	201	
-ɲ	ɲ	29	
-w	w	206	
-p	p	183	
-b	b	227	
-c̷	ts	136	
--	+	281	
-+	+	41	
-l	l	217	
-t	t	207	
-d	d	146	
-k	k	69	
-kʷ	kʷ	137	
-h	h	260	
-y	j	22	
-s	s	115	
-z	z	100	
-š	ʃ	74	
-č	tʃ	19	
-ǰ	d̠ʒ	14	
-f	f	2	
-r	ɾ	1	
-c	c	1	
-$	NULL	5	
-^	NULL	18	
-^-	NULL		
--$	NULL		
---	+		
-_-	+		
-_	+		
--_	+		
-'	NULL		
-?	?		
+Grapheme	IPA	Frequency
+(	NULL	
+)	NULL	
+[	NULL	
+]	NULL	
+ˈ	NULL	
+a	a	1285
+o	o	577
+e	e	647
+i	i	721
+m	m	202
+n	n	201
+ɲ	ɲ	29
+w	w	206
+p	p	183
+b	b	227
+c̷	ts	136
+-	+	281
++	+	41
+l	l	217
+t	t	207
+d	d	146
+k	k	69
+kʷ	kʷ	137
+h	h	260
+y	j	22
+s	s	115
+z	z	100
+š	ʃ	74
+č	tʃ	19
+ǰ	d̠ʒ	14
+f	f	2
+r	ɾ	1
+na-kʷaca_beni	n a + kʷ a k a + b e n e	1
+$	NULL	5
+^	NULL	18
+^-	NULL	
+-$	NULL	
+--	+	
+_-	+	
+_	+	
+-_	+	
+'	NULL	
+?	?	
