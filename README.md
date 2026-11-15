@@ -1,7 +1,5 @@
 # CLDF dataset on Panoan Languages in Standardized Transcription derived from Key and Comrie's "Intercontinental Dictionary Series" from 2023
 
-[![CLDF validation](https://github.com/intercontinental-dictionary-series/keypano/workflows/CLDF-validation/badge.svg)](https://github.com/intercontinental-dictionary-series/keypano/actions?query=workflow%3ACLDF-validation)
-
 ## How to cite
 
 If you use these data please cite
@@ -30,7 +28,6 @@ This dataset provides Pano-Tacanan languages in segmented form with standardized
 ## Statistics
 
 
-[![CLDF validation](https://github.com/intercontinental-dictionary-series/keypano/workflows/CLDF-validation/badge.svg)](https://github.com/intercontinental-dictionary-series/keypano/actions?query=workflow%3ACLDF-validation)
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 100%](https://img.shields.io/badge/Concepticon-100%25-brightgreen.svg "Concepticon: 100%")
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
@@ -43,9 +40,9 @@ This dataset provides Pano-Tacanan languages in segmented form with standardized
 - **Sources:** 22
 - **Synonymy:** 1.24
 - **Invalid lexemes:** 0
-- **Tokens:** 146,061
-- **Segments:** 120 (0 BIPA errors, 0 CLTS sound class errors, 120 CLTS modified)
-- **Inventory size (avg):** 32.45
+- **Tokens:** 146,518
+- **Segments:** 130 (0 BIPA errors, 0 CLTS sound class errors, 130 CLTS modified)
+- **Inventory size (avg):** 30.09
 
 # Contributors
 
